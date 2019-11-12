@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Portuguese-PUD:
-commit b56fc00b1f4c1ace4017edc37129236cf4a1f548
-Merge: a04020f b18de79
+commit 2b5aca987fb9ba1597372b66b71efc9c93b41c38
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:36:57 2019 +0200
 Size: counted 23365 of 23365 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.30247835230478.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,8 +23,20 @@ Udapi: found 7433 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23365 words.
 Genres: found 2 out of 17 known.
 validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 101 Sent n01002017 Node 11]: [L3 Syntax leaf-fixed] 'fixed' not expected to have children (11:de:fixed --> 12:a:det)
+[Line 121 Sent n01002017 Node 30]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 201 Sent n01002042 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 219 Sent n01002058 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 225 Sent n01002058 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 308 Sent n01003012 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 357 Sent n01004009 Node 10]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 449 Sent n01005024 Node 11]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+[Line 476 Sent n01005031 Node 9]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Syntax
+Syntax errors: 618
+*** FAILED *** with 618 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
@@ -33,6 +45,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.658823529411765) = 0.0506787330316742
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.311079705813277) * (availability=1) * (validity=1) = 0.311079705813277
-STARS = 1.5
-UD_Portuguese-PUD	0.311079705813277	1.5
+(TOTAL score=0.311079705813277) * (availability=1) * (validity=0.01) = 0.00311079705813277
+STARS = 0
+UD_Portuguese-PUD	0.00311079705813277	0
