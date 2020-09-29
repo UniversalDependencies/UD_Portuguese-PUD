@@ -8912,7 +8912,7 @@
 
 # newdoc id = n01128
 # sent_id = n01128017
-# text = Afinal de contas, a nossa performance organizacional é unicamente medida em termos de quão seguros somos e de quantas regras seguimos.
+# text = Afinal de contas, a nossa performance organizacional é raramente medida em termos de quão seguros somos e de quantas regras seguimos.
 # text_en = After all, our organizational performance is seldom measured in terms of how safe we are or how many rules we follow.
 1	Afinal	_	ADV	RB	_	11	advmod	_	_
 2	de	_	ADP	IN	_	3	case	_	_
@@ -8985,7 +8985,7 @@
 15	.	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01128033
-# text = Finalmente, temos que fazer com que seja fácil para as pessoas reportarem falhas suspeitas e e-mails maliciosos.
+# text = Finalmente, temos que fazer com que seja fácil para as pessoas reportarem possíveis falhas e e-mails maliciosos.
 # text_en = Finally, we must make it easy for people to report suspected breaches and malicious emails.
 1	Finalmente	_	ADV	RB	_	5	advmod	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
