@@ -140,7 +140,7 @@
 48	.	_	PUNCT	.	_	23	punct	_	_
 
 # sent_id = n01002032
-# text = Então, eu odeio pôr um pouco de pressão em vocês, mas o destino dos republicanos está nos meus ombros, disse ele à multidão reunida num campo esportivo da Universidade de Carolina do Norte.
+# text = Então, eu odeio pôr um pouco de pressão em vocês, mas o destino da república está nos seus ombros, disse ele à multidão reunida num campo esportivo da Universidade de Carolina do Norte.
 # text_en = “So I hate to put a little pressure on you, but the fate of the republic rests on your shoulders,” he told the crowd gathered on a sports field at the University of North Carolina.
 1	Então	_	ADV	RB	_	4	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
@@ -157,15 +157,15 @@
 13	mas	_	CCONJ	CC	_	19	cc	_	_
 14	o	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
 15	destino	_	NOUN	NN	Gender=Masc|Number=Sing	19	nsubj	_	_
-16-17	dos	_	_	_	_	_	_	_	_
+16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	os	o	DET	_	Gender=Masc|Number=Plur	18	det	_	_
-18	republicanos	_	NOUN	NN	Gender=Masc|Number=Plur	15	nmod	_	_
+17	a	o	DET	_	Gender=Fem|Number=Plur	18	det	_	_
+18	república	república	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	_
 19	está	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
 20-21	nos	_	_	_	_	_	_	_	_
 20	em	em	ADP	INDT	_	23	case	_	_
 21	os	o	DET	_	Gender=Masc|Number=Plur	23	det	_	_
-22	meus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|PronType=Prs	23	det	_	_
+22	seus	seu	DET	DTP$	Gender=Masc|Number=Plur|PronType=Prs	23	det	_	_
 23	ombros	_	NOUN	NN	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
 24	,	_	PUNCT	,	_	25	punct	_	_
 25	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	parataxis	_	_
@@ -8923,7 +8923,7 @@
 7	performance	_	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 8	organizacional	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
 9	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux:pass	_	_
-10	unicamente	_	ADV	RB	_	11	advmod	_	_
+10	raramente	raramente	ADV	RB	_	11	advmod	_	_
 11	medida	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Sing	0	root	_	_
 12	em	_	ADP	IN	_	13	case	_	_
 13	termos	_	NOUN	NN	Gender=Masc|Number=Plur	11	obl	_	_
@@ -9000,10 +9000,10 @@
 11	as	_	DET	DT	Gender=Fem|Number=Plur	12	det	_	_
 12	pessoas	_	NOUN	NN	Gender=Fem|Number=Plur	13	nsubj	_	_
 13	reportarem	_	VERB	VBI	Number=Plur|Person=3	9	xcomp	_	_
-14	falhas	_	NOUN	NN	Gender=Fem|Number=Plur	13	obj	_	_
-15	suspeitas	_	ADJ	JJ	Gender=Fem|Number=Plur	14	amod	_	_
+14	possíveis	possível	ADJ	JJ	Gender=Fem|Number=Plur	15	amod	_	_
+15	falhas	falha	NOUN	NN	Gender=Fem|Number=Plur	13	obj	_	_
 16	e	_	CCONJ	CC	_	17	cc	_	_
-17	e-mails	_	NOUN	NN	Gender=Masc|Number=Plur	14	conj	_	_
+17	e-mails	_	NOUN	NN	Gender=Masc|Number=Plur	15	conj	_	_
 18	maliciosos	_	ADJ	JJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
 19	.	_	PUNCT	.	_	5	punct	_	_
 
