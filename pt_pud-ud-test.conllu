@@ -159,7 +159,7 @@
 15	destino	_	NOUN	NN	Gender=Masc|Number=Sing	19	nsubj	_	_
 16-17	da	_	_	_	_	_	_	_	_
 16	de	de	ADP	INDT	_	18	case	_	_
-17	a	o	DET	_	Gender=Fem|Number=Plur	18	det	_	_
+17	a	o	DET	_	Gender=Fem|Number=Sing	18	det	_	_
 18	república	república	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	_
 19	está	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
 20-21	nos	_	_	_	_	_	_	_	_
