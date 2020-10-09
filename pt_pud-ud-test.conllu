@@ -28478,17 +28478,17 @@
 # text = Os Andes centrais pertencem ao chamado "Andes de tipo andino", os quais foram formados pela subdução da crosta oceânica.
 # text_en = The central Andes belong to the so-called 'Andes de tipo andino' which were formed by the subduction of the oceanic crust.
 1	Os	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
-2	Andes	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=2|Tense=Pres	4	nsubj	_	Proper=True
+2	Andes	_	PROPN	NNPS	Gender=Masc|Number=Plur	4	nsubj	_	Proper=True
 3	centrais	_	ADJ	JJ	Gender=Masc|Number=Plur	2	amod	_	_
 4	pertencem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 5-6	ao	_	_	_	_	_	_	_	_
-5	a	a	ADP	INDT	_	9	cop	_	_
-6	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
+5	a	a	ADP	INDT	_	9	case	_	_
+6	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 7	chamado	_	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
 8	"	_	PUNCT	``	_	9	punct	_	SpaceAfter=No
-9	Andes	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=2|Tense=Pres	4	case	_	Proper=True
+9	Andes	_	PROPN	NNPS	Gender=Masc|Number=Plur	4	obl	_	Proper=True
 10	de	_	ADP	IN	_	11	case	_	_
-11	tipo	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
+11	tipo	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	_
 12	andino	_	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
 13	"	_	PUNCT	''	_	9	punct	_	SpaceAfter=No
 14	,	_	PUNCT	,	_	18	punct	_	_
