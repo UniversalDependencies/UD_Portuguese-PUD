@@ -107,7 +107,7 @@
 17	,	_	PUNCT	,	_	4	punct	_	_
 18	o	_	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
 19	nomeado	_	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
-20-21	da	_	_	_	_	_	_	_	_
+20-21	do	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
 21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	GOP	_	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
