@@ -2108,7 +2108,7 @@
 # text_en = A keen guitarist, he played a concert there the same year.
 1	Um	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 2	grande	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
-3	guitarrista	_	NOUN	NN	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+3	guitarrista	_	NOUN	NN	Gender=Masc|Number=Sing	6	dislocated	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
 5	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	deu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -3293,12 +3293,12 @@
 30	média	_	NOUN	NN	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
 31	,	_	PUNCT	,	_	30	punct	_	_
 32	$15.000	_	NUM	CD	_	23	conj	_	_
-33	para	_	ADP	IN	_	32	case	_	_
-34	cada	_	DET	DT	Gender=Masc|Number=Sing	37	det	_	ToDo=ex-adp-child
-35	um	_	NUM	CD	Gender=Masc	37	case	_	_
+33	para	_	ADP	IN	_	35	case	_	_
+34	cada	_	DET	DT	Gender=Masc|Number=Sing	35	det	_	ToDo=ex-adp-child
+35	um	_	NUM	CD	Gender=Masc	32	nmod	_	_
 36-37	deles	_	_	_	_	_	_	_	SpaceAfter=No
 36	de	de	ADP	_	_	37	case	_	_
-37	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	32	nmod	_	_
+37	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	35	nmod	_	_
 38	.	_	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01043014
@@ -11610,7 +11610,7 @@
 7	,	_	PUNCT	,	_	21	punct	_	_
 8	por	_	ADP	IN	_	21	mark	_	_
 9	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	8	fixed	_	_
-10	pequenas	_	ADJ	JJ	Gender=Fem|Number=Plur	11	det	_	_
+10	pequenas	_	ADJ	JJ	Gender=Fem|Number=Plur	11	amod	_	_
 11	mudanças	_	NOUN	NN	Gender=Fem|Number=Plur	21	nsubj	_	_
 12-13	numa	_	_	_	_	_	_	_	_
 12	em	em	ADP	INDT	_	14	case	_	_
@@ -16515,8 +16515,8 @@
 6	cerca	_	ADV	RB	_	8	advmod	_	_
 7	de	_	ADP	IN	_	6	fixed	_	_
 8	trinta	_	NUM	CD	_	11	nummod	_	_
-9	e	_	CCONJ	CC	_	8	nummod	_	_
-10	nove	_	NUM	CD	_	9	nummod	_	_
+9	e	_	CCONJ	CC	_	10	cc	_	_
+10	nove	_	NUM	CD	_	8	conj	_	_
 11	histórias	_	NOUN	NN	Gender=Fem|Number=Plur	12	nsubj	_	_
 12	apareceram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 13-14	na	_	_	_	_	_	_	_	_
@@ -16602,8 +16602,8 @@
 11	,	_	PUNCT	,	_	13	punct	_	_
 12	o	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	rendimento	_	NOUN	NN	Gender=Masc|Number=Sing	2	conj	_	_
-14	per	_	ADP	IN	_	13	advmod	_	_
-15	capita	_	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
+14	per	_	ADP	IN	_	15	case	_	_
+15	capita	_	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	13	nmod	_	_
 16	e	_	CCONJ	CC	_	18	cc	_	_
 17	o	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	índice	_	NOUN	NN	Gender=Masc|Number=Sing	2	conj	_	_
@@ -16722,8 +16722,8 @@
 26	desperdiçado	_	ADJ	JJ	Gender=Masc|Number=Sing	24	amod	_	_
 27	encorajaria	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	3	conj	_	_
 28-29	à	_	_	_	_	_	_	_	_
-28	a	a	ADP	DT	_	30	det	_	_
-29	a	o	DET	_	Gender=Fem|Number=Sing	28	det	_	_
+28	a	a	ADP	IN	_	30	case	_	_
+29	a	o	DET	DT	Gender=Fem|Number=Sing	30	det	_	_
 30	rebelião	_	NOUN	NN	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
 31	.	_	PUNCT	.	_	3	punct	_	_
 
@@ -16793,8 +16793,8 @@
 # text_en = Low per capita income has been proposed as a cause for grievance, prompting armed rebellion.
 1	Baixo	_	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
 2	rendimento	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
-3	per	_	ADP	IN	_	2	advmod	_	_
-4	capita	_	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	3	flat	_	_
+3	per	_	ADP	IN	_	4	case	_	_
+4	capita	_	NOUN	NN	Foreign=Yes|Gender=Fem|Number=Sing	2	nmod	_	_
 5	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux:pass	_	_
 6	proposto	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 7	como	_	ADP	IN	_	8	case	_	_
@@ -22948,11 +22948,11 @@
 2	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 3	somente	_	ADV	RB	_	4	advmod	_	_
 4	incerto	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-5	em	_	ADP	IN	_	8	case	_	_
-6	qual	_	PRON	WP	Number=Sing	8	case	_	_
+5	em	_	ADP	IN	_	6	case	_	_
+6	qual	_	PRON	WP	Number=Sing	4	csubj	_	_
 7-8	deles	_	_	_	_	_	_	_	SpaceAfter=No
 7	de	de	ADP	_	_	8	case	_	_
-8	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	4	obl	_	_
+8	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	6	nmod	_	_
 9	.	_	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n02048
@@ -24194,7 +24194,7 @@
 12	governo	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	_
 13	poderá	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	14	aux	_	_
 14	liberar	_	VERB	VB	_	0	root	_	_
-15	até	_	ADP	IN	_	16	advmod	_	_
+15	até	_	ADP	IN	_	16	case	_	_
 16	42	_	NUM	CD	Gender=Masc	14	obj	_	_
 17	milhões	_	NUM	CD	Number=Plur	16	nummod	_	_
 18	de	_	ADP	IN	_	19	case	_	_
@@ -26988,8 +26988,8 @@
 18	navegou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 19	com	_	ADP	IN	_	23	case	_	_
 20	vinte	_	NUM	CD	_	23	nummod	_	_
-21	e	_	CCONJ	CC	_	20	nummod	_	_
-22	oito	_	NUM	CD	_	21	nummod	_	_
+21	e	_	CCONJ	CC	_	22	cc	_	_
+22	oito	_	NUM	CD	_	20	conj	_	_
 23	homens	_	NOUN	NN	Gender=Masc|Number=Plur	18	obl	_	_
 24	para	_	ADP	IN	_	25	case	_	_
 25	cruzar	_	VERB	VB	_	18	xcomp	_	_
@@ -28224,7 +28224,7 @@
 # text = Ambos estudantes de Goffredo Petrassi, Ennio Morricone e Bruno Nicolai se conheceram no conservatório em Santa Cecelia.
 # text_en = Both students of Goffredo Petrassi, Ennio Morricone and Bruno Nicolai met at the Santa (Saint) Cecelia conservatory.
 1	Ambos	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
-2	estudantes	_	NOUN	NN	Gender=Masc|Number=Plur	7	appos	_	_
+2	estudantes	_	NOUN	NN	Gender=Masc|Number=Plur	7	acl	_	_
 3	de	_	ADP	IN	_	4	case	_	_
 4	Goffredo	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 5	Petrassi	_	PROPN	NNP	Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
