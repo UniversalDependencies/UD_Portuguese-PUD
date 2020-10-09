@@ -82,7 +82,7 @@
 
 # newdoc id = n01002
 # sent_id = n01002017
-# text = Mas numa pausa da sua retórica passada acerca da restrição da imigração, o nomeado da GOP anunciou que, como presidente, ele iria permitir "números tremendos" de imigrantes legais, baseado num "sistema de mérito".
+# text = Mas numa pausa da sua retórica passada acerca da restrição da imigração, o nomeado do GOP anunciou que, como presidente, ele iria permitir "números tremendos" de imigrantes legais, baseado num "sistema de mérito".
 # text_en = But in a break from his past rhetoric about curtailing immigration, the GOP nominee proclaimed that as president he would allow “tremendous numbers” of legal immigrants based on a “merit system.”
 1	Mas	_	CCONJ	CC	_	23	discourse	_	_
 2-3	numa	_	_	_	_	_	_	_	_
@@ -109,7 +109,7 @@
 19	nomeado	_	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
 20-21	da	_	_	_	_	_	_	_	_
 20	de	de	ADP	INDT	_	22	case	_	_
-21	a	o	DET	_	Gender=Fem|Number=Sing	22	det	_	_
+21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	GOP	_	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
 23	anunciou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 24	que	_	ADP	IN	_	31	mark	_	SpaceAfter=No
