@@ -5804,22 +5804,20 @@
 12	a	_	DET	DT	Gender=Fem|Number=Sing	14	det	_	_
 13	única	_	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
 14	vez	_	NOUN	NN	Gender=Fem|Number=Sing	3	parataxis	_	_
-15	que	_	PRON	WP	_	18	advmod	_	_
-16-17	nos	_	_	_	_	_	_	_	_
-16	em	em	ADP	PRP	_	18	obj	_	_
-17	os	o	DET	_	Case=Acc|Number=Plur|Person=1	16	det	_	_
-18	encontramos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	14	acl:relcl	_	_
-19	em	_	ADP	IN	_	21	case	_	_
-20	um	_	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
-21	lugar	_	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	_
-22	e	_	CCONJ	CC	_	23	cc	_	_
-23	colocamos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	18	conj	_	_
-24	as	_	DET	PDT	Gender=Fem|Number=Plur	26	det:predet	_	_
-25	nossas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|PronType=Prs	26	det	_	_
-26	diferenças	_	NOUN	NN	Gender=Fem|Number=Plur	23	obj	_	_
-27	de	_	ADP	IN	_	28	case	_	_
-28	lado	_	NOUN	NN	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
-29	.	_	PUNCT	.	_	3	punct	_	_
+15	que	_	SCONJ	IN	_	17	mark	_	_
+16	nos	_	PRON	PRP	Number=Plur|Person=1|PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	encontramos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	14	acl	_	_
+18	em	_	ADP	IN	_	20	case	_	_
+19	um	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
+20	lugar	_	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
+21	e	_	CCONJ	CC	_	22	cc	_	_
+22	colocamos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	17	conj	_	_
+23	as	_	DET	PDT	Gender=Fem|Number=Plur	25	det:predet	_	_
+24	nossas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|PronType=Prs	25	det	_	_
+25	diferenças	_	NOUN	NN	Gender=Fem|Number=Plur	22	obj	_	_
+26	de	_	ADP	IN	_	27	case	_	_
+27	lado	_	NOUN	NN	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+28	.	_	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01079069
 # text = Os seus títulos menos comuns incluem embaixador global da saúde da cidade de Nova Iorque e na Sociedade dos Hospitais, e um lugar na Escola de Gestão de Harvard.
