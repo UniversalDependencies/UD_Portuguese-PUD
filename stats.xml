@@ -60,7 +60,7 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">718</feat><!-- é, está, são, tem, pode, estão, há, podem, têm, diz -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="42">
+  <deps unique="41">
     <dep name="acl">178</dep>
     <dep name="acl:relcl">234</dep>
     <dep name="advcl">115</dep>
@@ -74,7 +74,6 @@
     <dep name="cc:preconj">8</dep>
     <dep name="ccomp">119</dep>
     <dep name="compound">36</dep>
-    <dep name="compound:prt">92</dep>
     <dep name="conj">648</dep>
     <dep name="cop">328</dep>
     <dep name="csubj">29</dep>
@@ -84,7 +83,7 @@
     <dep name="det:predet">123</dep>
     <dep name="discourse">96</dep>
     <dep name="dislocated">1</dep>
-    <dep name="expl:pv">1</dep>
+    <dep name="expl:pv">93</dep>
     <dep name="fixed">327</dep>
     <dep name="flat">168</dep>
     <dep name="flat:name">126</dep>
