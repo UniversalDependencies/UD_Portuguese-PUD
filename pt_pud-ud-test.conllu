@@ -18320,13 +18320,13 @@
 # text = Em 1839, a China se encontrava travando a Primeira Guerra do Ópio com a Grã-Bretanha depois de o governador-geral de Hunan e Hubei, Lin Zexu, proibir o comércio estrangeiro de ópio.
 # text_en = In 1839, China found itself fighting the First Opium War with Great Britain after the Governor-General of Hunan and Hubei, Lin Zexu, banned the foreign trade of opium.
 1	Em	_	ADP	IN	_	2	case	_	_
-2	1839	_	NUM	CD	Gender=Masc	8	obl	_	SpaceAfter=No
+2	1839	_	NUM	CD	Gender=Masc	7	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
 4	a	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
-5	China	_	PROPN	NNP	Gender=Fem|Number=Sing	8	nsubj	_	_
+5	China	_	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
 6	se	_	PRON	SE	Person=3	7	expl:pv	_	_
-7	encontrava	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
-8	travando	_	VERB	VBG	Aspect=Imp	0	root	_	_
+7	encontrava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8	travando	_	VERB	VBG	Aspect=Imp	7	xcomp	_	_
 9	a	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 10	Primeira	_	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	Proper=True
 11	Guerra	_	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	Proper=True
@@ -18355,7 +18355,7 @@
 33	estrangeiro	_	ADJ	JJ	Gender=Masc|Number=Sing	32	amod	_	_
 34	de	_	ADP	IN	_	35	case	_	_
 35	ópio	_	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
-36	.	_	PUNCT	.	_	8	punct	_	_
+36	.	_	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w01100047
 # text = A China foi derrotada e em 1842 concordou com as disposições do Tratado de Nanquim.
@@ -18547,7 +18547,7 @@
 # text_en = She was offered several scripts, television commercials, and stage projects, but none piqued her interest.
 1	Foram	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	4	aux:pass	_	SpaceAfter=No
 2	-	_	PUNCT	-	_	3	punct	_	SpaceAfter=No
-3	lhe	_	PRON	PRP	Case=Dat|Number=Sing|Person=3	1	iobj	_	_
+3	lhe	_	PRON	PRP	Case=Dat|Number=Sing|Person=3	4	iobj	_	_
 4	oferecidos	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 5	vários	_	DET	DT	Gender=Masc|Number=Plur	6	det	_	_
 6	roteiros	_	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj:pass	_	SpaceAfter=No
