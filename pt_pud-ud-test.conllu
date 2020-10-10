@@ -11351,7 +11351,7 @@
 # text_en = In 833 AD, this became the state of Great Moravia with the conquest of the Principality of Nitra (present-day Slovakia).
 1	Em	_	ADP	IN	_	2	case	_	_
 2	833	_	NUM	CD	Gender=Masc	9	nmod	_	ToDo=nmod
-3	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	2	advmod	_	OrigForm=aC
+3	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	OrigForm=aC
 4	este	_	PRON	PDEM	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	tornou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	9	cop	_	SpaceAfter=No
 6	-	_	PUNCT	-	_	5	punct	_	SpaceAfter=No
@@ -13108,7 +13108,7 @@
 6	volta	_	NOUN	NN	Gender=Fem|Number=Sing	5	fixed	_	_
 7	de	_	ADP	IN	_	5	fixed	_	_
 8	1000	_	NUM	CD	_	4	obl	_	_
-9	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	8	advmod	_	OrigForm=aC|Proper=True|SpaceAfter=No
+9	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	OrigForm=aC|Proper=True|SpaceAfter=No
 10	,	_	PUNCT	,	_	15	punct	_	_
 11	quando	_	ADV	WRB	_	15	advmod	_	_
 12	os	_	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
@@ -15582,7 +15582,7 @@
 30	cerca	_	ADV	RB	_	32	advmod	_	_
 31	de	_	ADP	IN	_	30	fixed	_	_
 32	1600	_	NUM	CD	Gender=Masc	15	obl:tmod	_	_
-33	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	32	advmod	_	OrigForm=aC
+33	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	OrigForm=aC
 
 # sent_id = w01065020
 # text = A cidade cananeia foi destruída em um incêndio, presumivelmente na sequência de uma campanha do faraó egípcio Tutmés III.
@@ -15660,7 +15660,7 @@
 10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	século	_	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
 12	XIV	_	NUM	CD	_	11	appos	_	_
-13	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	12	advmod	_	OrigForm=aC|SpaceAfter=No
+13	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	OrigForm=aC|SpaceAfter=No
 14	,	_	PUNCT	,	_	8	punct	_	_
 15	incluem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 16	dez	_	NUM	CD	_	17	nummod	_	_
@@ -16137,7 +16137,7 @@
 13	volta	_	NOUN	NN	Gender=Fem|Number=Sing	12	fixed	_	_
 14	de	_	ADP	IN	_	12	fixed	_	_
 15	1900	_	NUM	CD	Gender=Masc	11	obl	_	_
-16	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	15	advmod	_	OrigForm=aC
+16	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	OrigForm=aC
 17	e	_	CCONJ	CC	_	18	cc	_	_
 18	serviu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	conj	_	_
 19	continuamente	_	ADV	RB	_	18	advmod	_	_
@@ -16151,7 +16151,7 @@
 27	cerca	_	ADV	RB	_	29	advmod	_	_
 28	de	_	ADP	IN	_	27	fixed	_	_
 29	700	_	NUM	CD	Gender=Masc	25	obl	_	_
-30	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	29	advmod	_	OrigForm=aC
+30	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	29	nmod	_	OrigForm=aC
 
 # sent_id = w01070032
 # text = O espaço central foi usado para observar o nascer do sol e da lua cheia.
@@ -26132,7 +26132,7 @@
 20	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
 21	século	_	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	V	_	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	_
-23	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	22	advmod	_	OrigForm=aC
+23	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	OrigForm=aC
 
 # sent_id = w02008038
 # text = Provavelmente, a pessoa mais famosa do período da Idade do Cobre é Ötzi, a múmia congelada que viveu durante os anos 3300 a.C.
@@ -26167,7 +26167,7 @@
 25	os	_	DET	DT	Gender=Masc|Number=Plur	26	det	_	_
 26	anos	_	NOUN	NN	Gender=Masc|Number=Plur	23	obl	_	_
 27	3300	_	NUM	CD	Gender=Masc	26	appos	_	_
-28	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	27	advmod	_	OrigForm=aC
+28	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	27	nmod	_	OrigForm=aC
 
 # sent_id = w02008055
 # text = Eles estavam principalmente em montanhas.
@@ -27063,7 +27063,7 @@
 2	o	o	DET	_	Gender=Masc|Number=Sing	3	det	_	_
 3	século	_	NOUN	NN	Gender=Masc|Number=Sing	11	obl	_	_
 4	VIII	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
-5	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	4	advmod	_	OrigForm=aC|SpaceAfter=No
+5	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	OrigForm=aC|SpaceAfter=No
 6	,	_	PUNCT	,	_	3	punct	_	_
 7	a	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	Grécia	_	PROPN	NNP	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -27131,7 +27131,7 @@
 4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	século	_	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
 6	IX	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	advmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
 8	,	_	PUNCT	,	_	5	punct	_	_
 9	os	_	DET	DT	Gender=Masc|Number=Plur	11	det	_	_
 10	primeiros	_	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	_
@@ -27204,7 +27204,7 @@
 7	o	o	DET	_	Gender=Masc|Number=Sing	8	det	_	_
 8	século	_	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
 9	VIII	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
-10	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	9	advmod	_	OrigForm=aC|SpaceAfter=No
+10	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	OrigForm=aC|SpaceAfter=No
 11	,	_	PUNCT	,	_	8	punct	_	_
 12	cidades-estado	_	NOUN	NN	Gender=Fem|Number=Plur	15	nsubj	_	_
 13	começaram	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	15	aux	_	_
@@ -29207,7 +29207,7 @@
 4	janeiro	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|ToDo=nmod
 5	,	_	PUNCT	,	_	6	punct	_	_
 6	49	_	NUM	CD	_	4	obl:tmod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	advmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
 8	,	_	PUNCT	,	_	6	punct	_	_
 9	Marco	_	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
 10	Antônio	_	PROPN	NNP	Gender=Masc|Number=Sing	9	compound	_	_
