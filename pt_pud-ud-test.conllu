@@ -938,7 +938,7 @@
 28	,	_	PUNCT	,	_	33	punct	_	_
 29	com	_	ADP	IN	_	33	case	_	_
 30	três	_	NUM	CD	_	31	nummod	_	_
-31	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	33	advmod	_	_
+31	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	33	obl	_	_
 32	mais	_	ADJ	JJR	Gender=Masc|Number=Plur	33	amod	_	_
 33	bebês	_	NOUN	NN	Gender=Masc|Number=Plur	25	nmod	_	ToDo=nmod
 34	chamados	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	33	acl	_	_
@@ -1349,7 +1349,7 @@
 2	,	_	PUNCT	,	_	1	punct	_	_
 3	mais	_	ADJ	JJR	Gender=Fem|Number=Sing	5	amod	_	_
 4	uma	_	NUM	CD	Gender=Fem	5	nummod	_	_
-5	vez	_	NOUN	NN	Gender=Fem|Number=Sing	9	advmod	_	SpaceAfter=No
+5	vez	_	NOUN	NN	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
 6	,	_	PUNCT	,	_	5	punct	_	_
 7	os	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	poucos	_	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -6188,7 +6188,7 @@
 7	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	12	nsubj	_	_
 8	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	cop	_	_
 9	cada	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
-10	vez	_	NOUN	NN	Gender=Fem|Number=Sing	11	advmod	_	_
+10	vez	_	NOUN	NN	Gender=Fem|Number=Sing	11	obl	_	_
 11	mais	_	ADV	RBR	_	12	advmod	_	_
 12	digno	_	ADJ	JJ	Gender=Masc|Number=Sing	2	conj	_	_
 13	de	_	ADP	IN	_	14	case	_	_
@@ -7380,7 +7380,7 @@
 14	-	_	PUNCT	-	_	15	punct	_	SpaceAfter=No
 15	lo	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
 16	três	_	NUM	CD	_	17	nummod	_	_
-17	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	18	advmod	_	_
+17	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	_
 18	em	_	ADP	IN	_	13	advmod	_	_
 19	seguida	_	NOUN	NN	Gender=Fem|Number=Sing	18	fixed	_	_
 20	sugere	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	conj	_	_
@@ -12268,7 +12268,7 @@
 7	as	_	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
 8	lutas	_	NOUN	NN	Gender=Fem|Number=Plur	11	nsubj	_	_
 9	muitas	_	DET	DT	Gender=Fem|Number=Plur	10	det	_	_
-10	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	11	advmod	_	_
+10	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	11	obl	_	_
 11	resultavam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 12-13	na	_	_	_	_	_	_	_	_
 12	em	em	ADP	INDT	_	14	case	_	_
@@ -12749,7 +12749,7 @@
 12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
 13	Ucrânia	_	PROPN	NNP	Gender=Fem|Number=Sing	6	conj	_	_
 14	muitas	_	DET	DT	Gender=Fem|Number=Plur	15	det	_	_
-15	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	16	advmod	_	_
+15	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	16	obl	_	_
 16	usavam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 17	ramos	_	NOUN	NN	Gender=Masc|Number=Plur	16	obj	_	_
 18	de	_	ADP	IN	_	19	case	_	_
@@ -13012,7 +13012,7 @@
 17	por	_	ADP	IN	_	22	mark	_	_
 18	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	17	fixed	_	_
 19	muitas	_	DET	DT	Gender=Fem|Number=Plur	20	det	_	_
-20	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	22	advmod	_	_
+20	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl	_	_
 21	não	_	ADV	RB	Polarity=Neg	22	advmod	_	_
 22	atinge	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	advcl	_	_
 23	a	_	DET	DT	Gender=Fem|Number=Sing	24	det	_	_
@@ -15379,7 +15379,7 @@
 11	a	_	ADP	IN	_	12	case	_	_
 12	Roma	_	PROPN	NNP	Gender=Fem|Number=Sing	10	obl	_	_
 13	várias	_	DET	DT	Gender=Fem|Number=Plur	14	det	_	_
-14	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	8	advmod	_	SpaceAfter=No
+14	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	16	punct	_	_
 16	mas	_	CCONJ	CC	_	19	cc	_	_
 17	Augusto	_	PROPN	NNP	Gender=Masc|Number=Sing	19	nsubj	_	_
@@ -15978,7 +15978,7 @@
 2	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	aux:pass	_	_
 3	casado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 4	três	_	NUM	CD	_	5	nummod	_	_
-5	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	3	advmod	_	SpaceAfter=No
+5	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 6	.	_	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = w01069
@@ -16540,7 +16540,7 @@
 4	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	pensava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 6	cada	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
-7	vez	_	NOUN	NN	Gender=Fem|Number=Sing	8	advmod	_	_
+7	vez	_	NOUN	NN	Gender=Fem|Number=Sing	8	obl	_	_
 8	mais	_	ADV	RBR	_	5	advmod	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	INDT	_	11	case	_	_
@@ -18044,7 +18044,7 @@
 13	Imperadores	_	NOUN	NN	Gender=Masc|Number=Plur	17	nsubj:pass	_	_
 14	são	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	17	aux:pass	_	_
 15	muitas	_	DET	DT	Gender=Fem|Number=Plur	16	det	_	_
-16	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	17	advmod	_	_
+16	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	17	obl	_	_
 17	referidos	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	0	root	_	_
 18-19	pelos	_	_	_	_	_	_	_	_
 18	por	por	ADP	INDT	_	21	case	_	_
@@ -19994,7 +19994,7 @@
 5	expulso	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	3	conj	_	_
 6	mais	_	ADJ	JJR	Gender=Fem|Number=Plur	8	amod	_	_
 7	duas	_	NUM	CD	Gender=Fem	8	nummod	_	_
-8	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	3	advmod	_	SpaceAfter=No
+8	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
 10	antes	_	ADV	RB	_	3	advmod	_	_
 11	de	_	ADP	IN	_	17	case	_	_
@@ -24822,7 +24822,7 @@
 # text = Cada vez mais as empresas de tecnologia estão dando as cartas; mais do que nunca em Wall Street, ainda mais que em Silicon Valley.
 # text_en = More and more tech companies are calling the shots more than ever before on Wall Street, even more than in Silicon Valley.
 1	Cada	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	vez	_	NOUN	NN	Gender=Fem|Number=Sing	3	advmod	_	_
+2	vez	_	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
 3	mais	_	ADV	RBR	_	9	advmod	_	_
 4	as	_	DET	DT	Gender=Fem|Number=Plur	5	det	_	_
 5	empresas	_	NOUN	NN	Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -25221,7 +25221,7 @@
 1	Federico	_	PROPN	NNP	Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Fellini	_	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	uma	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
-4	vez	_	NOUN	NN	Gender=Fem|Number=Sing	5	advmod	_	_
+4	vez	_	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 5	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	:	_	PUNCT	:	_	10	punct	_	_
 7	"	_	PUNCT	``	_	10	punct	_	SpaceAfter=No
@@ -26287,7 +26287,7 @@
 11	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux:pass	_	_
 12	reconhecido	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	4	conj	_	_
 13	múltiplas	_	ADJ	JJ	Gender=Fem|Number=Plur	14	amod	_	_
-14	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	12	advmod	_	_
+14	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	_
 15	durante	_	ADP	IN	_	17	case	_	_
 16	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	17	det	_	_
 17	estadias	_	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
