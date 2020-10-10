@@ -8631,8 +8631,8 @@
 10	a	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 11	última	_	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 12	vez	_	NOUN	NN	Gender=Fem|Number=Sing	5	ccomp	_	_
-13	que	_	PRON	WP	_	14	advmod	_	_
-14	veríamos	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=1	12	acl:relcl	_	_
+13	que	_	SCONJ	IN	_	14	mark	_	_
+14	veríamos	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=1	12	acl	_	_
 15	o	_	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
 16	desastrado	_	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	18	punct	_	_
@@ -10835,7 +10835,7 @@
 8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	século	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 10	V	_	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
-11	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	10	advmod	_	OrigForm=aC|SpaceAfter=No
+11	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	OrigForm=aC|SpaceAfter=No
 12	,	_	PUNCT	,	_	14	punct	_	_
 13	que	_	PRON	WP	_	14	nsubj	_	_
 14	dependia	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
@@ -10928,7 +10928,7 @@
 4	volta	_	NOUN	NN	Gender=Fem|Number=Sing	14	obl	_	_
 5	de	_	ADP	IN	_	6	case	_	_
 6	512-511	_	NUM	CD	Gender=Masc	4	nmod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	advmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
 8	,	_	PUNCT	,	_	4	punct	_	_
 9	o	_	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	rei	_	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -11297,7 +11297,7 @@
 26	o	o	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 27	século	_	NOUN	NN	Gender=Masc|Number=Sing	24	obl	_	_
 28	VI	_	ADJ	JJ	Gender=Masc|Number=Sing	27	amod	_	_
-29	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	28	advmod	_	OrigForm=aC
+29	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	28	nmod	_	OrigForm=aC
 
 # sent_id = w01010045
 # text = No final do século VIII o Principado da Morávia surgiu nas atuais Morávia do sudeste, Záhorie no sudoeste da Eslováquia e partes da Baixa Áustria.
