@@ -2,7 +2,7 @@
 # sent_id = n01001011
 # text = Embora uma grande parte da transição digital nos Estados Unidos seja sem precedentes, a transição pacífica de poder não o é, escreveu Kori Schulman, assistente especial de Obama, numa publicação no blog, na segunda-feira.
 # text_en = “While much of the digital transition is unprecedented in the United States, the peaceful transition of power is not,” Obama special assistant Kori Schulman wrote in a blog post Monday.
-1	Embora	_	ADP	IN	_	13	mark	_	_
+1	Embora	_	SCONJ	IN	_	13	mark	_	_
 2	uma	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 3	grande	_	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 4	parte	_	NOUN	NN	Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -112,7 +112,7 @@
 21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
 22	GOP	_	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
 23	anunciou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-24	que	_	ADP	IN	_	31	mark	_	SpaceAfter=No
+24	que	_	SCONJ	IN	_	31	mark	_	SpaceAfter=No
 25	,	_	PUNCT	,	_	27	punct	_	_
 26	como	_	ADP	IN	_	27	case	_	_
 27	presidente	_	NOUN	NN	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
@@ -443,7 +443,7 @@
 5	,	_	PUNCT	,	_	7	punct	_	_
 6	e	_	CCONJ	CC	_	7	cc	_	_
 7	achamos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	conj	_	_
-8	que	_	ADP	IN	_	12	mark	_	_
+8	que	_	SCONJ	IN	_	12	mark	_	_
 9	o	_	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	transporte	_	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj	_	_
 11	pode	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	12	aux	_	_
@@ -470,7 +470,7 @@
 3	de	_	ADP	IN	_	4	case	_	_
 4	viabilidade	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 5	estima	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	que	_	ADP	IN	_	10	mark	_	_
+6	que	_	SCONJ	IN	_	10	mark	_	_
 7	os	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	passageiros	_	NOUN	NN	Gender=Masc|Number=Plur	10	nsubj	_	_
 9	iriam	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=3	10	aux	_	_
@@ -499,7 +499,7 @@
 4	a	a	ADP	INDT	_	6	case	_	_
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	polícia	_	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
-7	que	_	ADP	IN	_	11	mark	_	_
+7	que	_	SCONJ	IN	_	11	mark	_	_
 8	a	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	vítima	_	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	tinha	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	aux	_	_
@@ -579,7 +579,7 @@
 40	--	_	PUNCT	-	_	36	punct	_	_
 41	e	_	CCONJ	CC	_	42	cc	_	_
 42	parece	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
-43	que	_	ADP	IN	_	45	mark	_	_
+43	que	_	SCONJ	IN	_	45	mark	_	_
 44	vai	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	45	aux	_	_
 45	aumentar	_	VERB	VB	_	42	ccomp	_	_
 46	de	_	ADP	IN	_	45	advmod	_	_
@@ -659,7 +659,7 @@
 11	que	_	PRON	WP	_	13	obl	_	_
 12	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 13	sentiu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	acl:relcl	_	_
-14	que	_	ADP	IN	_	16	mark	_	_
+14	que	_	SCONJ	IN	_	16	mark	_	_
 15	deviam	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	16	aux	_	_
 16	abandonar	_	VERB	VB	_	13	ccomp	_	_
 17	o	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
@@ -749,7 +749,7 @@
 8	maneira	_	NOUN	NN	Gender=Fem|Number=Sing	6	fixed	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
 10	espero	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	2	parataxis	_	_
-11	que	_	ADP	IN	_	13	mark	_	_
+11	que	_	SCONJ	IN	_	13	mark	_	_
 12	tenha	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
 13	valido	_	VERB	VBN	Aspect=Perf	10	ccomp	_	_
 14	a	_	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
@@ -814,7 +814,7 @@
 1	Michael	_	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Fallon	_	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	12	mark	_	_
+4	que	_	SCONJ	IN	_	12	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	data	_	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
 7	para	_	ADP	IN	_	8	case	_	_
@@ -888,7 +888,7 @@
 1	É	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 2	mais	_	ADV	RBR	_	3	advmod	_	_
 3	óbvio	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-4	quando	_	ADP	IN	_	15	mark	_	_
+4	quando	_	SCONJ	IN	_	15	mark	_	_
 5	o	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	nome	_	NOUN	NN	Gender=Masc|Number=Sing	15	nsubj	_	_
 7	de	_	ADP	IN	_	9	case	_	_
@@ -959,7 +959,7 @@
 3	sul-coreana	_	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	inicialmente	_	ADV	RB	_	5	advmod	_	_
 5	pensou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	que	_	ADP	IN	_	9	mark	_	_
+6	que	_	SCONJ	IN	_	9	mark	_	_
 7	a	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	culpa	_	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 9	seria	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	5	ccomp	_	_
@@ -990,7 +990,7 @@
 1	Vários	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
 2	analistas	_	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	sugeriram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	9	mark	_	_
+4	que	_	SCONJ	IN	_	9	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	Huawei	_	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj	_	_
 7	está	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
@@ -1050,7 +1050,7 @@
 4	em	_	ADP	IN	_	5	case	_	_
 5	viagens	_	NOUN	NN	Gender=Fem|Number=Plur	3	nmod	_	_
 6	avisou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	que	_	ADP	IN	_	15	mark	_	_
+7	que	_	SCONJ	IN	_	15	mark	_	_
 8	a	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	internet	_	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
 10	durante	_	ADP	IN	_	12	case	_	_
@@ -1063,7 +1063,7 @@
 17	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 18	pouco	_	ADV	RB	_	19	advmod	_	_
 19	provável	_	ADJ	JJ	Gender=Masc|Number=Sing	15	conj	_	_
-20	que	_	ADP	IN	_	21	mark	_	_
+20	que	_	SCONJ	IN	_	21	mark	_	_
 21	influencie	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	19	csubj	_	_
 22	as	_	DET	DT	Gender=Fem|Number=Plur	23	det	_	_
 23	escolhas	_	NOUN	NN	Gender=Fem|Number=Plur	21	obj	_	_
@@ -1083,7 +1083,7 @@
 1	Mas	_	CCONJ	CC	_	3	discourse	_	_
 2	pode	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
 3	ser	_	VERB	VB	_	0	root	_	_
-4	que	_	ADP	IN	_	12	mark	_	_
+4	que	_	SCONJ	IN	_	12	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	BA	_	PROPN	NNP	Gender=Fem|Number=Sing	12	nsubj	_	_
 7	e	_	CCONJ	CC	_	9	cc	_	_
@@ -1110,7 +1110,7 @@
 4	a	a	ADP	INDT	_	6	case	_	_
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	BBC	_	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	_
-7	que	_	ADP	IN	_	8	mark	_	_
+7	que	_	SCONJ	IN	_	8	mark	_	_
 8	seria	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	3	ccomp	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
@@ -1121,7 +1121,7 @@
 14	companhia	_	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	_
 15	aérea	_	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
 16	decidir	_	VERB	VB	_	8	csubj	_	_
-17	se	_	ADP	IN	_	18	mark	_	_
+17	se	_	SCONJ	IN	_	18	mark	_	_
 18	cobra	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	ccomp	_	_
 19-20	dos	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	21	case	_	_
@@ -1430,7 +1430,7 @@
 1	As	_	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	análises	_	NOUN	NN	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	revelaram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	10	mark	_	_
+4	que	_	SCONJ	IN	_	10	mark	_	_
 5	quantidades	_	NOUN	NN	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
 6	históricas	_	ADJ	JJ	Gender=Fem|Number=Plur	5	amod	_	_
 7	de	_	ADP	IN	_	8	case	_	_
@@ -1461,7 +1461,7 @@
 11	o	_	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	carbono	_	NOUN	NN	Gender=Masc|Number=Sing	10	obj	_	_
 13	diz	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-14	que	_	ADP	IN	_	16	mark	_	_
+14	que	_	SCONJ	IN	_	16	mark	_	_
 15	estes	_	PRON	PDEM	Gender=Masc|Number=Plur	16	nsubj	_	_
 16	estão	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	ccomp	_	_
 17	bem	_	ADV	RB	_	18	advmod	_	_
@@ -1493,7 +1493,7 @@
 1	Muitos	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
 2	cientistas	_	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	dizem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-4	que	_	ADP	IN	_	15	mark	_	_
+4	que	_	SCONJ	IN	_	15	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	tecnologia	_	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
 7	para	_	ADP	IN	_	8	case	_	_
@@ -1587,7 +1587,7 @@
 # text_en = It's fantastic that they got the Paris Agreement but their contributions at the moment are nowhere near the 1.5-degree target.
 1	É	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 2	fantástico	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-3	que	_	ADP	IN	_	6	mark	_	_
+3	que	_	SCONJ	IN	_	6	mark	_	_
 4	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	6	nsubj	_	_
 5	tenham	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres	6	aux	_	_
 6	conseguido	_	VERB	VBN	Aspect=Perf	2	csubj	_	_
@@ -1767,7 +1767,7 @@
 11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
 12	ideia	_	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
 13	de	_	ADP	IN	_	19	case	_	_
-14	que	_	ADP	IN	_	19	mark	_	_
+14	que	_	SCONJ	IN	_	19	mark	_	_
 15	as	_	DET	DT	Gender=Fem|Number=Plur	16	det	_	_
 16	sementes	_	NOUN	NN	Gender=Fem|Number=Plur	19	nsubj	_	_
 17	espaciais	_	ADJ	JJ	Gender=Fem|Number=Plur	16	amod	_	_
@@ -2009,13 +2009,13 @@
 5	perguntei	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
 6	-	_	PUNCT	-	_	7	punct	_	SpaceAfter=No
 7	lhe	_	PRON	PRP	Case=Dat|Number=Sing|Person=3	5	iobj	_	_
-8	se	_	ADP	IN	_	10	mark	_	_
+8	se	_	SCONJ	IN	_	10	mark	_	_
 9	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 10	entendeu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	_
-11	por	_	ADP	IN	_	13	mark	_	_
+11	por	_	SCONJ	IN	_	13	mark	_	_
 12	que	_	ADV	WRB	_	11	fixed	_	_
 13	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	ccomp	_	_
-14	que	_	ADP	IN	_	18	mark	_	_
+14	que	_	SCONJ	IN	_	18	mark	_	_
 15	as	_	DET	DT	Gender=Fem|Number=Plur	16	det	_	_
 16	pessoas	_	NOUN	NN	Gender=Fem|Number=Plur	18	nsubj	_	_
 17	poderiam	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=3	18	aux	_	_
@@ -2077,7 +2077,7 @@
 1	Seagel	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	fez	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	manchetes	_	NOUN	NN	Gender=Fem|Number=Plur	2	obj	_	_
-4	quando	_	ADP	IN	_	5	mark	_	_
+4	quando	_	SCONJ	IN	_	5	mark	_	_
 5	descreveu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	_
 6	as	_	DET	DT	Gender=Fem|Number=Plur	7	det	_	_
 7	ações	_	NOUN	NN	Gender=Fem|Number=Plur	5	obj	_	_
@@ -2222,7 +2222,7 @@
 8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
 9	Associated	_	PROPN	NNP	Gender=Fem|Number=Sing	6	obl	_	_
 10	Press	_	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	9	flat	_	_
-11	que	_	ADP	IN	_	12	mark	_	_
+11	que	_	SCONJ	IN	_	12	mark	_	_
 12	houve	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	ccomp	_	_
 13	"	_	PUNCT	``	_	15	punct	_	SpaceAfter=No
 14	uma	_	DET	DT	Gender=Fem|Number=Sing	15	det	_	_
@@ -2238,7 +2238,7 @@
 24	discussão	_	NOUN	NN	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 25	"	_	PUNCT	''	_	24	punct	_	_
 26	mas	_	CCONJ	CC	_	31	cc	_	_
-27	que	_	ADP	IN	_	31	mark	_	_
+27	que	_	SCONJ	IN	_	31	mark	_	_
 28	nenhum	_	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
 29	ferimento	_	NOUN	NN	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
 30	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	31	aux:pass	_	_
@@ -2410,7 +2410,7 @@
 1	Os	_	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
 2	investigadores	_	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	dizem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-4	que	_	ADP	IN	_	12	mark	_	_
+4	que	_	SCONJ	IN	_	12	mark	_	_
 5	analisar	_	VERB	VB	_	12	csubj	_	_
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	DNA	_	NOUN	NN	Gender=Masc|Number=Sing	5	obj	_	_
@@ -2514,7 +2514,7 @@
 2	o	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	exame	_	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	mostrou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	que	_	ADP	IN	_	17	mark	_	_
+5	que	_	SCONJ	IN	_	17	mark	_	_
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	tumor	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
 8-9	do	_	_	_	_	_	_	_	_
@@ -2543,7 +2543,7 @@
 # sent_id = n01034033
 # text = Se o Donald Trump se tornar presidente, o governo daqui ainda terá de trabalhar com ele para avançar com alguma agenda partilhada que exista, para garantir que os negócios e os interesses canadenses estão representados em Washington.
 # text_en = "If Donald Trump becomes president, the government here will still have to work with him to advance whatever shared agenda there is, to ensure that Canadian businesses and interests are represented in Washington."
-1	Se	_	ADP	IN	_	7	mark	_	_
+1	Se	_	SCONJ	IN	_	7	mark	_	_
 2	o	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	Donald	_	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	Trump	_	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	_
@@ -2571,7 +2571,7 @@
 26	,	_	PUNCT	,	_	28	punct	_	_
 27	para	_	ADP	IN	_	28	case	_	_
 28	garantir	_	VERB	VB	_	15	xcomp	_	_
-29	que	_	ADP	IN	_	37	mark	_	_
+29	que	_	SCONJ	IN	_	37	mark	_	_
 30	os	_	DET	DT	Gender=Masc|Number=Plur	31	det	_	_
 31	negócios	_	NOUN	NN	Gender=Masc|Number=Plur	37	nsubj	_	_
 32	e	_	CCONJ	CC	_	34	cc	_	_
@@ -2605,7 +2605,7 @@
 14	,	_	PUNCT	,	_	16	punct	_	_
 15	quem	_	PRON	WP	_	16	nsubj	_	_
 16	quer	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	acl:relcl	_	_
-17	que	_	ADP	IN	_	21	mark	_	_
+17	que	_	SCONJ	IN	_	21	mark	_	_
 18	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
 19	ou	_	CCONJ	CC	_	20	cc	_	_
 20	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	conj	_	_
@@ -2634,7 +2634,7 @@
 14	em	_	ADP	IN	_	15	case	_	_
 15	B.C.	_	PROPN	NNP	Gender=Fem|Number=Sing	13	nmod	_	OrigForm=BC
 16	diz	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-17	que	_	ADP	IN	_	19	mark	_	_
+17	que	_	SCONJ	IN	_	19	mark	_	_
 18	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	_
 19	têm	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	16	ccomp	_	_
 20	mais	_	ADJ	JJR	Gender=Fem|Number=Plur	21	amod	_	_
@@ -2678,7 +2678,7 @@
 6	,	_	PUNCT	,	_	5	punct	_	_
 7	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	anteriormente	_	ADV	RB	_	7	advmod	_	_
-9	que	_	ADP	IN	_	12	mark	_	_
+9	que	_	SCONJ	IN	_	12	mark	_	_
 10	Klein	_	PROPN	NNP	Gender=Masc|Number=Sing	12	nsubj	_	_
 11	não	_	ADV	RB	Polarity=Neg	12	advmod	_	_
 12	aparentava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	ccomp	_	_
@@ -2703,7 +2703,7 @@
 1	Nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
 2	não	_	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	acreditamos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
-4	que	_	ADP	IN	_	7	mark	_	_
+4	que	_	SCONJ	IN	_	7	mark	_	_
 5	o	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	suspeito	_	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	tenha	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
@@ -2736,7 +2736,7 @@
 1	Ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	também	_	ADV	RB	_	2	advmod	_	_
-4	que	_	ADP	IN	_	8	mark	_	_
+4	que	_	SCONJ	IN	_	8	mark	_	_
 5	Klein	_	PROPN	NNP	Gender=Masc|Number=Sing	8	nsubj	_	_
 6	estava	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 7	pouco	_	ADV	RB	_	8	advmod	_	_
@@ -2784,7 +2784,7 @@
 11	de	_	ADP	IN	_	12	case	_	_
 12	Ontário	_	PROPN	NNP	Gender=Masc|Number=Sing	10	nmod	_	_
 13	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-14	que	_	ADP	IN	_	15	mark	_	_
+14	que	_	SCONJ	IN	_	15	mark	_	_
 15	precisa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	ccomp	_	_
 16	ser	_	AUX	VB	_	17	aux:pass	_	_
 17	feito	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	15	xcomp	_	_
@@ -3003,7 +3003,7 @@
 16	Trump	_	PROPN	NNP	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	_	PUNCT	,	_	18	punct	_	_
 18	reforçando	_	VERB	VBG	Aspect=Imp	11	acl	_	_
-19	que	_	ADP	IN	_	35	mark	_	_
+19	que	_	SCONJ	IN	_	35	mark	_	_
 20	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	comentários	_	NOUN	NN	Gender=Masc|Number=Plur	35	nsubj	_	_
 22	depreciativos	_	ADJ	JJ	Gender=Masc|Number=Plur	21	amod	_	_
@@ -3098,7 +3098,7 @@
 22	mas	_	CCONJ	CC	_	24	cc	_	_
 23	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	24	nsubj	_	_
 24	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	conj	_	_
-25	que	_	ADP	IN	_	29	mark	_	_
+25	que	_	SCONJ	IN	_	29	mark	_	_
 26	o	_	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
 27	maior	_	ADJ	JJS	Gender=Masc|Number=Sing	28	amod	_	_
 28	conforto	_	NOUN	NN	Gender=Masc|Number=Sing	29	nsubj	_	_
@@ -3423,7 +3423,7 @@
 20	2006	_	NUM	CD	Gender=Masc	18	conj	_	SpaceAfter=No
 21	,	_	PUNCT	,	_	18	punct	_	_
 22	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-23	que	_	ADP	IN	_	27	mark	_	_
+23	que	_	SCONJ	IN	_	27	mark	_	_
 24	esses	_	DET	DT	Gender=Masc|Number=Plur	25	det	_	_
 25	corpos	_	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	_
 26	eram	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	27	cop	_	_
@@ -3457,7 +3457,7 @@
 8	dois	_	NUM	CD	Gender=Masc	9	nummod	_	_
 9	dias	_	NOUN	NN	Gender=Masc|Number=Plur	2	obl	_	_
 10	de	_	ADP	IN	_	21	case	_	_
-11	que	_	ADP	IN	_	21	mark	_	_
+11	que	_	SCONJ	IN	_	21	mark	_	_
 12-13	ao	_	_	_	_	_	_	_	_
 12	a	a	ADP	INDT	_	21	case	_	_
 13	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
@@ -3505,7 +3505,7 @@
 18	ou	_	CCONJ	CC	_	20	cc	_	ToDo=ex-adp-child
 19	a	_	ADP	IN	_	20	case	_	ToDo=ex-adp-child
 20	organizações	_	NOUN	NN	Gender=Fem|Number=Plur	17	conj	_	_
-21	porque	_	ADP	IN	_	22	mark	_	_
+21	porque	_	SCONJ	IN	_	22	mark	_	_
 22	fizeram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	3	advcl	_	_
 23	contribuições	_	NOUN	NN	Gender=Fem|Number=Plur	22	obj	_	_
 24	econômicas	_	ADJ	JJ	Gender=Fem|Number=Plur	23	amod	_	_
@@ -3548,7 +3548,7 @@
 15	acabou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	17	aux	_	_
 16	por	_	ADP	IN	_	15	fixed	_	_
 17	determinar	_	VERB	VB	_	0	root	_	_
-18	que	_	ADP	IN	_	19	mark	_	_
+18	que	_	SCONJ	IN	_	19	mark	_	_
 19	estavam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	17	ccomp	_	_
 20	dentro	_	ADV	RB	_	19	advmod	_	_
 21-22	das	_	_	_	_	_	_	_	_
@@ -3559,7 +3559,7 @@
 24	de	de	ADP	INDT	_	26	case	_	_
 25	o	o	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 26	Senado	_	NOUN	NN	Gender=Masc|Number=Sing	23	nmod	_	Proper=True
-27	quando	_	ADP	IN	_	30	mark	_	_
+27	quando	_	SCONJ	IN	_	30	mark	_	_
 28	declarou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	30	cop	_	_
 29	Duffy	_	PROPN	NNP	Gender=Masc|Number=Sing	30	obj	_	_
 30	livre	_	ADJ	JJ	Gender=Masc|Number=Sing	17	advcl	_	_
@@ -3617,7 +3617,7 @@
 1	Ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	também	_	ADV	RB	_	3	advmod	_	_
 3	mostrou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	6	mark	_	_
+4	que	_	SCONJ	IN	_	6	mark	_	_
 5	Rogers	_	PROPN	NNP	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	introduziu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	ccomp	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	8	punct	_	_
@@ -3889,7 +3889,7 @@
 6	de	_	ADP	IN	_	7	case	_	_
 7	ferro	_	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	_
 8	dizem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-9	que	_	ADP	IN	_	11	mark	_	_
+9	que	_	SCONJ	IN	_	11	mark	_	_
 10	serão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	11	cop	_	_
 11	necessários	_	ADJ	JJ	Gender=Masc|Number=Plur	8	ccomp	_	_
 12	mais	_	ADJ	JJR	Gender=Masc|Number=Plur	13	amod	_	_
@@ -3913,7 +3913,7 @@
 11	-	_	PUNCT	-	_	10	punct	_	SpaceAfter=No
 12	se	_	PRON	SE	Person=3	13	expl:pv	_	_
 13	complicado	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-14	quando	_	ADP	IN	_	27	mark	_	_
+14	quando	_	SCONJ	IN	_	27	mark	_	_
 15	a	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
 16	futura	_	ADJ	JJ	Gender=Fem|Number=Sing	17	amod	_	_
 17	mãe	_	NOUN	NN	Gender=Fem|Number=Sing	27	nsubj:pass	_	_
@@ -3928,7 +3928,7 @@
 26	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	27	aux:pass	_	_
 27	informada	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Sing	13	advcl	_	_
 28	de	_	ADP	IN	_	33	case	_	_
-29	que	_	ADP	IN	_	33	mark	_	_
+29	que	_	SCONJ	IN	_	33	mark	_	_
 30	o	_	DET	PDT	Gender=Masc|Number=Sing	32	det:predet	_	_
 31	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	32	det	_	_
 32	feto	_	NOUN	NN	Gender=Masc|Number=Sing	33	nsubj	_	_
@@ -4160,7 +4160,7 @@
 6	indígenas	_	ADJ	JJ	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	4	punct	_	_
 8	argumentam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-9	que	_	ADP	IN	_	11	mark	_	_
+9	que	_	SCONJ	IN	_	11	mark	_	_
 10	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	11	nsubj	_	_
 11	banalizam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	ccomp	_	_
 12	a	_	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
@@ -4363,7 +4363,7 @@
 # sent_id = n01058052
 # text = Após a Carolina do Norte ter passado a sua lei que restringe o direito de voto em 2013, Campbell andou pelas igrejas ensinando às pessoas como lidar com as dificuldades no seu registro.
 # text_en = After North Carolina passed its restrictive voting-rights bill in 2013, Campbell went around to churches teaching people how to deal with challenges to their registration.
-1	Após	_	ADP	IN	_	8	mark	_	_
+1	Após	_	SCONJ	IN	_	8	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	Carolina	_	PROPN	NNP	Gender=Fem|Number=Sing	8	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	Proper=True
@@ -4480,7 +4480,7 @@
 9	como	_	ADP	IN	_	10	case	_	_
 10	prova	_	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	_	ADP	IN	_	17	case	_	_
-12	que	_	ADP	IN	_	17	mark	_	_
+12	que	_	SCONJ	IN	_	17	mark	_	_
 13	o	_	DET	PDT	Gender=Masc|Number=Sing	15	det:predet	_	_
 14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	15	det	_	_
 15	partido	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -4578,7 +4578,7 @@
 12	onde	_	ADV	WRB	_	14	advmod	_	_
 13	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
 14	reconheceu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	xcomp	_	_
-15	que	_	ADP	IN	_	17	mark	_	_
+15	que	_	SCONJ	IN	_	17	mark	_	_
 16	nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nsubj	_	_
 17	precisamos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	14	ccomp	_	_
 18	de	_	ADP	IN	_	20	case	_	_
@@ -4605,7 +4605,7 @@
 1	Mas	_	CCONJ	CC	_	20	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	17	punct	_	_
 3-4	à	_	_	_	_	_	_	_	_
-3	a	a	ADP	INDT	_	17	mark	_	_
+3	a	a	SCONJ	INDT	_	17	mark	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	3	fixed	_	_
 5	medida	_	NOUN	NN	Gender=Fem|Number=Sing	3	fixed	_	_
 6	que	_	ADP	IN	_	3	fixed	_	_
@@ -4630,7 +4630,7 @@
 # sent_id = n01061023
 # text = Quando estou interpretando ele, eu me sinto poderoso, explicou o personificador de Donald Trump, John Di Domenico, à Slate, no ano passado.
 # text_en = “When I’m playing him, I feel powerful,” the Donald Trump impersonator John Di Domenico explained to Slate last year.
-1	Quando	_	ADP	IN	_	3	mark	_	_
+1	Quando	_	SCONJ	IN	_	3	mark	_	_
 2	estou	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	3	aux	_	_
 3	interpretando	_	VERB	VBG	Aspect=Imp	9	advcl	_	_
 4	ele	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	SpaceAfter=No
@@ -4915,7 +4915,7 @@
 22	matar	_	VERB	VB	_	17	xcomp	_	_
 23	o	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	faraó	_	NOUN	NN	Gender=Masc|Number=Sing	22	obj	_	_
-25	quando	_	ADP	IN	_	29	mark	_	_
+25	quando	_	SCONJ	IN	_	29	mark	_	_
 26	o	_	DET	DT	Gender=Masc|Number=Sing	27	det	_	_
 27	Nilo	_	PROPN	NNP	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	não	_	ADV	RB	Polarity=Neg	29	advmod	_	_
@@ -5271,7 +5271,7 @@
 # text_en = Vega suggested that, because of their age, many would be unaware of its history.
 1	Vega	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sugeriu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	que	_	ADP	IN	_	14	mark	_	SpaceAfter=No
+3	que	_	SCONJ	IN	_	14	mark	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	10	punct	_	_
 5	por	_	ADP	IN	_	10	case	_	_
 6	causa	_	NOUN	NN	Gender=Fem|Number=Sing	5	fixed	_	_
@@ -5562,7 +5562,7 @@
 # text = Era como se ele estivesse passando a bola de um lado para o outro, debaixo de três copos virados para baixo.
 # text_en = It was as though he was flicking the ball back and forth underneath three upturned cups.
 1	Era	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-2	como	_	ADP	IN	_	6	mark	_	_
+2	como	_	SCONJ	IN	_	6	mark	_	_
 3	se	_	ADP	IN	_	2	fixed	_	_
 4	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	estivesse	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	6	aux	_	_
@@ -5733,7 +5733,7 @@
 2	,	_	PUNCT	,	_	1	punct	_	_
 3	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
 4	entendo	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-5	que	_	ADP	IN	_	14	mark	_	_
+5	que	_	SCONJ	IN	_	14	mark	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	Alemanha	_	PROPN	NNP	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 8-9	dos	_	_	_	_	_	_	_	_
@@ -5779,7 +5779,7 @@
 20	ar	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
 21	tão	_	ADV	RB	_	22	advmod	_	_
 22	modesto	_	ADJ	JJ	Gender=Masc|Number=Sing	20	amod	_	_
-23	que	_	ADP	IN	_	24	mark	_	_
+23	que	_	SCONJ	IN	_	24	mark	_	_
 24	penso	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	advcl	_	_
 25	ser	_	AUX	VB	_	27	cop	_	_
 26	outra	_	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
@@ -5897,7 +5897,7 @@
 13	por	_	ADP	IN	_	11	discourse	_	_
 14	fim	_	NOUN	NN	Gender=Masc|Number=Sing	13	fixed	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	13	punct	_	_
-16	que	_	ADP	IN	_	17	mark	_	_
+16	que	_	SCONJ	IN	_	17	mark	_	_
 17	preferem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	ccomp	_	_
 18	vê	_	VERB	VB	_	17	xcomp	_	SpaceAfter=No
 19	-	_	PUNCT	-	_	20	punct	_	SpaceAfter=No
@@ -5914,7 +5914,7 @@
 2	não	_	ADV	RB	Polarity=Neg	4	advmod	_	_
 3	podemos	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	4	aux	_	_
 4	deixar	_	VERB	VB	_	0	root	_	_
-5	que	_	ADP	IN	_	8	mark	_	_
+5	que	_	SCONJ	IN	_	8	mark	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	presidência	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 8	vá	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
@@ -5948,7 +5948,7 @@
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	crédito	_	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	...	_	PUNCT	,	_	25	punct	_	_
-9	Enquanto	_	ADP	IN	_	14	mark	_	_
+9	Enquanto	_	SCONJ	IN	_	14	mark	_	_
 10	estes	_	DET	DT	Gender=Masc|Number=Plur	11	det	_	_
 11	empréstimos	_	NOUN	NN	Gender=Masc|Number=Plur	14	nsubj	_	_
 12	podem	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
@@ -5980,7 +5980,7 @@
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	razão	_	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-5	que	_	ADP	IN	_	7	mark	_	_
+5	que	_	SCONJ	IN	_	7	mark	_	_
 6	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	providencia	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	ccomp	_	_
 8	insuficiente	_	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
@@ -6069,7 +6069,7 @@
 19	-	_	PUNCT	-	_	20	punct	_	SpaceAfter=No
 20	£	_	SYM	SYM	_	17	conj	_	SpaceAfter=No
 21	5,000	_	NUM	CD	_	20	nummod	_	OrigForm=5000
-22	quando	_	ADP	IN	_	23	mark	_	_
+22	quando	_	SCONJ	IN	_	23	mark	_	_
 23	adicionam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	advcl	_	_
 24	a	_	DET	DT	Gender=Fem|Number=Sing	25	det	_	_
 25	opção	_	NOUN	NN	Gender=Fem|Number=Sing	23	obj	_	_
@@ -6199,7 +6199,7 @@
 # text = Surpreendentemente como pode parecer, até as nuvens de chuvas ácidas podem ter um lado positivo.
 # text_en = Surprising as it may seem, even acid rain clouds can have a silver lining.
 1	Surpreendentemente	_	ADV	RB	_	4	advmod	_	_
-2	como	_	ADP	IN	_	4	mark	_	_
+2	como	_	SCONJ	IN	_	4	mark	_	_
 3	pode	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	aux	_	_
 4	parecer	_	VERB	VB	_	13	advcl	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	4	punct	_	_
@@ -6262,7 +6262,7 @@
 9	ficando	_	AUX	VBG	Aspect=Imp	11	cop	_	_
 10	mais	_	ADV	RBR	_	11	advmod	_	_
 11	irritado	_	ADJ	JJ	Gender=Masc|Number=Sing	2	conj	_	_
-12	quando	_	ADP	IN	_	14	mark	_	_
+12	quando	_	SCONJ	IN	_	14	mark	_	_
 13	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 14	surge	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	SpaceAfter=No
 15	.	_	PUNCT	.	_	2	punct	_	_
@@ -6283,7 +6283,7 @@
 1	É	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 2	justo	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 3	dizer	_	VERB	VB	_	2	csubj	_	_
-4	que	_	ADP	IN	_	7	mark	_	_
+4	que	_	SCONJ	IN	_	7	mark	_	_
 5	Rocco	_	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	Catalano	_	PROPN	NNP	Gender=Masc|Number=Sing	5	flat:name	_	_
 7	trabalha	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	SpaceAfter=No
@@ -6298,11 +6298,11 @@
 # text = Penso que é por isso que eles se imergiram em padrões e cor.
 # text_en = I think that’s why they immersed themselves in pattern and colour.
 1	Penso	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-2	que	_	ADP	IN	_	3	mark	_	_
+2	que	_	SCONJ	IN	_	3	mark	_	_
 3	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	ccomp	_	_
 4	por	_	ADP	IN	_	3	discourse	_	_
 5	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	4	fixed	_	_
-6	que	_	ADP	IN	_	9	mark	_	_
+6	que	_	SCONJ	IN	_	9	mark	_	_
 7	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	nsubj	_	_
 8	se	_	PRON	SE	Person=3	9	expl:pv	_	_
 9	imergiram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	3	ccomp	_	_
@@ -6385,10 +6385,10 @@
 # text_en = But, when I suggest that she get Frank to model for her, she laughs.
 1	Mas	_	CCONJ	CC	_	16	discourse	_	SpaceAfter=No
 2	,	_	PUNCT	,	_	1	punct	_	_
-3	quando	_	ADP	IN	_	5	mark	_	_
+3	quando	_	SCONJ	IN	_	5	mark	_	_
 4	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
 5	sugiro	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	16	advcl	_	_
-6	que	_	ADP	IN	_	8	mark	_	_
+6	que	_	SCONJ	IN	_	8	mark	_	_
 7	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	8	nsubj	_	_
 8	use	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	5	ccomp	_	_
 9	a	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
@@ -6460,7 +6460,7 @@
 3	o	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
 4	motocross	_	NOUN	NN	Gender=Masc|Number=Sing	1	obl	_	_
 5	e	_	CCONJ	CC	_	12	cc	_	_
-6	quanto	_	ADP	IN	_	8	mark	_	_
+6	quanto	_	SCONJ	IN	_	8	mark	_	_
 7	mais	_	ADV	RBR	_	8	advmod	_	_
 8	olhava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past	12	advcl	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	8	punct	_	_
@@ -6506,14 +6506,14 @@
 14	se	_	PRON	SE	Person=3	15	expl:pv	_	_
 15	encaixem	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres	12	acl:relcl	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	20	punct	_	_
-17	porque	_	ADP	IN	_	20	mark	_	_
+17	porque	_	SCONJ	IN	_	20	mark	_	_
 18	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	_
 19	tão	_	ADV	RB	_	20	advmod	_	_
 20	interessante	_	ADJ	JJ	Gender=Masc|Number=Sing	1	advcl	_	_
 21	fazer	_	VERB	VB	_	20	csubj	_	_
 22	uma	_	DET	DT	Gender=Fem|Number=Sing	23	det	_	_
 23	coleção	_	NOUN	NN	Gender=Fem|Number=Sing	21	obj	_	_
-24	quando	_	ADP	IN	_	25	mark	_	_
+24	quando	_	SCONJ	IN	_	25	mark	_	_
 25	encontro	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	21	advcl	_	_
 26	uma	_	NOUN	NN	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
 27	.	_	PUNCT	.	_	1	punct	_	_
@@ -6577,7 +6577,7 @@
 16	Eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
 17	ficaria	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=1	18	cop	_	_
 18	espantado	_	ADJ	JJ	Gender=Masc|Number=Sing	13	parataxis	_	_
-19	se	_	ADP	IN	_	25	mark	_	_
+19	se	_	SCONJ	IN	_	25	mark	_	_
 20	uma	_	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	proibição	_	NOUN	NN	Gender=Fem|Number=Sing	25	nsubj	_	_
 22	ou	_	CCONJ	CC	_	24	cc	_	_
@@ -6638,7 +6638,7 @@
 1	Vamos	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	3	aux	_	_
 2	simplesmente	_	ADV	RB	_	3	advmod	_	_
 3	dizer	_	VERB	VB	_	0	root	_	_
-4	que	_	ADP	IN	_	7	mark	_	_
+4	que	_	SCONJ	IN	_	7	mark	_	_
 5	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 6	está	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 7	errado	_	ADJ	JJ	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
@@ -6673,7 +6673,7 @@
 11	pleno	_	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 12	sábado	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	18	punct	_	_
-14	quando	_	ADP	IN	_	18	mark	_	_
+14	quando	_	SCONJ	IN	_	18	mark	_	_
 15	países	_	NOUN	NN	Gender=Masc|Number=Plur	18	nsubj	_	_
 16	desenvolvidos	_	ADJ	JJ	Gender=Masc|Number=Plur	15	amod	_	_
 17	se	_	PRON	SE	Person=3	18	expl:pv	_	_
@@ -6828,7 +6828,7 @@
 13	estão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	cop	_	_
 14	facilmente	_	ADV	RB	_	15	advmod	_	_
 15	acessíveis	_	ADJ	JJ	Gender=Masc|Number=Plur	3	conj	_	_
-16	se	_	ADP	IN	_	18	mark	_	_
+16	se	_	SCONJ	IN	_	18	mark	_	_
 17	você	_	PRON	PRP	Case=Nom|Number=Sing|Person=3	18	nsubj	_	_
 18	souber	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Fut	15	advcl	_	_
 19	como	_	ADV	WRB	_	20	advmod	_	_
@@ -7256,7 +7256,7 @@
 12	pró-Pequim	_	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	9	punct	_	_
 14	argumentou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-15	que	_	ADP	IN	_	20	mark	_	_
+15	que	_	SCONJ	IN	_	20	mark	_	_
 16	o	_	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
 17	par	_	NOUN	NN	Gender=Masc|Number=Sing	20	nsubj	_	_
 18	não	_	ADV	RB	Polarity=Neg	20	advmod	_	_
@@ -7270,7 +7270,7 @@
 # text_en = “Beijing believes its intervention is necessary to prevent a continued legislative paralysis in the city,” he said.
 1	Pequim	_	PROPN	NNP	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	acredita	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	que	_	ADP	IN	_	8	mark	_	_
+3	que	_	SCONJ	IN	_	8	mark	_	_
 4	a	_	DET	PDT	Gender=Fem|Number=Sing	6	det:predet	_	_
 5	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 6	intervenção	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -7393,7 +7393,7 @@
 1	Estávamos	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past	3	cop	_	_
 2	tão	_	ADV	RB	_	3	advmod	_	_
 3	desapontados	_	ADJ	JJ	Gender=Masc|Number=Plur	0	root	_	_
-4	porque	_	ADP	IN	_	5	mark	_	_
+4	porque	_	SCONJ	IN	_	5	mark	_	_
 5	perdemos	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past	3	advcl	_	_
 6	seis	_	NUM	CD	_	7	nummod	_	_
 7	pontos	_	NOUN	NN	Gender=Masc|Number=Plur	5	obj	_	_
@@ -7460,7 +7460,7 @@
 1	Eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
 2	também	_	ADV	RB	_	3	advmod	_	_
 3	penso	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-4	se	_	ADP	IN	_	8	mark	_	_
+4	se	_	SCONJ	IN	_	8	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	Taça	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	Proper=True
 7	Davis	_	PROPN	NNP	Gender=Fem|Number=Sing	6	appos	_	_
@@ -7478,7 +7478,7 @@
 3	anual	_	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	também	_	ADV	RB	_	5	advmod	_	_
 5	revelou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-6	que	_	ADP	IN	_	15	mark	_	_
+6	que	_	SCONJ	IN	_	15	mark	_	_
 7	as	_	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
 8	preocupações	_	NOUN	NN	Gender=Fem|Number=Plur	15	nsubj	_	_
 9	sobre	_	ADP	IN	_	10	case	_	_
@@ -7763,7 +7763,7 @@
 6	e	_	CCONJ	CC	_	8	cc	_	_
 7	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 8	esperado	_	ADJ	JJ	Gender=Masc|Number=Sing	4	conj	_	_
-9	que	_	ADP	IN	_	12	mark	_	_
+9	que	_	SCONJ	IN	_	12	mark	_	_
 10	o	_	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	preço	_	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj	_	_
 12	aumente	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	8	csubj	_	_
@@ -7859,7 +7859,7 @@
 # sent_id = n01110008
 # text = Se eles o fizessem, a Premium Bonds seria indistinguível das contas poupança comuns.
 # text_en = If they did, Premium Bonds would be indistinguishable from ordinary savings accounts.
-1	Se	_	ADP	IN	_	4	mark	_	_
+1	Se	_	SCONJ	IN	_	4	mark	_	_
 2	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	4	nsubj	_	_
 3	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
 4	fizessem	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past	10	advcl	_	SpaceAfter=No
@@ -7980,7 +7980,7 @@
 # text_en = This means that they have not benefited from the uplift that the fall in sterling has given to overseas assets.
 1	Isto	_	PRON	PDEM	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	significa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	que	_	ADP	IN	_	7	mark	_	_
+3	que	_	SCONJ	IN	_	7	mark	_	_
 4	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	7	nsubj	_	_
 5	não	_	ADV	RB	Polarity=Neg	7	advmod	_	_
 6	se	_	PRON	SE	Person=3	7	expl:pv	_	_
@@ -8061,7 +8061,7 @@
 5	relatório	_	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	importante	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
 7	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-8	que	_	ADP	IN	_	11	mark	_	_
+8	que	_	SCONJ	IN	_	11	mark	_	_
 9	os	_	DET	DT	Gender=Masc|Number=Plur	10	det	_	_
 10	oceanos	_	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj	_	_
 11	conteriam	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=3	7	ccomp	_	_
@@ -8075,7 +8075,7 @@
 18	até	_	ADP	IN	_	19	case	_	_
 19	2050	_	NUM	CD	Gender=Masc	11	obl	_	SpaceAfter=No
 20	,	_	PUNCT	,	_	26	punct	_	_
-21	a	_	ADP	IN	_	26	mark	_	_
+21	a	_	SCONJ	IN	_	26	mark	_	_
 22	menos	_	ADV	RBR	_	21	fixed	_	_
 23	que	_	ADP	IN	_	21	fixed	_	_
 24	o	_	DET	DT	Gender=Masc|Number=Sing	25	det	_	_
@@ -8086,7 +8086,7 @@
 29	radical	_	ADJ	JJ	Gender=Fem|Number=Sing	28	amod	_	_
 30	para	_	ADP	IN	_	31	case	_	_
 31	impedir	_	VERB	VB	_	26	xcomp	_	_
-32	que	_	ADP	IN	_	35	mark	_	_
+32	que	_	SCONJ	IN	_	35	mark	_	_
 33	os	_	DET	DT	Gender=Masc|Number=Plur	34	det	_	_
 34	lixos	_	NOUN	NN	Gender=Masc|Number=Plur	35	nsubj	_	_
 35	vazassem	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past	31	ccomp	_	_
@@ -8122,7 +8122,7 @@
 # text = Advertindo que o SNS estava agora sob "enorme pressão", ele pediu ao público para assumir mais responsabilidade pela sua própria saúde.
 # text_en = Warning that the NHS was now under "enormous pressure," he urged the public to take more responsibility for their own health.
 1	Advertindo	_	VERB	VBG	Aspect=Imp	14	acl	_	_
-2	que	_	ADP	IN	_	5	mark	_	_
+2	que	_	SCONJ	IN	_	5	mark	_	_
 3	o	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
 4	SNS	_	PROPN	NNP	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	estava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	1	ccomp	_	_
@@ -8168,7 +8168,7 @@
 11	mau	_	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	_
 12	tempo	_	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	19	punct	_	_
-14	enquanto	_	ADP	IN	_	19	mark	_	_
+14	enquanto	_	SCONJ	IN	_	19	mark	_	_
 15	nove	_	NUM	CD	_	19	nsubj	_	_
 16	em	_	ADP	IN	_	18	case	_	_
 17	cada	_	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
@@ -8217,7 +8217,7 @@
 8	e	_	CCONJ	CC	_	10	cc	_	_
 9	estou	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	10	cop	_	_
 10	pronto	_	ADJ	JJ	Gender=Masc|Number=Sing	6	conj	_	_
-11	para	_	ADP	IN	_	16	mark	_	_
+11	para	_	SCONJ	IN	_	16	mark	_	_
 12	que	_	ADP	IN	_	11	fixed	_	_
 13	possamos	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=1|Tense=Pres	16	aux	_	_
 14	voltar	_	AUX	VB	_	16	cop	_	_
@@ -8323,7 +8323,7 @@
 1	Mas	_	CCONJ	CC	_	3	discourse	_	_
 2	tendo	_	AUX	VBG	Aspect=Imp	3	aux:pass	_	_
 3	permitido	_	VERB	VBN	Aspect=Perf	12	acl	_	_
-4	que	_	ADP	IN	_	6	mark	_	_
+4	que	_	SCONJ	IN	_	6	mark	_	_
 5	Glenda	_	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	mandasse	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	3	ccomp	_	_
 7	tão	_	ADV	RB	_	8	advmod	_	_
@@ -8376,7 +8376,7 @@
 1	Em	_	ADP	IN	_	2	case	_	_
 2	teoria	_	NOUN	NN	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
-4	se	_	ADP	IN	_	7	mark	_	_
+4	se	_	SCONJ	IN	_	7	mark	_	_
 5	for	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Fut	7	aux:pass	_	_
 6	bem	_	ADV	RB	_	7	advmod	_	_
 7	feito	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	11	advcl	_	SpaceAfter=No
@@ -8428,7 +8428,7 @@
 4	mudado	_	VERB	VBN	Aspect=Perf	0	root	_	_
 5	tão	_	ADV	RB	_	6	advmod	_	_
 6	drasticamente	_	ADV	RB	_	4	advmod	_	_
-7	que	_	ADP	IN	_	10	mark	_	_
+7	que	_	SCONJ	IN	_	10	mark	_	_
 8	Hollywood	_	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 9	tinha	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux	_	_
 10	alienado	_	VERB	VBN	Aspect=Perf	4	advcl	_	_
@@ -8619,12 +8619,12 @@
 # sent_id = n01121032
 # text = Quando Millican morreu, assumimos que essa também seria a última vez que veríamos o desastrado, antissocial Odi.
 # text_en = When Millican died, we assumed that was the last we’d see of glitchy, twitchy Odi too.
-1	Quando	_	ADP	IN	_	3	mark	_	_
+1	Quando	_	SCONJ	IN	_	3	mark	_	_
 2	Millican	_	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	morreu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	advcl	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
 5	assumimos	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	_
-6	que	_	ADP	IN	_	12	mark	_	_
+6	que	_	SCONJ	IN	_	12	mark	_	_
 7	essa	_	PRON	PDEM	Gender=Fem|Number=Sing	12	nsubj	_	_
 8	também	_	ADV	RB	_	12	advmod	_	_
 9	seria	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	12	cop	_	_
@@ -8730,7 +8730,7 @@
 1	Talvez	_	ADV	RB	_	3	advmod	_	_
 2	não	_	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	importe	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	desde	_	ADP	IN	_	9	mark	_	_
+4	desde	_	SCONJ	IN	_	9	mark	_	_
 5	que	_	ADP	IN	_	4	fixed	_	_
 6	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	9	nsubj:pass	_	_
 7	não	_	ADV	RB	Polarity=Neg	9	advmod	_	_
@@ -8882,7 +8882,7 @@
 4	por	_	ADP	IN	_	6	advmod	_	_
 5	que	_	ADV	WRB	_	4	fixed	_	_
 6	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
-7	que	_	ADP	IN	_	9	mark	_	_
+7	que	_	SCONJ	IN	_	9	mark	_	_
 8	a	_	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
 9	escolhi	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past	6	ccomp	_	SpaceAfter=No
 10	...	_	PUNCT	.	_	3	punct	_	_
@@ -8991,7 +8991,7 @@
 4	que	_	ADP	IN	_	3	fixed	_	_
 5	fazer	_	VERB	VB	_	0	root	_	_
 6	com	_	ADP	IN	_	9	case	_	_
-7	que	_	ADP	IN	_	9	mark	_	_
+7	que	_	SCONJ	IN	_	9	mark	_	_
 8	seja	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 9	fácil	_	ADJ	JJ	Gender=Masc|Number=Sing	5	xcomp	_	_
 10	para	_	ADP	IN	_	13	case	_	_
@@ -9064,7 +9064,7 @@
 11	não	_	ADV	RB	Polarity=Neg	12	advmod	_	_
 12	significa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	_
 13	nada	_	NOUN	NN	Gender=Masc|Number=Sing	12	obj	_	_
-14	se	_	ADP	IN	_	19	mark	_	_
+14	se	_	SCONJ	IN	_	19	mark	_	_
 15	um	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	eleitor	_	NOUN	NN	Gender=Masc|Number=Sing	19	nsubj	_	_
 17	registrado	_	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
@@ -9295,7 +9295,7 @@
 5	têm	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	aux	_	_
 6	que	_	ADP	IN	_	5	fixed	_	_
 7	decidir	_	VERB	VB	_	0	root	_	_
-8	se	_	ADP	IN	_	10	mark	_	_
+8	se	_	SCONJ	IN	_	10	mark	_	_
 9	irão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	10	aux	_	_
 10	comercializar	_	VERB	VB	_	7	ccomp	_	_
 11	as	_	DET	PDT	Gender=Fem|Number=Plur	13	det:predet	_	_
@@ -9317,7 +9317,7 @@
 7	-	_	PUNCT	-	_	8	punct	_	Proper=True|SpaceAfter=No
 8	Davidson	_	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	6	flat	_	_
 9	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-10	que	_	ADP	IN	_	27	mark	_	_
+10	que	_	SCONJ	IN	_	27	mark	_	_
 11	os	_	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	títulos	_	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	_
 13	que	_	PRON	WP	_	15	nsubj	_	_
@@ -9521,7 +9521,7 @@
 # sent_id = n01136006
 # text = Como o filme torna claro, os Lovings -- e Richard em particular -- eram participantes relutantes na história.
 # text_en = As the movie makes clear, the Lovings -- and Richard in particular -- were reluctant participants in history.
-1	Como	_	ADP	IN	_	5	mark	_	_
+1	Como	_	SCONJ	IN	_	5	mark	_	_
 2	o	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	filme	_	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	torna	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
@@ -9821,7 +9821,7 @@
 19	,	_	PUNCT	,	_	11	punct	_	_
 20	confiante	_	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
 21	de	_	ADP	IN	_	24	case	_	_
-22	que	_	ADP	IN	_	24	mark	_	_
+22	que	_	SCONJ	IN	_	24	mark	_	_
 23	vai	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
 24	tomar	_	VERB	VB	_	20	xcomp	_	_
 25	o	_	DET	DT	Gender=Masc|Number=Sing	26	det	_	_
@@ -9881,7 +9881,7 @@
 7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	empresa	_	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	_
 9	de	_	ADP	IN	_	15	case	_	_
-10	que	_	ADP	IN	_	15	mark	_	_
+10	que	_	SCONJ	IN	_	15	mark	_	_
 11	os	_	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
 12	usuários	_	NOUN	NN	Gender=Masc|Number=Plur	15	nsubj	_	_
 13	comecem	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres	15	aux	_	_
@@ -9955,7 +9955,7 @@
 8	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	10	det	_	_
 9	melhor	_	ADJ	JJS	Gender=Masc|Number=Sing	10	amod	_	_
 10	tênis	_	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	_
-11	enquanto	_	ADP	IN	_	13	mark	_	_
+11	enquanto	_	SCONJ	IN	_	13	mark	_	_
 12	se	_	PRON	SE	Person=3	13	expl:pv	_	_
 13	nivelava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	advcl	_	_
 14	em	_	ADP	IN	_	16	case	_	_
@@ -10125,7 +10125,7 @@
 12	o	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	cara	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14	dizendo	_	VERB	VBG	Aspect=Imp	10	acl	_	_
-15	que	_	ADP	IN	_	21	mark	_	SpaceAfter=No
+15	que	_	SCONJ	IN	_	21	mark	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	17	punct	_	_
 17	claramente	_	ADV	RB	_	21	advmod	_	SpaceAfter=No
 18	,	_	PUNCT	,	_	17	punct	_	_
@@ -10197,7 +10197,7 @@
 5	o	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	México	_	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
 7	espera	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	acl:relcl	_	_
-8	que	_	ADP	IN	_	12	mark	_	SpaceAfter=No
+8	que	_	SCONJ	IN	_	12	mark	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
 10	eventualmente	_	ADV	RB	_	12	advmod	_	SpaceAfter=No
 11	,	_	PUNCT	,	_	10	punct	_	_
@@ -10244,7 +10244,7 @@
 22	México	_	PROPN	NNP	Gender=Masc|Number=Sing	24	nsubj	_	_
 23	ter	_	AUX	VB	_	24	aux	_	_
 24	decidido	_	VERB	VBN	Aspect=Perf	19	xcomp	_	_
-25	que	_	ADP	IN	_	27	mark	_	_
+25	que	_	SCONJ	IN	_	27	mark	_	_
 26	agora	_	ADV	RB	_	27	advmod	_	_
 27	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	ccomp	_	_
 28	o	_	DET	DT	Gender=Masc|Number=Sing	29	det	_	_
@@ -10324,7 +10324,7 @@
 7	maglev	_	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	3	punct	_	_
 9	penso	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
-10	que	_	ADP	IN	_	13	mark	_	_
+10	que	_	SCONJ	IN	_	13	mark	_	_
 11	o	_	DET	DT	Gender=Masc|Number=Sing	12	det	_	_
 12	governo	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	_
 13	está	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	ccomp	_	_
@@ -10553,7 +10553,7 @@
 # sent_id = n01150031
 # text = Quando as pessoas morrem por velhice na Índia, isso deveria ser uma celebração.
 # text_en = When people die of old age in India, it is supposed to be a celebration.
-1	Quando	_	ADP	IN	_	4	mark	_	_
+1	Quando	_	SCONJ	IN	_	4	mark	_	_
 2	as	_	DET	DT	Gender=Fem|Number=Plur	3	det	_	_
 3	pessoas	_	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj	_	_
 4	morrem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	advcl	_	_
@@ -11200,7 +11200,7 @@
 # sent_id = w01009017
 # text = Enquanto a identificação de massas de ar foi originalmente usada nas previsões meteorológicas durante a década de 1950, os meteorologistas começaram a estabelecer climatologias sinóticas baseadas nessa ideia em 1973.
 # text_en = While air mass identification was originally used in weather forecasting during the 1950s, climatologists began to establish synoptic climatologies based on this idea in 1973.
-1	Enquanto	_	ADP	IN	_	10	mark	_	_
+1	Enquanto	_	SCONJ	IN	_	10	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	identificação	_	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 4	de	_	ADP	IN	_	5	case	_	_
@@ -11455,7 +11455,7 @@
 # sent_id = w01013083
 # text = Embora a Islândia tenha estado sob controle político da Dinamarca até uma data muito mais avançada (1918), muito pouca influência e empréstimos linguísticos do Dinamarquês ocorreram na língua islandesa.
 # text_en = Although Iceland was under the political control of Denmark until a much later date (1918), very little influence and borrowing from Danish has occurred in the Icelandic language.
-1	Embora	_	ADP	IN	_	5	mark	_	_
+1	Embora	_	SCONJ	IN	_	5	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	Islândia	_	PROPN	NNP	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	tenha	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
@@ -11606,7 +11606,7 @@
 5	sistema	_	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 6	caótico	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	21	punct	_	_
-8	por	_	ADP	IN	_	21	mark	_	_
+8	por	_	SCONJ	IN	_	21	mark	_	_
 9	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	8	fixed	_	_
 10	pequenas	_	ADJ	JJ	Gender=Fem|Number=Plur	11	amod	_	_
 11	mudanças	_	NOUN	NN	Gender=Fem|Number=Plur	21	nsubj	_	_
@@ -11872,7 +11872,7 @@
 15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	Trabalho	_	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	Proper=True
 17	relataram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-18	que	_	ADP	IN	_	34	mark	_	_
+18	que	_	SCONJ	IN	_	34	mark	_	_
 19	56	_	NUM	CD	_	20	nummod	_	SpaceAfter=No
 20	%	_	SYM	SYM	_	34	nsubj	_	_
 21-22	das	_	_	_	_	_	_	_	_
@@ -11893,7 +11893,7 @@
 35	que	_	PRON	WP	_	36	nsubj	_	_
 36	trabalham	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	34	acl:relcl	_	_
 37	e	_	CCONJ	CC	_	54	cc	_	_
-38	que	_	ADP	IN	_	54	mark	_	_
+38	que	_	SCONJ	IN	_	54	mark	_	_
 39	quase	_	ADV	RB	_	40	advmod	_	_
 40	53	_	NUM	CD	_	41	nummod	_	SpaceAfter=No
 41	%	_	SYM	SYM	_	54	nsubj	_	_
@@ -12130,7 +12130,7 @@
 1	Mais	_	ADV	RBR	_	2	advmod	_	_
 2	tarde	_	ADV	RB	_	14	advmod	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
-4	quando	_	ADP	IN	_	6	mark	_	_
+4	quando	_	SCONJ	IN	_	6	mark	_	_
 5	Augusto	_	PROPN	NNP	Gender=Masc|Number=Sing	6	nsubj	_	_
 6	fundou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	14	advcl	_	_
 7	o	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
@@ -12496,7 +12496,7 @@
 17	Tulcea	_	PROPN	NNP	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	)	_	PUNCT	)	_	15	punct	_	SpaceAfter=No
 19	,	_	PUNCT	,	_	37	punct	_	_
-20	enquanto	_	ADP	IN	_	37	mark	_	_
+20	enquanto	_	SCONJ	IN	_	37	mark	_	_
 21	a	_	DET	PDT	Gender=Fem|Number=Sing	23	det:predet	_	_
 22	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	23	det	_	_
 23	parte	_	NOUN	NN	Gender=Fem|Number=Sing	37	nsubj	_	_
@@ -12536,7 +12536,7 @@
 3	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 4	tão	_	ADV	RB	_	5	advmod	_	_
 5	seco	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-6	que	_	ADP	IN	_	13	mark	_	_
+6	que	_	SCONJ	IN	_	13	mark	_	_
 7	estas	_	DET	DT	Gender=Fem|Number=Plur	8	det	_	_
 8	planícies	_	NOUN	NN	Gender=Fem|Number=Plur	13	nsubj:pass	_	_
 9	são	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	aux:pass	_	_
@@ -13009,7 +13009,7 @@
 14	de	_	ADP	IN	_	15	case	_	_
 15	sílica	_	NOUN	NN	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	22	punct	_	_
-17	por	_	ADP	IN	_	22	mark	_	_
+17	por	_	SCONJ	IN	_	22	mark	_	_
 18	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	17	fixed	_	_
 19	muitas	_	DET	DT	Gender=Fem|Number=Plur	20	det	_	_
 20	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	22	obl	_	_
@@ -13311,7 +13311,7 @@
 10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
 11	habitat	_	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
 12	natural	_	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	_
-13	quando	_	ADP	IN	_	17	mark	_	_
+13	quando	_	SCONJ	IN	_	17	mark	_	_
 14	o	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
 15	habitat	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
 16	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux:pass	_	_
@@ -13542,7 +13542,7 @@
 # text_en = It was here they stole a small canoe left by the Australian Aborigines of the region.
 1	Foi	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 2	aqui	_	ADV	RB	_	1	advmod	_	_
-3	que	_	ADP	IN	_	5	mark	_	_
+3	que	_	SCONJ	IN	_	5	mark	_	_
 4	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
 5	roubaram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	1	csubj	_	_
 6	uma	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
@@ -13563,7 +13563,7 @@
 # sent_id = w01039058
 # text = Enquanto Brisbane crescia, as condições do rio pioraram até ao ponto de este não ser mais do que um esgoto aberto e um aterro sanitário.
 # text_en = As Brisbane grew, the condition of the river worsened until at its worst it was no more than an open sewer and waste dump.
-1	Enquanto	_	ADP	IN	_	3	mark	_	_
+1	Enquanto	_	SCONJ	IN	_	3	mark	_	_
 2	Brisbane	_	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	crescia	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	advcl	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
@@ -13701,7 +13701,7 @@
 # sent_id = w01040102
 # text = Enquanto um vento constante começa a soprar, partículas finas que estão no chão exposto começam a vibrar.
 # text_en = As a steady wind begins to blow, fine particles lying on the exposed ground begin to vibrate.
-1	Enquanto	_	ADP	IN	_	7	mark	_	_
+1	Enquanto	_	SCONJ	IN	_	7	mark	_	_
 2	um	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	vento	_	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	constante	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
@@ -13747,7 +13747,7 @@
 # sent_id = w01040104
 # text = Quando elas pousam, atingem outras partículas que por sua vez podem ser empurradas para o ar, iniciando uma reação em cadeia.
 # text_en = When they land, they strike other particles which may be jerked into the air in their turn, starting a chain reaction.
-1	Quando	_	ADP	IN	_	3	mark	_	_
+1	Quando	_	SCONJ	IN	_	3	mark	_	_
 2	elas	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Plur|Person=3	3	nsubj	_	_
 3	pousam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	advcl	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	3	punct	_	_
@@ -13813,7 +13813,7 @@
 3	são	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	cop	_	_
 4	raras	_	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	7	punct	_	_
-6	conforme	_	ADP	IN	_	7	mark	_	_
+6	conforme	_	SCONJ	IN	_	7	mark	_	_
 7	mostram	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	advcl	_	_
 8	os	_	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
 9	relatórios	_	NOUN	NN	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -14398,7 +14398,7 @@
 16	governo	_	NOUN	NN	Gender=Masc|Number=Sing	14	obj	_	_
 17	de	_	ADP	IN	_	18	case	_	_
 18	Goryeo	_	PROPN	NNP	Gender=Masc|Number=Sing	16	nmod	_	_
-19	quando	_	ADP	IN	_	25	mark	_	_
+19	quando	_	SCONJ	IN	_	25	mark	_	_
 20	a	_	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	dinastia	_	NOUN	NN	Gender=Fem|Number=Sing	25	nsubj	_	_
 22	Yuan	_	PROPN	NNP	Gender=Fem|Number=Sing	21	appos	_	_
@@ -14591,7 +14591,7 @@
 11	China	_	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	5	punct	_	_
 13	considerou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-14	que	_	ADP	IN	_	20	mark	_	_
+14	que	_	SCONJ	IN	_	20	mark	_	_
 15	a	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
 16	nova	_	ADJ	JJ	Gender=Fem|Number=Sing	17	amod	_	_
 17	república	_	NOUN	NN	Gender=Fem|Number=Sing	20	nsubj	_	_
@@ -14610,7 +14610,7 @@
 1	Bogd	_	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Khaan	_	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	13	mark	_	_
+4	que	_	SCONJ	IN	_	13	mark	_	_
 5	tanto	_	ADV	RB	_	7	cc:preconj	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	Mongólia	_	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
@@ -14931,7 +14931,7 @@
 8	em	_	ADP	IN	_	10	case	_	_
 9	uma	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	sexta-feira	_	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
-11	se	_	ADP	IN	_	14	mark	_	_
+11	se	_	SCONJ	IN	_	14	mark	_	_
 12	tivesse	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	14	aux	_	_
 13	sido	_	AUX	VBN	Aspect=Perf	14	aux:pass	_	_
 14	introduzido	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	7	advcl	_	_
@@ -14973,7 +14973,7 @@
 17	,	_	PUNCT	,	_	18	punct	_	_
 18	mas	_	CCONJ	CC	_	19	cc	_	_
 19	não	_	ADV	RB	_	2	conj	_	_
-20	se	_	ADP	IN	_	22	mark	_	_
+20	se	_	SCONJ	IN	_	22	mark	_	_
 21	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	22	aux:pass	_	_
 22	ocultada	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Sing	19	advcl	_	_
 23	por	_	ADP	IN	_	24	case	_	_
@@ -15038,7 +15038,7 @@
 22	o	_	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
 23	Mediterrâneo	_	NOUN	NN	Gender=Masc|Number=Sing	19	obl	_	Proper=True|SpaceAfter=No
 24	,	_	PUNCT	,	_	29	punct	_	_
-25	como	_	ADP	IN	_	29	mark	_	_
+25	como	_	SCONJ	IN	_	29	mark	_	_
 26	já	_	ADV	RB	_	29	advmod	_	_
 27	tinha	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	29	aux	_	_
 28	sido	_	AUX	VBN	Aspect=Perf	29	aux:pass	_	_
@@ -15100,7 +15100,7 @@
 # text_en = It was foretold that he would either die of old age after an uneventful life, or die young in a battlefield and gain immortality through poetry.
 1	Foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	aux:pass	_	_
 2	predito	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-3	que	_	ADP	IN	_	6	mark	_	_
+3	que	_	SCONJ	IN	_	6	mark	_	_
 4	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	iria	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	6	aux	_	_
 6	morrer	_	VERB	VB	_	2	csubj:pass	_	_
@@ -15140,7 +15140,7 @@
 4	isto	_	PRON	PDEM	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
 5	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux:pass	_	_
 6	revertido	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-7	quando	_	ADP	IN	_	10	mark	_	_
+7	quando	_	SCONJ	IN	_	10	mark	_	_
 8	Juliano	_	PROPN	NNP	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 9	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux:pass	_	_
 10	morto	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	6	advcl	_	_
@@ -15156,7 +15156,7 @@
 1	Acredita	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 2	-	_	PUNCT	-	_	3	punct	_	SpaceAfter=No
 3	se	_	PRON	SE	Person=3	1	expl:pv	_	_
-4	que	_	ADP	IN	_	11	mark	_	_
+4	que	_	SCONJ	IN	_	11	mark	_	_
 5	os	_	DET	DT	Gender=Masc|Number=Plur	7	det	_	_
 6	últimos	_	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	_
 7	Jogos	_	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj:pass	_	Proper=True
@@ -15267,7 +15267,7 @@
 5	em	em	ADP	INDT	_	7	case	_	_
 6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	corte	_	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
-8	quando	_	ADP	IN	_	10	mark	_	_
+8	quando	_	SCONJ	IN	_	10	mark	_	_
 9	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	aux:pass	_	_
 10	enviado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	2	advcl	_	_
 11	como	_	ADP	IN	_	12	case	_	_
@@ -15312,7 +15312,7 @@
 17	o	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	sul	_	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 19	,	_	PUNCT	,	_	21	punct	_	_
-20	enquanto	_	ADP	IN	_	21	mark	_	_
+20	enquanto	_	SCONJ	IN	_	21	mark	_	_
 21	manipulavam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	4	advcl	_	_
 22	vários	_	DET	DT	Gender=Masc|Number=Plur	23	det	_	_
 23	embaixadores	_	NOUN	NN	Gender=Masc|Number=Plur	21	obj	_	_
@@ -15396,7 +15396,7 @@
 2	parece	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	ter	_	AUX	VB	_	4	aux	_	_
 4	desejado	_	VERB	VBN	Aspect=Perf	2	ccomp	_	_
-5	que	_	ADP	IN	_	12	mark	_	_
+5	que	_	SCONJ	IN	_	12	mark	_	_
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	Senado	_	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj	_	Proper=True
 8	e	_	CCONJ	CC	_	10	cc	_	_
@@ -16075,7 +16075,7 @@
 24	suspender	_	VERB	VB	_	14	xcomp	_	_
 25	a	_	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 26	perseguição	_	NOUN	NN	Gender=Fem|Number=Sing	24	obj	_	_
-27	até	_	ADP	IN	_	31	mark	_	_
+27	até	_	SCONJ	IN	_	31	mark	_	_
 28	que	_	ADP	IN	_	27	fixed	_	_
 29	os	_	DET	DT	Gender=Masc|Number=Plur	30	det	_	_
 30	outros	_	NOUN	NN	Gender=Masc|Number=Plur	31	nsubj	_	_
@@ -16421,9 +16421,9 @@
 12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	lago	_	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	_
 14	Rudyard	_	PROPN	NNP	Gender=Masc|Number=Sing	13	appos	_	_
-15	que	_	ADP	IN	_	25	mark	_	SpaceAfter=No
+15	que	_	SCONJ	IN	_	25	mark	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	22	punct	_	_
-17	quando	_	ADP	IN	_	22	mark	_	_
+17	quando	_	SCONJ	IN	_	22	mark	_	_
 18	o	_	DET	PDT	Gender=Masc|Number=Sing	21	det:predet	_	_
 19	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	21	det	_	_
 20	primeiro	_	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	_
@@ -16560,7 +16560,7 @@
 6	em	_	ADP	IN	_	7	case	_	_
 7	1610	_	NUM	CD	Gender=Masc	5	obl	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	10	punct	_	_
-9	embora	_	ADP	IN	_	10	mark	_	_
+9	embora	_	SCONJ	IN	_	10	mark	_	_
 10	integrando	_	VERB	VBG	Aspect=Imp	5	advcl	_	_
 11	material	_	NOUN	NN	Gender=Masc|Number=Sing	10	obj	_	_
 12	anterior	_	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
@@ -16655,7 +16655,7 @@
 24	3	_	NUM	CD	_	25	nummod	_	SpaceAfter=No
 25	%	_	SYM	SYM	_	15	obl	_	SpaceAfter=No
 26	,	_	PUNCT	,	_	41	punct	_	_
-27	enquanto	_	ADP	IN	_	41	mark	_	_
+27	enquanto	_	SCONJ	IN	_	41	mark	_	_
 28	uma	_	DET	DT	Gender=Fem|Number=Sing	29	det	_	_
 29	taxa	_	NOUN	NN	Gender=Fem|Number=Sing	41	nsubj	_	_
 30	de	_	ADP	IN	_	31	case	_	_
@@ -16712,7 +16712,7 @@
 18	,	_	PUNCT	,	_	27	punct	_	_
 19	e	_	CCONJ	CC	_	27	cc	_	_
 20	portanto	_	ADP	IN	_	27	discourse	_	_
-21	que	_	ADP	IN	_	27	mark	_	_
+21	que	_	SCONJ	IN	_	27	mark	_	_
 22	um	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 23	menor	_	ADJ	JJR	Gender=Masc|Number=Sing	24	amod	_	_
 24	ganho	_	NOUN	NN	Gender=Masc|Number=Sing	27	nsubj	_	_
@@ -16763,7 +16763,7 @@
 31	a	_	ADP	IN	_	33	case	_	_
 32	uma	_	DET	DT	Gender=Fem|Number=Sing	33	det	_	_
 33	rebelião	_	NOUN	NN	Gender=Fem|Number=Sing	30	obl	_	_
-34	se	_	ADP	IN	_	36	mark	_	_
+34	se	_	SCONJ	IN	_	36	mark	_	_
 35	estão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	36	aux	_	_
 36	recebendo	_	VERB	VBG	Aspect=Imp	27	advcl	_	_
 37	uma	_	DET	DT	Gender=Fem|Number=Sing	38	det	_	_
@@ -16777,7 +16777,7 @@
 45	podem	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	47	aux	_	_
 46	razoavelmente	_	ADV	RB	_	47	advmod	_	_
 47	assumir	_	VERB	VB	_	36	conj	_	_
-48	que	_	ADP	IN	_	50	mark	_	_
+48	que	_	SCONJ	IN	_	50	mark	_	_
 49	vão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	50	aux	_	_
 50	prosperar	_	VERB	VB	_	47	ccomp	_	_
 51-52	no	_	_	_	_	_	_	_	_
@@ -17122,7 +17122,7 @@
 24	tomá	_	VERB	VB	_	23	xcomp	_	SpaceAfter=No
 25	-	_	PUNCT	-	_	26	punct	_	SpaceAfter=No
 26	la	_	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obj	_	_
-27	porque	_	ADP	IN	_	30	mark	_	_
+27	porque	_	SCONJ	IN	_	30	mark	_	_
 28	era	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	30	aux	_	_
 29	fortemente	_	ADV	RB	_	30	advmod	_	_
 30	protegida	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Sing	23	advcl	_	_
@@ -17306,7 +17306,7 @@
 16	crescimento	_	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	_
 17	econômico	_	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
 18-19	à	_	_	_	_	_	_	_	_
-18	a	a	ADP	INDT	_	26	mark	_	_
+18	a	a	SCONJ	INDT	_	26	mark	_	_
 19	a	o	DET	_	Gender=Fem|Number=Sing	18	fixed	_	_
 20	medida	_	NOUN	NN	Gender=Fem|Number=Sing	18	fixed	_	_
 21	que	_	ADP	IN	_	18	fixed	_	_
@@ -17515,7 +17515,7 @@
 17	que	_	ADP	IN	_	15	fixed	_	_
 18	se	_	PRON	SE	Person=3	19	expl:pv	_	_
 19	pensava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	advcl	_	_
-20	que	_	ADP	IN	_	23	mark	_	_
+20	que	_	SCONJ	IN	_	23	mark	_	_
 21	os	_	DET	DT	Gender=Masc|Number=Plur	22	det	_	_
 22	clássicos	_	NOUN	NN	Gender=Masc|Number=Plur	23	nsubj	_	_
 23	forneciam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	19	ccomp	_	_
@@ -17634,7 +17634,7 @@
 # sent_id = w01089068
 # text = Como a Grécia enviou colônias para oeste em direção à Sicília e Itália (Pithekoussae, Cumae), a influência do seu novo alfabeto se estendeu ainda mais.
 # text_en = As Greece sent out colonies west towards Sicily and Italy (Pithekoussae, Cumae), the influence of their new alphabet extended further.
-1	Como	_	ADP	IN	_	4	mark	_	_
+1	Como	_	SCONJ	IN	_	4	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	Grécia	_	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	enviou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	29	advcl	_	_
@@ -18205,7 +18205,7 @@
 7	Weller	_	PROPN	NNP	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 8	,	_	PUNCT	,	_	5	punct	_	_
 9	afirmam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-10	que	_	ADP	IN	_	16	mark	_	_
+10	que	_	SCONJ	IN	_	16	mark	_	_
 11	a	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	cavalaria	_	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
 13	pesada	_	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
@@ -18476,7 +18476,7 @@
 8	comércio	_	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 9	e	_	CCONJ	CC	_	10	cc	_	_
 10	permitiu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	conj	_	_
-11	que	_	ADP	IN	_	14	mark	_	_
+11	que	_	SCONJ	IN	_	14	mark	_	_
 12	os	_	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
 13	estrangeiros	_	NOUN	NN	Gender=Masc|Number=Plur	14	nsubj	_	_
 14	viajassem	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past	10	ccomp	_	_
@@ -18612,7 +18612,7 @@
 1	De	_	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Gaulle	_	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
 3	informou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	6	mark	_	_
+4	que	_	SCONJ	IN	_	6	mark	_	_
 5	não	_	ADV	RB	Polarity=Neg	6	advmod	_	_
 6	haveria	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	3	ccomp	_	_
 7	demonstrações	_	NOUN	NN	Gender=Fem|Number=Plur	6	obj	_	_
@@ -18693,7 +18693,7 @@
 6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	guerra	_	NOUN	NN	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 8	;	_	PUNCT	,	_	20	punct	_	_
-9	embora	_	ADP	IN	_	13	mark	_	_
+9	embora	_	SCONJ	IN	_	13	mark	_	_
 10	alguns	_	DET	DT	Gender=Masc|Number=Plur	11	det	_	_
 11	B-29s	_	NOUN	NN	Gender=Masc|Number=Plur	13	nsubj	_	Proper=True
 12	estivessem	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Past	13	aux	_	_
@@ -18784,7 +18784,7 @@
 15	o	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	GCA	_	PROPN	NNP	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	permite	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-18	que	_	ADP	IN	_	24	mark	_	_
+18	que	_	SCONJ	IN	_	24	mark	_	_
 19	os	_	DET	DT	Gender=Masc|Number=Plur	20	det	_	_
 20	operadores	_	NOUN	NN	Gender=Masc|Number=Plur	24	nsubj	_	_
 21	de	_	ADP	IN	_	22	case	_	_
@@ -18844,7 +18844,7 @@
 2	tão	_	ADV	RB	_	4	advmod	_	_
 3	bem	_	ADV	RB	_	4	advmod	_	_
 4	sucedido	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-5	que	_	ADP	IN	_	10	mark	_	_
+5	que	_	SCONJ	IN	_	10	mark	_	_
 6	os	_	DET	DT	Gender=Masc|Number=Plur	7	det	_	_
 7	militares	_	NOUN	NN	Gender=Masc|Number=Plur	10	nsubj	_	_
 8	continuaram	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	10	aux	_	_
@@ -19131,7 +19131,7 @@
 4	,	_	PUNCT	,	_	3	punct	_	_
 5	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	aux:pass	_	_
 6	insinuado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-7	que	_	ADP	IN	_	11	mark	_	_
+7	que	_	SCONJ	IN	_	11	mark	_	_
 8	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 9	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
 10	um	_	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
@@ -19175,7 +19175,7 @@
 5	,	_	PUNCT	,	_	6	punct	_	_
 6	Elaine	_	PROPN	NNP	Gender=Fem|Number=Sing	4	appos	_	SpaceAfter=No
 7	,	_	PUNCT	,	_	6	punct	_	_
-8	enquanto	_	ADP	IN	_	9	mark	_	_
+8	enquanto	_	SCONJ	IN	_	9	mark	_	_
 9	filmava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	advcl	_	_
 10	That	_	PROPN	NNP	Gender=Masc|Number=Sing	9	obj	_	_
 11	Summer	_	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	10	flat	_	_
@@ -19214,7 +19214,7 @@
 2	Disney	_	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	também	_	ADV	RB	_	4	advmod	_	_
 4	descobriu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	que	_	ADP	IN	_	8	mark	_	_
+5	que	_	SCONJ	IN	_	8	mark	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	Universal	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	Proper=True
 8	detinha	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	ccomp	_	_
@@ -19344,7 +19344,7 @@
 6	,	_	PUNCT	,	_	1	punct	_	_
 7	Jokowi	_	PROPN	NNP	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	procurou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-9	que	_	ADP	IN	_	17	mark	_	_
+9	que	_	SCONJ	IN	_	17	mark	_	_
 10	o	_	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	presidente	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
 12	de	_	ADP	IN	_	13	case	_	_
@@ -19388,7 +19388,7 @@
 3	oficial	_	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	também	_	ADV	RB	_	5	advmod	_	_
 5	afirma	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	que	_	ADP	IN	_	8	mark	_	_
+6	que	_	SCONJ	IN	_	8	mark	_	_
 7	Kim	_	PROPN	NNP	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	compôs	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	_
 9	seis	_	NUM	CD	_	10	nummod	_	_
@@ -19588,7 +19588,7 @@
 7	de	_	ADP	IN	_	8	case	_	_
 8	Tolle	_	PROPN	NNP	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	13	punct	_	_
-10	enquanto	_	ADP	IN	_	13	mark	_	_
+10	enquanto	_	SCONJ	IN	_	13	mark	_	_
 11	outros	_	NOUN	NN	Gender=Masc|Number=Plur	13	nsubj	_	_
 12	os	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Plur|Person=3	13	obj	_	_
 13	elogiam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	advcl	_	SpaceAfter=No
@@ -20005,7 +20005,7 @@
 15	os	o	DET	_	Gender=Masc|Number=Plur	16	det	_	_
 16	Comuns	_	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	Proper=True
 17	decidir	_	VERB	VB	_	10	xcomp	_	_
-18	que	_	ADP	IN	_	23	mark	_	_
+18	que	_	SCONJ	IN	_	23	mark	_	_
 19	a	_	DET	PDT	Gender=Fem|Number=Sing	21	det:predet	_	_
 20	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	candidatura	_	NOUN	NN	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -20032,7 +20032,7 @@
 8	1770	_	NUM	CD	Gender=Masc	6	obl	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	10	punct	_	_
 10	permitindo	_	VERB	VBG	Aspect=Imp	6	acl	_	_
-11	que	_	ADP	IN	_	18	mark	_	_
+11	que	_	SCONJ	IN	_	18	mark	_	_
 12	os	_	DET	DT	Gender=Masc|Number=Plur	13	det	_	_
 13	Tories	_	PROPN	NNP	Gender=Masc|Number=Plur	18	nsubj	_	_
 14	liderados	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	13	acl	_	_
@@ -20556,7 +20556,7 @@
 12	e	_	CCONJ	CC	_	13	cc	_	_
 13	Uaxactun	_	PROPN	NNP	Gender=Masc|Number=Sing	11	conj	_	_
 14	permitiram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-15	que	_	ADP	IN	_	19	mark	_	_
+15	que	_	SCONJ	IN	_	19	mark	_	_
 16	esses	_	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	locais	_	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj	_	_
 18	se	_	PRON	SE	Person=3	19	expl:pv	_	_
@@ -20581,7 +20581,7 @@
 3	de	_	ADP	IN	_	4	case	_	_
 4	Thompson	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
 5	pressupõe	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	que	_	ADP	IN	_	16	mark	_	_
+6	que	_	SCONJ	IN	_	16	mark	_	_
 7	os	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	maias	_	NOUN	NN	Gender=Masc|Number=Plur	16	nsubj	_	_
 9	eram	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	16	cop	_	SpaceAfter=No
@@ -20633,7 +20633,7 @@
 20	,	_	PUNCT	,	_	19	punct	_	_
 21	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	aux:pass	_	_
 22	teorizado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	5	parataxis	_	_
-23	que	_	ADP	IN	_	35	mark	_	_
+23	que	_	SCONJ	IN	_	35	mark	_	_
 24	as	_	DET	DT	Gender=Fem|Number=Plur	25	det	_	_
 25	canoas	_	NOUN	NN	Gender=Fem|Number=Plur	35	nsubj	_	_
 26	foram	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	35	cop	_	SpaceAfter=No
@@ -21134,7 +21134,7 @@
 10	em	em	ADP	INDT	_	12	case	_	_
 11	o	o	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	quarto	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
-13	enquanto	_	ADP	IN	_	17	mark	_	_
+13	enquanto	_	SCONJ	IN	_	17	mark	_	_
 14	Piaf	_	PROPN	NNP	Gender=Fem|Number=Sing	17	nsubj	_	_
 15	e	_	CCONJ	CC	_	16	cc	_	_
 16	Mômone	_	PROPN	NNP	Gender=Fem|Number=Sing	14	conj	_	_
@@ -21208,7 +21208,7 @@
 9	Irène	_	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	_
 10	Joliot-Curie	_	PROPN	NNP	Gender=Fem|Number=Sing	9	flat:name	_	_
 11	sugerindo	_	VERB	VBG	Aspect=Imp	7	acl	_	_
-12	que	_	ADP	IN	_	14	mark	_	_
+12	que	_	SCONJ	IN	_	14	mark	_	_
 13	Rona	_	PROPN	NNP	Gender=Fem|Number=Sing	14	nsubj	_	_
 14	trabalhasse	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	11	ccomp	_	_
 15	com	_	ADP	IN	_	16	case	_	_
@@ -21249,7 +21249,7 @@
 15	,	_	PUNCT	,	_	6	punct	_	_
 16	Joliot-Curie	_	PROPN	NNP	Gender=Fem|Number=Sing	17	nsubj	_	_
 17	permitiu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-18	que	_	ADP	IN	_	21	mark	_	_
+18	que	_	SCONJ	IN	_	21	mark	_	_
 19	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
 20	fosse	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	21	aux	_	_
 21	estudar	_	VERB	VB	_	17	ccomp	_	_
@@ -21418,7 +21418,7 @@
 # sent_id = w01142013
 # text = Quando sua filha Cecília se casou com Ricardo Plantageneta, o 3º Duque de York, e teve vários filhos, incluindo Eduardo IV e Ricardo III, Joana se tornou avó de dois reis da dinastia York de Inglaterra.
 # text_en = When their daughter Cecily married Richard Plantagenet, the 3rd Duke of York, and had several offspring, including Edward IV and Richard III, Joan became the grandmother of two York kings of England.
-1	Quando	_	ADP	IN	_	6	mark	_	_
+1	Quando	_	SCONJ	IN	_	6	mark	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	filha	_	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	Cecília	_	PROPN	NNP	Gender=Fem|Number=Sing	3	appos	_	_
@@ -21687,14 +21687,14 @@
 # text_en = Reagan believed that God had spared his life so that he might go on to fulfill a greater purpose.
 1	Reagan	_	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	acreditava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	que	_	ADP	IN	_	6	mark	_	_
+3	que	_	SCONJ	IN	_	6	mark	_	_
 4	Deus	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	Proper=True
 5	tinha	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux	_	_
 6	poupado	_	VERB	VBN	Aspect=Perf	2	ccomp	_	_
 7	a	_	DET	PDT	Gender=Fem|Number=Sing	9	det:predet	_	_
 8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	vida	_	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
-10	para	_	ADP	IN	_	14	mark	_	_
+10	para	_	SCONJ	IN	_	14	mark	_	_
 11	que	_	ADP	IN	_	10	fixed	_	_
 12	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 13	pudesse	_	AUX	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	14	aux	_	_
@@ -21804,7 +21804,7 @@
 8	Stephen	_	PROPN	NNP	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
 9	"	_	PUNCT	''	_	8	punct	_	_
 10	juntos	_	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	_
-11	quando	_	ADP	IN	_	13	mark	_	_
+11	quando	_	SCONJ	IN	_	13	mark	_	_
 12	Kesha	_	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj	_	_
 13	tinha	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	advcl	_	_
 14	16	_	NUM	CD	_	15	nummod	_	_
@@ -21878,7 +21878,7 @@
 12	recusou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	conj	_	_
 13	a	_	ADP	IN	_	14	case	_	_
 14	acreditar	_	VERB	VB	_	12	xcomp	_	_
-15	que	_	ADP	IN	_	18	mark	_	_
+15	que	_	SCONJ	IN	_	18	mark	_	_
 16	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
 17	não	_	ADV	RB	Polarity=Neg	18	advmod	_	_
 18	queria	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	14	ccomp	_	_
@@ -22048,7 +22048,7 @@
 4	isso	este	DET	_	Gender=Masc|Number=Sing	6	discourse	_	_
 5	,	_	PUNCT	,	_	4	punct	_	_
 6	decidiram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-7	que	_	ADP	IN	_	10	mark	_	_
+7	que	_	SCONJ	IN	_	10	mark	_	_
 8	a	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	Albânia	_	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 10	estaria	_	VERB	VBC	Aspect=Imp|Mood=Cnd|Number=Sing|Person=3	6	ccomp	_	_
@@ -22070,7 +22070,7 @@
 2	de	_	ADP	IN	_	4	case	_	_
 3	ficar	_	AUX	VB	_	4	cop	_	_
 4	óbvio	_	ADJ	JJ	Gender=Masc|Number=Sing	1	xcomp	_	_
-5	que	_	ADP	IN	_	9	mark	_	_
+5	que	_	SCONJ	IN	_	9	mark	_	_
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	Império	_	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	Proper=True
 8	Otomano	_	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	Proper=True
@@ -22091,7 +22091,7 @@
 23	Grandes	_	ADJ	JJ	Gender=Fem|Number=Plur	24	amod	_	_
 24	Potências	_	NOUN	NN	Gender=Fem|Number=Plur	25	nsubj	_	_
 25	perceberam	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-26	que	_	ADP	IN	_	29	mark	_	_
+26	que	_	SCONJ	IN	_	29	mark	_	_
 27	tinham	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	29	aux	_	_
 28	que	_	ADP	IN	_	27	fixed	_	_
 29	mudar	_	VERB	VB	_	25	ccomp	_	_
@@ -22307,7 +22307,7 @@
 23	braços	_	NOUN	NN	Gender=Masc|Number=Plur	21	obj	_	_
 24	e	_	CCONJ	CC	_	25	cc	_	_
 25	assistiram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	21	conj	_	_
-26	enquanto	_	ADP	IN	_	29	mark	_	_
+26	enquanto	_	SCONJ	IN	_	29	mark	_	_
 27	um	_	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
 28	aposentado	_	NOUN	NN	Gender=Masc|Number=Sing	29	nsubj	_	_
 29	morria	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	25	ccomp	_	_
@@ -22326,7 +22326,7 @@
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	possibilidade	_	NOUN	NN	Gender=Fem|Number=Sing	4	obj	_	_
 7	de	_	ADP	IN	_	12	case	_	_
-8	que	_	ADP	IN	_	12	mark	_	_
+8	que	_	SCONJ	IN	_	12	mark	_	_
 9	outros	_	NOUN	NN	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 10	também	_	ADV	RB	_	12	advmod	_	_
 11	seriam	_	AUX	VBC	Aspect=Imp|Mood=Cnd|Number=Plur|Person=3	12	aux:pass	_	_
@@ -22337,7 +22337,7 @@
 # sent_id = n02016006
 # text = Porque a série 1 não é a mais antiga, muitos usuários conseguem economizar 100 Euros.
 # text_en = Because series 1 is no longer the old one, many users can save 100 euros.
-1	Porque	_	ADP	IN	_	9	mark	_	_
+1	Porque	_	SCONJ	IN	_	9	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	série	_	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	_
 4	1	_	NUM	CD	Gender=Masc	3	appos	_	_
@@ -22409,12 +22409,12 @@
 2	estudo	_	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	sueco	_	ADJ	JJ	Gender=Masc|Number=Sing	2	amod	_	_
 4	demonstrou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	que	_	ADP	IN	_	8	mark	_	_
+5	que	_	SCONJ	IN	_	8	mark	_	_
 6	animais	_	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj	_	_
 7	raramente	_	ADV	RB	_	8	advmod	_	_
 8	pousam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	ccomp	_	SpaceAfter=No
 9	,	_	PUNCT	,	_	12	punct	_	_
-10	se	_	ADP	IN	_	12	mark	_	_
+10	se	_	SCONJ	IN	_	12	mark	_	_
 11	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
 12	fazem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	advcl	_	SpaceAfter=No
 13	,	_	PUNCT	,	_	14	punct	_	_
@@ -22573,7 +22573,7 @@
 # sent_id = n02031071
 # text = Se um empregado turco se demite, vem, então, o conselho do trabalho.
 # text_en = If a Turkish employee quits, then the Turkish work councils come.
-1	Se	_	ADP	IN	_	6	mark	_	_
+1	Se	_	SCONJ	IN	_	6	mark	_	_
 2	um	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	empregado	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
 4	turco	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
@@ -22690,7 +22690,7 @@
 5	bruxas	_	NOUN	NN	Gender=Fem|Number=Plur	2	nmod	_	_
 6	começa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 7	finalmente	_	ADV	RB	_	6	advmod	_	_
-8	quando	_	ADP	IN	_	13	mark	_	_
+8	quando	_	SCONJ	IN	_	13	mark	_	_
 9	o	_	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	teclado	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 11	assustador	_	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
@@ -22754,7 +22754,7 @@
 # text_en = That is because each and every miracle and each specialized district occupies an entire field.
 1	Isso	_	PRON	PDEM	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	é	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	porque	_	ADP	IN	_	12	mark	_	_
+3	porque	_	SCONJ	IN	_	12	mark	_	_
 4	todo	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 5	e	_	CCONJ	CC	_	6	cc	_	_
 6	cada	_	DET	DT	Gender=Masc|Number=Sing	4	conj	_	_
@@ -23045,7 +23045,7 @@
 8	maneiras	_	NOUN	NN	Gender=Fem|Number=Plur	4	obl	_	_
 9	inimitáveis	_	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	8	punct	_	_
-11	se	_	ADP	IN	_	13	mark	_	_
+11	se	_	SCONJ	IN	_	13	mark	_	_
 12	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
 13	conhecia	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past	4	ccomp	_	_
 14	o	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
@@ -23054,7 +23054,7 @@
 17	de	_	ADP	IN	_	18	case	_	Proper=True
 18	Bruyn	_	PROPN	NNP	Gender=Masc|Number=Sing	16	nmod	_	_
 19	e	_	CCONJ	CC	_	23	cc	_	_
-20	se	_	ADP	IN	_	23	mark	_	_
+20	se	_	SCONJ	IN	_	23	mark	_	_
 21	nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	23	nsubj	_	_
 22	somos	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres	23	cop	_	_
 23	familiares	_	NOUN	NN	Gender=Masc|Number=Plur	13	conj	_	_
@@ -23083,12 +23083,12 @@
 14	a	a	ADP	INDT	_	16	case	_	_
 15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	SPIEGEL	_	PROPN	NNP	Gender=Masc|Number=Sing	13	obl	_	_
-17	que	_	ADP	IN	_	20	mark	_	_
+17	que	_	SCONJ	IN	_	20	mark	_	_
 18	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
 19	está	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	aux	_	_
 20	convencido	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	13	ccomp	_	_
 21	de	_	ADP	IN	_	27	case	_	_
-22	que	_	ADP	IN	_	27	mark	_	_
+22	que	_	SCONJ	IN	_	27	mark	_	_
 23	um	_	NUM	CD	Gender=Masc	27	nsubj	_	_
 24-25	dos	_	_	_	_	_	_	_	_
 24	de	de	ADP	INDT	_	26	case	_	_
@@ -23437,7 +23437,7 @@
 22	só	_	ADV	RB	_	24	advmod	_	_
 23	serão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut	24	aux:pass	_	_
 24	ativados	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	6	parataxis	_	_
-25	se	_	ADP	IN	_	37	mark	_	SpaceAfter=No
+25	se	_	SCONJ	IN	_	37	mark	_	SpaceAfter=No
 26	,	_	PUNCT	,	_	27	punct	_	_
 27	por	_	ADP	IN	_	37	discourse	_	_
 28	exemplo	_	NOUN	NN	Gender=Masc|Number=Sing	27	fixed	_	SpaceAfter=No
@@ -23512,7 +23512,7 @@
 3	de	_	ADP	IN	_	5	case	_	_
 4	se	_	PRON	SE	Person=3	5	expl:pv	_	_
 5	admirar	_	VERB	VB	_	2	xcomp	_	_
-6	que	_	ADP	IN	_	12	mark	_	_
+6	que	_	SCONJ	IN	_	12	mark	_	_
 7	os	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	Governos	_	NOUN	NN	Gender=Masc|Number=Plur	12	nsubj	_	_
 9	Federal	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
@@ -23576,7 +23576,7 @@
 # sent_id = n03001019
 # text = Se a adversária democrata for eleita, ele garantiu que ela "sofrerá anos de investigações".
 # text_en = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
-1	Se	_	ADP	IN	_	6	mark	_	_
+1	Se	_	SCONJ	IN	_	6	mark	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	adversária	_	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 4	democrata	_	ADJ	JJ	Gender=Fem|Number=Sing	3	amod	_	_
@@ -23585,7 +23585,7 @@
 7	,	_	PUNCT	,	_	6	punct	_	_
 8	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	garantiu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-10	que	_	ADP	IN	_	13	mark	_	_
+10	que	_	SCONJ	IN	_	13	mark	_	_
 11	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 12	"	_	PUNCT	``	_	13	punct	_	SpaceAfter=No
 13	sofrerá	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	9	ccomp	_	_
@@ -23598,7 +23598,7 @@
 # sent_id = n03001023
 # text = Se alguém não sabe lidar com uma conta do Twitter, eles não sabem lidar com códigos nucleares, Obama brincou.
 # text_en = "If somebody can't handle a Twitter account, they can't handle the nuclear codes," Obama mocked.
-1	Se	_	ADP	IN	_	4	mark	_	_
+1	Se	_	SCONJ	IN	_	4	mark	_	_
 2	alguém	_	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	não	_	ADV	RB	Polarity=Neg	4	advmod	_	_
 4	sabe	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
@@ -23979,7 +23979,7 @@
 4	problemático	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	9	punct	_	_
 6	primeiramente	_	ADV	RB	_	9	advmod	_	_
-7	porque	_	ADP	IN	_	9	mark	_	_
+7	porque	_	SCONJ	IN	_	9	mark	_	_
 8	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	9	aux:pass	_	_
 9	desenvolvido	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	4	advcl	_	_
 10	"	_	PUNCT	``	_	13	punct	_	SpaceAfter=No
@@ -24127,7 +24127,7 @@
 1	Ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	também	_	ADV	RB	_	3	advmod	_	_
 3	comentou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	que	_	ADP	IN	_	12	mark	_	_
+4	que	_	SCONJ	IN	_	12	mark	_	_
 5	"	_	PUNCT	``	_	12	punct	_	SpaceAfter=No
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	existência	_	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -24303,7 +24303,7 @@
 1	É	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 2	difícil	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 3	pensar	_	VERB	VB	_	2	csubj	_	_
-4	que	_	ADP	IN	_	7	mark	_	_
+4	que	_	SCONJ	IN	_	7	mark	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
 6	Itália	_	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
 7	tem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	ccomp	_	_
@@ -24321,7 +24321,7 @@
 # text_en = It has been emphasised that we absolutely cannot continue with those who are completely against Italy.
 1	Foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	aux:pass	_	_
 2	reinforçado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
-3	que	_	ADP	IN	_	8	mark	_	_
+3	que	_	SCONJ	IN	_	8	mark	_	_
 4	nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
 5	absolutamente	_	ADV	RB	_	8	advmod	_	_
 6	não	_	ADV	RB	Polarity=Neg	8	advmod	_	_
@@ -24343,7 +24343,7 @@
 1	Nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
 2	iremos	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut	3	aux	_	_
 3	avaliar	_	VERB	VB	_	0	root	_	_
-4	se	_	ADP	IN	_	7	mark	_	_
+4	se	_	SCONJ	IN	_	7	mark	_	_
 5	e	_	CCONJ	CC	_	6	cc	_	_
 6	como	_	ADV	WRB	_	4	conj	_	_
 7	continuar	_	VERB	VB	_	3	ccomp	_	_
@@ -24454,7 +24454,7 @@
 7	em	_	ADP	IN	_	9	case	_	_
 8	uma	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	nota	_	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
-10	que	_	ADP	IN	_	12	mark	_	_
+10	que	_	SCONJ	IN	_	12	mark	_	_
 11	não	_	ADV	RB	Polarity=Neg	12	advmod	_	_
 12	haverá	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	6	ccomp	_	_
 13	aumento	_	NOUN	NN	Gender=Masc|Number=Sing	12	obj	_	_
@@ -24517,7 +24517,7 @@
 15	em	em	ADP	PRP	_	17	iobj	_	_
 16	os	o	DET	_	Case=Dat|Number=Plur|Person=1	15	det	_	_
 17	dizem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	conj	_	_
-18	que	_	ADP	IN	_	21	mark	_	_
+18	que	_	SCONJ	IN	_	21	mark	_	_
 19	nosso	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	20	det	_	_
 20	diesel	_	NOUN	NN	Gender=Masc|Number=Sing	21	nsubj	_	_
 21	custa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	ccomp	_	_
@@ -24607,7 +24607,7 @@
 # sent_id = n04007015
 # text = Como afirmado, a decisão é a prerrogativa de ECB e iria parecer inapropriado para o Banco falar em seu próprio nome, excluindo a possibilidade de avaliar outras alternativas.
 # text_en = As stated, the decision is the prerogative of the ECB and would appear inappropriate for the Bank to speak on its behalf by excluding the possibility of looking at other alternatives.
-1	Como	_	ADP	IN	_	2	mark	_	_
+1	Como	_	SCONJ	IN	_	2	mark	_	_
 2	afirmado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
 4	a	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
@@ -24923,7 +24923,7 @@
 14	mais	_	ADJ	JJS	Gender=Masc|Number=Plur	15	amod	_	_
 15	conservadores	_	NOUN	NN	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
 16	,	_	PUNCT	,	_	30	punct	_	_
-17	enquanto	_	ADP	IN	_	30	mark	_	_
+17	enquanto	_	SCONJ	IN	_	30	mark	_	_
 18	líderes	_	NOUN	NN	Gender=Masc|Number=Plur	30	nsubj	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	21	case	_	_
@@ -25090,7 +25090,7 @@
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	Defesa	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	Proper=True
 6	permitiu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	que	_	ADP	IN	_	9	mark	_	_
+7	que	_	SCONJ	IN	_	9	mark	_	_
 8	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
 9	permanecesse	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Past	6	ccomp	_	_
 10	como	_	ADP	IN	_	11	case	_	_
@@ -25113,7 +25113,7 @@
 2	fontes	_	NOUN	NN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	consultadas	_	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
 4	afirmaram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
-5	que	_	ADP	IN	_	10	mark	_	_
+5	que	_	SCONJ	IN	_	10	mark	_	_
 6	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 7	"	_	PUNCT	``	_	10	punct	_	SpaceAfter=No
 8	100	_	NUM	CD	_	9	nummod	_	SpaceAfter=No
@@ -25187,7 +25187,7 @@
 12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	programa	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14	Évole	_	PROPN	NNP	Gender=Masc|Number=Sing	13	appos	_	_
-15	que	_	ADP	IN	_	20	mark	_	_
+15	que	_	SCONJ	IN	_	20	mark	_	_
 16	a	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
 17	Espanha	_	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	_
 18	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	20	cop	_	_
@@ -25340,7 +25340,7 @@
 # text_en = He believes that nobody waiting for us waits for us.
 1	Ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	acredita	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-3	que	_	ADP	IN	_	8	mark	_	_
+3	que	_	SCONJ	IN	_	8	mark	_	_
 4	ninguém	_	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	esperando	_	VERB	VBG	Aspect=Imp	4	acl	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
@@ -25357,7 +25357,7 @@
 2	seja	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	por	_	ADP	IN	_	4	case	_	_
 4	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	2	obl	_	_
-5	que	_	ADP	IN	_	10	mark	_	_
+5	que	_	SCONJ	IN	_	10	mark	_	_
 6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	aumento	_	NOUN	NN	Gender=Masc|Number=Sing	10	nsubj	_	_
 8	de	_	ADP	IN	_	9	case	_	_
@@ -25369,7 +25369,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	ele	ele	PRON	INP	Gender=Masc|Number=Sing|Person=3	12	obj	_	_
 15	,	_	PUNCT	,	_	22	punct	_	_
-16	enquanto	_	ADP	IN	_	22	mark	_	_
+16	enquanto	_	SCONJ	IN	_	22	mark	_	_
 17	a	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	sílaba	_	NOUN	NN	Gender=Fem|Number=Sing	22	nsubj	_	_
 19-20	do	_	_	_	_	_	_	_	_
@@ -25404,7 +25404,7 @@
 10	mente	_	NOUN	NN	Gender=Fem|Number=Sing	7	conj	_	_
 11	clara	_	ADJ	JJ	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	15	punct	_	_
-13	pois	_	ADP	IN	_	15	mark	_	_
+13	pois	_	SCONJ	IN	_	15	mark	_	_
 14	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	15	nsubj	_	_
 15	formam	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	advcl	_	_
 16	a	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
@@ -25446,7 +25446,7 @@
 2	votação	_	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	antecipada	_	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 4	sugere	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-5	que	_	ADP	IN	_	12	mark	_	_
+5	que	_	SCONJ	IN	_	12	mark	_	_
 6-7	desta	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
 7	esta	este	DET	_	Gender=Fem|Number=Sing	8	det	_	_
@@ -25462,7 +25462,7 @@
 17	mas	_	CCONJ	CC	_	19	cc	_	_
 18	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	cop	_	_
 19	incerto	_	ADJ	JJ	Gender=Masc|Number=Sing	12	conj	_	_
-20	se	_	ADP	IN	_	23	mark	_	_
+20	se	_	SCONJ	IN	_	23	mark	_	_
 21	o	_	DET	DT	Gender=Masc|Number=Sing	22	det	_	_
 22	aumento	_	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
 23	terá	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	19	csubj	_	_
@@ -26039,7 +26039,7 @@
 8	transportados	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Plur	4	xcomp	_	_
 9	adiante	_	ADV	RB	_	8	advmod	_	SpaceAfter=No
 10	,	_	PUNCT	,	_	13	punct	_	_
-11	porque	_	ADP	IN	_	13	mark	_	_
+11	porque	_	SCONJ	IN	_	13	mark	_	_
 12	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	13	nsubj	_	_
 13	tinham	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	3	advcl	_	_
 14	uma	_	DET	DT	Gender=Fem|Number=Sing	16	det	_	_
@@ -27952,7 +27952,7 @@
 3	David	_	PROPN	NNP	Gender=Masc|Number=Sing	2	appos	_	_
 4	Crouch	_	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	_
 5	sugere	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-6	que	_	ADP	IN	_	8	mark	_	_
+6	que	_	SCONJ	IN	_	8	mark	_	_
 7	Stephen	_	PROPN	NNP	Gender=Masc|Number=Sing	8	nsubj	_	_
 8	abandonou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	_
 9	o	_	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
@@ -28038,7 +28038,7 @@
 # sent_id = w04007021
 # text = Embora não solucionadora do conflito, a vitória francesa na Batalha de Marengo forçou os austríacos a desistir da Itália pela segunda vez.
 # text_en = Although not a resolver of the conflict, the French victory at the Battle of Marengo forced the Austrians to give Italy up for the second time.
-1	Embora	_	ADP	IN	_	3	mark	_	_
+1	Embora	_	SCONJ	IN	_	3	mark	_	_
 2	não	_	ADV	RB	Polarity=Neg	3	advmod	_	_
 3	solucionadora	_	NOUN	NN	Gender=Fem|Number=Sing	16	advcl	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -28100,7 +28100,7 @@
 20	britânicas	_	ADJ	JJ	Gender=Fem|Number=Plur	19	amod	_	SpaceAfter=No
 21	,	_	PUNCT	,	_	27	punct	_	_
 22	também	_	ADV	RB	_	27	advmod	_	_
-23	porque	_	ADP	IN	_	27	mark	_	_
+23	porque	_	SCONJ	IN	_	27	mark	_	_
 24	novos	_	ADJ	JJ	Gender=Masc|Number=Plur	25	amod	_	_
 25	desenvolvimentos	_	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	_
 26	estavam	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	27	aux	_	_
@@ -28182,7 +28182,7 @@
 3	disse	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	a	_	ADP	IN	_	5	case	_	_
 5	ele	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	3	obl	_	_
-6	que	_	ADP	IN	_	13	mark	_	_
+6	que	_	SCONJ	IN	_	13	mark	_	_
 7	uma	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	guerra	_	NOUN	NN	Gender=Fem|Number=Sing	13	nsubj	_	_
 9	entre	_	ADP	IN	_	12	case	_	_
@@ -28205,7 +28205,7 @@
 26	por	_	ADP	IN	_	28	case	_	_
 27	esta	_	DET	DT	Gender=Fem|Number=Sing	28	det	_	_
 28	razão	_	NOUN	NN	Gender=Fem|Number=Sing	25	obl	_	_
-29	que	_	ADP	IN	_	36	mark	_	_
+29	que	_	SCONJ	IN	_	36	mark	_	_
 30	Olívia	_	PROPN	NNP	Gender=Fem|Number=Sing	36	nsubj:pass	_	SpaceAfter=No
 31	,	_	PUNCT	,	_	33	punct	_	_
 32	entre	_	ADP	IN	_	33	case	_	_
@@ -28417,7 +28417,7 @@
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	tradição	_	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	diz	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-4	que	_	ADP	IN	_	8	mark	_	_
+4	que	_	SCONJ	IN	_	8	mark	_	_
 5	o	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
 6	tema	_	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 7	foi	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux:pass	_	_
@@ -28729,7 +28729,7 @@
 12	apoiaram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	2	parataxis	_	_
 13	os	_	DET	DT	Gender=Masc|Number=Plur	14	det	_	_
 14	britânicos	_	NOUN	NN	Gender=Masc|Number=Plur	12	obj	_	_
-15	porque	_	ADP	IN	_	19	mark	_	_
+15	porque	_	SCONJ	IN	_	19	mark	_	_
 16	os	_	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	colonizadores	_	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj	_	_
 18	estavam	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
@@ -28878,7 +28878,7 @@
 2	o	o	DET	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	entanto	_	NOUN	NN	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
 4	,	_	PUNCT	,	_	1	punct	_	_
-5	se	_	ADP	IN	_	11	mark	_	_
+5	se	_	SCONJ	IN	_	11	mark	_	_
 6	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	lei	_	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 8	inglesa	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
@@ -29063,7 +29063,7 @@
 18	ato	_	NOUN	NN	Gender=Masc|Number=Sing	12	parataxis	_	_
 19	que	_	PRON	WP	_	25	nsubj	_	SpaceAfter=No
 20	,	_	PUNCT	,	_	23	punct	_	_
-21	como	_	ADP	IN	_	23	mark	_	_
+21	como	_	SCONJ	IN	_	23	mark	_	_
 22	era	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	23	cop	_	_
 23	previsível	_	ADJ	JJ	Gender=Masc|Number=Sing	25	advcl	_	SpaceAfter=No
 24	,	_	PUNCT	,	_	23	punct	_	_
@@ -29137,7 +29137,7 @@
 # text = Mas quando o Senado lhe respondeu com autoridade, proibindo-lhe de competir no consulado geral e oferecendo-lhe a opção de ou retirar suas tropas ou se tornar um inimigo público, ele entendeu que qualquer alternativa que ele escolhesse, ele se entregaria desarmado nas mãos dos seus inimigos políticos.
 # text_en = But when the Senate answered him definitively by prohibiting him from competing at the consolate and giving him the option of either withdrawing his troops or becoming a public enemy, he understood that, whatever alternative he chose, he would surrender unarmed into the hands of his political enemies.
 1	Mas	_	CCONJ	CC	_	38	discourse	_	_
-2	quando	_	ADP	IN	_	6	mark	_	_
+2	quando	_	SCONJ	IN	_	6	mark	_	_
 3	o	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
 4	Senado	_	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	Proper=True
 5	lhe	_	PRON	PRP	Case=Dat|Number=Sing|Person=3	6	iobj	_	_
@@ -29175,7 +29175,7 @@
 36	,	_	PUNCT	,	_	6	punct	_	_
 37	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	nsubj	_	_
 38	entendeu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-39	que	_	ADP	IN	_	49	mark	_	_
+39	que	_	SCONJ	IN	_	49	mark	_	_
 40	qualquer	_	DET	DT	Gender=Fem|Number=Sing	41	det	_	_
 41	alternativa	_	NOUN	NN	Gender=Fem|Number=Sing	49	dep	_	_
 42	que	_	PRON	WP	_	44	obj	_	_

@@ -38,6 +38,7 @@ employ ten-fold cross-validation.
 
 * 2020-11-15 v2.7
   * Auxiliary verbs tagged AUX instead of VERB.
+  * Subordinating conjunctions tagged SCONJ instead of ADP.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
