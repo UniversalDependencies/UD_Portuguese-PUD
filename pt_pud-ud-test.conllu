@@ -14,8 +14,8 @@
 9-10	nos	_	_	_	_	_	_	_	_
 9	em	em	ADP	INDT	_	11	case	_	_
 10	os	o	DET	_	Gender=Masc|Number=Plur	11	det	_	_
-11	Estados	_	NOUN	NN	Gender=Masc|Number=Plur	4	nmod	_	Proper=True
-12	Unidos	_	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	Proper=True
+11	Estados	_	PROPN	NN	Gender=Masc|Number=Plur	4	nmod	_	_
+12	Unidos	_	PROPN	JJ	Gender=Masc|Number=Plur	11	flat:name	_	_
 13	seja	_	VERB	VBC	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres	24	advcl	_	_
 14	sem	_	ADP	IN	_	15	case	_	_
 15	precedentes	_	NOUN	NN	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
@@ -310,8 +310,8 @@
 5	marcado	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	_
 6	para	_	ADP	IN	_	8	case	_	_
 7	o	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
-8	Clube	_	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	Proper=True
-9	Metropolitano	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	Proper=True
+8	Clube	_	PROPN	NN	Gender=Masc|Number=Sing	5	obl	_	_
+9	Metropolitano	_	PROPN	JJ	Gender=Masc|Number=Sing	8	flat:name	_	_
 10	Privado	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	Proper=True
 11	de	_	ADP	IN	_	12	case	_	_
 12	Washington	_	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
