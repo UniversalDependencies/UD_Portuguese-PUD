@@ -2054,7 +2054,7 @@
 11	tipo	_	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 12	,	_	PUNCT	,	_	22	punct	_	_
 13	'	_	PUNCT	``	_	22	punct	_	SpaceAfter=No
-14	Olá	_	X	UH	_	22	discourse	_	SpaceAfter=No
+14	Olá	_	INTJ	UH	_	22	discourse	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	14	punct	_	_
 16	por	_	ADP	IN	_	18	case	_	_
 17	falar	_	VERB	VB	_	18	case	_	_
