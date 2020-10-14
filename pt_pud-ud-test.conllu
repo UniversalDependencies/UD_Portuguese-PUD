@@ -238,14 +238,15 @@
 # sent_id = n01003007
 # text = $5,000 por pessoa, o máximo permitido.
 # text_en = $5,000 per person, the maximum allowed.
-1	$5,000	_	NUM	CD	_	0	root	_	OrigForm=$5000
-2	por	_	ADP	IN	_	3	case	_	_
-3	pessoa	_	NOUN	NN	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
-4	,	_	PUNCT	,	_	6	punct	_	_
-5	o	_	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
-6	máximo	_	NOUN	NN	Gender=Masc|Number=Sing	1	appos	_	_
-7	permitido	_	ADJ	JJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
-8	.	_	PUNCT	.	_	1	punct	_	_
+1	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
+2	5,000	_	NUM	CD	_	1	nummod	_	OrigForm=$5000
+3	por	_	ADP	IN	_	4	case	_	_
+4	pessoa	_	NOUN	NN	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	_	PUNCT	,	_	7	punct	_	_
+6	o	_	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
+7	máximo	_	NOUN	NN	Gender=Masc|Number=Sing	1	appos	_	_
+8	permitido	_	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	_	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01003010
 # text = No início de outubro, a equipe de transição utilizou o mesmo local para se encontrar com os lobistas, convidando os representantes da Uber, da Motion Picture Association of America, da Consumer Technology Association de outros grupos.
@@ -411,27 +412,28 @@
 2	comparação	_	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	_	PUNCT	,	_	2	punct	_	_
 4	custou	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-5	$103.7	_	NUM	CD	_	4	obj	_	_
-6	milhões	_	NUM	CD	Number=Plur	5	nummod	_	_
-7	construir	_	VERB	VB	_	4	csubj	_	_
-8	o	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
-9	interior	_	NOUN	NN	Gender=Masc|Number=Sing	7	obj	_	_
-10-11	da	_	_	_	_	_	_	_	_
-10	de	de	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
-12	estação	_	NOUN	NN	Gender=Fem|Number=Sing	9	nmod	_	_
-13	de	_	ADP	IN	_	14	case	_	_
-14	metrô	_	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	_
-15-16	do	_	_	_	_	_	_	_	_
-15	de	de	ADP	INDT	_	17	case	_	_
-16	o	o	DET	_	Gender=Masc|Number=Sing	17	det	_	_
-17	NoMa	_	PROPN	NNP	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-18	,	_	PUNCT	,	_	20	punct	_	_
-19	que	_	PRON	WP	_	20	nsubj	_	_
-20	abriu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	acl:relcl	_	_
-21	em	_	ADP	IN	_	22	case	_	_
-22	2004	_	NUM	CD	Gender=Masc	20	obl	_	SpaceAfter=No
-23	.	_	PUNCT	.	_	4	punct	_	_
+5	$	_	SYM	SYM	_	4	obj	_	SpaceAfter=No
+6	103.7	_	NUM	CD	_	5	nummod	_	_
+7	milhões	_	NUM	CD	Number=Plur	6	nummod	_	_
+8	construir	_	VERB	VB	_	4	csubj	_	_
+9	o	_	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
+10	interior	_	NOUN	NN	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	da	_	_	_	_	_	_	_	_
+11	de	de	ADP	INDT	_	13	case	_	_
+12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+13	estação	_	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	_
+14	de	_	ADP	IN	_	15	case	_	_
+15	metrô	_	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	INDT	_	18	case	_	_
+17	o	o	DET	_	Gender=Masc|Number=Sing	18	det	_	_
+18	NoMa	_	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+19	,	_	PUNCT	,	_	21	punct	_	_
+20	que	_	PRON	WP	_	21	nsubj	_	_
+21	abriu	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl:relcl	_	_
+22	em	_	ADP	IN	_	23	case	_	_
+23	2004	_	NUM	CD	Gender=Masc	21	obl	_	SpaceAfter=No
+24	.	_	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01005024
 # text = Nós enfrentamos muita concorrência, e achamos que o transporte pode ajudar, disse o presidente do Georgetown BID, Joe Sternlieb.
@@ -2855,8 +2857,9 @@
 12	um	_	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	agente	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
-15	$25,000	_	NUM	CD	_	0	root	_	OrigForm=$25000|SpaceAfter=No
-16	.	_	PUNCT	.	_	15	punct	_	_
+15	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
+16	25,000	_	NUM	CD	_	15	nummod	_	OrigForm=$25000|SpaceAfter=No
+17	.	_	PUNCT	.	_	15	punct	_	_
 
 # newdoc id = n01037
 # sent_id = n01037020
@@ -3283,23 +3286,25 @@
 20	uma	_	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
 21	quantia	_	NOUN	NN	Gender=Fem|Number=Sing	19	obj	_	_
 22	de	_	ADP	IN	_	23	case	_	_
-23	$1,5	_	NUM	CD	Gender=Masc	21	nmod	_	_
-24	milhões	_	NUM	CD	Number=Plur	23	nummod	_	_
-25	entre	_	ADP	IN	_	26	case	_	_
-26	eles	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	19	obl	_	SpaceAfter=No
-27	,	_	PUNCT	,	_	32	punct	_	_
-28	ou	_	CCONJ	CC	_	32	cc	_	_
-29	em	_	ADP	IN	_	30	case	_	_
-30	média	_	NOUN	NN	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
-31	,	_	PUNCT	,	_	30	punct	_	_
-32	$15.000	_	NUM	CD	_	23	conj	_	_
-33	para	_	ADP	IN	_	35	case	_	_
-34	cada	_	DET	DT	Gender=Masc|Number=Sing	35	det	_	ToDo=ex-adp-child
-35	um	_	NUM	CD	Gender=Masc	32	nmod	_	_
-36-37	deles	_	_	_	_	_	_	_	SpaceAfter=No
-36	de	de	ADP	_	_	37	case	_	_
-37	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	35	nmod	_	_
-38	.	_	PUNCT	.	_	4	punct	_	_
+23	$	_	SYM	SYM	_	21	nmod	_	SpaceAfter=No
+24	1,5	_	NUM	CD	Gender=Masc	23	nummod	_	_
+25	milhões	_	NUM	CD	Number=Plur	24	nummod	_	_
+26	entre	_	ADP	IN	_	27	case	_	_
+27	eles	_	PRON	PRP	Gender=Masc|Number=Plur|Person=3	19	obl	_	SpaceAfter=No
+28	,	_	PUNCT	,	_	33	punct	_	_
+29	ou	_	CCONJ	CC	_	33	cc	_	_
+30	em	_	ADP	IN	_	31	case	_	_
+31	média	_	NOUN	NN	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+32	,	_	PUNCT	,	_	31	punct	_	_
+33	$	_	SYM	SYM	_	23	conj	_	SpaceAfter=No
+34	15.000	_	NUM	CD	_	33	nummod	_	_
+35	para	_	ADP	IN	_	37	case	_	_
+36	cada	_	DET	DT	Gender=Masc|Number=Sing	37	det	_	ToDo=ex-adp-child
+37	um	_	NUM	CD	Gender=Masc	33	nmod	_	_
+38-39	deles	_	_	_	_	_	_	_	SpaceAfter=No
+38	de	de	ADP	_	_	39	case	_	_
+39	eles	eles	PRON	INP	Gender=Masc|Number=Plur|Person=3	37	nmod	_	_
+40	.	_	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01043014
 # text = O orçamento anual é maior que $1.4 bilhões e emprega mais de 6.000 pessoas.
@@ -3310,15 +3315,16 @@
 4	é	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 5	maior	_	ADJ	JJR	Gender=Masc|Number=Sing	0	root	_	_
 6	que	_	ADP	IN	_	7	case	_	_
-7	$1.4	_	NUM	CD	_	5	obl	_	_
-8	bilhões	_	NUM	CD	Number=Plur	7	nummod	_	_
-9	e	_	CCONJ	CC	_	10	cc	_	_
-10	emprega	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	conj	_	_
-11	mais	_	ADV	RBR	_	10	advmod	_	_
-12	de	_	ADP	IN	_	14	case	_	_
-13	6.000	_	NUM	CD	_	14	nummod	_	_
-14	pessoas	_	NOUN	NN	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
-15	.	_	PUNCT	.	_	5	punct	_	_
+7	$	_	SYM	SYM	_	5	obl	_	SpaceAfter=No
+8	1.4	_	NUM	CD	_	7	nummod	_	_
+9	bilhões	_	NUM	CD	Number=Plur	8	nummod	_	_
+10	e	_	CCONJ	CC	_	11	cc	_	_
+11	emprega	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	conj	_	_
+12	mais	_	ADV	RBR	_	11	advmod	_	_
+13	de	_	ADP	IN	_	15	case	_	_
+14	6.000	_	NUM	CD	_	15	nummod	_	_
+15	pessoas	_	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
+16	.	_	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01043025
 # text = O governo federal reporta proativamente a remuneração de desempenho agregada e os níveis de bônus para cada departamento, mas a última publicação na internet é de 2013-2014 - ou com dois anos de atraso.
