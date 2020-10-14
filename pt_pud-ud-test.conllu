@@ -73,12 +73,12 @@
 13	Capitol	_	PROPN	NNP	Gender=Masc|Number=Sing	4	obl	_	_
 14	Hill	_	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 15	,	_	PUNCT	,	_	2	punct	_	_
-16	esta	_	PRON	PDEM	Gender=Fem|Number=Sing	19	nsubj	_	_
-17	será	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	19	cop	_	_
-18	um	_	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
-19	pouco	_	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
-20	diferente	_	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
-21	.	_	PUNCT	.	_	19	punct	_	_
+16	esta	_	PRON	PDEM	Gender=Fem|Number=Sing	20	nsubj	_	_
+17	será	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut	20	cop	_	_
+18	um	_	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
+19	pouco	_	ADV	_	Gender=Masc|Number=Sing	20	advmod	_	_
+20	diferente	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+21	.	_	PUNCT	.	_	20	punct	_	_
 
 # newdoc id = n01002
 # sent_id = n01002017
@@ -1172,16 +1172,16 @@
 # sent_id = n01018024
 # text = É como um superpoder, às vezes.
 # text_en = It's like a super power sometimes.
-1	É	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+1	É	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	como	_	ADP	IN	_	4	case	_	_
 3	um	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
-4	superpoder	_	NOUN	NN	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	superpoder	_	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	6	punct	_	_
 6-7	às	_	_	_	_	_	_	_	_
-6	a	a	ADP	INDT	_	1	discourse	_	_
+6	a	a	ADP	INDT	_	4	discourse	_	_
 7	as	o	DET	_	Gender=Fem|Number=Plur	6	fixed	_	_
 8	vezes	_	NOUN	NN	Gender=Fem|Number=Plur	6	fixed	_	SpaceAfter=No
-9	.	_	PUNCT	.	_	1	punct	_	_
+9	.	_	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01018040
 # text = O esquema faz dinheiro através de patrocínios e publicidade.
