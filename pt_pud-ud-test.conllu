@@ -2383,10 +2383,10 @@
 
 # newdoc id = n01032
 # sent_id = n01032032
-# text = Contudo houve muitos MLASs, com profundas crenças religiosas, que se oposeram à nova legislação.
+# text = Contudo há muitos MLASs, com profundas crenças religiosas, que se opõem à nova legislação.
 # text_en = However there are many MLAs with deeply-held religious beliefs who oppose any new legislation.
 1	Contudo	_	CCONJ	CC	_	2	discourse	_	_
-2	houve	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	há	haver	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	muitos	_	DET	DT	Gender=Masc|Number=Plur	4	det	_	_
 4	MLASs	_	NOUN	NN	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	_	PUNCT	,	_	8	punct	_	_
@@ -2397,7 +2397,7 @@
 10	,	_	PUNCT	,	_	13	punct	_	_
 11	que	_	PRON	WP	_	13	nsubj	_	_
 12	se	_	PRON	SE	Person=3	13	expl:pv	_	_
-13	oposeram	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	4	acl:relcl	_	_
+13	opõem	opor	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 14-15	à	_	_	_	_	_	_	_	_
 14	a	a	ADP	INDT	_	17	case	_	_
 15	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
