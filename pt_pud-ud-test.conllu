@@ -29051,26 +29051,26 @@
 
 # newdoc id = w05010
 # sent_id = w05010023
-# text = Pompey tomou comando de duas legiões em Capua e começou a aumentar as taxas ilegalmente, um ato que, como era previsível, tomou proveito dos Caesarians que eram a seu favor.
+# text = Pompeu assumiu o comando de duas legiões em Capua e começou a arrecadar impostos ilegalmente, um ato que, como era previsível, tomou proveito dos cesarianos que eram a seu favor.
 # text_en = Pompey took command of two legions in Capua and began to raise levies illegally, an act that, as was predictable, took advantage of the Caesarians who were in his favor.
-1	Pompey	Pompey	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
-2	tomou	tomar	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	comando	comando	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	_
-4	de	_	ADP	IN	_	6	case	_	_
-5	duas	_	NUM	CD	Gender=Fem	6	nummod	_	_
-6	legiões	legião	NOUN	NN	Gender=Fem|Number=Plur	3	nmod	_	_
-7	em	_	ADP	IN	_	8	case	_	_
-8	Capua	Capua	PROPN	NNP	Gender=Fem|Number=Sing	6	nmod	_	_
-9	e	_	CCONJ	CC	_	12	cc	_	_
-10	começou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	_
-11	a	_	ADP	IN	_	10	fixed	_	_
-12	aumentar	_	VERB	VB	_	2	conj	_	_
-13	as	_	DET	DT	Gender=Fem|Number=Plur	14	det	_	_
-14	taxas	taxa	NOUN	NN	Gender=Fem|Number=Plur	12	obj	_	_
-15	ilegalmente	ilegalmente	ADV	RB	_	12	advmod	_	SpaceAfter=No
+1	Pompeu	Pompeu	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	assumiu	assumir	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	o	o	DET	_	Gender=Masc|Number=Sing	4	det	_	_
+4	comando	comando	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	_
+5	de	_	ADP	IN	_	7	case	_	_
+6	duas	_	NUM	CD	Gender=Fem	7	nummod	_	_
+7	legiões	legião	NOUN	NN	Gender=Fem|Number=Plur	4	nmod	_	_
+8	em	_	ADP	IN	_	9	case	_	_
+9	Capua	Capua	PROPN	NNP	Gender=Fem|Number=Sing	7	nmod	_	_
+10	e	_	CCONJ	CC	_	13	cc	_	_
+11	começou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	13	aux	_	_
+12	a	a	ADP	IN	_	13	case	_	_
+13	arrecadar	arrecadar	VERB	VB	VerbForm=Inf	2	conj	_	_
+14	impostos	imposto	NOUN	NN	Gender=Fem|Number=Plur	13	obj	_	_
+15	ilegalmente	ilegalmente	ADV	RB	_	13	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	um	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
-18	ato	ato	NOUN	NN	Gender=Masc|Number=Sing	12	parataxis	_	_
+18	ato	ato	NOUN	NN	Gender=Masc|Number=Sing	13	parataxis	_	_
 19	que	_	PRON	WP	_	25	nsubj	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	23	punct	_	_
 21	como	_	SCONJ	IN	_	23	mark	_	_
@@ -29082,7 +29082,7 @@
 27-28	dos	_	_	_	_	_	_	_	_
 27	de	de	ADP	INDT	_	29	case	_	_
 28	os	o	DET	_	Gender=Masc|Number=Plur	29	det	_	_
-29	Caesarians	_	NOUN	NN	Gender=Masc|Number=Plur	26	nmod	_	_
+29	cesarianos	cesariano	NOUN	NN	Gender=Masc|Number=Plur	26	nmod	_	_
 30	que	_	PRON	WP	_	31	nsubj	_	_
 31	eram	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past	29	acl:relcl	_	_
 32	a	_	ADP	IN	_	34	case	_	_
