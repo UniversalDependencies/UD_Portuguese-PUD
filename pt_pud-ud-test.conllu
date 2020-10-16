@@ -698,7 +698,7 @@
 3	o	_	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
 4	Andre	Andre	PROPN	NNP	Gender=Masc|Number=Sing	2	obj	_	_
 5	Price	Price	PROPN	NNP	Gender=Masc|Number=Sing	4	flat:name	_	_
-6	III	_	ADJ	JJ	Gender=Masc|Number=Sing	4	compound	_	Proper=True
+6	III	_	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	Proper=True
 7-8	ao	_	_	_	_	_	_	_	_
 7	a	a	ADP	INDT	_	9	case	_	_
 8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
@@ -10588,7 +10588,7 @@
 2	por	_	ADP	IN	_	3	case	_	_
 3	Juan	Juan	PROPN	NNP	Gender=Masc|Number=Sing	1	obl	_	_
 4	Carlos	Carlos	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	_
-5	Salas	sala	NOUN	NN	Gender=Fem|Number=Plur	3	compound	_	Proper=True|SpaceAfter=No
+5	Salas	Salas	PROPN	NNP	Gender=Masc|Number=Sing	3	flat:name	_	Proper=True|SpaceAfter=No
 6	,	,	PUNCT	,	_	1	punct	_	_
 7	o	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	prédio	prédio	NOUN	NN	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -20346,8 +20346,8 @@
 12	que	_	PRON	WP	_	17	obj	_	_
 13	o	_	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
 14	músico	músico	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
-15	Tom	tom	NOUN	NN	Gender=Masc|Number=Sing	14	appos	_	Proper=True
-16	Robinson	Robinson	PROPN	NNP	Gender=Masc|Number=Sing	15	compound	_	_
+15	Tom	Tom	PROPN	NNP	Gender=Masc|Number=Sing	14	appos	_	Proper=True
+16	Robinson	Robinson	PROPN	NNP	Gender=Masc|Number=Sing	15	flat:name	_	_
 17	descreveu	descrever	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	11	acl:relcl	_	_
 18	mais	mais	ADV	RBR	_	19	advmod	_	_
 19	tarde	tarde	ADV	RB	_	17	advmod	_	_
@@ -21012,8 +21012,8 @@
 8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	esposa	esposo	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
-11	Norma	norma	NOUN	NN	Gender=Fem|Number=Sing	9	appos	_	Proper=True
-12	Talmadge	Talmadge	PROPN	NNP	Gender=Fem|Number=Sing	11	compound	_	SpaceAfter=No
+11	Norma	Norma	PROPN	NNP	Gender=Fem|Number=Sing	9	appos	_	Proper=True
+12	Talmadge	Talmadge	PROPN	NNP	Gender=Fem|Number=Sing	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	11	punct	_	_
 14	para	_	ADP	IN	_	15	case	_	_
 15	contracenar	_	VERB	VB	_	6	xcomp	_	_
@@ -23308,7 +23308,7 @@
 # text = Adnan Z. Amin, Diretor Geral da Agência Internacional de Energias Renováveis (IRENA) está seguro: "Energia eólica offshore pode se tornar a maior geradora de energia, em uma economia global, que é livre de energia a base de carvão."
 # text_en = Adnan Z. Amin, General Director of the International Organization for Renewable Energies (IRENA) is certain: "Offshore wind power can become the top power generator in a global economy that is free of coal-based energy."
 1	Adnan	Adnan	PROPN	NNP	Gender=Masc|Number=Sing	18	nsubj	_	_
-2	Z.	_	NOUN	NN	Gender=Masc|Number=Sing	1	compound	_	Proper=True
+2	Z.	Z.	PROPN	NN	Gender=Masc|Number=Sing	1	flat:name	_	Proper=True
 3	Amin	Amin	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
 5	Diretor	diretor	NOUN	NN	Gender=Masc|Number=Sing	1	appos	_	_
@@ -24238,8 +24238,8 @@
 # sent_id = n04001002
 # text = Tina Anselmi nasceu em 25 de março, 1927 em Castelfranco Veneto; ela cresceu em uma família católica anti-fascista, a qual foi marcada por perseguições ao seu pai militante socialista.
 # text_en = Tina Anselmi was born on the 25th of March, 1927 in Castelfranco Veneto; she grew up in an anti-fascist Catholic family, which was marked by the persecution of her militant socialist father.
-1	Tina	tina	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	Proper=True
-2	Anselmi	Anselmi	PROPN	NNP	Gender=Fem|Number=Sing	1	compound	_	_
+1	Tina	Tina	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	Proper=True
+2	Anselmi	Anselmi	PROPN	NNP	Gender=Fem|Number=Sing	1	flat:name	_	_
 3	nasceu	nascer	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 4	em	_	ADP	IN	_	5	case	_	_
 5	25	_	NUM	CD	_	3	obl	_	_
@@ -24287,8 +24287,8 @@
 7	União	união	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	Proper=True
 8	Católica	católico	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	Proper=True|SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	_	_
-10	Tina	tina	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	Proper=True
-11	Anselmi	Anselmi	PROPN	NNP	Gender=Fem|Number=Sing	10	compound	_	_
+10	Tina	Tina	PROPN	NN	Gender=Fem|Number=Sing	12	nsubj	_	Proper=True
+11	Anselmi	Anselmi	PROPN	NNP	Gender=Fem|Number=Sing	10	flat:name	_	_
 12	ocupava	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 13	-	-	PUNCT	-	_	14	punct	_	SpaceAfter=No
 14	se	_	PRON	SE	Person=3	12	expl:pv	_	_
@@ -24914,7 +24914,7 @@
 
 # newdoc id = n05001
 # sent_id = n05001005
-# text = A presidente da Comunidade de Madrid, Cristina Cifuentes, representa os mais conservadores, enquanto líderes do partido, como o Subsecretário Setorial Javier maroto, representa os mais progressivos.
+# text = A presidente da Comunidade de Madrid, Cristina Cifuentes, representa os mais conservadores, enquanto líderes do partido, como o Subsecretário Setorial Javier Maroto, representa os mais progressivos.
 # text_en = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	presidente	presidente	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -24926,7 +24926,7 @@
 7	Madrid	Madrid	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Cristina	Cristina	PROPN	NNP	Gender=Fem|Number=Sing	2	appos	_	_
-10	Cifuentes	_	NOUN	NN	Gender=Fem|Number=Sing	9	compound	_	Proper=True|SpaceAfter=No
+10	Cifuentes	_	PROPN	NNP	Gender=Fem|Number=Sing	9	flat:name	_	Proper=True|SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
 12	representa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 13	os	_	DET	DT	Gender=Masc|Number=Plur	15	det	_	_
@@ -24945,7 +24945,7 @@
 25	Subsecretário	subsecretário	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 26	Setorial	setorial	ADJ	JJ	Gender=Masc|Number=Sing	25	amod	_	_
 27	Javier	Javier	PROPN	NNP	Gender=Masc|Number=Sing	25	appos	_	_
-28	maroto	maroto	ADJ	JJ	Gender=Masc|Number=Sing	27	compound	_	Proper=True|SpaceAfter=No
+28	Maroto	Maroto	PROPN	NNP	Gender=Masc|Number=Sing	27	flat:name	_	Proper=True|SpaceAfter=No
 29	,	,	PUNCT	,	_	25	punct	_	_
 30	representa	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	12	advcl	_	_
 31	os	_	DET	DT	Gender=Masc|Number=Plur	33	det	_	_
@@ -24962,7 +24962,7 @@
 4	porta-voz	porta-voz	NOUN	NN	Gender=Masc|Number=Sing	2	obl	_	_
 5	e	_	CCONJ	CC	_	6	cc	_	_
 6	Ángel	Ángel	PROPN	NNP	Gender=Masc|Number=Sing	2	conj	_	orig_deprel=nsubj
-7	Pintado	pintado	ADJ	JJ	Gender=Masc|Number=Sing	6	compound	_	Proper=True
+7	Pintado	Pintado	PROPN	NNP	Gender=Masc|Number=Sing	6	flat:name	_	Proper=True
 8	como	_	ADP	IN	_	6	orphan	_	orig_deprel=obl|ToDo=ex-adp-child
 9	ministro	ministro	NOUN	NN	Gender=Masc|Number=Sing	8	obj	_	Proper=True|ToDo=pobj
 10-11	da	_	_	_	_	_	_	_	Proper=True
@@ -25923,7 +25923,7 @@
 5	Martin	Martin	PROPN	NNP	Gender=Masc|Number=Sing	3	nmod	_	_
 6	Luther	Luther	PROPN	NNP	Gender=Masc|Number=Sing	5	flat:name	_	_
 7	King	King	PROPN	NNP	Gender=Masc|Number=Sing	5	flat:name	_	_
-8	Jr	_	ADJ	JJ	Gender=Masc|Number=Sing	5	compound	_	Proper=True|SpaceAfter=No
+8	Jr	Júnior	PROPN	NNP	Gender=Masc|Number=Sing	5	flat:name	_	Proper=True|SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
 
 # newdoc id = w02006
@@ -29118,7 +29118,7 @@
 21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w05010025
-# text = Enquanto isso, seu lugar na tribuna foi tomado por Marco Antonio, quem ocupou a posição até dezembro.
+# text = Enquanto isso, seu lugar na tribuna foi tomado por Marco Antonio, que ocupou a posição até dezembro.
 # text_en = Meanwhile, his place in tribune was occupied by Marco Antonio, who held the position until December.
 1	Enquanto	_	ADP	IN	_	10	discourse	_	_
 2	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -29135,7 +29135,7 @@
 12	Marco	Marco	PROPN	NN	Gender=Masc|Number=Sing	10	obl	_	Proper=True
 13	Antonio	Antonio	PROPN	NNP	Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	16	punct	_	_
-15	quem	_	PRON	WP	_	16	nsubj	_	_
+15	que	que	PRON	WP	Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
 16	ocupou	ocupar	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	12	acl:relcl	_	_
 17	a	_	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
 18	posição	posição	NOUN	NN	Gender=Fem|Number=Sing	16	obj	_	_
@@ -29219,7 +29219,7 @@
 6	49	_	NUM	CD	_	4	obl:tmod	_	_
 7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
-9	Marco	Marco	PROPN	NN	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
+9	Marco	Marco	PROPN	NNP	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
 10	Antônio	Antônio	PROPN	NNP	Gender=Masc|Number=Sing	9	flat:name	_	_
 11	leu	ler	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 12	uma	_	DET	DT	Gender=Fem|Number=Sing	13	det	_	_
