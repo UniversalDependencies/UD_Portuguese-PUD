@@ -213,19 +213,19 @@
 13	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01002058
-# text = O que ele está dizendo e o que ela está fazendo, na verdade, é inacreditável.
+# text = O que ela está dizendo e o que ela está fazendo, na verdade, é inacreditável.
 # text_en = What she’s saying and what she’s doing, it — actually, it’s unbelievable.
-1	O	_	PRON	PDEM	Gender=Masc|Number=Sing	18	nsubj	_	_
-2	que	_	PRON	WP	_	5	obj	_	_
-3	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+1	O	o	PRON	PDEM	Gender=Masc|Number=Sing	18	nsubj	_	_
+2	que	que	PRON	WP	_	5	obj	_	_
+3	ela	ele	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
 4	está	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	aux	_	_
-5	dizendo	_	VERB	VBG	Aspect=Imp	1	acl:relcl	_	_
+5	dizendo	dizer	VERB	VBG	Aspect=Imp	1	acl:relcl	_	_
 6	e	_	CCONJ	CC	_	7	cc	_	_
 7	o	_	PRON	PDEM	Gender=Masc|Number=Sing	1	conj	_	_
-8	que	_	PRON	WP	_	11	obj	_	_
-9	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+8	que	que	PRON	WP	_	11	obj	_	_
+9	ela	ele	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
 10	está	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	aux	_	_
-11	fazendo	_	VERB	VBG	Aspect=Imp	7	acl:relcl	_	SpaceAfter=No
+11	fazendo	fazer	VERB	VBG	Aspect=Imp	7	acl:relcl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	13	punct	_	_
 13-14	na	_	_	_	_	_	_	_	_
 13	em	em	ADP	INDT	_	18	discourse	_	_
