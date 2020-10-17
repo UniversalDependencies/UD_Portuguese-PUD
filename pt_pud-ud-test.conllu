@@ -10386,8 +10386,8 @@
 6	Marina	Marina	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
 7	Circuit	Circuit	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
 8	tem	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-9	timings	_	NOUN	NN	Gender=Masc|Number=Plur	8	obj	_	_
-10	exatos	exato	ADJ	JJ	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+9	timings	_	NOUN	X	Gender=Masc|Number=Plur	8	obj	_	LoanWord=True
+10	exatos	exato	ADJ	X	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = n01147087
@@ -27038,8 +27038,8 @@
 20-21	do	_	_	_	_	_	_	_	ToDo=ex-adp-child
 20	de	de	ADP	INDT	_	22	case	_	_
 21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
-22	mos	_	NOUN	NN	Gender=Masc|Number=Sing	9	conj	_	_
-23	maiorum	_	NOUN	NN	Foreign=Yes|Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
+22	mos	_	NOUN	X	Gender=Masc|Number=Sing	9	conj	_	LoanWord=True
+23	maiorum	_	NOUN	X	Foreign=Yes|Gender=Masc|Number=Sing	22	flat	_	LoanWord=True|SpaceAfter=No
 24	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w03004107
