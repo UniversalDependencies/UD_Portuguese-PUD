@@ -1703,7 +1703,7 @@
 
 # newdoc id = n01024
 # sent_id = n01024010
-# text = Um pouco mais de 70% das plantas crescidas a partir de sementes terrestres estavam vivas ao fim de 17 dias - ligeiramente mais do que as plantas crecidas a partir de sementes espaciais - pouco mais de 66%.
+# text = Um pouco mais de 70% das plantas crescidas a partir de sementes terrestres estavam vivas ao fim de 17 dias - ligeiramente mais do que as plantas crescidas a partir de sementes espaciais - pouco mais de 66%.
 # text_en = Just over 70% of the plants grown from Earth seeds were alive after 17 days - just slightly more than the plants grown from space seeds - just over 66%.
 1	Um	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	pouco	pouco	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -1715,7 +1715,7 @@
 7	de	de	ADP	INDT	_	9	case	_	_
 8	as	o	DET	_	Gender=Fem|Number=Plur	9	det	_	_
 9	plantas	planta	NOUN	NN	Gender=Fem|Number=Plur	6	nmod	_	ToDo=nmod
-10	crescidas	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Plur	9	acl	_	_
+10	crescidas	crescer	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Plur	9	acl	_	_
 11	a	_	ADP	IN	_	14	case	_	_
 12	partir	_	VERB	VB	_	11	fixed	_	_
 13	de	_	ADP	IN	_	11	fixed	_	_
@@ -1739,7 +1739,7 @@
 29	que	_	ADP	IN	_	31	case	_	_
 30	as	_	DET	DT	Gender=Fem|Number=Plur	31	det	_	_
 31	plantas	planta	NOUN	NN	Gender=Fem|Number=Plur	26	obl	_	_
-32	crecidas	_	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Plur	31	acl	_	_
+32	crescidas	crescer	VERB	VBN	Aspect=Perf|Gender=Fem|Number=Plur	31	acl	_	_
 33	a	_	ADP	IN	_	36	case	_	_
 34	partir	_	VERB	VB	_	33	fixed	_	_
 35	de	_	ADP	IN	_	33	fixed	_	_
@@ -2305,33 +2305,34 @@
 14	luta	luta	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
 15	começou	começar	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 16	depois	depois	ADV	RB	_	15	advmod	_	_
-17	de	_	ADP	IN	_	33	case	_	_
+17	de	_	ADP	IN	_	34	case	_	_
 18	"	"	PUNCT	``	_	21	punct	_	SpaceAfter=No
 19	um	_	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
 20	grande	grande	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	_
-21	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	33	nsubj	_	_
+21	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	34	nsubj	_	_
 22	de	_	ADP	IN	_	23	case	_	_
-23	pessoas...	_	NOUN	NN	Gender=Fem|Number=Plur	21	nmod	_	_
-24	que	_	PRON	WP	_	26	nsubj	_	_
-25	se	_	PRON	SE	Person=3	26	expl:pv	_	_
-26	identificaram	identificar	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	23	acl:relcl	_	_
-27	como	_	ADP	IN	_	28	case	_	_
-28	autoridades	autoridade	NOUN	NN	Gender=Fem|Number=Plur	26	obl	_	_
-29-30	do	_	_	_	_	_	_	_	_
-29	de	de	ADP	INDT	_	31	case	_	_
-30	o	o	DET	_	Gender=Masc|Number=Sing	31	det	_	_
-31	distrito	distrito	NOUN	NN	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
-32	"	"	PUNCT	''	_	21	punct	_	_
-33	chegarem	_	VERB	VBI	Number=Plur|Person=3	16	xcomp	_	_
-34-35	ao	_	_	_	_	_	_	_	_
-34	a	a	ADP	INDT	_	36	case	_	_
-35	o	o	DET	_	Gender=Masc|Number=Sing	36	det	_	_
-36	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	33	obl	_	_
-37-38	na	_	_	_	_	_	_	_	_
-37	em	em	ADP	INDT	_	39	case	_	_
-38	a	o	DET	_	Gender=Fem|Number=Sing	39	det	_	_
-39	terça-feira	terça-feira	NOUN	NN	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	15	punct	_	_
+23	pessoas	pessoa	NOUN	NN	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	...	...	PUNCT	_	_	23	punct	_	_
+25	que	_	PRON	WP	_	27	nsubj	_	_
+26	se	_	PRON	SE	Person=3	27	expl:pv	_	_
+27	identificaram	identificar	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past	23	acl:relcl	_	_
+28	como	_	ADP	IN	_	29	case	_	_
+29	autoridades	autoridade	NOUN	NN	Gender=Fem|Number=Plur	27	obl	_	_
+30-31	do	_	_	_	_	_	_	_	_
+30	de	de	ADP	INDT	_	32	case	_	_
+31	o	o	DET	_	Gender=Masc|Number=Sing	32	det	_	_
+32	distrito	distrito	NOUN	NN	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+33	"	"	PUNCT	''	_	21	punct	_	_
+34	chegarem	_	VERB	VBI	Number=Plur|Person=3	16	xcomp	_	_
+35-36	ao	_	_	_	_	_	_	_	_
+35	a	a	ADP	INDT	_	37	case	_	_
+36	o	o	DET	_	Gender=Masc|Number=Sing	37	det	_	_
+37	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	34	obl	_	_
+38-39	na	_	_	_	_	_	_	_	_
+38	em	em	ADP	INDT	_	40	case	_	_
+39	a	o	DET	_	Gender=Fem|Number=Sing	40	det	_	_
+40	terça-feira	terça-feira	NOUN	NN	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+41	.	.	PUNCT	.	_	15	punct	_	_
 
 # newdoc id = n01031
 # sent_id = n01031005
@@ -25506,25 +25507,28 @@
 19	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n05009030
-# text = Dezenas de seguidoresda FSLN já estão comemorando a vitória na Plaza de las Victorias.
+# text = Dezenas de seguidores da FSLN já estão comemorando a vitória na Plaza de las Victorias.
 # text_en = Dozens of FSLN followers are already celebrating the victory in the Plaza de las Victorias.
-1	Dezenas	dezena	NOUN	NN	Gender=Fem|Number=Plur	7	nsubj	_	_
-2	de	_	ADP	IN	_	4	case	_	_
-3	seguidoresda	_	NOUN	NN	Gender=Masc|Number=Plur	4	case	_	_
-4	FSLN	FSLN	PROPN	NNP	Gender=Fem|Number=Sing	1	nmod	_	_
-5	já	já	ADV	RB	_	7	advmod	_	_
-6	estão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	7	aux	_	_
-7	comemorando	_	VERB	VBG	Aspect=Imp	0	root	_	_
-8	a	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
-9	vitória	vitória	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
-10-11	na	_	_	_	_	_	_	_	_
-10	em	em	ADP	INDT	_	12	case	_	_
-11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
-12	Plaza	Plaza	PROPN	NNP	Gender=Fem|Number=Sing	7	obl	_	_
-13	de	de	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	12	flat	_	_
-14	las	las	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	12	flat	_	_
-15	Victorias	Victorias	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	12	flat	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	7	punct	_	_
+1	Dezenas	dezena	NOUN	NN	Gender=Fem|Number=Plur	3	nummod	_	_
+2	de	_	ADP	IN	_	6	case	_	_
+3	seguidores	seguidor	NOUN	NN	Gender=Masc|Number=Plur	9	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	INDT	_	6	case	_	_
+5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
+6	FSLN	FSLN	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
+7	já	já	ADV	RB	_	9	advmod	_	_
+8	estão	_	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
+9	comemorando	_	VERB	VBG	Aspect=Imp	0	root	_	_
+10	a	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
+11	vitória	vitória	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	INDT	_	14	case	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+14	Plaza	Plaza	PROPN	NNP	Gender=Fem|Number=Sing	9	obl	_	_
+15	de	de	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
+16	las	las	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	_
+17	Victorias	Victorias	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	14	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = n05010
 # sent_id = n05010004
@@ -27153,7 +27157,7 @@
 16	.	.	PUNCT	.	_	15	punct	_	_
 
 # sent_id = w03005015
-# text = A Grécia foi dividida em diversas pequenas comunidades auto-governadas; um padrão, em grande parte, ditato pela geografia grega: cada ilha, vale e planície é isolada de seus vizinhos pelo mar ou por cadeias de montanhas.
+# text = A Grécia foi dividida em diversas pequenas comunidades auto-governadas; um padrão, em grande parte, ditado pela geografia grega: cada ilha, vale e planície é isolada de seus vizinhos pelo mar ou por cadeias de montanhas.
 # text_en = Greece was divided into many small, self-governing communities, a pattern largely dictated by Greek geography: every island, valley and plain is cut off from its neighbours by the sea or mountain ranges.
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -27172,7 +27176,7 @@
 15	grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	16	amod	_	_
 16	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	16	punct	_	_
-18	ditato	_	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	12	acl	_	_
+18	ditado	ditar	VERB	VBN	Aspect=Perf|Gender=Masc|Number=Sing	12	acl	_	_
 19-20	pela	_	_	_	_	_	_	_	_
 19	por	por	ADP	INDT	_	21	case	_	_
 20	a	o	DET	_	Gender=Fem|Number=Sing	21	det	_	_
