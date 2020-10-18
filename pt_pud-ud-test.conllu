@@ -251,7 +251,7 @@
 9	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01003010
-# text = No início de outubro, a equipe de transição utilizou o mesmo local para se encontrar com os lobistas, convidando os representantes da Uber, da Motion Picture Association of America, da Consumer Technology Association de outros grupos.
+# text = No início de outubro, a equipe de transição utilizou o mesmo local para se encontrar com os lobistas, convidando os representantes da Uber, da Motion Picture Association of America, da Consumer Technology Association e de outros grupos.
 # text_en = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
@@ -287,21 +287,22 @@
 29	de	de	ADP	INDT	_	31	case	_	_
 30	a	o	DET	_	Gender=Fem|Number=Sing	31	det	_	_
 31	Motion	Motion	PROPN	NNP	Gender=Fem|Number=Sing	27	conj	_	_
-32	Picture	Picture	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat	_	_
-33	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat	_	_
-34	of	of	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat	_	_
-35	America	America	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat	_	SpaceAfter=No
+32	Picture	Picture	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	_
+33	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	_
+34	of	of	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	_
+35	America	America	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	31	flat:name	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	39	punct	_	_
 37-38	da	_	_	_	_	_	_	_	ToDo=ex-adp-child
 37	de	de	ADP	INDT	_	39	case	_	_
 38	a	o	DET	_	Gender=Fem|Number=Sing	39	det	_	_
 39	Consumer	Consumer	PROPN	NNP	Gender=Fem|Number=Sing	27	conj	_	_
-40	Technology	Technology	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat	_	_
-41	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat	_	_
-42	de	_	ADP	IN	_	44	case	_	ToDo=ex-adp-child
-43	outros	_	DET	DT	Gender=Masc|Number=Plur	44	det	_	_
-44	grupos	grupo	NOUN	NN	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
-45	.	.	PUNCT	.	_	11	punct	_	_
+40	Technology	Technology	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat:name	_	_
+41	Association	Association	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	39	flat:name	_	_
+42	e	e	CCONJ	_	_	45	cc	_	_
+43	de	_	ADP	IN	_	45	case	_	ToDo=ex-adp-child
+44	outros	_	DET	DT	Gender=Masc|Number=Plur	45	det	_	_
+45	grupos	grupo	NOUN	NN	Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
+46	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01003012
 # text = O encontro foi originalmente marcado para o Clube Metropolitano Privado de Washington, na Rua H, a uns quarteirões de distância.
