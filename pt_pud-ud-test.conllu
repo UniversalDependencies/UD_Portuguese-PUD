@@ -4610,7 +4610,7 @@
 
 # newdoc id = n01061
 # sent_id = n01061016
-# text = Mas, à medida que a crítica contra Clinton como Primeira Dama se tornou mais ácida, Karel demonstrou mais empatia.
+# text = Mas, à medida que a crítica contra Clinton como primeira dama se tornou mais ácida, Karel demonstrou mais empatia.
 # text_en = But, as the criticism of Clinton as First Lady became more caustic, Karel became more empathetic.
 1	Mas	_	CCONJ	CC	_	20	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	17	punct	_	_
@@ -4623,9 +4623,9 @@
 8	crítica	_	NOUN	NN	Gender=Fem|Number=Sing	17	nsubj	_	_
 9	contra	_	ADP	IN	_	10	case	_	_
 10	Clinton	Clinton	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	_
-11	como	_	ADP	IN	_	12	case	_	_
-12	Primeira	primeiro	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	_
-13	Dama	_	X	GW	_	12	compound	_	_
+11	como	_	ADP	IN	_	13	case	_	_
+12	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	dama	dama	NOUN	GW	Gender=Fem|Number=Sing	10	nmod	_	_
 14	se	_	PRON	SE	Person=3	17	expl:pv	_	_
 15	tornou	_	AUX	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past	17	cop	_	_
 16	mais	mais	ADV	RBR	_	17	advmod	_	_
