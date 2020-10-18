@@ -11994,7 +11994,7 @@
 11-12	do	_	_	_	_	_	_	_	_
 11	de	de	ADP	INDT	_	13	case	_	_
 12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
-13	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	Proper=True
+13	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	10	nmod	_	Proper=True
 14	e	_	CCONJ	CC	_	17	cc	_	_
 15	foram	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	17	aux:pass	_	_
 16	fortemente	fortemente	ADV	RB	_	17	advmod	_	_
@@ -12081,7 +12081,7 @@
 17-18	no	_	_	_	_	_	_	_	_
 17	em	em	ADP	INDT	_	19	case	_	_
 18	o	o	DET	_	Gender=Masc|Number=Sing	19	det	_	_
-19	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	Proper=True
+19	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	16	obl	_	Proper=True
 20	tendiam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 21	a	_	ADP	IN	_	26	case	_	_
 22	estar	_	AUX	VB	_	26	cop	_	_
@@ -12107,7 +12107,7 @@
 7-8	do	_	_	_	_	_	_	_	_
 7	de	de	ADP	INDT	_	9	case	_	_
 8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
-9	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	Proper=True
+9	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	6	nmod	_	Proper=True
 10-11	na	_	_	_	_	_	_	_	_
 10	em	em	ADP	INDT	_	12	case	_	_
 11	a	o	DET	_	Gender=Fem|Number=Sing	12	det	_	_
@@ -12133,11 +12133,11 @@
 30-31	do	_	_	_	_	_	_	_	_
 30	de	de	ADP	INDT	_	32	case	_	_
 31	o	o	DET	_	Gender=Masc|Number=Sing	32	det	_	_
-32	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	28	nmod	_	Proper=True|SpaceAfter=No
+32	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	28	nmod	_	Proper=True|SpaceAfter=No
 33	.	.	PUNCT	.	_	16	punct	_	_
 
 # sent_id = w01020020
-# text = Mais tarde, quando Augusto fundou o Império Romano, os romanos se referiam ao Mediterrâneo como Mare Nostrum ("Nosso Mar").
+# text = Mais tarde, quando Augusto fundou o Império Romano, os romanos se referiam ao Mediterrâneo como Mare Nostrum ("nosso mar").
 # text_en = Later, when Augustus founded the Roman Empire, the Romans referred to the Mediterranean as Mare Nostrum ("Our Sea").
 1	Mais	mais	ADV	RBR	_	2	advmod	_	_
 2	tarde	tarde	ADV	RB	_	14	advmod	_	SpaceAfter=No
@@ -12156,14 +12156,14 @@
 15-16	ao	_	_	_	_	_	_	_	_
 15	a	a	ADP	INDT	_	17	case	_	_
 16	o	o	DET	_	Gender=Masc|Number=Sing	17	det	_	_
-17	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	Proper=True
+17	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	14	obl	_	Proper=True
 18	como	_	ADP	IN	_	19	case	_	_
 19	Mare	Mare	PROPN	NNP	Gender=Masc|Number=Sing	14	obl	_	_
 20	Nostrum	Nostrum	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	19	flat	_	_
 21	(	(	PUNCT	(	_	24	punct	_	SpaceAfter=No
 22	"	"	PUNCT	``	_	24	punct	_	SpaceAfter=No
-23	Nosso	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	24	det	_	Proper=True
-24	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	19	appos	_	Proper=True|SpaceAfter=No
+23	nosso	nosso	DET	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	24	det	_	Proper=True
+24	mar	mar	NOUN	NN	Gender=Masc|Number=Sing	19	appos	_	Proper=True|SpaceAfter=No
 25	"	"	PUNCT	''	_	24	punct	_	SpaceAfter=No
 26	)	)	PUNCT	)	_	24	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	_	_
@@ -12970,20 +12970,20 @@
 42-43	no	_	_	_	_	_	_	_	_
 42	em	em	ADP	INDT	_	44	case	_	_
 43	o	o	DET	_	Gender=Masc|Number=Sing	44	det	_	_
-44	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	39	obl	_	Proper=True
+44	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	39	obl	_	Proper=True
 45-46	do	_	_	_	_	_	_	_	Proper=True
 45	de	de	ADP	INDT	_	47	case	_	_
 46	o	o	DET	_	Gender=Masc|Number=Sing	47	det	_	_
-47	Norte	norte	NOUN	NN	Gender=Masc|Number=Sing	44	nmod	_	Proper=True|SpaceAfter=No
+47	Norte	Norte	PROPN	NN	Gender=Masc|Number=Sing	44	flat:name	_	Proper=True|SpaceAfter=No
 48	,	,	PUNCT	,	_	49	punct	_	_
-49	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
-50	Mediterrâneo	mediterrâneo	ADJ	JJ	Gender=Masc|Number=Sing	49	amod	_	Proper=True|SpaceAfter=No
+49	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
+50	Mediterrâneo	Mediterrâneo	PROPN	JJ	Gender=Masc|Number=Sing	49	flat:name	_	Proper=True|SpaceAfter=No
 51	,	,	PUNCT	,	_	52	punct	_	_
-52	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
-53	Adriático	adriático	ADJ	JJ	Gender=Masc|Number=Sing	52	amod	_	Proper=True
+52	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
+53	Adriático	Adriático	PROPN	JJ	Gender=Masc|Number=Sing	52	flat:name	_	Proper=True
 54	e	_	CCONJ	CC	_	55	cc	_	_
-55	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
-56	Negro	negro	ADJ	JJ	Gender=Masc|Number=Sing	55	amod	_	Proper=True|SpaceAfter=No
+55	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	44	conj	_	Proper=True
+56	Negro	Negro	PROPN	JJ	Gender=Masc|Number=Sing	55	flat:name	_	Proper=True|SpaceAfter=No
 57	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = w01031
@@ -15048,7 +15048,7 @@
 20	em	_	ADP	IN	_	23	case	_	_
 21	todo	todo	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
 22	o	_	DET	DT	Gender=Masc|Number=Sing	23	det	_	_
-23	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	19	obl	_	Proper=True|SpaceAfter=No
+23	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	19	obl	_	Proper=True|SpaceAfter=No
 24	,	,	PUNCT	,	_	29	punct	_	_
 25	como	_	SCONJ	IN	_	29	mark	_	_
 26	já	já	ADV	RB	_	29	advmod	_	_
@@ -16107,8 +16107,8 @@
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	INDT	_	10	case	_	_
 9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
-10	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	3	nmod	_	Proper=True
-11	Mediterrâneo	mediterrâneo	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	Proper=True
+10	Mar	Mar	PROPN	NN	Gender=Masc|Number=Sing	3	nmod	_	Proper=True
+11	Mediterrâneo	Mediterrâneo	PROPN	JJ	Gender=Masc|Number=Sing	10	flat:name	_	Proper=True
 12	colocou	colocar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 13	sérias	sério	ADJ	JJ	Gender=Fem|Number=Plur	14	amod	_	_
 14	limitações	limitação	NOUN	NN	Gender=Fem|Number=Plur	12	obj	_	_
@@ -23177,7 +23177,7 @@
 5	ter	_	AUX	VB	_	6	aux	_	_
 6	acabado	_	VERB	VBN	_	0	root	_	_
 7	para	_	ADP	IN	_	8	case	_	_
-8	Barroso	barroso	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	Proper=True|SpaceAfter=No
+8	Barroso	Barroso	PROPN	NN	Gender=Masc|Number=Sing	6	obl	_	Proper=True|SpaceAfter=No
 9	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n02068015
@@ -27306,7 +27306,7 @@
 12-13	pelo	_	_	_	_	_	_	_	_
 12	por	por	ADP	INDT	_	14	case	_	_
 13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
-14	Mediterrâneo	mediterrâneo	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	Proper=True|SpaceAfter=No
+14	Mediterrâneo	Mediterrâneo	PROPN	NN	Gender=Masc|Number=Sing	7	nmod	_	Proper=True|SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	uma	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
 17	técnica	_	NOUN	NN	Gender=Fem|Number=Sing	7	appos	_	_
