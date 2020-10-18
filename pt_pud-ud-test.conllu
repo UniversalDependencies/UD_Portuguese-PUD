@@ -13920,7 +13920,7 @@
 2	produções	produção	NOUN	NN	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	industriais	industrial	ADJ	JJ	Gender=Fem|Number=Plur	2	amod	_	_
 4	de	_	ADP	IN	_	5	case	_	_
-5	Nevada	_	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	Proper=True
+5	Nevada	Nevada	PROPN	NN	Gender=Fem|Number=Sing	2	nmod	_	Proper=True
 6	são	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	8	cop	_	_
 7	o	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	turismo	turismo	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -17455,12 +17455,12 @@
 15	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 16	colônias	colônia	NOUN	NN	Gender=Fem|Number=Plur	9	obj	_	_
 17	de	_	ADP	IN	_	18	case	_	_
-18	Porto	porto	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	Proper=True
-19	Rico	rico	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	Proper=True|SpaceAfter=No
+18	Porto	Porto	PROPN	NN	Gender=Masc|Number=Sing	16	nmod	_	Proper=True
+19	Rico	Rico	PROPN	JJ	Gender=Masc|Number=Sing	18	flat:name	_	Proper=True|SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	Guam	Guam	PROPN	NNP	Gender=Fem|Number=Sing	18	conj	_	_
 22	e	_	CCONJ	CC	_	23	cc	_	_
-23	Filipinas	_	NOUN	NN	Gender=Fem|Number=Plur	18	conj	_	Proper=True|SpaceAfter=No
+23	Filipinas	Filipinas	PROPN	NN	Gender=Fem|Number=Plur	18	conj	_	Proper=True|SpaceAfter=No
 24	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = w01086
@@ -18920,7 +18920,7 @@
 12-13	do	_	_	_	_	_	_	_	Proper=True
 12	de	de	ADP	INDT	_	14	case	_	_
 13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
-14	Congo	_	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	Proper=True
+14	Congo	Congo	PROPN	NN	Gender=Masc|Number=Sing	11	nmod	_	Proper=True
 15	capturaram	capturar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 16	Lubumbashi	Lubumbashi	PROPN	NNP	Gender=Fem|Number=Sing	15	obj	_	_
 17	em	_	ADP	IN	_	18	case	_	_
@@ -21514,7 +21514,7 @@
 4	tempo	tempo	NOUN	NN	Gender=Masc|Number=Sing	2	obl:tmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	2	punct	_	_
 6	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
-7	estava	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
+7	estava	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
 8	divorciado	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 9-10	da	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
@@ -21525,7 +21525,7 @@
 14	Holden	Holden	PROPN	NNP	Gender=Fem|Number=Sing	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	mas	_	CCONJ	CC	_	18	cc	_	_
-17	continuava	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	aux	_	_
+17	continuava	continuar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	aux	_	_
 18	apaixonado	_	VERB	VBN	Gender=Masc|Number=Sing	8	conj	_	_
 19	por	_	ADP	IN	_	20	case	_	_
 20	ela	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	18	obl	_	_
@@ -22245,7 +22245,7 @@
 17	quais	_	PRON	WP	Number=Plur	19	obl	_	_
 18	investidores	investidor	NOUN	NN	Gender=Masc|Number=Plur	19	nsubj	_	_
 19	investem	investir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	acl:relcl	_	_
-20	bilhões	_	NUM	CD	Number=Plur	19	obj	_	_
+20	bilhões	bilhão	NUM	CD	Number=Plur	19	obj	_	_
 21-22	pelo	_	_	_	_	_	_	_	_
 21	por	por	ADP	INDT	_	23	case	_	_
 22	o	o	DET	_	Gender=Masc|Number=Sing	23	det	_	_
