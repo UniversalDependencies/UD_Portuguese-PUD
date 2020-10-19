@@ -1969,10 +1969,10 @@
 # sent_id = n01027007
 # text = Quem são eles?
 # text_en = Who are they?
-1	Quem	_	PRON	WP	_	3	nsubj	_	_
-2	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	cop	_	_
-3	eles	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Plur|Person=3	0	root	_	SpaceAfter=No
-4	?	?	PUNCT	.	_	3	punct	_	_
+1	Quem	quem	PRON	WP	PronType=Int	0	root	_	_
+2	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	1	cop	_	_
+3	eles	eles	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01027030
 # text = Grande parte do debate, do lado Democrático deste ano, tem sido sobre a identidade de homens brancos.
