@@ -12563,28 +12563,32 @@
 17	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01027015
-# text = O norte da Argélia está na zona temperada e desfruta de um clima mediterrânico suave.
+# text = Ele difere da porção oeste do país porque suas características topográficas proeminentes não são paralelas à costa.
 # text_en = It differs from the western portion of the country in that its prominent topographic features do not parallel the coast.
-1	O	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	norte	norte	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
+1	Ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	difere	diferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3-4	da	_	_	_	_	_	_	_	_
-3	de	de	ADP	INDT	_	5	case	_	_
-4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
-5	Argélia	Argélia	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
-6	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-7-8	na	_	_	_	_	_	_	_	_
-7	em	em	ADP	INDT	_	9	case	_	_
-8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
-9	zona	zona	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
-10	temperada	temperado	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
-11	e	_	CCONJ	CC	_	12	cc	_	_
-12	desfruta	desfrutar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	conj	_	_
-13	de	_	ADP	IN	_	15	case	_	_
-14	um	_	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
-15	clima	clima	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
-16	mediterrânico	mediterrânico	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	_
-17	suave	suave	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	6	punct	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	porção	porção	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	oeste	oeste	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	do	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	país	país	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+10	porque	porque	SCONJ	_	_	17	mark	_	_
+11	suas	seu	DET	_	Gender=Fem|Number=Plur|PronType=Prs	12	det	_	_
+12	características	característica	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+13	topográficas	topográfico	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+14	proeminentes	proeminente	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
+15	não	não	ADV	_	Polarity=Neg	17	advmod	_	_
+16	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	paralelas	paralelo	ADJ	_	Gender=Fem|Number=Plur	2	advcl	_	_
+18-19	à	_	_	_	_	_	_	_	_
+18	a	a	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	costa	costa	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = w01027035
 # text = O norte da Argélia está na zona temperada e goza de um clima mediterrânico suave.
