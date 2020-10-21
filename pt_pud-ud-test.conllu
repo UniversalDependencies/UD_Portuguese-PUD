@@ -305,7 +305,7 @@
 46	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01003012
-# text = O encontro foi originalmente marcado para o Clube Metropolitano Privado de Washington, na Rua H, a uns quarteirões de distância.
+# text = O encontro foi originalmente marcado para o Clube Metropolitano, um clube privado de Washington, na Rua H, a uns quarteirões de distância.
 # text_en = The gathering was originally slated for Washington’s private Metropolitan Club on H Street a few blocks away.
 1	O	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	encontro	encontro	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
@@ -315,23 +315,26 @@
 6	para	_	ADP	IN	_	8	case	_	_
 7	o	_	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
 8	Clube	Clube	PROPN	NN	Gender=Masc|Number=Sing	5	obl	_	_
-9	Metropolitano	Metropolitano	PROPN	JJ	Gender=Masc|Number=Sing	8	flat:name	_	_
-10	Privado	privado	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	Proper=True
-11	de	_	ADP	IN	_	12	case	_	_
-12	Washington	Washington	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	16	punct	_	_
-14-15	na	_	_	_	_	_	_	_	_
-14	em	em	ADP	INDT	_	16	case	_	_
-15	a	o	DET	_	Gender=Fem|Number=Sing	16	det	_	_
-16	Rua	rua	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	Proper=True
-17	H	h	NOUN	NN	Gender=Masc|Number=Sing	16	appos	_	Proper=True|SpaceAfter=No
-18	,	,	PUNCT	,	_	21	punct	_	_
-19	a	_	ADP	IN	_	21	case	_	_
-20	uns	_	DET	DT	Gender=Masc|Number=Plur	21	det	_	_
-21	quarteirões	quarteirão	NOUN	NN	Gender=Masc|Number=Plur	5	obl	_	_
-22	de	_	ADP	IN	_	23	case	_	_
-23	distância	distância	NOUN	NN	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	5	punct	_	_
+9	Metropolitano	Metropolitano	PROPN	JJ	Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	12	punct	_	_
+11	um	um	DET	_	Gender=Masc|Number=Sing	12	det	_	_
+12	clube	clube	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
+13	privado	privado	ADJ	JJ	Gender=Masc|Number=Sing	12	amod	_	Proper=True
+14	de	_	ADP	IN	_	15	case	_	_
+15	Washington	Washington	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	19	punct	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	INDT	_	19	case	_	_
+18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
+19	Rua	rua	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	Proper=True
+20	H	h	NOUN	NN	Gender=Masc|Number=Sing	19	flat:name	_	Proper=True|SpaceAfter=No
+21	,	,	PUNCT	,	_	24	punct	_	_
+22	a	_	ADP	IN	_	24	case	_	_
+23	uns	_	DET	DT	Gender=Masc|Number=Plur	24	det	_	_
+24	quarteirões	quarteirão	NOUN	NN	Gender=Masc|Number=Plur	8	nmod	_	_
+25	de	_	ADP	IN	_	26	case	_	_
+26	distância	distância	NOUN	NN	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01003013
 # text = Possivelmente a indumentária aconselhada foi muito rígida.
