@@ -3010,9 +3010,9 @@
 16	Trump	Trump	PROPN	NNP	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	18	punct	_	_
 18	reforçando	_	VERB	VBG	_	11	acl	_	_
-19	que	_	SCONJ	IN	_	35	mark	_	_
+19	que	_	SCONJ	IN	_	34	mark	_	_
 20	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
-21	comentários	comentário	NOUN	NN	Gender=Masc|Number=Plur	35	nsubj	_	_
+21	comentários	comentário	NOUN	NN	Gender=Masc|Number=Plur	34	nsubj	_	_
 22	depreciativos	depreciativo	ADJ	JJ	Gender=Masc|Number=Plur	21	amod	_	_
 23	sobre	_	ADP	IN	_	24	case	_	_
 24	mulheres	mulher	NOUN	NN	Gender=Fem|Number=Plur	21	nmod	_	_
@@ -3024,12 +3024,12 @@
 30	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	31	det	_	_
 31	temperamento	temperamento	NOUN	NN	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	21	punct	_	_
-33	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	35	obj	_	_
-34	tornam	tornar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	35	cop	_	_
-35	inadequado	inadequado	ADJ	JJ	Gender=Masc|Number=Sing	18	ccomp	_	_
+33	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	34	obj	_	_
+34	tornam	tornar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	ccomp	_	_
+35	inadequado	inadequado	ADJ	JJ	Gender=Masc|Number=Sing	34	xcomp	_	_
 36	para	_	ADP	IN	_	38	case	_	_
 37	a	_	DET	DT	Gender=Fem|Number=Sing	38	det	_	_
-38	função	função	NOUN	NN	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+38	função	função	NOUN	NN	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01039018
@@ -3910,7 +3910,7 @@
 # sent_id = n01051004
 # text = O que começou como um ultrassom de rotina, tornou-se complicado quando a futura mãe Margaret Boemer, de Plano, Texas, foi informada de que o seu feto tinha uma condição rara e precisava de uma cirurgia para sobreviver.
 # text_en = What started as a routine ultrasound became complicated when expectant mother Margaret Boemer, of Plano, Texas, was told her unborn child had a rare condition and needed surgery to survive.
-1	O	_	PRON	PDEM	Gender=Masc|Number=Sing	13	nsubj	_	_
+1	O	_	PRON	PDEM	Gender=Masc|Number=Sing	10	nsubj	_	_
 2	que	_	PRON	WP	_	3	nsubj	_	_
 3	começou	começar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
 4	como	_	ADP	IN	_	6	case	_	_
@@ -3919,10 +3919,10 @@
 7	de	_	ADP	IN	_	8	case	_	_
 8	rotina	rotina	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	3	punct	_	_
-10	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	cop	_	SpaceAfter=No
+10	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 11	-	-	PUNCT	-	_	10	punct	_	SpaceAfter=No
-12	se	_	PRON	SE	Person=3	13	expl:pv	_	_
-13	complicado	complicado	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
+12	se	_	PRON	SE	Person=3	10	expl:pv	_	_
+13	complicado	complicado	ADJ	JJ	Gender=Masc|Number=Sing	10	xcomp	_	_
 14	quando	_	SCONJ	IN	_	27	mark	_	_
 15	a	_	DET	DT	Gender=Fem|Number=Sing	17	det	_	_
 16	futura	futuro	ADJ	JJ	Gender=Fem|Number=Sing	17	amod	_	_
@@ -3936,7 +3936,7 @@
 24	Texas	Texas	PROPN	NNP	Gender=Masc|Number=Sing	22	appos	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	24	punct	_	_
 26	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	27	aux:pass	_	_
-27	informada	_	VERB	VBN	Gender=Fem|Number=Sing	13	advcl	_	_
+27	informada	_	VERB	VBN	Gender=Fem|Number=Sing	10	advcl	_	_
 28	de	_	ADP	IN	_	33	case	_	_
 29	que	_	SCONJ	IN	_	33	mark	_	_
 30	o	_	DET	PDT	Gender=Masc|Number=Sing	32	det:predet	_	_
@@ -3953,7 +3953,7 @@
 41	cirurgia	cirurgia	NOUN	NN	Gender=Fem|Number=Sing	38	obl	_	_
 42	para	_	ADP	IN	_	43	case	_	_
 43	sobreviver	_	VERB	VB	_	38	xcomp	_	SpaceAfter=No
-44	.	.	PUNCT	.	_	13	punct	_	_
+44	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01051006
 # text = O teratoma sacrococcígeo é um tumor que se desenvolve antes do nascimento e cresce no cóccix do bebê.
@@ -4613,24 +4613,24 @@
 # text = Mas, à medida que a crítica contra Clinton como primeira dama se tornou mais ácida, Karel demonstrou mais empatia.
 # text_en = But, as the criticism of Clinton as First Lady became more caustic, Karel became more empathetic.
 1	Mas	_	CCONJ	CC	_	20	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	,	_	17	punct	_	_
+2	,	,	PUNCT	,	_	15	punct	_	_
 3-4	à	_	_	_	_	_	_	_	_
-3	a	a	SCONJ	INDT	_	17	mark	_	_
+3	a	a	SCONJ	INDT	_	15	mark	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	3	fixed	_	_
 5	medida	medida	NOUN	NN	Gender=Fem|Number=Sing	3	fixed	_	_
 6	que	_	ADP	IN	_	3	fixed	_	_
 7	a	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
-8	crítica	_	NOUN	NN	Gender=Fem|Number=Sing	17	nsubj	_	_
+8	crítica	_	NOUN	NN	Gender=Fem|Number=Sing	15	nsubj	_	_
 9	contra	_	ADP	IN	_	10	case	_	_
 10	Clinton	Clinton	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	_
 11	como	_	ADP	IN	_	13	case	_	_
 12	primeira	primeiro	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	dama	dama	NOUN	GW	Gender=Fem|Number=Sing	10	nmod	_	_
-14	se	_	PRON	SE	Person=3	17	expl:pv	_	_
-15	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	cop	_	_
-16	mais	mais	ADV	RBR	_	17	advmod	_	_
-17	ácida	ácido	ADJ	JJ	Gender=Fem|Number=Sing	20	advcl	_	SpaceAfter=No
-18	,	,	PUNCT	,	_	17	punct	_	_
+14	se	_	PRON	SE	Person=3	15	expl:pv	_	_
+15	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	advcl	_	_
+16	mais	mais	ADV	RBR	_	15	advmod	_	_
+17	ácida	ácido	ADJ	JJ	Gender=Fem|Number=Sing	15	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	15	punct	_	_
 19	Karel	Karel	PROPN	NNP	Gender=Masc|Number=Sing	20	nsubj	_	_
 20	demonstrou	demonstrar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 21	mais	_	ADJ	JJR	Gender=Fem|Number=Sing	22	amod	_	_
@@ -8606,12 +8606,12 @@
 8	uma	_	DET	DT	Gender=Fem|Number=Sing	9	det	_	_
 9	qualidade	qualidade	NOUN	NN	Gender=Fem|Number=Sing	7	obj	_	_
 10	improvável	improvável	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
-11	que	_	PRON	WP	_	16	nsubj	_	_
-12	torna	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	_
-13	tudo	_	NOUN	NN	Gender=Masc|Number=Sing	16	obj	_	_
+11	que	_	PRON	WP	_	12	nsubj	_	_
+12	torna	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	acl:relcl	_	_
+13	tudo	_	NOUN	NN	Gender=Masc|Number=Sing	12	obj	_	_
 14	ainda	ainda	ADV	RB	_	15	advmod	_	_
-15	mais	mais	ADV	RBR	_	16	advmod	_	_
-16	atraente	atraente	ADJ	JJ	Gender=Masc|Number=Sing	9	acl:relcl	_	SpaceAfter=No
+15	mais	mais	ADV	RBR	_	12	advmod	_	_
+16	atraente	atraente	ADJ	JJ	Gender=Masc|Number=Sing	12	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01120020
@@ -9022,7 +9022,7 @@
 # text = A votação, no vernáculo do terror, torna-se o novo alvo fácil.
 # text_en = Voting has, in the vernacular of terror, become the new soft target.
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	votação	votação	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+2	votação	votação	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	6	punct	_	_
 4-5	no	_	_	_	_	_	_	_	_
 4	em	em	ADP	INDT	_	6	case	_	_
@@ -9033,14 +9033,14 @@
 8	o	o	DET	_	Gender=Masc|Number=Sing	9	det	_	_
 9	terror	terror	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	6	punct	_	_
-11	torna	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	SpaceAfter=No
+11	torna	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 12	-	-	PUNCT	-	_	11	punct	_	SpaceAfter=No
-13	se	_	PRON	SE	Person=3	16	expl:pv	_	_
+13	se	_	PRON	SE	Person=3	11	expl:pv	_	_
 14	o	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 15	novo	novo	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
-16	alvo	alvo	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
+16	alvo	alvo	NOUN	NN	Gender=Masc|Number=Sing	11	xcomp	_	_
 17	fácil	fácil	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	16	punct	_	_
+18	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01129010
 # text = Esta é uma questão de segurança nacional do tipo mais existencial.
@@ -9533,12 +9533,12 @@
 # sent_id = n01136006
 # text = Como o filme torna claro, os Lovings -- e Richard em particular -- eram participantes relutantes na história.
 # text_en = As the movie makes clear, the Lovings -- and Richard in particular -- were reluctant participants in history.
-1	Como	_	SCONJ	IN	_	5	mark	_	_
+1	Como	_	SCONJ	IN	_	4	mark	_	_
 2	o	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
-3	filme	filme	NOUN	NN	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	torna	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
-5	claro	claro	ADJ	JJ	Gender=Masc|Number=Sing	16	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	5	punct	_	_
+3	filme	filme	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	torna	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	advcl	_	_
+5	claro	claro	ADJ	JJ	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	4	punct	_	_
 7	os	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	Lovings	Lovings	PROPN	NNP	Gender=Masc|Number=Plur	16	nsubj	_	_
 9	--	--	PUNCT	-	_	10	punct	_	_
@@ -11364,12 +11364,12 @@
 1	Em	_	ADP	IN	_	2	case	_	_
 2	833	_	NUM	CD	Gender=Masc	9	nmod	_	ToDo=nmod
 3	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	OrigForm=aC
-4	este	_	PRON	PDEM	Gender=Masc|Number=Sing	9	nsubj	_	_
-5	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	cop	_	SpaceAfter=No
+4	este	_	PRON	PDEM	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	-	-	PUNCT	-	_	5	punct	_	SpaceAfter=No
-7	se	_	PRON	SE	Person=3	9	expl:pv	_	_
+7	se	_	PRON	SE	Person=3	5	expl:pv	_	_
 8	o	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
-9	estado	estado	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
+9	estado	estado	NOUN	NN	Gender=Masc|Number=Sing	5	xcomp	_	_
 10-11	da	_	_	_	_	_	_	_	_
 10	de	de	ADP	INDT	_	13	case	_	_
 11	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
@@ -11388,7 +11388,7 @@
 23	atual	atual	ADJ	JJ	Gender=Fem|Number=Sing	24	amod	_	_
 24	Eslováquia	Eslováquia	PROPN	NNP	Gender=Fem|Number=Sing	19	appos	_	SpaceAfter=No
 25	)	)	PUNCT	)	_	24	punct	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	9	punct	_	_
+26	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w01010047
 # text = O seu primeiro rei foi Mojmir I (que governou de 830 a 846).
@@ -11430,12 +11430,12 @@
 14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	15	det	_	_
 15	sobrinho	sobrinho	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 16	Ratislau	Ratislau	PROPN	NNP	Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
-17	,	,	PUNCT	,	_	22	punct	_	_
-18	que	_	PRON	WP	_	22	nsubj	_	_
-19	se	_	PRON	SE	Person=3	22	expl:pv	_	_
-20	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	22	cop	_	_
+17	,	,	PUNCT	,	_	20	punct	_	_
+18	que	_	PRON	WP	_	20	nsubj	_	_
+19	se	_	PRON	SE	Person=3	20	expl:pv	_	_
+20	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	acl:relcl	_	_
 21	São	são	ADJ	JJ	Gender=Masc|Number=Sing	22	amod	_	Proper=True
-22	Ratislau	Ratislau	PROPN	NNP	Gender=Masc|Number=Sing	15	acl:relcl	_	SpaceAfter=No
+22	Ratislau	Ratislau	PROPN	NNP	Gender=Masc|Number=Sing	20	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = w01012
@@ -14021,23 +14021,23 @@
 19	a	a	ADP	INDT	_	21	case	_	_
 20	as	o	DET	_	Gender=Fem|Number=Plur	21	det	_	_
 21	terras	terra	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
-22	;	;	PUNCT	,	_	36	punct	_	_
-23	decorrente	decorrente	ADJ	JJ	Gender=Masc|Number=Sing	36	discourse	_	_
+22	;	;	PUNCT	,	_	34	punct	_	_
+23	decorrente	decorrente	ADJ	JJ	Gender=Masc|Number=Sing	34	discourse	_	_
 24-25	deste	_	_	_	_	_	_	_	SpaceAfter=No|ToDo=pobj
 24	de	de	ADP	INPDEM	_	23	obj	_	_
 25	este	este	DET	_	Gender=Masc|Number=Sing	24	det	_	_
 26	,	,	PUNCT	,	_	23	punct	_	_
 27	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
-28	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	36	nsubj	_	Proper=True
+28	Mar	mar	NOUN	NN	Gender=Masc|Number=Sing	34	nsubj	_	Proper=True
 29-30	das	_	_	_	_	_	_	_	Proper=True
 29	de	de	ADP	INDT	_	31	case	_	_
 30	as	o	DET	_	Gender=Fem|Number=Plur	31	det	_	_
 31	Antilhas	_	NOUN	NN	Gender=Fem|Number=Plur	28	nmod	_	Proper=True|SpaceAfter=No
 32	"	"	PUNCT	''	_	28	punct	_	_
-33	se	_	PRON	SE	Person=3	36	expl:pv	_	_
-34	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	36	cop	_	_
+33	se	_	PRON	SE	Person=3	34	expl:pv	_	_
+34	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	parataxis	_	_
 35	um	_	DET	DT	Gender=Masc|Number=Sing	36	det	_	_
-36	nome	nome	NOUN	NN	Gender=Masc|Number=Sing	18	parataxis	_	_
+36	nome	nome	NOUN	NN	Gender=Masc|Number=Sing	34	xcomp	_	_
 37	alternativo	alternativo	ADJ	JJ	Gender=Masc|Number=Sing	36	amod	_	_
 38	comum	comum	ADJ	JJ	Gender=Masc|Number=Sing	36	amod	_	_
 39	para	_	ADP	IN	_	41	case	_	_
@@ -16004,10 +16004,10 @@
 1	Em	_	ADP	IN	_	2	case	_	_
 2	1519	_	NUM	CD	Gender=Masc	7	nmod	_	SpaceAfter=No|ToDo=nmod
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	SpaceAfter=No
+4	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 5	-	-	PUNCT	-	_	4	punct	_	SpaceAfter=No
-6	se	_	PRON	SE	Person=3	7	expl:pv	_	_
-7	governante	governante	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
+6	se	_	PRON	SE	Person=3	4	expl:pv	_	_
+7	governante	governante	NOUN	NN	Gender=Masc|Number=Sing	4	xcomp	_	_
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
@@ -16029,7 +16029,7 @@
 24	Romano	romano	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	Proper=True
 25	em	_	ADP	IN	_	26	case	_	_
 26	1530	_	NUM	CD	Gender=Masc	15	obl	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	7	punct	_	_
+27	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01069040
 # text = Carlos, apesar das suas duras ações, tinha sido visto como um soberano solidário com as necessidades da Holanda.
@@ -18589,11 +18589,11 @@
 # text_en = Joseph Darnand, who became an SS officer and led the Milice paramilitaries who hunted down members of the Resistance, was executed in October 1945.
 1	Joseph	Joseph	PROPN	NNP	Gender=Masc|Number=Sing	26	nsubj:pass	_	_
 2	Darnand	Darnand	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
-3	,	,	PUNCT	,	_	7	punct	_	_
-4	que	_	PRON	WP	_	7	nsubj	_	_
-5	se	_	PRON	SE	Person=3	7	expl:pv	_	_
-6	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
-7	oficial	oficial	NOUN	NN	Gender=Masc|Number=Sing	1	acl:relcl	_	_
+3	,	,	PUNCT	,	_	6	punct	_	_
+4	que	_	PRON	WP	_	6	nsubj	_	_
+5	se	_	PRON	SE	Person=3	6	expl:pv	_	_
+6	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+7	oficial	oficial	NOUN	NN	Gender=Masc|Number=Sing	6	xcomp	_	_
 8-9	da	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	a	o	DET	_	Gender=Fem|Number=Sing	10	det	_	_
@@ -18613,7 +18613,7 @@
 21	de	de	ADP	INDT	_	23	case	_	_
 22	a	o	DET	_	Gender=Fem|Number=Sing	23	det	_	_
 23	Resistência	resistência	NOUN	NN	Gender=Fem|Number=Sing	20	nmod	_	Proper=True|SpaceAfter=No
-24	,	,	PUNCT	,	_	7	punct	_	_
+24	,	,	PUNCT	,	_	6	punct	_	_
 25	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	26	aux:pass	_	_
 26	executado	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 27	em	_	ADP	IN	_	28	case	_	_
@@ -19723,12 +19723,12 @@
 4	aparência	aparência	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	ToDo=nmod
 5	finalizada	finalizado	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
-7	Jasmine	Jasmine	PROPN	NNP	Gender=Fem|Number=Sing	12	nsubj	_	_
-8	se	_	PRON	SE	Person=3	12	expl:pv	_	_
-9	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	cop	_	_
+7	Jasmine	Jasmine	PROPN	NNP	Gender=Fem|Number=Sing	9	nsubj	_	_
+8	se	_	PRON	SE	Person=3	9	expl:pv	_	_
+9	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 10	a	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 11	primeira	primeiro	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
-12	princesa	_	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
+12	princesa	_	NOUN	NN	Gender=Fem|Number=Sing	9	xcomp	_	_
 13	não	não	ADV	RB	Polarity=Neg	14	advmod	_	_
 14	branca	branco	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 15-16	da	_	_	_	_	_	_	_	_
@@ -19741,7 +19741,7 @@
 21	a	_	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
 22	herança	herança	NOUN	NN	Gender=Fem|Number=Sing	19	nmod	_	_
 23	europeia	europeu	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	12	punct	_	_
+24	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01119100
 # text = Tematicamente, Jasmine também representa os direitos civis, a tolerância racial, a hierarquia social, assim como a vida, a liberdade e a busca da felicidade.
@@ -21439,7 +21439,7 @@
 3	filha	filho	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	Cecília	Cecília	PROPN	NNP	Gender=Fem|Number=Sing	3	appos	_	_
 5	se	_	PRON	SE	Person=3	6	expl:pv	_	_
-6	casou	casar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	32	advcl	_	_
+6	casou	casar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	31	advcl	_	_
 7	com	_	ADP	IN	_	8	case	_	_
 8	Ricardo	Ricardo	PROPN	NNP	Gender=Masc|Number=Sing	6	obl	_	_
 9	Plantageneta	Plantageneta	PROPN	NNP	Gender=Masc|Number=Sing	8	flat:name	_	SpaceAfter=No
@@ -21462,10 +21462,10 @@
 26	Ricardo	Ricardo	PROPN	NNP	Gender=Masc|Number=Sing	23	conj	_	_
 27	III	_	ADJ	JJ	Gender=Masc|Number=Sing	26	compound	_	Proper=True|SpaceAfter=No
 28	,	,	PUNCT	,	_	6	punct	_	_
-29	Joana	Joana	PROPN	NNP	Gender=Fem|Number=Sing	32	nsubj	_	_
-30	se	_	PRON	SE	Person=3	32	expl:pv	_	_
-31	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	32	cop	_	_
-32	avó	avô	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
+29	Joana	Joana	PROPN	NNP	Gender=Fem|Number=Sing	31	nsubj	_	_
+30	se	_	PRON	SE	Person=3	31	expl:pv	_	_
+31	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+32	avó	avô	NOUN	NN	Gender=Fem|Number=Sing	31	xcomp	_	_
 33	de	_	ADP	IN	_	35	case	_	_
 34	dois	_	NUM	CD	Gender=Masc	35	nummod	_	_
 35	reis	rei	NOUN	NN	Gender=Masc|Number=Plur	32	nmod	_	ToDo=nmod
@@ -21476,7 +21476,7 @@
 39	York	York	PROPN	NNP	Gender=Fem|Number=Sing	38	appos	_	_
 40	de	_	ADP	IN	_	41	case	_	_
 41	Inglaterra	Inglaterra	PROPN	NNP	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
-42	.	.	PUNCT	.	_	32	punct	_	_
+42	.	.	PUNCT	.	_	31	punct	_	_
 
 # sent_id = w01142031
 # text = John de Gaunt morreu em 1399.
@@ -24871,12 +24871,12 @@
 # text = A Amazon se tornou a quarta empresa Americana com a maior capitalização de mercado, ultrapassando ExxonMobil.
 # text_en = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	Amazon	Amazon	PROPN	NNP	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	se	_	PRON	SE	Person=3	7	expl:pv	_	_
-4	tornou	tornar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
+2	Amazon	Amazon	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	se	_	PRON	SE	Person=3	4	expl:pv	_	_
+4	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 6	quarta	_	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-7	empresa	empresa	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
+7	empresa	empresa	NOUN	NN	Gender=Fem|Number=Sing	4	xcomp	_	_
 8	Americana	americano	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
 9	com	_	ADP	IN	_	12	case	_	_
 10	a	_	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
@@ -24887,7 +24887,7 @@
 15	,	,	PUNCT	,	_	16	punct	_	_
 16	ultrapassando	_	VERB	VBG	_	7	acl	_	_
 17	ExxonMobil	ExxonMobil	PROPN	NNP	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	7	punct	_	_
+18	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n04010021
 # text = Líderes de empresas como Spotify, Tesla, Uber e Snapchat irão comparecer a um evento privado da cúpula de Mountain View.
