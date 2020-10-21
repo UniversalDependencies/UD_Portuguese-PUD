@@ -9811,17 +9811,17 @@
 # text = A Microsoft anunciou, na quarta-feira, uma nova ferramenta de chat no local de trabalho, confiante de que vai tomar o lugar da querida empresa, Slack.
 # text_en = Microsoft announced on Wednesday a new workplace chat tool poised to take on industry darling Slack.
 1	A	_	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	Microsoft	Microsoft	PROPN	NNP	Gender=Fem|Number=Sing	20	nsubj	_	_
-3	anunciou	anunciar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	20	cop	_	SpaceAfter=No
+2	Microsoft	Microsoft	PROPN	NNP	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	anunciou	anunciar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5-6	na	_	_	_	_	_	_	_	_
 5	em	em	ADP	INDT	_	7	case	_	_
 6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
-7	quarta-feira	quarta-feira	NOUN	NN	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+7	quarta-feira	quarta-feira	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	uma	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 10	nova	novo	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	_
-11	ferramenta	ferramenta	NOUN	NN	Gender=Fem|Number=Sing	20	obj	_	_
+11	ferramenta	ferramenta	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
 12	de	_	ADP	IN	_	13	case	_	_
 13	chat	_	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	_
 14-15	no	_	_	_	_	_	_	_	_
@@ -9831,7 +9831,7 @@
 17	de	_	ADP	IN	_	18	case	_	_
 18	trabalho	trabalho	NOUN	NN	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	11	punct	_	_
-20	confiante	confiante	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
+20	confiante	confiante	ADJ	JJ	Gender=Fem|Number=Sing	3	xcomp	_	_
 21	de	_	ADP	IN	_	24	case	_	_
 22	que	_	SCONJ	IN	_	24	mark	_	_
 23	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	24	aux	_	_
@@ -9845,7 +9845,7 @@
 30	empresa	empresa	NOUN	NN	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	_	_
 32	Slack	Slack	PROPN	NNP	Gender=Fem|Number=Sing	30	appos	_	SpaceAfter=No
-33	.	.	PUNCT	.	_	20	punct	_	_
+33	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01141007
 # text = Há também a opção de enviar emoji, GIFs, memes customizados e autocolantes pela plataforma, e associar o seu feed do Twitter.
@@ -21810,25 +21810,25 @@
 # sent_id = w01147018
 # text = Kesha e Pebe escreveram a canção "Stephen" juntos quando Kesha tinha 16 anos, Kesha então localizou David Gamson, um produtor que ela admirava, dos Scritti Politti, que concordou em produzir a canção.
 # text_en = Kesha and Pebe co-wrote the song "Stephen" together when Kesha was 16, Kesha then tracked down David Gamson, a producer that she admired, from Scritti Politti who agreed to produce the song.
-1	Kesha	Kesha	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
+1	Kesha	Kesha	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	e	_	CCONJ	CC	_	3	cc	_	_
 3	Pebe	Pebe	PROPN	NNP	Gender=Fem|Number=Sing	1	conj	_	_
-4	escreveram	escrever	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	10	cop	_	_
+4	escreveram	escrever	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 5	a	_	DET	DT	Gender=Fem|Number=Sing	6	det	_	_
-6	canção	canção	NOUN	NN	Gender=Fem|Number=Sing	10	obj	_	_
+6	canção	canção	NOUN	NN	Gender=Fem|Number=Sing	4	obj	_	_
 7	"	"	PUNCT	``	_	8	punct	_	SpaceAfter=No
 8	Stephen	Stephen	PROPN	NNP	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
 9	"	"	PUNCT	''	_	8	punct	_	_
-10	juntos	_	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	_
+10	juntos	_	ADJ	JJ	Gender=Fem|Number=Plur	4	xcomp	_	_
 11	quando	_	SCONJ	IN	_	13	mark	_	_
 12	Kesha	Kesha	PROPN	NNP	Gender=Fem|Number=Sing	13	nsubj	_	_
-13	tinha	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	advcl	_	_
+13	tinha	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	advcl	_	_
 14	16	_	NUM	CD	_	15	nummod	_	_
 15	anos	ano	NOUN	NN	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	19	punct	_	_
 17	Kesha	Kesha	PROPN	NNP	Gender=Fem|Number=Sing	19	nsubj	_	_
 18	então	então	ADV	RB	_	19	advmod	_	_
-19	localizou	localizar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	parataxis	_	_
+19	localizou	localizar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	parataxis	_	_
 20	David	David	PROPN	NNP	Gender=Masc|Number=Sing	19	obj	_	_
 21	Gamson	Gamson	PROPN	NNP	Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
@@ -21850,7 +21850,7 @@
 37	produzir	_	VERB	VB	_	35	xcomp	_	_
 38	a	_	DET	DT	Gender=Fem|Number=Sing	39	det	_	_
 39	canção	canção	NOUN	NN	Gender=Fem|Number=Sing	37	obj	_	SpaceAfter=No
-40	.	.	PUNCT	.	_	10	punct	_	_
+40	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = w01147122
 # text = A partir de agosto de 2015, Kesha divulgou pouca informação sobre o seu terceiro álbum de estúdio.
@@ -22751,18 +22751,18 @@
 # sent_id = n02038007
 # text = Simon Krätschmer tateia sozinho pelo quartel delapidado e sinistro.
 # text_en = Simon Krätschmer gropes around alone through the dilapidated, sinister barrack.
-1	Simon	Simon	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Simon	Simon	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Krätschmer	Krätschmer	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
-3	tateia	tatear	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-4	sozinho	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
+3	tateia	tatear	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	sozinho	_	ADJ	JJ	Gender=Masc|Number=Sing	3	xcomp	_	_
 5-6	pelo	_	_	_	_	_	_	_	_
 5	por	por	ADP	INDT	_	7	case	_	_
 6	o	o	DET	_	Gender=Masc|Number=Sing	7	det	_	_
-7	quartel	quartel	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
+7	quartel	quartel	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 8	delapidado	delapidado	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 9	e	_	CCONJ	CC	_	10	cc	_	_
 10	sinistro	sinistro	ADJ	JJ	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n02040
 # sent_id = n02040023
