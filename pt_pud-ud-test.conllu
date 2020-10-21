@@ -4911,13 +4911,13 @@
 9	par	par	NOUN	NN	Gender=Masc|Number=Sing	7	obj	_	_
 10	de	_	ADP	IN	_	11	case	_	_
 11	estudiosos	estudioso	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	_
-12	que	_	PRON	WP	_	18	nsubj	_	_
-13	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
-14	chamam	chamar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	_
-15	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
-16	não	não	ADV	RB	Polarity=Neg	18	advmod	_	_
-17	mais	mais	ADV	RBR	_	18	advmod	_	_
-18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	11	acl:relcl	_	_
+12	que	_	PRON	WP	_	14	nsubj	_	_
+13	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+14	chamam	chamar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	acl:relcl	_	_
+15	"	"	PUNCT	``	_	14	punct	_	SpaceAfter=No
+16	não	não	ADV	RB	Polarity=Neg	14	advmod	_	_
+17	mais	mais	ADV	RBR	_	14	advmod	_	_
+18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	14	xcomp	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	22	case	_	_
 20	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
@@ -4930,8 +4930,8 @@
 27	Nilo	Nilo	PROPN	NNP	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	não	não	ADV	RB	Polarity=Neg	29	advmod	_	_
 29	inunda	inundar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	18	punct	_	SpaceAfter=No
-31	"	"	PUNCT	''	_	18	punct	_	_
+30	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No
+31	"	"	PUNCT	''	_	14	punct	_	_
 
 # newdoc id = n01065
 # sent_id = n01065073
