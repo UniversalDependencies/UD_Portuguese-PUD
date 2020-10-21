@@ -14569,25 +14569,25 @@
 # sent_id = w01050068
 # text = Mas a recém-criada República da China considerou a Mongólia parte do seu próprio território.
 # text_en = But, the newly established Republic of China considered Mongolia to be part of its own territory.
-1	Mas	_	CCONJ	CC	_	11	discourse	_	_
+1	Mas	_	CCONJ	CC	_	8	discourse	_	_
 2	a	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 3	recém-criada	_	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
-4	República	_	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj	_	Proper=True
+4	República	_	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	Proper=True
 5-6	da	_	_	_	_	_	_	_	Proper=True
 5	de	de	ADP	INDT	_	7	case	_	_
 6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	China	China	PROPN	NNP	Gender=Fem|Number=Sing	4	nmod	_	_
-8	considerou	considerar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
+8	considerou	considerar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 9	a	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
-10	Mongólia	Mongólia	PROPN	NNP	Gender=Fem|Number=Sing	11	obj	_	_
-11	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
+10	Mongólia	Mongólia	PROPN	NNP	Gender=Fem|Number=Sing	8	obj	_	_
+11	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	8	xcomp	_	_
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	16	case	_	_
 13	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det:predet	_	_
 15	próprio	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	território	território	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|ToDo=nmod
-17	.	.	PUNCT	.	_	11	punct	_	_
+17	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = w01050069
 # text = Yuan Shikai, o Presidente da República da China, considerou que a nova república seria o sucessor dos Qing.
@@ -17947,23 +17947,23 @@
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
 2	o	o	DET	_	Gender=Masc|Number=Sing	3	det	_	_
-3	caso	caso	NOUN	NN	Gender=Masc|Number=Sing	13	obl	_	_
+3	caso	caso	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 4-5	da	_	_	_	_	_	_	_	_
 4	de	de	ADP	INDT	_	6	case	_	_
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	família	família	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
 7	imperial	imperial	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	3	punct	_	_
-9	considera	considerar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	SpaceAfter=No
+9	considera	considerar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
 10	-	-	PUNCT	-	_	9	punct	_	SpaceAfter=No
-11	se	_	PRON	SE	Person=3	13	expl:pv	_	_
-12	extremamente	extremamente	ADV	RB	_	13	advmod	_	_
-13	inapropriado	inapropriado	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-14	usar	_	VERB	VB	_	13	csubj	_	_
+11	se	_	PRON	SE	Person=3	9	expl:pv	_	_
+12	extremamente	extremamente	ADV	RB	_	9	advmod	_	_
+13	inapropriado	inapropriado	ADJ	JJ	Gender=Masc|Number=Sing	9	xcomp	_	_
+14	usar	_	VERB	VB	_	9	csubj	_	_
 15	o	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	nome	nome	NOUN	NN	Gender=Masc|Number=Sing	14	obj	_	_
 17	próprio	próprio	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	13	punct	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01095091
 # text = Desde o Imperador Meiji, tem sido costume ter uma era por Imperador e renomear cada Imperador após a sua morte usando o nome da época sobre a qual ele presidiu.
