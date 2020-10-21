@@ -3569,13 +3569,13 @@
 24	de	de	ADP	INDT	_	26	case	_	_
 25	o	o	DET	_	Gender=Masc|Number=Sing	26	det	_	_
 26	Senado	senado	NOUN	NN	Gender=Masc|Number=Sing	23	nmod	_	Proper=True
-27	quando	_	SCONJ	IN	_	30	mark	_	_
-28	declarou	declarar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	30	cop	_	_
-29	Duffy	Duffy	PROPN	NNP	Gender=Masc|Number=Sing	30	obj	_	_
-30	livre	livre	ADJ	JJ	Gender=Masc|Number=Sing	17	advcl	_	_
+27	quando	_	SCONJ	IN	_	28	mark	_	_
+28	declarou	declarar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	advcl	_	_
+29	Duffy	Duffy	PROPN	NNP	Gender=Masc|Number=Sing	28	obj	_	_
+30	livre	livre	ADJ	JJ	Gender=Masc|Number=Sing	28	xcomp	_	_
 31	de	_	ADP	IN	_	33	case	_	_
 32	qualquer	_	DET	DT	Gender=Fem|Number=Sing	33	det	_	_
-33	acusação	acusação	NOUN	NN	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+33	acusação	acusação	NOUN	NN	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	17	punct	_	_
 
 # newdoc id = n01046
@@ -29235,18 +29235,18 @@
 13	declaração	declaração	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 14	de	_	ADP	IN	_	15	case	_	_
 15	César	César	PROPN	NNP	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	,	_	26	punct	_	_
+16	,	,	PUNCT	,	_	22	punct	_	_
 17-18	na	_	_	_	_	_	_	_	_
 17	em	em	ADP	INDT	_	19	case	_	_
 18	a	o	DET	_	Gender=Fem|Number=Sing	19	det	_	_
 19	qual	_	PRON	WP	Number=Sing	26	nmod	_	ToDo=nmod
 20	o	_	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
-21	pro-cônsul	_	NOUN	NN	Gender=Masc|Number=Sing	26	nsubj	_	_
-22	declarou	declarar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	26	cop	_	SpaceAfter=No
+21	pro-cônsul	_	NOUN	NN	Gender=Masc|Number=Sing	22	nsubj	_	_
+22	declarou	declarar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	acl:relcl	_	SpaceAfter=No
 23	-	-	PUNCT	-	_	22	punct	_	SpaceAfter=No
-24	se	_	PRON	SE	Person=3	26	expl:pv	_	_
+24	se	_	PRON	SE	Person=3	22	expl:pv	_	_
 25	um	_	DET	DT	Gender=Masc|Number=Sing	26	det	_	_
-26	amigo	amigo	NOUN	NN	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+26	amigo	amigo	NOUN	NN	Gender=Masc|Number=Sing	22	xcomp	_	_
 27-28	da	_	_	_	_	_	_	_	_
 27	de	de	ADP	INDT	_	29	case	_	_
 28	a	o	DET	_	Gender=Fem|Number=Sing	29	det	_	_
