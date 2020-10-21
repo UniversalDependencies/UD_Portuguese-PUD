@@ -4898,7 +4898,7 @@
 20	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = n01064113
-# text = Caplan descarta o voto retrospectivo, citando um par de estudiosos que o chamam "não mais racional do que matar o faraó quando o Nilo não inunda."
+# text = Caplan descarta o voto retrospectivo, citando um par de estudiosos que o chamam "não mais racional do que matar o faraó quando o Nilo não inunda".
 # text_en = Caplan dismisses retrospective voting, quoting a pair of scholars who call it “no more rational than killing the pharaoh when the Nile does not flood.”
 1	Caplan	Caplan	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	descarta	descartar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -4906,23 +4906,23 @@
 4	voto	voto	NOUN	NN	Gender=Masc|Number=Sing	2	obj	_	_
 5	retrospectivo	retrospectivo	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
-7	citando	_	VERB	VBG	_	2	acl	_	_
+7	citando	_	VERB	VBG	_	2	advcl	_	_
 8	um	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 9	par	par	NOUN	NN	Gender=Masc|Number=Sing	7	obj	_	_
 10	de	_	ADP	IN	_	11	case	_	_
 11	estudiosos	estudioso	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	_
-12	que	_	PRON	WP	_	18	nsubj	_	_
-13	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
-14	chamam	chamar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	18	cop	_	_
+12	que	_	PRON	WP	_	14	nsubj	_	_
+13	o	ele	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+14	chamam	chamar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	acl	_	_
 15	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
 16	não	não	ADV	RB	Polarity=Neg	18	advmod	_	_
 17	mais	mais	ADV	RBR	_	18	advmod	_	_
-18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	11	acl:relcl	_	_
+18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	14	obj	_	_
 19-20	do	_	_	_	_	_	_	_	_
-19	de	de	ADP	INDT	_	22	case	_	_
-20	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
-21	que	_	ADP	IN	_	22	case	_	_
-22	matar	_	VERB	VB	_	17	xcomp	_	_
+19	de	de	ADP	INDT	_	22	mark	_	_
+20	o	o	DET	_	Gender=Masc|Number=Sing	19	fixed	_	_
+21	que	que	SCONJ	IN	_	19	fixed	_	_
+22	matar	_	VERB	VB	_	18	xcomp	_	_
 23	o	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	faraó	faraó	NOUN	NN	Gender=Masc|Number=Sing	22	obj	_	_
 25	quando	_	SCONJ	IN	_	29	mark	_	_
@@ -4930,8 +4930,8 @@
 27	Nilo	Nilo	PROPN	NNP	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	não	não	ADV	RB	Polarity=Neg	29	advmod	_	_
 29	inunda	inundar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	18	punct	_	SpaceAfter=No
-31	"	"	PUNCT	''	_	18	punct	_	_
+30	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	_
 
 # newdoc id = n01065
 # sent_id = n01065073
@@ -22751,18 +22751,18 @@
 # sent_id = n02038007
 # text = Simon Krätschmer tateia sozinho pelo quartel delapidado e sinistro.
 # text_en = Simon Krätschmer gropes around alone through the dilapidated, sinister barrack.
-1	Simon	Simon	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Simon	Simon	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Krätschmer	Krätschmer	PROPN	NNP	Gender=Masc|Number=Sing	1	flat:name	_	_
-3	tateia	tatear	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-4	sozinho	_	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
+3	tateia	tatear	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+4	sozinho	_	ADJ	JJ	Gender=Masc|Number=Sing	3	advmod	_	_
 5-6	pelo	_	_	_	_	_	_	_	_
 5	por	por	ADP	INDT	_	7	case	_	_
 6	o	o	DET	_	Gender=Masc|Number=Sing	7	det	_	_
-7	quartel	quartel	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
+7	quartel	quartel	NOUN	NN	Gender=Masc|Number=Sing	3	obl	_	_
 8	delapidado	delapidado	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
 9	e	_	CCONJ	CC	_	10	cc	_	_
 10	sinistro	sinistro	ADJ	JJ	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	_
+11	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n02040
 # sent_id = n02040023
