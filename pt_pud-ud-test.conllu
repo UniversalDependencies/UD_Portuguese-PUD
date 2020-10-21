@@ -19653,11 +19653,11 @@
 # sent_id = w01117034
 # text = Ela achou fácil a transição para a ficção, e explicou: "Cada livro é uma curva de aprendizagem e você tem que manter uma mente aberta".
 # text_en = She found the transition to fiction easy, explaining, "Every book is a learning curve, and you have to keep an open mind."
-1	Ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
-2	achou	achar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	_
-3	fácil	fácil	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
+1	Ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	achou	achar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	fácil	fácil	ADJ	JJ	Gender=Fem|Number=Sing	2	xcomp	_	_
 4	a	_	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
-5	transição	transição	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
+5	transição	transição	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
 6	para	_	ADP	IN	_	8	case	_	_
 7	a	_	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
 8	ficção	ficção	NOUN	NN	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -19682,7 +19682,7 @@
 27	mente	mente	NOUN	NN	Gender=Fem|Number=Sing	25	obj	_	_
 28	aberta	aberto	ADJ	JJ	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
 29	"	"	PUNCT	''	_	18	punct	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	3	punct	_	_
+30	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = w01119
 # sent_id = w01119059
