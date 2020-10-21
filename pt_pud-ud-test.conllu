@@ -4914,13 +4914,13 @@
 12	que	_	PRON	WP	_	14	nsubj	_	_
 13	o	ele	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
 14	chamam	chamar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	acl	_	_
-15	"	"	PUNCT	``	_	20	punct	_	SpaceAfter=No
+15	"	"	PUNCT	``	_	18	punct	_	SpaceAfter=No
 16	não	não	ADV	RB	Polarity=Neg	18	advmod	_	_
 17	mais	mais	ADV	RBR	_	18	advmod	_	_
-18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	20	amod	_	_
+18	racional	racional	ADJ	JJ	Gender=Masc|Number=Sing	14	xcomp	_	_
 19-20	do	_	_	_	_	_	_	_	_
 19	de	de	ADP	INDT	_	20	case	_	_
-20	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+20	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_
 21	que	que	ADP	IN	_	22	mark	_	_
 22	matar	_	VERB	VB	_	20	acl	_	_
 23	o	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
@@ -4930,7 +4930,7 @@
 27	Nilo	Nilo	PROPN	NNP	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	não	não	ADV	RB	Polarity=Neg	29	advmod	_	_
 29	inunda	inundar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	advcl	_	SpaceAfter=No
-30	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	2	punct	_	_
 
 # newdoc id = n01065
