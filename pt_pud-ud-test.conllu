@@ -5426,18 +5426,18 @@
 
 # newdoc id = n01073
 # sent_id = n01073004
-# text = Quem pode parar o lado da Austrália?
+# text = Quem consegue parar o time da Austrália?
 # text_en = Who can stop this Australia side?
-1	Quem	_	PRON	WP	_	3	nsubj	_	_
-2	pode	poder	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	aux	_	_
-3	parar	_	VERB	VB	_	0	root	_	_
+1	Quem	_	PRON	WP	_	2	nsubj	_	_
+2	consegue	conseguir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+3	parar	_	VERB	VB	_	2	xcomp	_	_
 4	o	_	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
-5	lado	lado	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
+5	time	time	NOUN	NN	Gender=Masc|Number=Sing	3	obj	_	_
 6-7	da	_	_	_	_	_	_	_	_
 6	de	de	ADP	INDT	_	8	case	_	_
 7	a	o	DET	_	Gender=Fem|Number=Sing	8	det	_	_
 8	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-9	?	?	PUNCT	.	_	3	punct	_	_
+9	?	?	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01073023
 # text = Seria o seu direito divino para o manto, uma vez que o melhor do mundo já não justificava?
