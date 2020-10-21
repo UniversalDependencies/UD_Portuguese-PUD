@@ -22870,13 +22870,13 @@
 2	outro	_	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 3	lado	lado	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No|ToDo=nmod
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	Vine	Vine	PROPN	NNP	Gender=Masc|Number=Sing	7	nsubj	_	_
-6	virou	virar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	_
-7	arte	arte	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
+5	Vine	Vine	PROPN	NNP	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	virou	virar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	arte	arte	NOUN	NN	Gender=Fem|Number=Sing	6	xcomp	_	_
 8	em	_	ADP	IN	_	10	case	_	_
 9	seis	_	NUM	CD	_	10	nummod	_	_
 10	segundos	segundo	NOUN	NN	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No|ToDo=nmod
-11	.	.	PUNCT	.	_	7	punct	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
 
 # newdoc id = n02043
 # sent_id = n02043008
