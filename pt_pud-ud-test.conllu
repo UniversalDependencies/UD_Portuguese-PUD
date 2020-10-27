@@ -2138,7 +2138,7 @@
 # text_en = Seagal, whose grandmother was from Vladivostok in Russia's far east, has made frequent trips to Russia in recent years and visited Kamchatka and Sakhalin in September.
 1	Seage	Seage	PROPN	NNP	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	5	punct	_	_
-3	cuja	_	PRON	WP	Gender=Fem|Number=Sing	4	amod	_	_
+3	cuja	cujo	DET	WP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Rel	4	det	_	_
 4	avó	avô	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
 5	era	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
 6	de	de	ADP	IN	_	7	case	_	_
@@ -2258,37 +2258,37 @@
 # sent_id = n01030006
 # text = Cuarón, cujo último filme foi o vencedor de Óscar Gravity, segundo as notícias, não estava no grupo na hora do incidente.
 # text_en = Cuaron, whose last film was the Oscar-winning Gravity, was reportedly not on set at the time of the incident.
-1	Cuarón	Cuarón	PROPN	NNP	Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+1	Cuarón	Cuarón	PROPN	NNP	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	8	punct	_	_
-3	cujo	_	PRON	WP	Gender=Masc|Number=Sing	5	amod	_	_
+3	cujo	cujo	DET	WP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	5	det	_	_
 4	último	último	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
 5	filme	filme	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
-6	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
+6	foi	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 7	o	o	DET	DT	Gender=Masc|Number=Sing	8	det	_	_
-8	vencedor	_	NOUN	NN	Gender=Masc|Number=Sing	1	acl:relcl	_	_
+8	vencedor	vencedor	NOUN	NN	Gender=Masc|Number=Sing	1	acl:relcl	_	_
 9	de	de	ADP	IN	_	10	case	_	_
 10	Óscar	Óscar	PROPN	NNP	Gender=Masc|Number=Sing	8	nmod	_	ToDo=nmod
 11	Gravity	Gravity	PROPN	NNP	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	_	_
 13	segundo	_	ADP	IN	_	15	case	_	_
 14	as	o	DET	DT	Gender=Fem|Number=Plur	15	det	_	_
-15	notícias	notícia	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+15	notícias	notícia	NOUN	NN	Gender=Fem|Number=Plur	21	obl	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	15	punct	_	_
-17	não	não	ADV	RB	Polarity=Neg	18	advmod	_	_
-18	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+17	não	não	ADV	RB	Polarity=Neg	21	advmod	_	_
+18	estava	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	cop	_	_
 19-20	no	_	_	_	_	_	_	_	_
 19	em	em	ADP	INDT	_	21	case	_	_
 20	o	o	DET	_	Gender=Masc|Number=Sing	21	det	_	_
-21	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	_
+21	grupo	grupo	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 22-23	na	_	_	_	_	_	_	_	_
 22	em	em	ADP	INDT	_	24	case	_	_
 23	a	o	DET	_	Gender=Fem|Number=Sing	24	det	_	_
-24	hora	hora	NOUN	NN	Gender=Fem|Number=Sing	18	obl	_	_
+24	hora	hora	NOUN	NN	Gender=Fem|Number=Sing	21	obl	_	_
 25-26	do	_	_	_	_	_	_	_	_
 25	de	de	ADP	INDT	_	27	case	_	_
 26	o	o	DET	_	Gender=Masc|Number=Sing	27	det	_	_
 27	incidente	incidente	NOUN	NN	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	18	punct	_	_
+28	.	.	PUNCT	.	_	21	punct	_	_
 
 # sent_id = n01030008
 # text = De acordo com o departamento da polícia da cidade, uma luta começou depois de "um grande grupo de pessoas... que se identificaram como autoridades do distrito" chegarem ao grupo na terça-feira.
@@ -6005,7 +6005,7 @@
 11	os	o	DET	_	Gender=Masc|Number=Plur	12	det	_	_
 12	trabalhadores	trabalhador	NOUN	NN	Gender=Masc|Number=Plur	7	obl	_	_
 13	americanos	americano	ADJ	JJ	Gender=Masc|Number=Plur	12	amod	_	_
-14	cujos	_	PRON	WP	Gender=Masc|Number=Plur	15	amod	_	_
+14	cujos	cujo	DET	WP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Rel	15	det	_	_
 15	trabalhos	trabalho	NOUN	NN	Gender=Masc|Number=Plur	22	nsubj:pass	_	_
 16	e	e	CCONJ	CC	_	17	cc	_	_
 17	padrões	padrão	NOUN	NN	Gender=Masc|Number=Plur	15	conj	_	_
@@ -19158,7 +19158,7 @@
 10	um	um	DET	DT	Gender=Masc|Number=Sing	11	det	_	_
 11	agente	agente	NOUN	NN	Gender=Masc|Number=Sing	6	csubj:pass	_	_
 12	secreto	secreto	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	_
-13	cujo	_	PRON	WP	Gender=Masc|Number=Sing	14	amod	_	_
+13	cujo	cujo	DET	WP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Rel	14	det	_	_
 14	alvo	alvo	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj	_	_
 15	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	cop	_	_
 16	Homer	Homer	PROPN	NNP	Gender=Masc|Number=Sing	11	acl:relcl	_	SpaceAfter=No
