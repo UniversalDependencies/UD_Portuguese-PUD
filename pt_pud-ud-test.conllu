@@ -2049,36 +2049,36 @@
 # sent_id = n01028022
 # text = Felizmente, alguém na Sony Austrália estava do tipo, 'Olá, por falar nisso, vocês repararam?' diz Pall.
 # text_en = "Luckily, someone in Sony Australia was like, 'Hey, by the way, did you guys notice this?'" says Pall.
-1	Felizmente	felizmente	ADV	RB	_	8	advmod	_	SpaceAfter=No
+1	Felizmente	felizmente	ADV	RB	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
-3	alguém	alguém	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	alguém	alguém	NOUN	NN	Gender=Masc|Number=Sing	11	nsubj	_	_
 4-5	na	_	_	_	_	_	_	_	_
 4	em	em	ADP	INDT	_	6	case	_	_
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	Sony	Sony	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
-7	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	6	appos	_	_
-8	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	6	flat:name	_	_
+8	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
 10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
-11	tipo	tipo	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	tipo	tipo	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	22	punct	_	_
 13	'	'	PUNCT	``	_	22	punct	_	SpaceAfter=No
 14	Olá	_	INTJ	UH	_	22	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	14	punct	_	_
-16	por	por	ADP	IN	_	18	case	_	_
-17	falar	_	VERB	VB	_	18	case	_	_
+16	por	por	ADP	IN	_	17	mark	_	_
+17	falar	_	VERB	VB	_	22	advcl	_	_
 18-19	nisso	_	_	_	_	_	_	_	SpaceAfter=No
-18	em	em	ADP	INPDEM	_	22	obl	_	_
-19	isso	este	DET	_	Gender=Masc|Number=Sing	18	det	_	_
-20	,	,	PUNCT	,	_	18	punct	_	_
+18	em	em	ADP	INPDEM	_	19	case	_	_
+19	isso	este	DET	_	Gender=Masc|Number=Sing	17	obl	_	_
+20	,	,	PUNCT	,	_	17	punct	_	_
 21	vocês	_	PRON	PRP	Case=Nom|Number=Plur|Person=3	22	nsubj	_	_
-22	repararam	reparar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	8	parataxis	_	SpaceAfter=No
+22	repararam	reparar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	11	acl	_	SpaceAfter=No
 23	?	?	PUNCT	.	_	22	punct	_	SpaceAfter=No
 24	'	'	PUNCT	''	_	22	punct	_	_
-25	diz	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	parataxis	_	_
+25	diz	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	parataxis	_	_
 26	Pall	Pall	PROPN	NNP	Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	8	punct	_	_
+27	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = n01029
 # sent_id = n01029006
