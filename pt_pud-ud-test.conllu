@@ -1983,7 +1983,7 @@
 # text = Grande parte do debate, do lado Democrático deste ano, tem sido sobre a identidade de homens brancos.
 # text_en = Much of the debate, from the Democratic side this year, has been about white male identity.
 1	Grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
-2	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	_
+2	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	19	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
 4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
@@ -1999,15 +1999,15 @@
 12	este	este	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
-15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	16	aux	_	_
-16	sido	_	VERB	VBN	_	0	root	_	_
+15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
+16	sido	_	VERB	VBN	_	19	cop	_	_
 17	sobre	_	ADP	IN	_	19	case	_	_
 18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
-19	identidade	identidade	NOUN	NN	Gender=Fem|Number=Sing	16	obl	_	_
+19	identidade	identidade	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 20	de	de	ADP	IN	_	21	case	_	_
 21	homens	homem	NOUN	NN	Gender=Masc|Number=Plur	19	nmod	_	_
 22	brancos	branco	ADJ	JJ	Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	.	_	16	punct	_	_
+23	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n01027041
 # text = Mais tarde, eu perguntei-lhe se ela entendeu por que é que as pessoas poderiam votar em Trump.
