@@ -810,8 +810,8 @@
 12	oradores	orador	NOUN	NN	Gender=Masc|Number=Plur	9	nmod	_	_
 13	depois	depois	ADV	RB	_	4	advmod	_	_
 14	de	de	ADP	IN	_	17	case	_	_
-15	ter	_	AUX	VB	_	17	aux	_	_
-16	sido	_	AUX	VBN	_	17	aux:pass	_	_
+15	ter	ter	AUX	VB	_	17	aux	_	_
+16	sido	ser	AUX	VBN	_	17	aux:pass	_	_
 17	despedido	_	VERB	VBN	Gender=Masc|Number=Sing	13	xcomp	_	_
 18	em	em	ADP	IN	_	19	case	_	_
 19	julho	julho	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
@@ -1268,8 +1268,8 @@
 3	os	o	DET	DT	Gender=Masc|Number=Plur	4	det	_	_
 4	jatos	jato	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
 5	só	só	ADV	RB	_	8	advmod	_	_
-6	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	8	aux	_	_
-7	sido	_	AUX	VBN	_	8	aux:pass	_	_
+6	tinham	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	8	aux	_	_
+7	sido	ser	AUX	VBN	_	8	aux:pass	_	_
 8	vistos	_	VERB	VBN	Gender=Masc|Number=Plur	0	root	_	_
 9-10	pelos	_	_	_	_	_	_	_	_
 9	por	por	ADP	INDT	_	11	case	_	_
@@ -1391,8 +1391,8 @@
 32	de	de	ADP	IN	_	37	case	_	_
 33	a	o	DET	DT	Gender=Fem|Number=Sing	34	det	_	_
 34	seção	seção	NOUN	NN	Gender=Fem|Number=Sing	37	nsubj:pass	_	_
-35	ter	_	AUX	VB	_	37	aux	_	_
-36	sido	_	AUX	VBN	_	37	aux:pass	_	_
+35	ter	ter	AUX	VB	_	37	aux	_	_
+36	sido	ser	AUX	VBN	_	37	aux:pass	_	_
 37	fechada	_	VERB	VBN	Gender=Fem|Number=Sing	31	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -2000,7 +2000,7 @@
 13	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
 15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
-16	sido	_	VERB	VBN	_	19	cop	_	_
+16	sido	ser	AUX	VBN	_	19	cop	_	_
 17	sobre	_	ADP	IN	_	19	case	_	_
 18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
 19	identidade	identidade	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
@@ -2881,7 +2881,7 @@
 5	média	médio	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 6	chinesa	chinês	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 7	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	aux	_	_
-8	sido	_	AUX	VBN	_	10	cop	_	_
+8	sido	ser	AUX	VBN	_	10	cop	_	_
 9	incomumente	_	ADV	RB	_	10	advmod	_	_
 10	verbal	verbal	ADJ	JJ	Gender=Fem|Number=Sing	0	root	_	_
 11-12	nas	_	_	_	_	_	_	_	_
@@ -3209,8 +3209,8 @@
 24	semana	semana	NOUN	NN	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	,	_	29	punct	_	_
 26	após	_	ADP	IN	_	29	case	_	_
-27	terem	_	AUX	VBI	Number=Plur|Person=3	29	aux	_	_
-28	sido	_	AUX	VBN	_	29	aux:pass	_	_
+27	terem	ter	AUX	VBI	Number=Plur|Person=3	29	aux	_	_
+28	sido	ser	AUX	VBN	_	29	aux:pass	_	_
 29	levantadas	_	VERB	VBN	Gender=Fem|Number=Plur	15	xcomp	_	_
 30	"	"	PUNCT	``	_	31	punct	_	SpaceAfter=No
 31	questões	questão	NOUN	NN	Gender=Fem|Number=Plur	29	nsubj:pass	_	_
@@ -7666,8 +7666,8 @@
 14	a	a	ADP	INDT	_	19	case	_	_
 15	o	o	DET	_	Gender=Masc|Number=Sing	19	det	_	_
 16	escândalo	escândalo	NOUN	NN	Gender=Masc|Number=Sing	19	nsubj:pass	_	_
-17	ter	_	AUX	VB	_	19	aux	_	_
-18	sido	_	AUX	VBN	_	19	aux:pass	_	_
+17	ter	ter	AUX	VB	_	19	aux	_	_
+18	sido	ser	AUX	VBN	_	19	aux:pass	_	_
 19	descoberto	_	VERB	VBN	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -10462,7 +10462,7 @@
 6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	região	região	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	_
 8	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
-9	sido	_	VERB	VBN	_	0	root	_	_
+9	sido	ser	VERB	VBN	_	0	root	_	_
 10	bem	bem	ADV	RB	_	9	advmod	_	_
 11	sucedidas	sucedido	ADJ	JJ	Gender=Fem|Number=Plur	10	compound	_	_
 
@@ -12326,8 +12326,8 @@
 21	sul	sul	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	de	de	ADP	IN	_	23	case	_	_
 23	Danevirke	Danevirke	PROPN	NNP	Gender=Fem|Number=Sing	21	nmod	_	_
-24	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	26	aux	_	_
-25	sido	_	AUX	VBN	_	26	aux:pass	_	_
+24	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	26	aux	_	_
+25	sido	ser	AUX	VBN	_	26	aux:pass	_	_
 26	conquistado	_	VERB	VBN	Gender=Masc|Number=Sing	12	conj	_	_
 27-28	pelo	_	_	_	_	_	_	_	_
 27	por	por	ADP	INDT	_	29	case	_	_
@@ -12403,8 +12403,8 @@
 31	até	_	ADP	IN	_	32	case	_	_
 32	Flensburgo	Flensburgo	PROPN	NNP	Gender=Fem|Number=Sing	28	nmod	_	_
 33	nunca	nunca	ADV	RB	Polarity=Neg	37	advmod	_	_
-34	ter	_	AUX	VB	_	37	aux	_	_
-35	sido	_	AUX	VBN	_	37	aux:pass	_	_
+34	ter	ter	AUX	VB	_	37	aux	_	_
+35	sido	ser	AUX	VBN	_	37	aux:pass	_	_
 36	devidamente	devidamente	ADV	RB	_	37	advmod	_	_
 37	utilizado	_	VERB	VBN	Gender=Masc|Number=Sing	25	xcomp	_	_
 38	para	para	ADP	IN	_	40	case	_	_
@@ -14165,8 +14165,8 @@
 3	de	de	ADP	INDT	_	5	case	_	_
 4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	Caribe	Caribe	PROPN	NNP	Gender=Masc|Number=Sing	2	nmod	_	_
-6	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
-7	sido	_	AUX	VBN	_	8	aux:pass	_	_
+6	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	aux	_	_
+7	sido	ser	AUX	VBN	_	8	aux:pass	_	_
 8	desconhecido	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 9	para	para	ADP	IN	_	10	case	_	_
 10	populações	população	NOUN	NN	Gender=Fem|Number=Plur	8	obl	_	_
@@ -14638,8 +14638,8 @@
 8	como	_	CCONJ	CC	_	10	cc	_	_
 9	a	o	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	China	China	PROPN	NNP	Gender=Fem|Number=Sing	7	conj	_	_
-11	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	13	aux	_	_
-12	sido	_	AUX	VBN	_	13	aux:pass	_	_
+11	tinham	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	13	aux	_	_
+12	sido	ser	AUX	VBN	_	13	aux:pass	_	_
 13	administradas	_	VERB	VBN	Gender=Fem|Number=Plur	3	ccomp	_	_
 14-15	pelos	_	_	_	_	_	_	_	_
 14	por	por	ADP	INDT	_	16	case	_	_
@@ -14812,8 +14812,8 @@
 23	nenhum	_	DET	DT	Gender=Masc|Number=Sing	24	det	_	_
 24	soldado	soldado	NOUN	NN	Gender=Masc|Number=Sing	28	nsubj:pass	_	_
 25	egípcio	egípcio	ADJ	JJ	Gender=Masc|Number=Sing	24	amod	_	_
-26	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	28	aux	_	_
-27	sido	_	AUX	VBN	_	28	aux:pass	_	_
+26	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	28	aux	_	_
+27	sido	ser	AUX	VBN	_	28	aux:pass	_	_
 28	visto	_	VERB	VBN	Gender=Masc|Number=Sing	20	acl:relcl	_	_
 29	desde	_	ADP	IN	_	31	case	_	_
 30	a	o	DET	DT	Gender=Fem|Number=Sing	31	det	_	_
@@ -14953,8 +14953,8 @@
 9	uma	um	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	sexta-feira	sexta-feira	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
 11	se	_	SCONJ	IN	_	14	mark	_	_
-12	tivesse	_	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	14	aux	_	_
-13	sido	_	AUX	VBN	_	14	aux:pass	_	_
+12	tivesse	ter	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	14	aux	_	_
+13	sido	ser	AUX	VBN	_	14	aux:pass	_	_
 14	introduzido	_	VERB	VBN	Gender=Masc|Number=Sing	7	advcl	_	_
 15	um	_	NUM	CD	Gender=Masc	16	nummod	_	_
 16	mês	mês	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
@@ -15025,8 +15025,8 @@
 14	que	_	PRON	WP	_	19	nsubj:pass	_	_
 15	ainda	ainda	ADV	RB	_	19	advmod	_	_
 16	não	não	ADV	RB	Polarity=Neg	19	advmod	_	_
-17	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
-18	sido	_	AUX	VBN	_	19	aux:pass	_	_
+17	tinham	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
+18	sido	ser	AUX	VBN	_	19	aux:pass	_	_
 19	colonizadas	_	VERB	VBN	Gender=Fem|Number=Plur	7	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -15061,8 +15061,8 @@
 24	,	,	PUNCT	,	_	29	punct	_	_
 25	como	_	SCONJ	IN	_	29	mark	_	_
 26	já	já	ADV	RB	_	29	advmod	_	_
-27	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	29	aux	_	_
-28	sido	_	AUX	VBN	_	29	aux:pass	_	_
+27	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	29	aux	_	_
+28	sido	ser	AUX	VBN	_	29	aux:pass	_	_
 29	feito	_	VERB	VBN	Gender=Masc|Number=Sing	19	advcl	_	_
 30	a	_	ADP	IN	_	34	case	_	_
 31	partir	_	VERB	VB	_	30	fixed	_	_
@@ -15182,8 +15182,8 @@
 6	últimos	último	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	_
 7	Jogos	jogo	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj:pass	_	Proper=True
 8	Olímpicos	olímpico	ADJ	JJ	Gender=Masc|Number=Plur	7	amod	_	Proper=True
-9	tenham	_	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	11	aux	_	_
-10	sido	_	AUX	VBN	_	11	aux:pass	_	_
+9	tenham	ter	AUX	VBC	Mood=Sub|Number=Plur|Person=3|Tense=Pres	11	aux	_	_
+10	sido	ser	AUX	VBN	_	11	aux:pass	_	_
 11	realizados	_	VERB	VBN	Gender=Masc|Number=Plur	1	ccomp	_	_
 12	em	em	ADP	IN	_	13	case	_	_
 13	393	_	NUM	CD	Gender=Masc	11	obl	_	SpaceAfter=No
@@ -16049,8 +16049,8 @@
 7	duras	duro	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
 8	ações	ação	NOUN	NN	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
-10	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	_
-11	sido	_	AUX	VBN	_	12	aux:pass	_	_
+10	tinha	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	aux	_	_
+11	sido	ser	AUX	VBN	_	12	aux:pass	_	_
 12	visto	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 13	como	como	ADP	IN	_	15	case	_	_
 14	um	um	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
@@ -16992,8 +16992,8 @@
 17	qualquer	_	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
 18	um	um	NOUN	NN	Gender=Masc|Number=Sing	28	nsubj	_	_
 19	que	_	PRON	WP	_	22	nsubj:pass	_	_
-20	tivesse	_	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	22	aux	_	_
-21	sido	_	AUX	VBN	_	22	aux:pass	_	_
+20	tivesse	ter	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	22	aux	_	_
+21	sido	ser	AUX	VBN	_	22	aux:pass	_	_
 22	batizado	_	VERB	VBN	Gender=Masc|Number=Sing	18	acl:relcl	_	_
 23-24	à	_	_	_	_	_	_	_	_
 23	a	a	ADP	INDT	_	25	case	_	_
@@ -17979,7 +17979,7 @@
 4	Meiji	Meiji	PROPN	NNP	Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	3	punct	_	_
 6	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	aux	_	_
-7	sido	_	AUX	VBN	_	8	cop	_	_
+7	sido	ser	AUX	VBN	_	8	cop	_	_
 8	costume	costume	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 9	ter	_	VERB	VB	_	8	csubj	_	_
 10	uma	_	NUM	CD	Gender=Fem	11	nummod	_	_
@@ -18852,8 +18852,8 @@
 13	pilotos	piloto	NOUN	NN	Gender=Masc|Number=Plur	8	obl	_	_
 14	que	_	PRON	WP	_	19	nsubj	_	_
 15	não	não	ADV	RB	Polarity=Neg	19	advmod	_	_
-16	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
-17	sido	_	AUX	VBN	_	19	aux:pass	_	_
+16	tinham	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	19	aux	_	_
+17	sido	ser	AUX	VBN	_	19	aux:pass	_	_
 18	previamente	previamente	ADV	RB	_	19	advmod	_	_
 19	treinados	_	VERB	VBN	Gender=Masc|Number=Plur	13	acl:relcl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	4	punct	_	_
@@ -21693,8 +21693,8 @@
 27	sobreviver	_	VERB	VB	_	19	xcomp	_	_
 28	depois	depois	ADV	RB	_	27	advmod	_	_
 29	de	de	ADP	IN	_	32	case	_	_
-30	ter	_	AUX	VB	_	32	aux	_	_
-31	sido	_	AUX	VBN	_	32	aux:pass	_	_
+30	ter	ter	AUX	VB	_	32	aux	_	_
+31	sido	ser	AUX	VBN	_	32	aux:pass	_	_
 32	baleado	_	VERB	VBN	Gender=Masc|Number=Sing	28	xcomp	_	_
 33	em	em	ADP	IN	_	35	case	_	_
 34	uma	um	DET	DT	Gender=Fem|Number=Sing	35	det	_	_
@@ -22399,8 +22399,8 @@
 16	o	o	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
 17	teclado	teclado	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	_
 18	que	_	PRON	WP	_	21	nsubj:pass	_	_
-19	havia	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
-20	sido	_	AUX	VBN	_	21	aux:pass	_	_
+19	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
+20	sido	ser	AUX	VBN	_	21	aux:pass	_	_
 21	antecipada	_	VERB	VBN	Gender=Fem|Number=Sing	9	acl:relcl	_	_
 22	em	em	ADP	IN	_	23	case	_	_
 23	boatos	boato	NOUN	NN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
@@ -23156,8 +23156,8 @@
 16	a	o	DET	_	Gender=Fem|Number=Sing	17	det	_	_
 17	Boeing	Boeing	PROPN	NNP	Gender=Fem|Number=Sing	12	nmod	_	_
 18	que	_	PRON	WP	_	21	nsubj:pass	_	_
-19	havia	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
-20	sido	_	AUX	VBN	_	21	aux:pass	_	_
+19	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
+20	sido	ser	AUX	VBN	_	21	aux:pass	_	_
 21	trazida	_	VERB	VBN	Gender=Fem|Number=Sing	12	acl:relcl	_	_
 22-23	pelas	_	_	_	_	_	_	_	_
 22	por	por	ADP	INDT	_	24	case	_	_
@@ -23973,8 +23973,8 @@
 17	o	o	DET	_	Gender=Masc|Number=Sing	18	det	_	_
 18	guia	guia	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	_
 19	não	não	ADV	RB	Polarity=Neg	22	advmod	_	_
-20	ter	_	AUX	VB	_	22	aux	_	_
-21	sido	_	AUX	VBN	_	22	aux:pass	_	_
+20	ter	ter	AUX	VB	_	22	aux	_	_
+21	sido	ser	AUX	VBN	_	22	aux:pass	_	_
 22	incluído	_	VERB	VBN	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
 23	:	:	PUNCT	:	_	28	punct	_	_
 24	"	"	PUNCT	``	_	28	punct	_	SpaceAfter=No
@@ -24290,7 +24290,7 @@
 # text_en = Having always been close to the Catholic Union, Tina Anselmi attended particularly to the rights of textile workers and teachers.
 1	Tendo	_	AUX	VBG	_	4	aux	_	_
 2	sempre	sempre	ADV	RB	_	4	advmod	_	_
-3	sido	_	AUX	VBN	_	4	cop	_	_
+3	sido	ser	AUX	VBN	_	4	cop	_	_
 4	próxima	próximo	ADJ	JJ	Gender=Fem|Number=Sing	10	acl	_	_
 5-6	da	_	_	_	_	_	_	_	_
 5	de	de	ADP	INDT	_	7	case	_	_
@@ -25045,7 +25045,7 @@
 1	As	_	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
 2	uniões	união	NOUN	NN	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	6	aux	_	_
-4	sido	_	AUX	VBN	_	6	cop	_	_
+4	sido	ser	AUX	VBN	_	6	cop	_	_
 5	muito	muito	ADV	RB	_	6	advmod	_	_
 6	combativas	combativo	ADJ	JJ	Gender=Fem|Number=Plur	0	root	_	_
 7	e	e	CCONJ	CC	_	11	cc	_	_
@@ -25662,8 +25662,8 @@
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	o	o	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	qual	_	PRON	WP	Number=Sing	16	nsubj:pass	_	_
-14	havia	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux	_	_
-15	sido	_	AUX	VBN	_	16	aux:pass	_	_
+14	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	aux	_	_
+15	sido	ser	AUX	VBN	_	16	aux:pass	_	_
 16	deixado	_	VERB	VBN	Gender=Masc|Number=Sing	8	acl:relcl	_	_
 17	para	para	ADP	IN	_	19	case	_	_
 18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
@@ -27322,8 +27322,8 @@
 18	que	_	PRON	WP	_	23	nsubj:pass	_	_
 19	ainda	ainda	ADV	RB	_	23	advmod	_	_
 20	não	não	ADV	RB	Polarity=Neg	23	advmod	_	_
-21	havia	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux	_	_
-22	sido	_	AUX	VBN	_	23	aux:pass	_	_
+21	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	aux	_	_
+22	sido	ser	AUX	VBN	_	23	aux:pass	_	_
 23	utilizada	_	VERB	VBN	Gender=Fem|Number=Sing	17	acl:relcl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -28487,8 +28487,8 @@
 15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
 16	Sul	sul	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	Proper=True
 17	já	já	ADV	RB	_	21	advmod	_	_
-18	havia	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
-19	sido	_	AUX	VBN	_	21	cop	_	_
+18	havia	haver	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	21	aux	_	_
+19	sido	ser	AUX	VBN	_	21	cop	_	_
 20	o	o	DET	DT	Gender=Masc|Number=Sing	21	det	_	_
 21	local	local	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 22	de	de	ADP	IN	_	24	case	_	_
@@ -28906,8 +28906,8 @@
 6	a	o	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	lei	lei	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 8	inglesa	inglês	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-9	tivesse	_	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	11	aux	_	_
-10	sido	_	AUX	VBN	_	11	aux:pass	_	_
+9	tivesse	ter	AUX	VBC	Mood=Sub|Number=Sing|Person=3|Tense=Past	11	aux	_	_
+10	sido	ser	AUX	VBN	_	11	aux:pass	_	_
 11	aceita	_	VERB	VBN	Gender=Fem|Number=Sing	24	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	as	o	DET	DT	Gender=Fem|Number=Plur	14	det	_	_
