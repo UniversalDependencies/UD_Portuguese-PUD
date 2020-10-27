@@ -2057,7 +2057,7 @@
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	Sony	Sony	PROPN	NNP	Gender=Fem|Number=Sing	3	nmod	_	_
 7	Austrália	Austrália	PROPN	NNP	Gender=Fem|Number=Sing	6	flat:name	_	_
-8	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
+8	estava	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	cop	_	_
 9-10	do	_	_	_	_	_	_	_	_
 9	de	de	ADP	INDT	_	11	case	_	_
 10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
