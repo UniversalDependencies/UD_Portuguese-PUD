@@ -12599,25 +12599,25 @@
 # text = O norte da Argélia está na zona temperada e goza de um clima mediterrânico suave.
 # text_en = Northern Algeria is in the temperate zone and enjoys a mild, Mediterranean climate.
 1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	norte	norte	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	norte	norte	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	Argélia	Argélia	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	_
-6	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 7-8	na	_	_	_	_	_	_	_	_
 7	em	em	ADP	INDT	_	9	case	_	_
 8	a	o	DET	_	Gender=Fem|Number=Sing	9	det	_	_
-9	zona	zona	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
+9	zona	zona	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 10	temperada	temperado	ADJ	JJ	Gender=Fem|Number=Sing	9	amod	_	_
 11	e	e	CCONJ	CC	_	12	cc	_	_
-12	goza	gozar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	conj	_	_
+12	goza	gozar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	conj	_	_
 13	de	de	ADP	IN	_	15	case	_	_
 14	um	um	DET	DT	Gender=Masc|Number=Sing	15	det	_	_
 15	clima	clima	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 16	mediterrânico	mediterrânico	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	_
 17	suave	suave	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	6	punct	_	_
+18	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = w01028
 # sent_id = w01028004
