@@ -5490,27 +5490,27 @@
 # text = A África do Sul está quase em um beco sem saída e nós temos que conseguir alcançar suas expectativas.
 # text_en = South Africa are almost at the point of no return and we have to be able to match their desire.
 1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	África	África	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj	_	_
+2	África	África	PROPN	NNP	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	do	_	_	_	_	_	_	_	Proper=True
 3	de	de	ADP	INDT	_	5	case	_	_
 4	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 5	Sul	sul	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	Proper=True
-6	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-7	quase	quase	ADV	RB	_	6	advmod	_	_
+6	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+7	quase	quase	ADV	RB	_	10	advmod	_	_
 8	em	em	ADP	IN	_	10	case	_	_
 9	um	um	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
-10	beco	beco	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	_
+10	beco	beco	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 11	sem	_	ADP	IN	_	12	case	_	_
 12	saída	saída	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	_
 13	e	e	CCONJ	CC	_	17	cc	_	_
 14	nós	_	PRON	PRP	Case=Nom|Number=Plur|Person=1	17	nsubj	_	_
 15	temos	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	17	aux	_	_
 16	que	_	ADP	IN	_	15	fixed	_	_
-17	conseguir	_	VERB	VB	_	6	conj	_	_
+17	conseguir	_	VERB	VB	_	10	conj	_	_
 18	alcançar	_	VERB	VB	_	17	xcomp	_	_
 19	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	20	det	_	_
 20	expectativas	expectativa	NOUN	NN	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	6	punct	_	_
+21	.	.	PUNCT	.	_	10	punct	_	_
 
 # sent_id = n01074020
 # text = Ele tem um jogo duro mas também tem umas mãos suaves.
