@@ -5773,11 +5773,11 @@
 1-2	No	_	_	_	_	_	_	_	_
 1	Em	em	ADP	INDT	_	3	case	_	_
 2	o	o	DET	_	Gender=Masc|Number=Sing	3	det	_	_
-3	canto	canto	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+3	canto	canto	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+5	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 6	uma	um	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
-7	menina	menino	NOUN	NN	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	menina	menino	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 8	com	_	ADP	IN	_	10	case	_	_
 9	um	um	DET	DT	Gender=Masc|Number=Sing	10	det	_	_
 10	lenço	lenço	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -5791,15 +5791,15 @@
 17	,	,	PUNCT	,	_	20	punct	_	_
 18	com	_	ADP	IN	_	20	case	_	_
 19	um	um	DET	DT	Gender=Masc|Number=Sing	20	det	_	_
-20	ar	ar	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	_
+20	ar	ar	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	_
 21	tão	tão	ADV	RB	_	22	advmod	_	_
 22	modesto	modesto	ADJ	JJ	Gender=Masc|Number=Sing	20	amod	_	_
 23	que	que	SCONJ	IN	_	24	mark	_	_
-24	penso	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	advcl	_	_
+24	penso	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	21	advcl	_	_
 25	ser	_	AUX	VB	_	27	cop	_	_
 26	outra	_	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
 27	assistente	assistente	NOUN	NN	Gender=Fem|Number=Sing	24	xcomp	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	5	punct	_	_
+28	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01079065
 # text = Os artistas alcançam as pessoas no seu coração; é a única vez que nos encontramos em um lugar e colocamos as nossas diferenças de lado.
