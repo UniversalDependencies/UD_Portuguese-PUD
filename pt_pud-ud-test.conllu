@@ -24130,16 +24130,16 @@
 # sent_id = n03008011
 # text = ETA está de saída, o contigente Francês revelou.
 # text_en = "ETA is on its way out," the French contingent revealed.
-1	ETA	ETA	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
-2	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+1	ETA	ETA	PROPN	NNP	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 3	de	de	ADP	IN	_	4	case	_	_
-4	saída	saída	NOUN	NN	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	saída	saída	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	9	punct	_	_
 6	o	o	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
 7	contigente	_	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	Francês	francês	ADJ	JJ	Gender=Masc|Number=Sing	7	amod	_	_
-9	revelou	revelar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	2	punct	_	_
+9	revelou	revelar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	4	punct	_	_
 
 # newdoc id = n03009
 # sent_id = n03009006
