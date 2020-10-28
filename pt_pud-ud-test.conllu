@@ -2221,7 +2221,7 @@
 # text = Um porta-voz da polícia contou à Associated Press que houve "uma troca de palavras", seguida de uma "discussão" mas que nenhum ferimento foi reportado.
 # text_en = A police spokesman told the Associated Press there was "an exchange of words" followed by an "altercation" but that no injuries had been reported.
 1	Um	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	porta-voz	porta-voz	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
+2	porta-voz	porta-voz	NOUN	NN	Gender=Com|Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
@@ -5795,9 +5795,9 @@
 21	tão	tão	ADV	RB	_	22	advmod	_	_
 22	modesto	modesto	ADJ	JJ	Gender=Masc|Number=Sing	20	amod	_	_
 23	que	que	SCONJ	IN	_	24	mark	_	_
-24	penso	_	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	21	advcl	_	_
-25	ser	_	AUX	VB	_	27	cop	_	_
-26	outra	_	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
+24	penso	pensar	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	22	advcl	_	_
+25	ser	ser	AUX	VB	_	27	cop	_	_
+26	outra	outro	DET	DT	Gender=Fem|Number=Sing	27	det	_	_
 27	assistente	assistente	NOUN	NN	Gender=Fem|Number=Sing	24	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -9322,37 +9322,36 @@
 15	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = n01133022
-# text = Um porta voz da Harley-Davidson disse que os títulos que têm sobrevoado os meios de comunicação - 2017 ou 2020 - não são precisos.
+# text = Uma porta-voz da Harley-Davidson disse que os cronogramas que têm sobrevoado os meios de comunicação - 2017 ou 2020 - não são precisos.
 # text_en = A Harley-Davidson spokeswoman said timelines that have been floated in the media -- 2017 or 2020 -- aren't accurate.
-1	Um	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	porta	_	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	voz	_	X	GW	_	2	compound	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
-6	Harley	Harley	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-7	-	-	PUNCT	-	_	8	punct	_	Proper=True|SpaceAfter=No
-8	Davidson	Davidson	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	6	flat	_	_
-9	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-10	que	que	SCONJ	IN	_	27	mark	_	_
-11	os	o	DET	DT	Gender=Masc|Number=Plur	12	det	_	_
-12	títulos	título	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	_
-13	que	_	PRON	WP	_	15	nsubj	_	_
-14	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	15	aux	_	_
-15	sobrevoado	_	VERB	VBN	_	12	acl:relcl	_	_
-16	os	o	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
-17	meios	_	NOUN	NN	Gender=Masc|Number=Plur	15	obj	_	_
-18	de	de	ADP	IN	_	19	case	_	_
-19	comunicação	comunicação	NOUN	NN	Gender=Fem|Number=Sing	17	nmod	_	_
-20	-	-	PUNCT	-	_	21	punct	_	_
-21	2017	_	NUM	CD	Gender=Masc	12	appos	_	_
-22	ou	_	CCONJ	CC	_	23	cc	_	_
-23	2020	_	NUM	CD	Gender=Masc	21	conj	_	_
-24	-	-	PUNCT	-	_	21	punct	_	_
-25	não	não	ADV	RB	Polarity=Neg	27	advmod	_	_
-26	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	27	cop	_	_
-27	precisos	preciso	ADJ	JJ	Gender=Masc|Number=Plur	9	ccomp	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	9	punct	_	_
+1	Uma	um	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
+2	porta-voz	_	NOUN	NN	Gender=Com|Number=Sing	8	nsubj	_	_
+3-4	da	_	_	_	_	_	_	_	_
+3	de	de	ADP	INDT	_	5	case	_	_
+4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+5	Harley	Harley	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	-	_	7	punct	_	Proper=True|SpaceAfter=No
+7	Davidson	Davidson	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	5	flat	_	_
+8	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+9	que	que	SCONJ	IN	_	26	mark	_	_
+10	os	o	DET	DT	Gender=Masc|Number=Plur	11	det	_	_
+11	cronogramas	cronograma	NOUN	NN	Gender=Masc|Number=Plur	26	nsubj	_	_
+12	que	_	PRON	WP	_	14	nsubj	_	_
+13	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	14	aux	_	_
+14	sobrevoado	_	VERB	VBN	_	11	acl:relcl	_	_
+15	os	o	DET	DT	Gender=Masc|Number=Plur	16	det	_	_
+16	meios	_	NOUN	NN	Gender=Masc|Number=Plur	14	obj	_	_
+17	de	de	ADP	IN	_	18	case	_	_
+18	comunicação	comunicação	NOUN	NN	Gender=Fem|Number=Sing	16	nmod	_	_
+19	-	-	PUNCT	-	_	20	punct	_	_
+20	2017	_	NUM	CD	Gender=Masc	11	appos	_	_
+21	ou	_	CCONJ	CC	_	22	cc	_	_
+22	2020	_	NUM	CD	Gender=Masc	20	conj	_	_
+23	-	-	PUNCT	-	_	20	punct	_	_
+24	não	não	ADV	RB	Polarity=Neg	26	advmod	_	_
+25	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	26	cop	_	_
+26	precisos	preciso	ADJ	JJ	Gender=Masc|Number=Plur	8	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	8	punct	_	_
 
 # newdoc id = n01134
 # sent_id = n01134005
@@ -9993,70 +9992,75 @@
 29	.	.	PUNCT	.	_	25	punct	_	_
 
 # sent_id = n01142008
-# text = Eu tenho que felicitar o Andy -- por chegar ao No. 1 do mundo, que é uma conquista incrível, disse o americano.
+# text = "Eu tenho que felicitar o Andy -- por chegar ao No. 1 do mundo, que é uma conquista incrível", disse o americano.
 # text_en = "I have to congratulate Andy -- to get to No. 1 in the world that's an incredible achievement," the American said.
-1	Eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
-2	tenho	_	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	aux	_	_
-3	que	_	ADP	IN	_	2	fixed	_	_
-4	felicitar	_	VERB	VB	_	0	root	_	_
-5	o	o	DET	DT	Gender=Masc|Number=Sing	6	det	_	_
-6	Andy	Andy	PROPN	NNP	Gender=Masc|Number=Sing	4	obj	_	_
-7	--	--	PUNCT	-	_	9	punct	_	_
-8	por	por	ADP	IN	_	9	case	_	_
-9	chegar	_	VERB	VB	_	4	xcomp	_	_
-10-11	ao	_	_	_	_	_	_	_	_
-10	a	a	ADP	INDT	_	12	case	_	_
-11	o	o	DET	_	Gender=Masc|Number=Sing	12	det	_	_
-12	No.	_	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
-13	1	_	NUM	CD	Gender=Masc	12	appos	_	_
-14-15	do	_	_	_	_	_	_	_	_
-14	de	de	ADP	INDT	_	16	case	_	_
-15	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
-16	mundo	mundo	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
-17	,	,	PUNCT	,	_	21	punct	_	_
-18	que	_	PRON	WP	_	21	nsubj	_	_
-19	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	21	cop	_	_
-20	uma	um	DET	DT	Gender=Fem|Number=Sing	21	det	_	_
-21	conquista	conquista	NOUN	NN	Gender=Fem|Number=Sing	12	acl:relcl	_	_
-22	incrível	incrível	ADJ	JJ	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
-23	,	,	PUNCT	,	_	24	punct	_	_
-24	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	parataxis	_	_
-25	o	o	DET	DT	Gender=Masc|Number=Sing	26	det	_	_
-26	americano	americano	NOUN	NN	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	.	_	4	punct	_	_
+1	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+2	Eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+3	tenho	_	AUX	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Pres	5	aux	_	_
+4	que	_	ADP	IN	_	3	fixed	_	_
+5	felicitar	_	VERB	VB	_	0	root	_	_
+6	o	o	DET	DT	Gender=Masc|Number=Sing	7	det	_	_
+7	Andy	Andy	PROPN	NNP	Gender=Masc|Number=Sing	5	obj	_	_
+8	--	--	PUNCT	-	_	10	punct	_	_
+9	por	por	ADP	IN	_	10	case	_	_
+10	chegar	_	VERB	VB	_	5	xcomp	_	_
+11-12	ao	_	_	_	_	_	_	_	_
+11	a	a	ADP	INDT	_	13	case	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+13	No.	_	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
+14	1	_	NUM	CD	Gender=Masc	13	appos	_	_
+15-16	do	_	_	_	_	_	_	_	_
+15	de	de	ADP	INDT	_	17	case	_	_
+16	o	o	DET	_	Gender=Masc|Number=Sing	17	det	_	_
+17	mundo	mundo	NOUN	NN	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	22	punct	_	_
+19	que	_	PRON	WP	_	22	nsubj	_	_
+20	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	22	cop	_	_
+21	uma	um	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
+22	conquista	conquista	NOUN	NN	Gender=Fem|Number=Sing	13	acl:relcl	_	_
+23	incrível	incrível	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+25	,	,	PUNCT	,	_	26	punct	_	_
+26	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	parataxis	_	_
+27	o	o	DET	DT	Gender=Masc|Number=Sing	28	det	_	_
+28	americano	americano	NOUN	NN	Gender=Masc|Number=Sing	26	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	5	punct	_	_
 
 # newdoc id = n01143
 # sent_id = n01143003
-# text = Pair fez uma pegadinha ao entrar no torneio de golfe norte coreano, saiu nas notícias do Brisbane's Nine.
+# text = "Dupla fez uma pegadinha ao entrar no torneio de golfe norte-coreano", saiu nas notícias do Brisbane's Nine.
 # text_en = "Pair prank their way into North Korean golf tournament," read Brisbane's Nine News.
-1	Pair	Pair	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
-2	fez	fazer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-3	uma	um	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
-4	pegadinha	_	NOUN	NN	Gender=Fem|Number=Sing	2	obj	_	_
-5-6	ao	_	_	_	_	_	_	_	_
-5	a	a	ADP	INDT	_	7	case	_	_
-6	o	o	DET	_	Gender=Masc|Number=Sing	7	det	_	_
-7	entrar	_	VERB	VB	_	2	xcomp	_	_
-8-9	no	_	_	_	_	_	_	_	_
-8	em	em	ADP	INDT	_	10	case	_	_
-9	o	o	DET	_	Gender=Masc|Number=Sing	10	det	_	_
-10	torneio	torneio	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	_
-11	de	de	ADP	IN	_	12	case	_	_
-12	golfe	golfe	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	_
-13	norte	norte	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
-14	coreano	_	X	GW	_	13	compound	_	SpaceAfter=No
-15	,	,	PUNCT	,	_	16	punct	_	_
-16	saiu	sair	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	_
-17-18	nas	_	_	_	_	_	_	_	_
-17	em	em	ADP	INDT	_	19	case	_	_
-18	as	o	DET	_	Gender=Fem|Number=Plur	19	det	_	_
-19	notícias	notícia	NOUN	NN	Gender=Fem|Number=Plur	16	obl	_	_
-20-21	do	_	_	_	_	_	_	_	_
-20	de	de	ADP	INDT	_	22	case	_	_
-21	o	o	DET	_	Gender=Masc|Number=Sing	22	det	_	_
-22	Brisbane's	Brisbane's	PROPN	NNP	Gender=Masc|Number=Sing	19	nmod	_	_
-23	Nine	Nine	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	22	flat	_	SpaceAfter=No
-24	.	.	PUNCT	.	_	2	punct	_	_
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Dupla	dupla	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fez	fazer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	uma	um	DET	DT	Gender=Fem|Number=Sing	5	det	_	_
+5	pegadinha	_	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	ao	_	_	_	_	_	_	_	_
+6	a	a	ADP	INDT	_	8	case	_	_
+7	o	o	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+8	entrar	_	VERB	VB	_	3	xcomp	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	INDT	_	11	case	_	_
+10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+11	torneio	torneio	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
+12	de	de	ADP	IN	_	13	case	_	_
+13	golfe	golfe	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	norte-coreano	_	_	_	_	_	_	_	SpaceAfter=No
+14	norte	norte	ADJ	JJ	Gender=Masc|Number=Sing	11	amod	_	_
+15	coreano	coreano	ADJ	_	Gender=Masc|Number=Sing	14	compound	_	_
+16	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	saiu	sair	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	parataxis	_	_
+19-20	nas	_	_	_	_	_	_	_	_
+19	em	em	ADP	INDT	_	21	case	_	_
+20	as	o	DET	_	Gender=Fem|Number=Plur	21	det	_	_
+21	notícias	notícia	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	INDT	_	24	case	_	_
+23	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+24	Brisbane's	Brisbane's	PROPN	NNP	Gender=Masc|Number=Sing	21	nmod	_	_
+25	Nine	Nine	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01143009
 # text = Dois australianos, que, segundo eles próprios, são péssimos jogadores de golfe, deram um blefe para entrar em um primeiro torneio de golfe, na Coreia do Norte.
@@ -10463,8 +10467,8 @@
 7	região	região	NOUN	NN	Gender=Fem|Number=Sing	4	nmod	_	_
 8	têm	ter	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	9	aux	_	_
 9	sido	ser	VERB	VBN	_	0	root	_	_
-10	bem	bem	ADV	RB	_	9	advmod	_	_
-11	sucedidas	sucedido	ADJ	JJ	Gender=Fem|Number=Plur	10	compound	_	_
+10	bem	bem	ADV	RB	_	11	advmod	_	_
+11	sucedidas	sucedido	ADJ	JJ	Gender=Fem|Number=Plur	9	advmod	_	_
 
 # newdoc id = n01149
 # sent_id = n01149002
@@ -11042,20 +11046,22 @@
 # text = Em 2007 o filme mais bem-sucedido foi El Greco, dirigido por Yannis Smaragdis.
 # text_en = In 2007 the most successful film was El Greco, directed by Yannis Smaragdis.
 1	Em	_	ADP	IN	_	2	case	_	_
-2	2007	_	NUM	CD	Gender=Masc	8	nmod	_	ToDo=nmod
+2	2007	_	NUM	CD	Gender=Masc	9	nmod	_	ToDo=nmod
 3	o	o	DET	DT	Gender=Masc|Number=Sing	4	det	_	_
-4	filme	filme	NOUN	NN	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	filme	filme	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	mais	mais	ADV	RBS	_	6	advmod	_	_
-6	bem-sucedido	bem-sucedido	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
-7	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	cop	_	_
-8	El	El	PROPN	NNP	Gender=Masc|Number=Sing	0	root	_	_
-9	Greco	Greco	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	11	punct	_	_
-11	dirigido	_	VERB	VBN	Gender=Masc|Number=Sing	8	acl	_	_
-12	por	por	ADP	IN	_	13	case	_	_
-13	Yannis	Yannis	PROPN	NNP	Gender=Masc|Number=Sing	11	obl	_	_
-14	Smaragdis	Smaragdis	PROPN	NNP	Gender=Masc|Number=Sing	13	flat:name	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	8	punct	_	_
+6-7	bem-sucedido	_	_	_	_	_	_	_	_
+6	bem	bem	ADV	_	_	7	advmod	_	_
+7	sucedido	sucedido	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
+8	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	9	cop	_	_
+9	El	El	PROPN	NNP	Gender=Masc|Number=Sing	0	root	_	_
+10	Greco	Greco	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	12	punct	_	_
+12	dirigido	_	VERB	VBN	Gender=Masc|Number=Sing	9	acl	_	_
+13	por	por	ADP	IN	_	14	case	_	_
+14	Yannis	Yannis	PROPN	NNP	Gender=Masc|Number=Sing	12	obl	_	_
+15	Smaragdis	Smaragdis	PROPN	NNP	Gender=Masc|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	9	punct	_	_
 
 # newdoc id = w01007
 # sent_id = w01007004
