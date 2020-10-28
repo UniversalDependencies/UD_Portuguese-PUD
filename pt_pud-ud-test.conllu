@@ -8672,31 +8672,33 @@
 
 # newdoc id = n01122
 # sent_id = n01122024
-# text = Super-heróis estão fora da experiência humana e isto também está, então o tratei como um drama, diz Zimmer.
+# text = "Super-heróis estão fora da experiência humana e isto também está, então o tratei como um drama", diz Zimmer.
 # text_en = “Superheroes are outside of human experience and so is this, so I treated it like a drama,” Zimmer says.
-1	Super-heróis	_	NOUN	NN	Gender=Masc|Number=Plur	2	nsubj	_	_
-2	estão	estar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
-3	fora	fora	ADV	RB	_	2	advmod	_	_
-4-5	da	_	_	_	_	_	_	_	_
-4	de	de	ADP	INDT	_	6	case	_	_
-5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
-6	experiência	experiência	NOUN	NN	Gender=Fem|Number=Sing	3	obl	_	_
-7	humana	humano	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	_
-8	e	e	CCONJ	CC	_	11	cc	_	_
-9	isto	_	PRON	PDEM	Gender=Masc|Number=Sing	11	nsubj	_	_
-10	também	também	ADV	RB	_	11	advmod	_	_
-11	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	conj	_	SpaceAfter=No
-12	,	,	PUNCT	,	_	15	punct	_	_
-13	então	então	ADV	RB	_	15	advmod	_	_
-14	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
-15	tratei	tratar	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	2	parataxis	_	_
-16	como	como	ADP	IN	_	18	case	_	_
-17	um	um	DET	DT	Gender=Masc|Number=Sing	18	det	_	_
-18	drama	drama	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-19	,	,	PUNCT	,	_	20	punct	_	_
-20	diz	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	parataxis	_	_
-21	Zimmer	Zimmer	PROPN	NNP	Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	2	punct	_	_
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Super-heróis	_	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	estão	estar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	fora	fora	ADV	RB	_	3	advmod	_	_
+5-6	da	_	_	_	_	_	_	_	_
+5	de	de	ADP	INDT	_	7	case	_	_
+6	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+7	experiência	experiência	NOUN	NN	Gender=Fem|Number=Sing	4	obl	_	_
+8	humana	humano	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	isto	_	PRON	PDEM	Gender=Masc|Number=Sing	12	nsubj	_	_
+11	também	também	ADV	RB	_	12	advmod	_	_
+12	está	estar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	conj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	16	punct	_	_
+14	então	então	ADV	RB	_	16	advmod	_	_
+15	o	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	_
+16	tratei	tratar	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	3	parataxis	_	_
+17	como	como	ADP	IN	_	19	case	_	_
+18	um	um	DET	DT	Gender=Masc|Number=Sing	19	det	_	_
+19	drama	drama	NOUN	NN	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	diz	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	parataxis	_	_
+23	Zimmer	Zimmer	PROPN	NNP	Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	3	punct	_	_
 
 # newdoc id = n01123
 # sent_id = n01123010
@@ -9722,30 +9724,32 @@
 
 # newdoc id = n01139
 # sent_id = n01139006
-# text = Nas cidades onde estamos lançados ou estamos em fase de construção, o nosso trabalho continuará, disse Barratt.
+# text = "Nas cidades onde estamos lançados ou estamos em fase de construção, o nosso trabalho continuará", disse Barratt.
 # text_en = "In the cities where we've launched or are under construction, our work will continue," Barratt said.
-1-2	Nas	_	_	_	_	_	_	_	_
-1	Em	em	ADP	INDT	_	3	case	_	_
-2	as	o	DET	_	Gender=Fem|Number=Plur	3	det	_	_
-3	cidades	cidade	NOUN	NN	Gender=Fem|Number=Plur	17	obl	_	_
-4	onde	onde	ADV	WRB	_	6	advmod	_	_
-5	estamos	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	6	aux	_	_
-6	lançados	_	VERB	VBN	Gender=Masc|Number=Plur	3	acl:relcl	_	_
-7	ou	_	CCONJ	CC	_	8	cc	_	_
-8	estamos	estar	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	6	conj	_	_
-9	em	em	ADP	IN	_	10	case	_	_
-10	fase	fase	NOUN	NN	Gender=Fem|Number=Sing	8	obl	_	_
-11	de	de	ADP	IN	_	12	case	_	_
-12	construção	construção	NOUN	NN	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	3	punct	_	_
-14	o	o	DET	PDT	Gender=Masc|Number=Sing	16	det:predet	_	_
-15	nosso	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	16	det	_	_
-16	trabalho	trabalho	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
-17	continuará	continuar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
-18	,	,	PUNCT	,	_	19	punct	_	_
-19	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	17	parataxis	_	_
-20	Barratt	Barratt	PROPN	NNP	Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	17	punct	_	_
+1	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+2-3	Nas	_	_	_	_	_	_	_	_
+2	Em	em	ADP	INDT	_	4	case	_	_
+3	as	o	DET	_	Gender=Fem|Number=Plur	4	det	_	_
+4	cidades	cidade	NOUN	NN	Gender=Fem|Number=Plur	18	obl	_	_
+5	onde	onde	ADV	WRB	_	7	advmod	_	_
+6	estamos	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	aux	_	_
+7	lançados	_	VERB	VBN	Gender=Masc|Number=Plur	4	acl:relcl	_	_
+8	ou	_	CCONJ	CC	_	9	cc	_	_
+9	estamos	estar	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	7	conj	_	_
+10	em	em	ADP	IN	_	11	case	_	_
+11	fase	fase	NOUN	NN	Gender=Fem|Number=Sing	9	obl	_	_
+12	de	de	ADP	IN	_	13	case	_	_
+13	construção	construção	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	o	o	DET	PDT	Gender=Masc|Number=Sing	17	det:predet	_	_
+16	nosso	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	17	det	_	_
+17	trabalho	trabalho	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
+18	continuará	continuar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	21	punct	_	_
+21	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	parataxis	_	_
+22	Barratt	Barratt	PROPN	NNP	Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	18	punct	_	_
 
 # sent_id = n01139016
 # text = O esforço da Internet foi dito como sendo o principal mobilizador de despesas de capital para a unidade.
