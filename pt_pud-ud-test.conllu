@@ -381,7 +381,7 @@
 25	.	.	PUNCT	.	_	19	punct	_	_
 
 # sent_id = n01004017
-# text = Eles estão, na média nacional, na categoria 4 e, melhores que a média nacional, na categoria 8.
+# text = Eles estão, na média nacional, no quarto ano e, melhores que a média nacional, no oitavo ano.
 # text_en = They are at the national average in grade 4 and better than national average in grade 8.
 1	Eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
 2	estão	estar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
@@ -391,25 +391,25 @@
 5	a	o	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 6	média	_	NOUN	NN	Gender=Fem|Number=Sing	2	obl	_	_
 7	nacional	nacional	ADJ	JJ	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
-8	,	,	PUNCT	,	_	11	punct	_	_
-9-10	na	_	_	_	_	_	_	_	ToDo=ex-adp-child
-9	em	em	ADP	INDT	_	11	case	_	_
-10	a	o	DET	_	Gender=Fem|Number=Sing	11	det	_	_
-11	categoria	categoria	NOUN	NN	Gender=Fem|Number=Sing	6	nmod	_	_
-12	4	_	NUM	CD	_	11	appos	_	_
+8	,	,	PUNCT	,	_	12	punct	_	_
+9-10	no	_	_	_	_	_	_	_	ToDo=ex-adp-child
+9	em	em	ADP	INDT	_	12	case	_	_
+10	o	o	DET	_	Gender=Masc|Number=Sing	12	det	_	_
+11	quarto	quarto	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	ano	ano	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 13	e	e	CCONJ	CC	_	15	cc	_	SpaceAfter=No|ToDo=ex-adp-child
-14	,	,	PUNCT	,	_	13	punct	_	_
+14	,	,	PUNCT	,	_	15	punct	_	_
 15	melhores	melhor	ADJ	JJR	Gender=Masc|Number=Plur	6	conj	_	ToDo=ex-adp-child
 16	que	_	ADP	IN	_	18	case	_	_
 17	a	o	DET	DT	Gender=Fem|Number=Sing	18	det	_	_
-18	média	_	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	ToDo=nmod
+18	média	_	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	ToDo=nmod
 19	nacional	nacional	ADJ	JJ	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
-20	,	,	PUNCT	,	_	23	punct	_	_
-21-22	na	_	_	_	_	_	_	_	_
-21	em	em	ADP	INDT	_	23	case	_	_
-22	a	o	DET	_	Gender=Fem|Number=Sing	23	det	_	_
-23	categoria	categoria	NOUN	NN	Gender=Fem|Number=Sing	15	nmod	_	ToDo=nmod
-24	8	_	NUM	CD	_	23	appos	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	INDT	_	24	case	_	_
+22	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+23	oitavo	oitavo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	ToDo=nmod
+24	ano	ano	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	2	punct	_	_
 
 # newdoc id = n01005
