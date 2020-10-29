@@ -1685,9 +1685,9 @@
 32	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01023043
-# text = O indicador deste material meteorítico será provavelmente elevados níveis do elemento irídio.
+# text = Um indicador deste material meteorítico será provavelmente elevados níveis do elemento irídio.
 # text_en = A telltale of this meteoritic material will likely be high levels of the element iridium.
-1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
+1	Um	um	DET	DT	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	indicador	indicador	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 3-4	deste	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
