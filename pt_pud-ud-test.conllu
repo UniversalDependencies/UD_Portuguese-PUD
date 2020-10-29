@@ -1525,7 +1525,7 @@
 22	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = n01022010
-# text = Estamos indo na direção certa: o Acordo de Paris vai lentamente diminuir as alterações climáticas, bem como a recente Emenda de Kigali vai reduzir os HFCs, disse Erik Solheim, chefe de Ambiente da UN.
+# text = Estamos indo na direção certa: o Acordo de Paris vai desacelerar as alterações climáticas, bem como a recente Emenda de Kigali vai reduzir os HFCs, disse Erik Solheim, chefe de Ambiente da UN.
 # text_en = "We are moving in the right direction: the Paris Agreement will slow climate change, as will the recent Kigali Amendment to reduce HFCs," said Erik Solheim, head of UN Environment.
 1	Estamos	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	2	aux	_	_
 2	indo	_	VERB	VBG	_	0	root	_	_
@@ -1534,42 +1534,41 @@
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	direção	direção	NOUN	NN	Gender=Fem|Number=Sing	2	obl	_	_
 6	certa	certo	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	:	:	PUNCT	:	_	14	punct	_	_
+7	:	:	PUNCT	:	_	13	punct	_	_
 8	o	o	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
-9	Acordo	acordo	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj	_	Proper=True
+9	Acordo	acordo	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	Proper=True
 10	de	de	ADP	IN	_	11	case	_	Proper=True
 11	Paris	Paris	PROPN	NNP	Gender=Fem|Number=Sing	9	nmod	_	_
-12	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	14	aux	_	_
-13	lentamente	lentamente	ADV	RB	_	14	advmod	_	_
-14	diminuir	_	VERB	VB	_	2	parataxis	_	_
-15	as	o	DET	DT	Gender=Fem|Number=Plur	16	det	_	_
-16	alterações	alteração	NOUN	NN	Gender=Fem|Number=Plur	14	obj	_	_
-17	climáticas	climático	ADJ	JJ	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	,	_	19	punct	_	_
-19	bem	bem	ADV	RB	_	27	cc	_	_
-20	como	como	ADP	IN	_	19	fixed	_	_
-21	a	o	DET	DT	Gender=Fem|Number=Sing	23	det	_	_
-22	recente	recente	ADJ	JJ	Gender=Fem|Number=Sing	23	amod	_	_
-23	Emenda	emenda	NOUN	NN	Gender=Fem|Number=Sing	27	nsubj	_	Proper=True
-24	de	de	ADP	IN	_	25	case	_	Proper=True
-25	Kigali	Kigali	PROPN	NNP	Gender=Fem|Number=Sing	23	nmod	_	_
-26	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux	_	_
-27	reduzir	_	VERB	VB	_	14	conj	_	_
-28	os	o	DET	DT	Gender=Masc|Number=Plur	29	det	_	_
-29	HFCs	_	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	SpaceAfter=No
-30	,	,	PUNCT	,	_	31	punct	_	_
-31	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	_
-32	Erik	Erik	PROPN	NNP	Gender=Masc|Number=Sing	31	nsubj	_	_
-33	Solheim	Solheim	PROPN	NNP	Gender=Masc|Number=Sing	32	flat:name	_	SpaceAfter=No
-34	,	,	PUNCT	,	_	35	punct	_	_
-35	chefe	chefe	NOUN	NN	Gender=Masc|Number=Sing	32	appos	_	_
-36	de	de	ADP	IN	_	37	case	_	_
-37	Ambiente	ambiente	NOUN	NN	Gender=Masc|Number=Sing	35	nmod	_	_
-38-39	da	_	_	_	_	_	_	_	_
-38	de	de	ADP	INDT	_	40	case	_	_
-39	a	o	DET	_	Gender=Fem|Number=Sing	40	det	_	_
-40	UN	UN	PROPN	NNP	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	.	_	2	punct	_	_
+12	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	aux	_	_
+13	desacelerar	desacelerar	VERB	VB	Number=Sing|Person=3|VerbForm=Inf	2	parataxis	_	_
+14	as	o	DET	DT	Gender=Fem|Number=Plur	15	det	_	_
+15	alterações	alteração	NOUN	NN	Gender=Fem|Number=Plur	13	obj	_	_
+16	climáticas	climático	ADJ	JJ	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	18	punct	_	_
+18	bem	bem	ADV	RB	_	26	cc	_	_
+19	como	como	ADP	IN	_	18	fixed	_	_
+20	a	o	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
+21	recente	recente	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
+22	Emenda	emenda	NOUN	NN	Gender=Fem|Number=Sing	26	nsubj	_	Proper=True
+23	de	de	ADP	IN	_	24	case	_	Proper=True
+24	Kigali	Kigali	PROPN	NNP	Gender=Fem|Number=Sing	22	nmod	_	_
+25	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	26	aux	_	_
+26	reduzir	_	VERB	VB	_	13	conj	_	_
+27	os	o	DET	DT	Gender=Masc|Number=Plur	28	det	_	_
+28	HFCs	_	NOUN	NN	Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	30	punct	_	_
+30	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	_
+31	Erik	Erik	PROPN	NNP	Gender=Masc|Number=Sing	30	nsubj	_	_
+32	Solheim	Solheim	PROPN	NNP	Gender=Masc|Number=Sing	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	,	_	34	punct	_	_
+34	chefe	chefe	NOUN	NN	Gender=Masc|Number=Sing	31	appos	_	_
+35	de	de	ADP	IN	_	36	case	_	_
+36	Ambiente	ambiente	NOUN	NN	Gender=Masc|Number=Sing	34	nmod	_	_
+37-38	da	_	_	_	_	_	_	_	_
+37	de	de	ADP	INDT	_	39	case	_	_
+38	a	o	DET	_	Gender=Fem|Number=Sing	39	det	_	_
+39	UN	UN	PROPN	NNP	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
+40	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01022016
 # text = Os investimentos nesta área aumentaram 6% em 2015, para $221bn.
