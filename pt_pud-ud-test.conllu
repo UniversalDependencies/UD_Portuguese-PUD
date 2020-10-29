@@ -2000,7 +2000,7 @@
 14	,	,	PUNCT	,	_	9	punct	_	_
 15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
 16	sido	ser	AUX	VBN	_	19	cop	_	_
-17	sobre	_	ADP	IN	_	19	case	_	_
+17	sobre	sobre	ADP	IN	_	19	case	_	_
 18	a	o	DET	DT	Gender=Fem|Number=Sing	19	det	_	_
 19	identidade	identidade	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
 20	de	de	ADP	IN	_	21	case	_	_
@@ -2019,7 +2019,7 @@
 6	-	-	PUNCT	-	_	7	punct	_	SpaceAfter=No
 7	lhe	_	PRON	PRP	Case=Dat|Number=Sing|Person=3	5	iobj	_	_
 8	se	_	SCONJ	IN	_	10	mark	_	_
-9	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+9	ela	ele	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 10	entendeu	entender	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	5	ccomp	_	_
 11	por	_	SCONJ	IN	_	13	mark	_	_
 12	que	que	ADV	WRB	_	11	fixed	_	_
