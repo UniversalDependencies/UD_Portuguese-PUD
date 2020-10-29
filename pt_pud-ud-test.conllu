@@ -1685,7 +1685,7 @@
 32	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = n01023043
-# text = O indicador deste material meteorítico será provavelmente elevado em níveis do elemento irídio.
+# text = O indicador deste material meteorítico será provavelmente elevados níveis do elemento irídio.
 # text_en = A telltale of this meteoritic material will likely be high levels of the element iridium.
 1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
 2	indicador	indicador	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -1696,15 +1696,14 @@
 6	meteorítico	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
 7	será	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	9	cop	_	_
 8	provavelmente	provavelmente	ADV	RB	_	9	advmod	_	_
-9	elevado	elevado	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
-10	em	em	ADP	IN	_	11	case	_	_
-11	níveis	nível	NOUN	NN	Gender=Masc|Number=Plur	9	obl	_	_
-12-13	do	_	_	_	_	_	_	_	_
-12	de	de	ADP	INDT	_	14	case	_	_
-13	o	o	DET	_	Gender=Masc|Number=Sing	14	det	_	_
-14	elemento	elemento	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	_
-15	irídio	irídio	NOUN	NN	Gender=Masc|Number=Sing	14	appos	_	SpaceAfter=No
-16	.	.	PUNCT	.	_	9	punct	_	_
+9	elevados	elevado	ADJ	JJ	Gender=Masc|Number=Sing	10	amod	_	_
+10	níveis	nível	NOUN	NN	Gender=Masc|Number=Plur	0	root	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	INDT	_	13	case	_	_
+12	o	o	DET	_	Gender=Masc|Number=Sing	13	det	_	_
+13	elemento	elemento	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	_
+14	irídio	irídio	NOUN	NN	Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	10	punct	_	_
 
 # newdoc id = n01024
 # sent_id = n01024010
