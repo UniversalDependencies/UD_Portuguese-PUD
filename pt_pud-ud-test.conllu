@@ -26206,12 +26206,12 @@
 # sent_id = w02008055
 # text = Eles estavam principalmente em montanhas.
 # text_en = They were primarily on hills.
-1	Eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	2	nsubj	_	_
-2	estavam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+1	Eles	ele	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	5	nsubj	_	_
+2	estavam	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	5	cop	_	_
 3	principalmente	principalmente	ADV	RB	_	5	advmod	_	ToDo=ex-adp-child
 4	em	em	ADP	IN	_	5	case	_	_
-5	montanhas	montanha	NOUN	NN	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	_
+5	montanhas	montanha	NOUN	NN	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w02008065
 # text = Além disso, este processo de dourar cobre é tecnologicamente digno de atenção.
@@ -26733,18 +26733,18 @@
 # text = Os traços de sangue no pano estavam no formato que foram reportados pelo relatório de notícias no dia do assassinato.
 # text_en = The traces of blood on the clothes were in the shape that they were reported to have by the news reports on the day of the murder.
 1	Os	o	DET	DT	Gender=Masc|Number=Plur	2	det	_	_
-2	traços	traço	NOUN	NN	Gender=Masc|Number=Plur	8	nsubj	_	_
+2	traços	traço	NOUN	NN	Gender=Masc|Number=Plur	11	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	sangue	sangue	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 5-6	no	_	_	_	_	_	_	_	_
 5	em	em	ADP	INDT	_	7	case	_	_
 6	o	o	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	pano	pano	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
-8	estavam	_	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
+8	estavam	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	11	cop	_	_
 9-10	no	_	_	_	_	_	_	_	_
 9	em	em	ADP	INDT	_	11	case	_	_
 10	o	o	DET	_	Gender=Masc|Number=Sing	11	det	_	_
-11	formato	formato	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
+11	formato	formato	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 12	que	_	PRON	WP	_	14	obj	_	ToDo=pobj
 13	foram	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	14	aux:pass	_	_
 14	reportados	_	VERB	VBN	Gender=Masc|Number=Plur	11	acl:relcl	_	_
@@ -26762,7 +26762,7 @@
 23	de	de	ADP	INDT	_	25	case	_	_
 24	o	o	DET	_	Gender=Masc|Number=Sing	25	det	_	_
 25	assassinato	assassinato	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	.	_	8	punct	_	_
+26	.	.	PUNCT	.	_	11	punct	_	_
 
 # newdoc id = w02018
 # sent_id = w02018030
