@@ -36,6 +36,9 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2020-11-15 v2.7
+  * Auxiliary verbs tagged AUX instead of VERB.
+  * Subordinating conjunctions tagged SCONJ instead of ADP.
 * 2017-11-15 v2.1
   * First official release after it was used as a surprise dataset in the
     CoNLL 2017 shared task.
@@ -114,7 +117,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Mendonça, Gustavo; Rinaldi, Larissa; Popel, Martin; Zeman, Daniel; de Paiva, Valeria
+Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Mendonça, Gustavo; Rinaldi, Larissa; Popel, Martin; Zeman, Daniel; de Paiva, Valeria; Rademaker, Alexandre
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
