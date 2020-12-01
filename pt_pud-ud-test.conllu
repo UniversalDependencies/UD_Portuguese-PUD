@@ -2221,7 +2221,7 @@
 # text = Um porta-voz da polícia contou à Associated Press que houve "uma troca de palavras", seguida de uma "discussão" mas que nenhum ferimento foi reportado.
 # text_en = A police spokesman told the Associated Press there was "an exchange of words" followed by an "altercation" but that no injuries had been reported.
 1	Um	_	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	porta-voz	porta-voz	NOUN	NN	Gender=Com|Number=Sing	6	nsubj	_	_
+2	porta-voz	porta-voz	NOUN	NN	Number=Sing	6	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
@@ -9327,7 +9327,7 @@
 # text = Uma porta-voz da Harley-Davidson disse que os cronogramas que têm sobrevoado os meios de comunicação - 2017 ou 2020 - não são precisos.
 # text_en = A Harley-Davidson spokeswoman said timelines that have been floated in the media -- 2017 or 2020 -- aren't accurate.
 1	Uma	um	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
-2	porta-voz	_	NOUN	NN	Gender=Com|Number=Sing	8	nsubj	_	_
+2	porta-voz	_	NOUN	NN	Number=Sing	8	nsubj	_	_
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	5	case	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
