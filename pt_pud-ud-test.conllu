@@ -13232,7 +13232,7 @@
 8	e	e	CCONJ	CC	_	11	cc	_	_
 9	com	_	ADP	IN	_	11	case	_	_
 10	boas	bom	ADJ	JJ	Gender=Fem|Number=Plur	11	amod	_	_
-11	práticas	_	NOUN	NN	Gender=Fem|Number=Plur	7	conj	_	_
+11	práticas	prática	NOUN	NN	Gender=Fem|Number=Plur	7	conj	_	_
 12	de	de	ADP	IN	_	13	case	_	_
 13	gestão	gestão	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	_
 14	reduzirá	reduzir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
@@ -21708,7 +21708,7 @@
 32	baleado	_	VERB	VBN	Gender=Masc|Number=Sing	28	xcomp	_	_
 33	em	em	ADP	IN	_	35	case	_	_
 34	uma	um	DET	DT	Gender=Fem|Number=Sing	35	det	_	_
-35	tentativa	_	NOUN	NN	Gender=Fem|Number=Sing	32	obl	_	_
+35	tentativa	tentativa	NOUN	NN	Gender=Fem|Number=Sing	32	obl	_	_
 36	de	de	ADP	IN	_	37	case	_	_
 37	homicídio	homicídio	NOUN	NN	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	2	punct	_	_
@@ -26454,7 +26454,7 @@
 13	,	,	PUNCT	,	_	1	punct	_	_
 14	houve	haver	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 15	dispersas	disperso	ADJ	JJ	Gender=Fem|Number=Plur	16	amod	_	_
-16	tentativas	_	NOUN	NN	Gender=Fem|Number=Plur	14	obj	_	_
+16	tentativas	tentativa	NOUN	NN	Gender=Fem|Number=Plur	14	obj	_	_
 17	de	de	ADP	IN	_	18	case	_	_
 18	ganhar	_	VERB	VB	_	16	xcomp	_	_
 19	antigas	antigo	ADJ	JJ	Gender=Fem|Number=Plur	20	amod	_	_
@@ -28181,7 +28181,7 @@
 1	De	_	ADP	IN	_	4	case	_	_
 2	acordo	acordo	NOUN	NN	Gender=Masc|Number=Sing	1	fixed	_	_
 3	com	_	ADP	IN	_	1	fixed	_	_
-4	práticas	_	NOUN	NN	Gender=Fem|Number=Plur	9	obl	_	_
+4	práticas	prática	NOUN	NN	Gender=Fem|Number=Plur	9	obl	_	_
 5	religiosas	religioso	ADJ	JJ	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	4	punct	_	_
 7	Fiorello	Fiorello	PROPN	NNP	Gender=Masc|Number=Sing	9	nsubj:pass	_	_
@@ -28957,7 +28957,7 @@
 # text = As tentativas de fazer as pazes finalmente terminaram na primavera de 1415 e Enrique decidiu executar seu plano: uma invasão a todo Reino da França.
 # text_en = The attempts at making peace finally ended in spring of 1415 and Enrique decided to execute his plan: an invasion of the entire Kingdom of France.
 1	As	_	DET	DT	Gender=Fem|Number=Plur	2	det	_	_
-2	tentativas	_	NOUN	NN	Gender=Fem|Number=Plur	8	nsubj	_	_
+2	tentativas	tentativa	NOUN	NN	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	fazer	_	VERB	VB	_	2	xcomp	_	_
 5	as	o	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
