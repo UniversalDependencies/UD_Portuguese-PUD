@@ -3588,16 +3588,16 @@
 # text = Nossos celulares são muito mais que telefones hoje em dia.
 # text_en = Our cellphones are so much more than phones these days.
 1	Nossos	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|PronType=Prs	2	det	_	_
-2	celulares	_	NOUN	NN	Gender=Masc|Number=Plur	3	nsubj	_	_
-3	são	ser	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+2	celulares	_	NOUN	NN	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	5	cop	_	_
 4	muito	muito	ADV	RB	_	5	advmod	_	_
-5	mais	mais	ADV	RBR	_	3	advmod	_	_
+5	mais	mais	ADV	RBR	_	0	root	_	_
 6	que	_	ADP	IN	_	7	case	_	_
 7	telefones	telefone	NOUN	NN	Gender=Masc|Number=Plur	5	obl	_	_
-8	hoje	hoje	ADV	RB	_	3	advmod	_	_
+8	hoje	hoje	ADV	RB	_	5	advmod	_	_
 9	em	em	ADP	IN	_	10	case	_	_
 10	dia	dia	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	3	punct	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n01046036
 # text = É incrível, reportou a cliente de dados ilimitados da SaskTel, Lindsay Gay, no mês passado.
@@ -3852,14 +3852,14 @@
 # text_en = The current waiting period is eight weeks.
 1	O	o	DET	DT	Gender=Masc|Number=Sing	3	det	_	_
 2	atual	atual	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
-3	período	período	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	período	período	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 4	de	de	ADP	IN	_	5	case	_	_
 5	espera	espera	NOUN	NN	Gender=Fem|Number=Sing	3	nmod	_	_
-6	é	ser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+6	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 7	de	de	ADP	IN	_	9	case	_	_
 8	oito	_	NUM	CD	_	9	nummod	_	_
-9	semanas	semana	NOUN	NN	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	6	punct	_	_
+9	semanas	semana	NOUN	NN	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = n01050014
 # text = É possível ter níveis normais de hemoglobina, mas ter baixas reservas de ferro, em geral, diz o Serviço Canadense de Sangue (CBS).
