@@ -36,6 +36,8 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Removed det:predet, it is not used in Portuguese.
 * 2020-11-15 v2.7
   * Auxiliary verbs tagged AUX instead of VERB.
   * Subordinating conjunctions tagged SCONJ instead of ADP.
@@ -117,7 +119,7 @@ UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
 Relations: converted from manual
-Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Mendonça, Gustavo; Rinaldi, Larissa; Popel, Martin; Zeman, Daniel; de Paiva, Valeria; Rademaker, Alexandre.
+Contributors: Uszkoreit, Hans; Macketanz, Vivien; Burchardt, Aljoscha; Harris, Kim; Marheinecke, Katrin; Petrov, Slav; Kayadelen, Tolga; Attia, Mohammed; Elkahky, Ali; Yu, Zhuoran; Pitler, Emily; Lertpradit, Saran; Mendonça, Gustavo; Rinaldi, Larissa; Popel, Martin; Zeman, Daniel; de Paiva, Valeria; Rademaker, Alexandre
 Contributing: here
 Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
