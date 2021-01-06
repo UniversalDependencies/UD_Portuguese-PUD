@@ -267,7 +267,7 @@
 9	de	de	ADP	IN	_	10	case	_	_
 10	transição	transição	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
 11	utilizou	utilizar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-12	o	o	DET	PDT	Gender=Masc|Number=Sing	14	det:predet	_	_
+12	o	o	DET	PDT	Gender=Masc|Number=Sing	14	det	_	_
 13	mesmo	_	DET	DT	Gender=Masc|Number=Sing	14	det	_	_
 14	local	local	NOUN	NN	Gender=Masc|Number=Sing	11	obj	_	_
 15	para	para	ADP	IN	_	17	case	_	_
@@ -532,7 +532,7 @@
 6	entre	_	ADP	IN	_	7	case	_	_
 7	jogos	jogo	NOUN	NN	Gender=Masc|Number=Plur	1	obl	_	_
 8	e	e	CCONJ	CC	_	11	cc	_	_
-9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det:predet	_	_
+9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det	_	_
 10	nossa	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	11	det	_	_
 11	vida	vida	NOUN	NN	Gender=Fem|Number=Sing	7	conj	_	_
 12	quotidiana	quotidiano	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
@@ -688,7 +688,7 @@
 6	ter	_	AUX	VB	_	7	aux	_	_
 7	tentado	_	VERB	VBN	_	4	xcomp	_	_
 8	matar	_	VERB	VB	_	7	xcomp	_	_
-9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det:predet	_	_
+9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det	_	_
 10	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	11	det	_	_
 11	filha	filho	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	ToDo=pobj
 12	de	de	ADP	IN	_	14	case	_	_
@@ -1286,7 +1286,7 @@
 4	China	China	PROPN	NNP	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	irá	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	6	aux	_	_
 6	apresentar	_	VERB	VB	_	0	root	_	_
-7	muitos	_	DET	PDT	Gender=Masc|Number=Plur	9	det:predet	_	_
+7	muitos	_	DET	PDT	Gender=Masc|Number=Plur	9	det	_	_
 8	outros	_	DET	DT	Gender=Masc|Number=Plur	9	det	_	_
 9	equipamentos	equipamento	NOUN	NN	Gender=Masc|Number=Plur	6	obj	_	_
 10	militares	militar	ADJ	JJ	Gender=Masc|Number=Plur	9	amod	_	_
@@ -1337,7 +1337,7 @@
 29	para	para	ADP	IN	_	31	case	_	_
 30	Pequim	Pequim	PROPN	NNP	Gender=Fem|Number=Sing	31	nsubj	_	_
 31	mostrar	_	VERB	VB	_	28	xcomp	_	_
-32	as	o	DET	PDT	Gender=Fem|Number=Plur	34	det:predet	_	_
+32	as	o	DET	PDT	Gender=Fem|Number=Plur	34	det	_	_
 33	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	34	det	_	_
 34	ambições	ambição	NOUN	NN	Gender=Fem|Number=Plur	31	obj	_	_
 35	tanto	_	ADP	IN	_	38	cc:preconj	_	ToDo=ex-adp-child
@@ -1608,7 +1608,7 @@
 10	Paris	Paris	PROPN	NNP	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	mas	_	CCONJ	CC	_	20	cc	_	_
-13	as	o	DET	PDT	Gender=Fem|Number=Plur	15	det:predet	_	_
+13	as	o	DET	PDT	Gender=Fem|Number=Plur	15	det	_	_
 14	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	15	det	_	_
 15	contribuições	contribuição	NOUN	NN	Gender=Fem|Number=Plur	20	nsubj	_	_
 16-17	no	_	_	_	_	_	_	_	_
@@ -2482,7 +2482,7 @@
 4	não	não	ADV	RB	Polarity=Neg	5	advmod	_	_
 5	conseguiram	conseguir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 6	encontrar	_	VERB	VB	_	5	xcomp	_	_
-7	esse	_	DET	PDT	Gender=Masc|Number=Sing	9	det:predet	_	_
+7	esse	_	DET	PDT	Gender=Masc|Number=Sing	9	det	_	_
 8	mesmo	_	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 9	padrão	padrão	NOUN	NN	Gender=Masc|Number=Sing	6	obj	_	_
 10	em	em	ADP	IN	_	11	case	_	_
@@ -2702,7 +2702,7 @@
 19	vagos	vago	ADJ	JJ	Gender=Masc|Number=Plur	20	amod	_	_
 20	detalhes	detalhe	NOUN	NN	Gender=Masc|Number=Plur	18	obj	_	_
 21	sobre	_	ADP	IN	_	24	case	_	_
-22	a	o	DET	PDT	Gender=Fem|Number=Sing	24	det:predet	_	_
+22	a	o	DET	PDT	Gender=Fem|Number=Sing	24	det	_	_
 23	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	24	det	_	_
 24	localização	localização	NOUN	NN	Gender=Fem|Number=Sing	20	nmod	_	_
 25	recente	recente	ADJ	JJ	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
@@ -3025,7 +3025,7 @@
 26	minorias	minoria	NOUN	NN	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	31	punct	_	_
 28	e	e	CCONJ	CC	_	31	cc	_	_
-29	o	o	DET	PDT	Gender=Masc|Number=Sing	31	det:predet	_	_
+29	o	o	DET	PDT	Gender=Masc|Number=Sing	31	det	_	_
 30	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	31	det	_	_
 31	temperamento	temperamento	NOUN	NN	Gender=Masc|Number=Sing	21	conj	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	21	punct	_	_
@@ -3067,7 +3067,7 @@
 7	Trump	Trump	PROPN	NNP	Gender=Fem|Number=Sing	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
 9	fez	fazer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-10	a	o	DET	PDT	Gender=Fem|Number=Sing	13	det:predet	_	_
+10	a	o	DET	PDT	Gender=Fem|Number=Sing	13	det	_	_
 11	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	13	det	_	_
 12	primeira	primeiro	ADJ	JJ	Gender=Fem|Number=Sing	13	amod	_	_
 13	aparição	aparição	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
@@ -3200,7 +3200,7 @@
 16	os	o	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	termos	termo	NOUN	NN	Gender=Masc|Number=Plur	15	obj	_	_
 18	para	para	ADP	IN	_	21	case	_	_
-19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det:predet	_	_
+19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det	_	_
 20	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	análise	análise	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	_
 22-23	desta	_	_	_	_	_	_	_	_
@@ -3647,7 +3647,7 @@
 16	clientes	cliente	NOUN	NN	Gender=Masc|Number=Plur	14	obj	_	_
 17	a	_	ADP	IN	_	18	case	_	_
 18	monitorizar	_	VERB	VB	_	14	xcomp	_	_
-19	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det:predet	_	_
+19	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det	_	_
 20	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	21	det	_	_
 21	uso	uso	NOUN	NN	Gender=Masc|Number=Sing	18	obj	_	_
 22	de	de	ADP	IN	_	23	case	_	_
@@ -3944,7 +3944,7 @@
 27	informada	_	VERB	VBN	Gender=Fem|Number=Sing	10	advcl	_	_
 28	de	de	ADP	IN	_	33	case	_	_
 29	que	que	SCONJ	IN	_	33	mark	_	_
-30	o	o	DET	PDT	Gender=Masc|Number=Sing	32	det:predet	_	_
+30	o	o	DET	PDT	Gender=Masc|Number=Sing	32	det	_	_
 31	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	32	det	_	_
 32	feto	feto	NOUN	NN	Gender=Masc|Number=Sing	33	nsubj	_	_
 33	tinha	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	27	xcomp	_	_
@@ -4041,7 +4041,7 @@
 15	"	"	PUNCT	''	_	12	punct	_	_
 16	que	_	PRON	WP	_	17	nsubj	_	_
 17	deixou	deixar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	_
-18	a	o	DET	PDT	Gender=Fem|Number=Sing	20	det:predet	_	_
+18	a	o	DET	PDT	Gender=Fem|Number=Sing	20	det	_	_
 19	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	20	det	_	_
 20	marca	marca	NOUN	NN	Gender=Fem|Number=Sing	17	obj	_	_
 21-22	no	_	_	_	_	_	_	_	_
@@ -4050,7 +4050,7 @@
 23	mundo	mundo	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
 24	literário	literário	ADJ	JJ	Gender=Masc|Number=Sing	23	amod	_	_
 25	com	_	ADP	IN	_	28	case	_	_
-26	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det:predet	_	_
+26	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det	_	_
 27	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	28	det	_	_
 28	histórias	história	NOUN	NN	Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	3	punct	_	_
@@ -4103,7 +4103,7 @@
 19	meninas	menino	NOUN	NN	Gender=Fem|Number=Plur	18	obj	_	_
 20	a	_	ADP	IN	_	21	case	_	_
 21	abraçarem	_	VERB	VBI	Number=Plur|Person=3	18	xcomp	_	_
-22	os	o	DET	PDT	Gender=Masc|Number=Plur	25	det:predet	_	_
+22	os	o	DET	PDT	Gender=Masc|Number=Plur	25	det	_	_
 23	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	25	det	_	_
 24	próprios	próprio	ADJ	JJ	Gender=Masc|Number=Plur	25	amod	_	_
 25	padrões	padrão	NOUN	NN	Gender=Masc|Number=Plur	21	obj	_	_
@@ -4387,7 +4387,7 @@
 6	Norte	norte	NOUN	NN	Gender=Masc|Number=Sing	3	nmod	_	Proper=True
 7	ter	_	AUX	VB	_	8	aux	_	_
 8	passado	_	VERB	VBN	_	22	advcl	_	_
-9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det:predet	_	_
+9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det	_	_
 10	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	11	det	_	_
 11	lei	lei	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	_
 12	que	_	PRON	WP	_	13	nsubj	_	_
@@ -4496,7 +4496,7 @@
 10	prova	prova	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	_
 11	de	de	ADP	IN	_	17	case	_	_
 12	que	que	SCONJ	IN	_	17	mark	_	_
-13	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det:predet	_	_
+13	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det	_	_
 14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	15	det	_	_
 15	partido	partido	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
 16	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	cop	_	_
@@ -4753,7 +4753,7 @@
 12	mexer	_	VERB	VB	_	10	xcomp	_	_
 13	bundas	bunda	NOUN	NN	Gender=Fem|Number=Plur	12	obj	_	_
 14	-	-	PUNCT	-	_	18	punct	_	_
-15	a	o	DET	PDT	Gender=Fem|Number=Sing	18	det:predet	_	_
+15	a	o	DET	PDT	Gender=Fem|Number=Sing	18	det	_	_
 16	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	18	det	_	_
 17	maior	maior	ADJ	JJS	Gender=Fem|Number=Sing	18	amod	_	_
 18	preocupação	preocupação	NOUN	NN	Gender=Fem|Number=Sing	10	appos	_	SpaceAfter=No
@@ -4830,7 +4830,7 @@
 # sent_id = n01063051
 # text = Os seus reaparecimentos sublinham o apelo de um bom desafio, artístico ou de outra forma: desconforto, crescimento, e uma conexão significativa.
 # text_en = Their revivals underscore the appeal of a good challenge, artistic or otherwise: discomfort, growth, and a meaningful connection.
-1	Os	o	DET	PDT	Gender=Masc|Number=Plur	3	det:predet	_	_
+1	Os	o	DET	PDT	Gender=Masc|Number=Plur	3	det	_	_
 2	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	reaparecimentos	reaparecimento	NOUN	NN	Gender=Masc|Number=Plur	4	nsubj	_	_
 4	sublinham	sublinhar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
@@ -5012,7 +5012,7 @@
 6	,	,	PUNCT	,	_	1	punct	_	_
 7	eu	_	PRON	PRP	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
 8	tentei	tentar	VERB	VBC	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	_
-9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det:predet	_	_
+9	a	o	DET	PDT	Gender=Fem|Number=Sing	11	det	_	_
 10	minha	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	11	det	_	_
 11	sorte	sorte	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	_
 12	para	para	ADP	IN	_	13	case	_	_
@@ -5030,12 +5030,12 @@
 3-4	da	_	_	_	_	_	_	_	_
 3	de	de	ADP	INDT	_	7	case	_	_
 4	a	o	DET	_	Gender=Fem|Number=Sing	7	det	_	_
-5	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	7	det:predet	_	_
+5	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	7	det	_	_
 6	própria	_	DET	DT	Gender=Fem|Number=Sing	7	det	_	_
 7	saúde	saúde	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	reportou	reportar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	parataxis	_	_
-10	a	o	DET	PDT	Gender=Fem|Number=Sing	12	det:predet	_	_
+10	a	o	DET	PDT	Gender=Fem|Number=Sing	12	det	_	_
 11	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	12	det	_	_
 12	mulher	mulher	NOUN	NN	Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
@@ -5053,8 +5053,8 @@
 4	a	o	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	exposição	exposição	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	conta	contar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
-7	a	o	DET	PDT	Gender=Fem|Number=Sing	10	det:predet	_	_
-8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	10	det:predet	_	_
+7	a	o	DET	PDT	Gender=Fem|Number=Sing	10	det	_	_
+8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	10	det	_	_
 9	própria	_	DET	DT	Gender=Fem|Number=Sing	10	det	_	_
 10	história	história	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
@@ -5152,7 +5152,7 @@
 # sent_id = n01068038
 # text = A sua habilidade para obter respostas para os contribuintes trará uma profunda saudade.
 # text_en = His skill in getting answers for taxpayers will be sorely missed.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	habilidade	habilidade	NOUN	NN	Gender=Fem|Number=Sing	10	nsubj	_	_
 4	para	para	ADP	IN	_	5	case	_	_
@@ -5213,7 +5213,7 @@
 15	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No
 16	lo	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
 17	com	_	ADP	IN	_	20	case	_	_
-18	a	o	DET	PDT	Gender=Fem|Number=Sing	20	det:predet	_	_
+18	a	o	DET	PDT	Gender=Fem|Number=Sing	20	det	_	_
 19	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	20	det	_	_
 20	candidata	candidato	NOUN	NN	Gender=Fem|Number=Sing	14	obl	_	_
 21	Sarah	Sarah	PROPN	NNP	Gender=Fem|Number=Sing	20	appos	_	_
@@ -5234,7 +5234,7 @@
 9	de	de	ADP	IN	_	10	case	_	_
 10	governo	governo	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	lançou	lançar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-12	a	o	DET	PDT	Gender=Fem|Number=Sing	14	det:predet	_	_
+12	a	o	DET	PDT	Gender=Fem|Number=Sing	14	det	_	_
 13	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	14	det	_	_
 14	campanha	campanha	NOUN	NN	Gender=Fem|Number=Sing	11	obj	_	_
 15	para	para	ADP	IN	_	16	case	_	_
@@ -5397,7 +5397,7 @@
 2-3	das	_	_	_	_	_	_	_	_
 2	de	de	ADP	INDT	_	6	case	_	_
 3	as	o	DET	_	Gender=Fem|Number=Plur	6	det	_	_
-4	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	6	det:predet	_	_
+4	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 5	muitas	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	publicações	publicação	NOUN	NN	Gender=Fem|Number=Plur	1	nmod	_	_
 7	de	de	ADP	IN	_	8	case	_	_
@@ -5448,7 +5448,7 @@
 # text = Seria o seu direito divino para o manto, uma vez que o melhor do mundo já não justificava?
 # text_en = Was their divine right to the mantle as the world’s best no longer warranted?
 1	Seria	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3	4	cop	_	_
-2	o	o	DET	PDT	Gender=Masc|Number=Sing	4	det:predet	_	_
+2	o	o	DET	PDT	Gender=Masc|Number=Sing	4	det	_	_
 3	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 4	direito	direito	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 5	divino	divino	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
@@ -5827,7 +5827,7 @@
 20	lugar	lugar	NOUN	NN	Gender=Masc|Number=Sing	17	obl	_	_
 21	e	e	CCONJ	CC	_	22	cc	_	_
 22	colocamos	colocar	VERB	VBC	Mood=Ind|Number=Plur|Person=1|Tense=Pres	17	conj	_	_
-23	as	o	DET	PDT	Gender=Fem|Number=Plur	25	det:predet	_	_
+23	as	o	DET	PDT	Gender=Fem|Number=Plur	25	det	_	_
 24	nossas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|PronType=Prs	25	det	_	_
 25	diferenças	diferença	NOUN	NN	Gender=Fem|Number=Plur	22	obj	_	_
 26	de	de	ADP	IN	_	27	case	_	_
@@ -5837,7 +5837,7 @@
 # sent_id = n01079069
 # text = Os seus títulos menos comuns incluem embaixador global da saúde da cidade de Nova Iorque e na Sociedade dos Hospitais, e um lugar na Escola de Gestão de Harvard.
 # text_en = His more unusual accolades include global ambassador for New York City Health and Hospitals Corporation, and a place at Harvard Business School.
-1	Os	o	DET	PDT	Gender=Masc|Number=Plur	3	det:predet	_	_
+1	Os	o	DET	PDT	Gender=Masc|Number=Plur	3	det	_	_
 2	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	títulos	título	NOUN	NN	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	menos	menos	ADV	RBS	_	5	advmod	_	_
@@ -5991,7 +5991,7 @@
 # sent_id = n01083013
 # text = A sua razão é que isso providencia insuficiente proteção aos trabalhadores americanos cujos trabalhos e padrões de vida podem ser afetados.
 # text_en = Her reason is that it provides insufficient protection to American workers whose jobs and living standards it might harm.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	razão	razão	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	é	ser	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -6446,7 +6446,7 @@
 # sent_id = n01089033
 # text = A própria Wintour aparece rapidamente, e é filmada colocando seus óculos de sol antes de ser entrevistada.
 # text_en = Wintour herself appears briefly, and is filmed putting her sunglasses on before being interviewed.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	própria	_	DET	DT	Gender=Fem|Number=Sing	3	det	_	_
 3	Wintour	Wintour	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	aparece	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -6573,7 +6573,7 @@
 # sent_id = n01091017
 # text = O seu representante de políticas da natureza, Jeff Knott, declarou: "Eu ficaria espantado se uma proibição ou um licenciamento fosse com base nestes fundamentos".
 # text_en = Their head of nature policy, Jeff Knott, stated: “I’d be amazed if either a ban or licensing was introduced off the back of it”.
-1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det:predet	_	_
+1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det	_	_
 2	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	representante	representante	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	_
 4	de	de	ADP	IN	_	5	case	_	_
@@ -6884,7 +6884,7 @@
 19	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	20	det	_	_
 20	desaprovação	desaprovação	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	24	punct	_	_
-22	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det:predet	_	_
+22	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det	_	_
 23	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	24	det	_	_
 24	ódio	ódio	NOUN	NN	Gender=Masc|Number=Sing	15	obj	_	_
 25-26	pela	_	_	_	_	_	_	_	_
@@ -7023,7 +7023,7 @@
 12	o	o	DET	DT	Gender=Masc|Number=Sing	13	det	_	_
 13	assunto	assunto	NOUN	NN	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	1	punct	_	_
-15	a	o	DET	PDT	Gender=Fem|Number=Sing	17	det:predet	_	_
+15	a	o	DET	PDT	Gender=Fem|Number=Sing	17	det	_	_
 16	minha	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	17	det	_	_
 17	lista	lista	NOUN	NN	Gender=Fem|Number=Sing	18	nsubj	_	_
 18	cresceu	crescer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -7031,7 +7031,7 @@
 20	e	e	CCONJ	CC	_	21	cc	_	_
 21	cobriu	cobrir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	conj	_	_
 22	quase	quase	ADV	RB	_	25	advmod	_	_
-23	todos	_	DET	PDT	Gender=Masc|Number=Plur	25	det:predet	_	_
+23	todos	_	DET	PDT	Gender=Masc|Number=Plur	25	det	_	_
 24	os	o	DET	DT	Gender=Masc|Number=Plur	25	det	_	_
 25	estados	estado	NOUN	NN	Gender=Masc|Number=Plur	21	obj	_	_
 26-27	da	_	_	_	_	_	_	_	_
@@ -7051,7 +7051,7 @@
 # sent_id = n01097098
 # text = A minha próxima parada foi Bellingham, bem perto da fronteira canadense.
 # text_en = My next stop was Bellingham, right up near the Canadian border.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	4	det	_	_
 2	minha	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	4	det	_	_
 3	próxima	próximo	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 4	parada	parada	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -7288,7 +7288,7 @@
 1	Pequim	Pequim	PROPN	NNP	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	acredita	acreditar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 3	que	que	SCONJ	IN	_	8	mark	_	_
-4	a	o	DET	PDT	Gender=Fem|Number=Sing	6	det:predet	_	_
+4	a	o	DET	PDT	Gender=Fem|Number=Sing	6	det	_	_
 5	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 6	intervenção	intervenção	NOUN	NN	Gender=Fem|Number=Sing	8	nsubj	_	_
 7	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
@@ -7371,7 +7371,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	ele	ele	PRON	INP	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
 6	terminar	_	VERB	VB	_	3	csubj	_	_
-7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det:predet	_	_
+7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det	_	_
 8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	carreira	_	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
 10	aqui	aqui	ADV	RB	_	6	advmod	_	SpaceAfter=No
@@ -7576,7 +7576,7 @@
 35	Martin	Martin	PROPN	NNP	Gender=Masc|Number=Sing	32	appos	_	_
 36	Winterkorn	Winterkorn	PROPN	NNP	Gender=Masc|Number=Sing	35	flat:name	_	SpaceAfter=No
 37	,	,	PUNCT	,	_	35	punct	_	_
-38	o	o	DET	PDT	Gender=Masc|Number=Sing	40	det:predet	_	_
+38	o	o	DET	PDT	Gender=Masc|Number=Sing	40	det	_	_
 39	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	40	det	_	_
 40	trabalho	trabalho	NOUN	NN	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	16	punct	_	_
@@ -7750,7 +7750,7 @@
 5	haverá	haver	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	_
 6	limites	limite	NOUN	NN	Gender=Masc|Number=Plur	5	obj	_	_
 7	para	para	ADP	IN	_	10	case	_	_
-8	a	o	DET	PDT	Gender=Fem|Number=Sing	10	det:predet	_	_
+8	a	o	DET	PDT	Gender=Fem|Number=Sing	10	det	_	_
 9	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	10	det	_	_
 10	capacidade	capacidade	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	_
 11	de	de	ADP	IN	_	12	case	_	_
@@ -7946,7 +7946,7 @@
 8	reunirem	_	VERB	VBI	Number=Plur|Person=3	3	xcomp	_	_
 9	para	para	ADP	IN	_	10	case	_	_
 10	colocar	_	VERB	VB	_	8	xcomp	_	_
-11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det:predet	_	_
+11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det	_	_
 12	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	13	det	_	_
 13	dinheiro	dinheiro	NOUN	NN	Gender=Masc|Number=Sing	10	obj	_	_
 14-15	nos	_	_	_	_	_	_	_	_
@@ -8163,7 +8163,7 @@
 22-23	pela	_	_	_	_	_	_	_	_
 22	por	por	ADP	INDT	_	26	case	_	_
 23	a	o	DET	_	Gender=Fem|Number=Sing	26	det	_	_
-24	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	26	det:predet	_	_
+24	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	26	det	_	_
 25	própria	_	DET	DT	Gender=Fem|Number=Sing	26	det	_	_
 26	saúde	saúde	NOUN	NN	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	14	punct	_	_
@@ -8293,12 +8293,12 @@
 2	onde	onde	ADV	WRB	_	3	xcomp	_	_
 3	vem	vir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 4	toda	todo	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
-5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det:predet	_	_
+5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det	_	_
 6	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	7	det	_	_
 7	energia	energia	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
 8	?	?	PUNCT	.	_	7	punct	_	_
 9	Ou	_	CCONJ	CC	_	12	cc	_	_
-10	essa	_	DET	PDT	Gender=Fem|Number=Sing	12	det:predet	_	_
+10	essa	_	DET	PDT	Gender=Fem|Number=Sing	12	det	_	_
 11	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	12	det	_	_
 12	voz	voz	NOUN	NN	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	16	punct	_	_
@@ -8318,7 +8318,7 @@
 # sent_id = n01116021
 # text = O seu pescoço avança em confronto com veias acentuadas, as suas mãos tremem.
 # text_en = Her neck pushes forward in vein-accentuating confrontation, her hands shake.
-1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det:predet	_	_
+1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det	_	_
 2	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	pescoço	pescoço	NOUN	NN	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	avança	avançar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -8328,7 +8328,7 @@
 8	veias	veia	NOUN	NN	Gender=Fem|Number=Plur	6	nmod	_	_
 9	acentuadas	acentuado	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	14	punct	_	_
-11	as	o	DET	PDT	Gender=Fem|Number=Plur	13	det:predet	_	_
+11	as	o	DET	PDT	Gender=Fem|Number=Plur	13	det	_	_
 12	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	13	det	_	_
 13	mãos	mão	NOUN	NN	Gender=Fem|Number=Plur	14	nsubj	_	_
 14	tremem	tremer	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	parataxis	_	SpaceAfter=No
@@ -8416,7 +8416,7 @@
 # text = Segundo a própria contagem do diretor, até à data, ele fez oito longas-metragens.
 # text_en = According to the director's own count, to date he has made eight feature films.
 1	Segundo	_	ADP	IN	_	4	case	_	_
-2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det	_	_
 3	própria	_	DET	DT	Gender=Fem|Number=Sing	4	det	_	_
 4	contagem	contagem	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	_
 5-6	do	_	_	_	_	_	_	_	_
@@ -8622,7 +8622,7 @@
 # sent_id = n01120020
 # text = Todos os médicos estavam armados, exceto eu.
 # text_en = All the medics were armed, except me.
-1	Todos	_	DET	PDT	Gender=Masc|Number=Plur	3	det:predet	_	_
+1	Todos	_	DET	PDT	Gender=Masc|Number=Plur	3	det	_	_
 2	os	o	DET	DT	Gender=Masc|Number=Plur	3	det	_	_
 3	médicos	médico	NOUN	NN	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	estavam	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	5	cop	_	_
@@ -8935,7 +8935,7 @@
 2	de	de	ADP	IN	_	3	case	_	_
 3	contas	conta	NOUN	NN	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	_	_
-5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det:predet	_	_
+5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det	_	_
 6	nossa	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	7	det	_	_
 7	performance	performance	NOUN	NN	Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 8	organizacional	organizacional	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
@@ -9163,7 +9163,7 @@
 16	mesmo	mesmo	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	23	punct	_	_
 18	e	e	CCONJ	CC	_	23	cc	_	_
-19	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det:predet	_	_
+19	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det	_	_
 20	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	temperamento	temperamento	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj	_	_
 22	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	23	cop	_	_
@@ -9224,7 +9224,7 @@
 12	abstenção	abstenção	NOUN	NN	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	19	punct	_	_
 14	e	e	CCONJ	CC	_	19	cc	_	_
-15	a	o	DET	PDT	Gender=Fem|Number=Sing	17	det:predet	_	_
+15	a	o	DET	PDT	Gender=Fem|Number=Sing	17	det	_	_
 16	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	17	det	_	_
 17	vantagem	vantagem	NOUN	NN	Gender=Fem|Number=Sing	19	nsubj	_	_
 18	global	global	ADJ	JJ	Gender=Fem|Number=Sing	17	amod	_	_
@@ -9317,7 +9317,7 @@
 8	se	_	SCONJ	IN	_	10	mark	_	_
 9	irão	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Fut	10	aux	_	_
 10	comercializar	_	VERB	VB	_	7	ccomp	_	_
-11	as	o	DET	PDT	Gender=Fem|Number=Plur	13	det:predet	_	_
+11	as	o	DET	PDT	Gender=Fem|Number=Plur	13	det	_	_
 12	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	13	det	_	_
 13	motos	moto	NOUN	NN	Gender=Fem|Number=Plur	10	obj	_	_
 14	elétricas	elétrico	ADJ	JJ	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
@@ -9639,7 +9639,7 @@
 10	,	,	PUNCT	,	_	11	punct	_	_
 11	então	então	ADV	RB	_	4	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	11	punct	_	_
-13	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det:predet	_	_
+13	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det	_	_
 14	meu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|PronType=Prs	15	det	_	_
 15	telefone	telefone	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
 16	começou	começar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	18	aux	_	_
@@ -9741,7 +9741,7 @@
 12	de	de	ADP	IN	_	13	case	_	_
 13	construção	construção	NOUN	NN	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	4	punct	_	_
-15	o	o	DET	PDT	Gender=Masc|Number=Sing	17	det:predet	_	_
+15	o	o	DET	PDT	Gender=Masc|Number=Sing	17	det	_	_
 16	nosso	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|PronType=Prs	17	det	_	_
 17	trabalho	trabalho	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
 18	continuará	continuar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No
@@ -9879,7 +9879,7 @@
 18	,	,	PUNCT	,	_	20	punct	_	_
 19	e	e	CCONJ	CC	_	20	cc	_	_
 20	associar	_	VERB	VB	_	6	conj	_	_
-21	o	o	DET	PDT	Gender=Masc|Number=Sing	23	det:predet	_	_
+21	o	o	DET	PDT	Gender=Masc|Number=Sing	23	det	_	_
 22	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	23	det	_	_
 23	feed	_	NOUN	NN	Gender=Masc|Number=Sing	20	obj	_	_
 24-25	do	_	_	_	_	_	_	_	_
@@ -9990,7 +9990,7 @@
 23	,	,	PUNCT	,	_	4	punct	_	_
 24	também	também	ADV	RB	_	25	advmod	_	_
 25	pagou	pagar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-26	o	o	DET	PDT	Gender=Masc|Number=Sing	28	det:predet	_	_
+26	o	o	DET	PDT	Gender=Masc|Number=Sing	28	det	_	_
 27	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	28	det	_	_
 28	tributo	tributo	NOUN	NN	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	25	punct	_	_
@@ -10417,7 +10417,7 @@
 8	capital	capital	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
 9	em	em	ADP	IN	_	13	case	_	_
 10	todo	todo	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
-11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det:predet	_	_
+11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det	_	_
 12	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	13	det	_	_
 13	esplendor	esplendor	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	3	punct	_	_
@@ -10462,7 +10462,7 @@
 # text = Nem todas as transformações na região têm sido bem sucedidas
 # text_en = Not all transformations in the region have been successful.
 1	Nem	_	ADV	RB	Polarity=Neg	2	advmod	_	_
-2	todas	_	DET	PDT	Gender=Fem|Number=Plur	4	det:predet	_	_
+2	todas	_	DET	PDT	Gender=Fem|Number=Plur	4	det	_	_
 3	as	o	DET	DT	Gender=Fem|Number=Plur	4	det	_	_
 4	transformações	transformação	NOUN	NN	Gender=Fem|Number=Plur	9	nsubj	_	_
 5-6	na	_	_	_	_	_	_	_	_
@@ -10613,7 +10613,7 @@
 12	aparência	aparência	NOUN	NN	Gender=Fem|Number=Sing	10	obj	_	_
 13	escultural	escultural	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	_
 14	e	e	CCONJ	CC	_	18	cc	_	_
-15	todos	_	DET	PDT	Gender=Masc|Number=Plur	17	det:predet	_	_
+15	todos	_	DET	PDT	Gender=Masc|Number=Plur	17	det	_	_
 16	os	o	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	detalhes	detalhe	NOUN	NN	Gender=Masc|Number=Plur	18	nsubj	_	_
 18	têm	ter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	10	conj	_	_
@@ -10635,7 +10635,7 @@
 9	ajuda	ajudar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	conj	_	_
 10	a	_	ADP	IN	_	11	case	_	_
 11	manter	_	VERB	VB	_	9	xcomp	_	_
-12	as	o	DET	PDT	Gender=Fem|Number=Plur	14	det:predet	_	_
+12	as	o	DET	PDT	Gender=Fem|Number=Plur	14	det	_	_
 13	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	14	det	_	_
 14	memórias	_	NOUN	NN	Gender=Fem|Number=Plur	11	obj	_	_
 15	entre	_	ADP	IN	_	17	case	_	_
@@ -10969,7 +10969,7 @@
 19	Aquemênidas	aquemênida	NOUN	NN	Gender=Masc|Number=Plur	16	nmod	_	_
 20	e	e	CCONJ	CC	_	21	cc	_	_
 21	rendeu	render	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	14	conj	_	_
-22	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det:predet	_	_
+22	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det	_	_
 23	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	24	det	_	_
 24	país	país	NOUN	NN	Gender=Masc|Number=Sing	21	obj	_	_
 25	como	como	ADP	IN	_	27	case	_	_
@@ -11126,7 +11126,7 @@
 # sent_id = w01007070
 # text = A sua polícia inclui uma unidade especial que opera com barcos de patrulha e vigilância.
 # text_en = Its police includes a special unit which operates patrol and surveillance boats.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	polícia	polícia	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	inclui	incluir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -11408,7 +11408,7 @@
 # sent_id = w01010047
 # text = O seu primeiro rei foi Mojmir I (que governou de 830 a 846).
 # text_en = Their first king was Mojmír I (ruled 830–846).
-1	O	o	DET	PDT	Gender=Masc|Number=Sing	4	det:predet	_	_
+1	O	o	DET	PDT	Gender=Masc|Number=Sing	4	det	_	_
 2	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 3	primeiro	primeiro	ADJ	JJ	Gender=Masc|Number=Sing	4	amod	_	_
 4	rei	rei	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -12524,7 +12524,7 @@
 18	)	)	PUNCT	)	_	15	punct	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	37	punct	_	_
 20	enquanto	_	SCONJ	IN	_	37	mark	_	_
-21	a	o	DET	PDT	Gender=Fem|Number=Sing	23	det:predet	_	_
+21	a	o	DET	PDT	Gender=Fem|Number=Sing	23	det	_	_
 22	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	23	det	_	_
 23	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	37	nsubj	_	_
 24	norte	norte	ADJ	JJ	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
@@ -14309,7 +14309,7 @@
 1	Ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 2	também	também	ADV	RB	_	3	advmod	_	_
 3	aproveitou	aproveitar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	os	o	DET	PDT	Gender=Masc|Number=Plur	6	det:predet	_	_
+4	os	o	DET	PDT	Gender=Masc|Number=Plur	6	det	_	_
 5	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 6	contatos	contato	NOUN	NN	Gender=Masc|Number=Plur	3	obj	_	_
 7	pessoais	pessoal	ADJ	JJ	Gender=Masc|Number=Plur	6	amod	_	_
@@ -14599,7 +14599,7 @@
 12-13	do	_	_	_	_	_	_	_	_
 12	de	de	ADP	INDT	_	16	case	_	_
 13	o	o	DET	_	Gender=Masc|Number=Sing	16	det	_	_
-14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det:predet	_	_
+14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 15	próprio	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	território	território	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|ToDo=nmod
 17	.	.	PUNCT	.	_	8	punct	_	_
@@ -14859,7 +14859,7 @@
 14	preocupar	_	VERB	VB	_	7	xcomp	_	_
 15	em	em	ADP	IN	_	16	case	_	_
 16	vestir	_	VERB	VB	_	14	xcomp	_	_
-17	o	o	DET	PDT	Gender=Masc|Number=Sing	19	det:predet	_	_
+17	o	o	DET	PDT	Gender=Masc|Number=Sing	19	det	_	_
 18	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	19	det	_	_
 19	corselete	corselete	NOUN	NN	Gender=Masc|Number=Sing	16	obj	_	_
 20	até	_	ADP	IN	_	22	case	_	_
@@ -15210,7 +15210,7 @@
 5	Wang	Wang	PROPN	NNP	Gender=Masc|Number=Sing	4	obj	_	_
 6	Anshi	Anshi	PROPN	NNP	Gender=Masc|Number=Sing	5	flat:name	_	_
 7	com	_	ADP	IN	_	10	case	_	_
-8	as	o	DET	PDT	Gender=Fem|Number=Plur	10	det:predet	_	_
+8	as	o	DET	PDT	Gender=Fem|Number=Plur	10	det	_	_
 9	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	10	det	_	_
 10	capacidades	capacidade	NOUN	NN	Gender=Fem|Number=Plur	4	obl	_	_
 11	e	e	CCONJ	CC	_	12	cc	_	_
@@ -15336,7 +15336,7 @@
 10	sentido	sentido	NOUN	NN	Gender=Masc|Number=Sing	4	obl	_	_
 11	de	de	ADP	IN	_	12	case	_	_
 12	empurrar	_	VERB	VB	_	10	xcomp	_	_
-13	as	o	DET	PDT	Gender=Fem|Number=Plur	15	det:predet	_	_
+13	as	o	DET	PDT	Gender=Fem|Number=Plur	15	det	_	_
 14	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	15	det	_	_
 15	fronteiras	_	NOUN	NN	Gender=Fem|Number=Plur	12	obj	_	_
 16	para	para	ADP	IN	_	18	case	_	_
@@ -15400,7 +15400,7 @@
 1	Tibério	Tibério	PROPN	NNP	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	supostamente	supostamente	ADV	RB	_	3	advmod	_	_
 3	lamentou	lamentar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	a	o	DET	PDT	Gender=Fem|Number=Sing	6	det:predet	_	_
+4	a	o	DET	PDT	Gender=Fem|Number=Sing	6	det	_	_
 5	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 6	partida	partida	NOUN	NN	Gender=Fem|Number=Sing	3	obj	_	_
 7	e	e	CCONJ	CC	_	8	cc	_	_
@@ -15439,7 +15439,7 @@
 14	ele	_	PRON	PRP	Gender=Masc|Number=Sing|Person=3	12	obl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	23	punct	_	_
 16	e	e	CCONJ	CC	_	23	cc	_	_
-17	as	o	DET	PDT	Gender=Fem|Number=Plur	19	det:predet	_	_
+17	as	o	DET	PDT	Gender=Fem|Number=Plur	19	det	_	_
 18	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	19	det	_	_
 19	ordens	ordem	NOUN	NN	Gender=Fem|Number=Plur	23	nsubj	_	_
 20	diretas	direto	ADJ	JJ	Gender=Fem|Number=Plur	19	amod	_	_
@@ -15768,7 +15768,7 @@
 # sent_id = w01066006
 # text = O seu animal do zodíaco é o Macaco e o seu tradicionalmente significativo ano do sexagésimo aniversário foi 1992.
 # text_en = Her zodiacal animal is the Monkey and her traditionally significant sixtieth anniversary year was 1992.
-1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det:predet	_	_
+1	O	o	DET	PDT	Gender=Masc|Number=Sing	3	det	_	_
 2	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	animal	animal	NOUN	NN	Gender=Masc|Number=Sing	9	nsubj	_	_
 4-5	do	_	_	_	_	_	_	_	_
@@ -15779,7 +15779,7 @@
 8	o	o	DET	DT	Gender=Masc|Number=Sing	9	det	_	_
 9	Macaco	macaco	NOUN	NN	Gender=Masc|Number=Sing	0	root	_	_
 10	e	e	CCONJ	CC	_	21	cc	_	_
-11	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det:predet	_	_
+11	o	o	DET	PDT	Gender=Masc|Number=Sing	15	det	_	_
 12	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	15	det	_	_
 13	tradicionalmente	tradicionalmente	ADV	RB	_	14	advmod	_	_
 14	significativo	significativo	ADJ	JJ	Gender=Masc|Number=Sing	15	amod	_	_
@@ -16116,7 +16116,7 @@
 # sent_id = w01069094
 # text = A sua luta contra o Império Otomano no Mar Mediterrâneo colocou sérias limitações sobre o poder militar que poderia empregar contra os rebeldes na Holanda.
 # text_en = Its struggle against the Ottoman Empire in the Mediterranean Sea put serious limits on the military power it could deploy against the rebels in the Netherlands.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	luta	luta	NOUN	NN	Gender=Fem|Number=Sing	12	nsubj	_	_
 4	contra	_	ADP	IN	_	6	case	_	_
@@ -16282,7 +16282,7 @@
 # sent_id = w01071036
 # text = A sua importância reside em dois fatos.
 # text_en = Its importance resides in two facts.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	importância	importância	NOUN	NN	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	reside	residir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -16327,7 +16327,7 @@
 11	as	o	DET	DT	Gender=Fem|Number=Plur	12	det	_	_
 12	evidências	evidência	NOUN	NN	Gender=Fem|Number=Plur	20	nsubj	_	ToDo=ex-adp-child
 13	para	para	ADP	IN	_	16	case	_	_
-14	as	o	DET	PDT	Gender=Fem|Number=Plur	16	det:predet	_	_
+14	as	o	DET	PDT	Gender=Fem|Number=Plur	16	det	_	_
 15	várias	_	DET	DT	Gender=Fem|Number=Plur	16	det	_	_
 16	especulações	especulação	NOUN	NN	Gender=Fem|Number=Plur	12	nmod	_	_
 17	se	_	PRON	SE	Person=3	20	expl:pv	_	ToDo=ex-adp-child
@@ -16455,7 +16455,7 @@
 15	que	que	SCONJ	IN	_	25	mark	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	22	punct	_	_
 17	quando	_	SCONJ	IN	_	22	mark	_	_
-18	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det:predet	_	_
+18	o	o	DET	PDT	Gender=Masc|Number=Sing	21	det	_	_
 19	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	21	det	_	_
 20	primeiro	primeiro	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	_
 21	filho	filho	NOUN	NN	Gender=Masc|Number=Sing	22	nsubj	_	_
@@ -16476,7 +16476,7 @@
 # text = Durante o seu tempo ali, Kipling também conheceu e se apaixonou por Florence Garrard, que estava embarcando com Trix em Southsea (para onde Trix tinha regressado).
 # text_en = During his time there, Kipling also met and fell in love with Florence Garrard who was boarding with Trix at Southsea (to which Trix had returned).
 1	Durante	_	ADP	IN	_	4	case	_	_
-2	o	o	DET	PDT	Gender=Masc|Number=Sing	4	det:predet	_	_
+2	o	o	DET	PDT	Gender=Masc|Number=Sing	4	det	_	_
 3	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 4	tempo	tempo	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 5	ali	ali	ADV	RB	_	4	advmod	_	SpaceAfter=No
@@ -16843,7 +16843,7 @@
 # sent_id = w01076039
 # text = A sua garantia de liberdades prometeu dissolver as tensões entre comunas e transformar o império em um lugar mais harmonioso.
 # text_en = Its guarantee of liberties promised to dissolve inter-communal tensions and transform the empire into a more harmonious place.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	3	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	3	det	_	_
 3	garantia	garantia	NOUN	NN	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	de	de	ADP	IN	_	5	case	_	_
@@ -16964,7 +16964,7 @@
 5	Inquisição	inquisição	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	Proper=True
 6	espanhola	espanhol	ADJ	JJ	Gender=Fem|Number=Sing	5	amod	_	Proper=True
 7	advertiu	advertir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-8	os	o	DET	PDT	Gender=Masc|Number=Plur	10	det:predet	_	_
+8	os	o	DET	PDT	Gender=Masc|Number=Plur	10	det	_	_
 9	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	10	det	_	_
 10	membros	membro	NOUN	NN	Gender=Masc|Number=Plur	7	obj	_	_
 11	para	para	ADP	IN	_	13	case	_	_
@@ -17025,7 +17025,7 @@
 2	Espanha	Espanha	PROPN	NNP	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	aux	_	_
 4	expulsado	_	VERB	VBN	_	0	root	_	_
-5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det:predet	_	_
+5	a	o	DET	PDT	Gender=Fem|Number=Sing	7	det	_	_
 6	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	7	det	_	_
 7	população	população	NOUN	NN	Gender=Fem|Number=Sing	4	obj	_	_
 8	sefardita	sefardita	ADJ	JJ	Gender=Fem|Number=Sing	7	amod	_	_
@@ -17085,7 +17085,7 @@
 1	Filipe	Filipe	PROPN	NNP	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	marchou	marchar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 3	contra	_	ADP	IN	_	6	case	_	_
-4	os	o	DET	PDT	Gender=Masc|Number=Plur	6	det:predet	_	_
+4	os	o	DET	PDT	Gender=Masc|Number=Plur	6	det	_	_
 5	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	6	det	_	_
 6	inimigos	inimigo	NOUN	NN	Gender=Masc|Number=Plur	2	obl	_	_
 7-8	do	_	_	_	_	_	_	_	_
@@ -17104,7 +17104,7 @@
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	derrotou	derrotar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	os	o	DET	PDT	Gender=Masc|Number=Plur	9	det:predet	_	_
+7	os	o	DET	PDT	Gender=Masc|Number=Plur	9	det	_	_
 8	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	inimigos	inimigo	NOUN	NN	Gender=Masc|Number=Plur	6	obj	_	_
 10	e	e	CCONJ	CC	_	13	cc	_	_
@@ -17470,7 +17470,7 @@
 11	os	o	DET	_	Gender=Masc|Number=Plur	12	det	_	_
 12	Estados	estado	NOUN	NN	Gender=Masc|Number=Plur	9	obl	_	Proper=True
 13	Unidos	unido	ADJ	JJ	Gender=Masc|Number=Plur	12	amod	_	Proper=True
-14	as	o	DET	PDT	Gender=Fem|Number=Plur	16	det:predet	_	_
+14	as	o	DET	PDT	Gender=Fem|Number=Plur	16	det	_	_
 15	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 16	colônias	colônia	NOUN	NN	Gender=Fem|Number=Plur	9	obj	_	_
 17	de	de	ADP	IN	_	18	case	_	_
@@ -17900,8 +17900,8 @@
 19	Ford	Ford	PROPN	NNP	Gender=Fem|Number=Sing	16	conj	_	_
 20	a	_	ADP	IN	_	21	case	_	_
 21	introduzirem	_	VERB	VBI	Number=Plur|Person=3	14	xcomp	_	_
-22	os	o	DET	PDT	Gender=Masc|Number=Plur	25	det:predet	_	_
-23	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	25	det:predet	_	_
+22	os	o	DET	PDT	Gender=Masc|Number=Plur	25	det	_	_
+23	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	25	det	_	_
 24	próprios	_	DET	DT	Gender=Masc|Number=Plur	25	det	_	_
 25	carros	carro	NOUN	NN	Gender=Masc|Number=Plur	21	obj	_	_
 26	reduzidos	reduzido	ADJ	JJ	Gender=Masc|Number=Plur	25	amod	_	_
@@ -18001,7 +18001,7 @@
 16	cada	_	DET	DT	Gender=Masc|Number=Sing	17	det	_	_
 17	Imperador	imperador	NOUN	NN	Gender=Masc|Number=Sing	15	obj	_	_
 18	após	_	ADP	IN	_	21	case	_	_
-19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det:predet	_	_
+19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det	_	_
 20	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	morte	morte	NOUN	NN	Gender=Fem|Number=Sing	15	obl	_	_
 22	usando	_	VERB	VBG	_	15	acl	_	_
@@ -18593,7 +18593,7 @@
 15	mas	_	CCONJ	CC	_	17	cc	_	_
 16	nenhum	_	NOUN	NN	Gender=Masc|Number=Sing	17	nsubj	_	_
 17	despertou	despertar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	4	conj	_	_
-18	o	o	DET	PDT	Gender=Masc|Number=Sing	20	det:predet	_	_
+18	o	o	DET	PDT	Gender=Masc|Number=Sing	20	det	_	_
 19	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	20	det	_	_
 20	interesse	interesse	NOUN	NN	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	4	punct	_	_
@@ -18660,7 +18660,7 @@
 18	prêmio	prêmio	NOUN	NN	Gender=Masc|Number=Sing	7	conj	_	_
 19	oficial	oficial	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	_
 20	sem	_	ADP	IN	_	24	case	_	_
-21	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det:predet	_	_
+21	o	o	DET	PDT	Gender=Masc|Number=Sing	24	det	_	_
 22	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	24	det	_	_
 23	prévio	prévio	ADJ	JJ	Gender=Masc|Number=Sing	24	amod	_	_
 24	consentimento	consentimento	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
@@ -18694,7 +18694,7 @@
 20	heroína	_	NOUN	NN	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	25	punct	_	_
 22	e	e	CCONJ	CC	_	25	cc	_	_
-23	o	o	DET	PDT	Gender=Masc|Number=Sing	25	det:predet	_	_
+23	o	o	DET	PDT	Gender=Masc|Number=Sing	25	det	_	_
 24	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	25	det	_	_
 25	declínio	declínio	NOUN	NN	Gender=Masc|Number=Sing	5	conj	_	_
 26	e	e	CCONJ	CC	_	27	cc	_	_
@@ -19649,7 +19649,7 @@
 # sent_id = w01117029
 # text = A sua última obra não ficcional é sobre Margaret Douglas, condessa de Lennox.
 # text_en = Her latest non-fiction is about Margaret Douglas, Countess of Lennox.
-1	A	o	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+1	A	o	DET	PDT	Gender=Fem|Number=Sing	4	det	_	_
 2	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 3	última	último	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	_
 4	obra	obra	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -19733,7 +19733,7 @@
 # text = Com a sua aparência finalizada, Jasmine se tornou a primeira princesa não branca da Disney em contraste com a herança europeia.
 # text_en = With her appearance finalized, Jasmine became Disney's first non-white princess as opposed to being of European heritage.
 1	Com	_	ADP	IN	_	4	case	_	_
-2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det	_	_
 3	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 4	aparência	aparência	NOUN	NN	Gender=Fem|Number=Sing	12	nmod	_	ToDo=nmod
 5	finalizada	finalizado	ADJ	JJ	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
@@ -19933,7 +19933,7 @@
 # text_en = After its progress had stalled in the Billboard 200 at No. 96, Thought 'Ya Knew climbed to No. 31 in the UK, but the album charted for only two weeks in the UK.
 1	Depois	depois	ADV	RB	_	21	advmod	_	_
 2	de	de	ADP	IN	_	7	case	_	_
-3	o	o	DET	PDT	Gender=Masc|Number=Sing	5	det:predet	_	_
+3	o	o	DET	PDT	Gender=Masc|Number=Sing	5	det	_	_
 4	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	5	det	_	_
 5	progresso	progresso	NOUN	NN	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	ter	_	AUX	VB	_	7	aux	_	_
@@ -19987,7 +19987,7 @@
 # text = Após a sua demissão, Peniston aceitou o papel de Glinda, a Bruxa Boa, em uma produção teatral do musical The Wiz.
 # text_en = Following her dismissal, Peniston took playing as Glinda the Good Witch in a theatrical production of musical play The Wiz.
 1	Após	_	ADP	IN	_	4	case	_	_
-2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det:predet	_	_
+2	a	o	DET	PDT	Gender=Fem|Number=Sing	4	det	_	_
 3	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	4	det	_	_
 4	demissão	demissão	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
@@ -20037,7 +20037,7 @@
 16	Comuns	comum	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	Proper=True
 17	decidir	_	VERB	VB	_	10	xcomp	_	_
 18	que	que	SCONJ	IN	_	23	mark	_	_
-19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det:predet	_	_
+19	a	o	DET	PDT	Gender=Fem|Number=Sing	21	det	_	_
 20	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	21	det	_	_
 21	candidatura	candidatura	NOUN	NN	Gender=Fem|Number=Sing	23	nsubj	_	_
 22	era	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	23	cop	_	_
@@ -20400,7 +20400,7 @@
 11	se	_	PRON	SE	Person=3	12	expl:pv	_	_
 12	reuniu	reunir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 13	com	_	ADP	IN	_	16	case	_	_
-14	o	o	DET	PDT	Gender=Masc|Number=Sing	16	det:predet	_	_
+14	o	o	DET	PDT	Gender=Masc|Number=Sing	16	det	_	_
 15	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 16	colega	colega	NOUN	NN	Gender=Masc|Number=Sing	12	obl	_	_
 17-18	dos	_	_	_	_	_	_	_	_
@@ -20543,7 +20543,7 @@
 6	Abakumov	Abakumov	PROPN	NNP	Gender=Masc|Number=Sing	5	obj	_	_
 7	a	_	ADP	IN	_	8	case	_	_
 8	formar	_	VERB	VB	_	5	xcomp	_	_
-9	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	11	det:predet	_	_
+9	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	11	det	_	_
 10	própria	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	rede	rede	NOUN	NN	Gender=Fem|Number=Sing	8	obj	_	_
 12	dentro	dentro	ADV	RB	_	8	advmod	_	_
@@ -20792,7 +20792,7 @@
 8	de	de	ADP	IN	_	9	case	_	_
 9	musculação	musculação	NOUN	NN	Gender=Fem|Number=Sing	7	nmod	_	_
 10	e	e	CCONJ	CC	_	23	cc	_	_
-11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det:predet	_	_
+11	o	o	DET	PDT	Gender=Masc|Number=Sing	13	det	_	_
 12	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	13	det	_	_
 13	regime	regime	NOUN	NN	Gender=Masc|Number=Sing	23	nsubj:pass	_	_
 14	de	de	ADP	IN	_	15	case	_	_
@@ -21029,7 +21029,7 @@
 4	interessado	_	VERB	VBN	Gender=Masc|Number=Sing	0	root	_	_
 5	em	em	ADP	IN	_	6	case	_	_
 6	selecionar	_	VERB	VB	_	4	xcomp	_	_
-7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det:predet	_	_
+7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det	_	_
 8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	esposa	esposo	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	11	punct	_	_
@@ -21247,13 +21247,13 @@
 17	para	para	ADP	IN	_	18	case	_	_
 18	entender	_	VERB	VB	_	14	xcomp	_	_
 19	como	como	ADV	WRB	_	24	advmod	_	_
-20	o	o	DET	PDT	Gender=Masc|Number=Sing	22	det:predet	_	_
+20	o	o	DET	PDT	Gender=Masc|Number=Sing	22	det	_	_
 21	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	22	det	_	_
 22	laboratório	laboratório	NOUN	NN	Gender=Masc|Number=Sing	24	nsubj	_	_
 23	poderia	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3	24	aux	_	_
 24	fazer	_	VERB	VB	_	18	ccomp	_	_
-25	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det:predet	_	_
-26	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	28	det:predet	_	_
+25	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det	_	_
+26	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Sing|Person=3|PronType=Prs	28	det	_	_
 27	próprias	_	DET	DT	Gender=Fem|Number=Plur	28	det	_	_
 28	amostras	amostra	NOUN	NN	Gender=Fem|Number=Plur	24	obj	_	_
 29	de	de	ADP	IN	_	30	case	_	_
@@ -21722,7 +21722,7 @@
 4	Deus	deus	NOUN	NN	Gender=Masc|Number=Sing	6	nsubj	_	Proper=True
 5	tinha	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	6	aux	_	_
 6	poupado	_	VERB	VBN	_	2	ccomp	_	_
-7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det:predet	_	_
+7	a	o	DET	PDT	Gender=Fem|Number=Sing	9	det	_	_
 8	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	9	det	_	_
 9	vida	vida	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
 10	para	_	SCONJ	IN	_	14	mark	_	_
@@ -21882,7 +21882,7 @@
 10	pouca	_	DET	DT	Gender=Fem|Number=Sing	11	det	_	_
 11	informação	informação	NOUN	NN	Gender=Fem|Number=Sing	9	obj	_	_
 12	sobre	_	ADP	IN	_	16	case	_	_
-13	o	o	DET	PDT	Gender=Masc|Number=Sing	16	det:predet	_	_
+13	o	o	DET	PDT	Gender=Masc|Number=Sing	16	det	_	_
 14	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 15	terceiro	_	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
 16	álbum	álbum	NOUN	NN	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -22110,7 +22110,7 @@
 11	a	o	DET	DT	Gender=Fem|Number=Sing	12	det	_	_
 12	Macedônia	Macedônia	PROPN	NNP	Gender=Fem|Number=Sing	9	obj	_	_
 13	e	e	CCONJ	CC	_	16	cc	_	_
-14	a	o	DET	PDT	Gender=Fem|Number=Sing	16	det:predet	_	_
+14	a	o	DET	PDT	Gender=Fem|Number=Sing	16	det	_	_
 15	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	16	det	_	_
 16	ligação	ligação	NOUN	NN	Gender=Fem|Number=Sing	12	conj	_	_
 17	territorial	territorial	ADJ	JJ	Gender=Fem|Number=Sing	16	amod	_	_
@@ -22126,7 +22126,7 @@
 27	tinham	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	29	aux	_	_
 28	que	_	ADP	IN	_	27	fixed	_	_
 29	mudar	_	VERB	VB	_	25	ccomp	_	_
-30	a	o	DET	PDT	Gender=Fem|Number=Sing	32	det:predet	_	_
+30	a	o	DET	PDT	Gender=Fem|Number=Sing	32	det	_	_
 31	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|PronType=Prs	32	det	_	_
 32	decisão	decisão	NOUN	NN	Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	25	punct	_	_
@@ -22536,8 +22536,8 @@
 22	teriam	_	AUX	VBC	Mood=Cnd|Number=Plur|Person=3	24	aux	_	_
 23	que	_	ADP	IN	_	22	fixed	_	_
 24	retirar	_	VERB	VB	_	7	parataxis	_	_
-25	todas	_	DET	PDT	Gender=Fem|Number=Plur	28	det:predet	_	_
-26	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det:predet	_	_
+25	todas	_	DET	PDT	Gender=Fem|Number=Plur	28	det	_	_
+26	as	o	DET	PDT	Gender=Fem|Number=Plur	28	det	_	_
 27	suas	_	PRON	DTP$	Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	28	det	_	_
 28	tropas	tropa	NOUN	NN	Gender=Fem|Number=Plur	24	obj	_	_
 29-30	dos	_	_	_	_	_	_	_	_
@@ -22556,7 +22556,7 @@
 40	2000	_	NUM	CD	Gender=Masc	38	obl	_	SpaceAfter=No
 41	,	,	PUNCT	,	_	42	punct	_	_
 42	rescindir	_	VERB	VB	_	24	conj	_	_
-43	todas	_	DET	PDT	Gender=Fem|Number=Plur	45	det:predet	_	_
+43	todas	_	DET	PDT	Gender=Fem|Number=Plur	45	det	_	_
 44	as	o	DET	DT	Gender=Fem|Number=Plur	45	det	_	_
 45	sanções	sanção	NOUN	NN	Gender=Fem|Number=Plur	42	obj	_	_
 46	contra	_	ADP	IN	_	48	case	_	_
@@ -24511,7 +24511,7 @@
 3	que	_	PRON	WP	_	10	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	8	punct	_	_
 5	em	em	ADP	IN	_	8	case	_	_
-6	ambos	_	DET	PDT	Gender=Masc|Number=Plur	8	det:predet	_	_
+6	ambos	_	DET	PDT	Gender=Masc|Number=Plur	8	det	_	_
 7	os	o	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	casos	caso	NOUN	NN	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
@@ -24657,7 +24657,7 @@
 17	Banco	banco	NOUN	NN	Gender=Masc|Number=Sing	18	nsubj	_	_
 18	falar	_	VERB	VB	_	14	xcomp	_	_
 19	em	em	ADP	IN	_	22	case	_	_
-20	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	22	det:predet	_	_
+20	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	22	det	_	_
 21	próprio	_	DET	DT	Gender=Masc|Number=Sing	22	det	_	_
 22	nome	nome	NOUN	NN	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	24	punct	_	_
@@ -25208,7 +25208,7 @@
 3	,	,	PUNCT	,	_	4	punct	_	_
 4	assim	assim	ADV	RB	_	8	cc	_	_
 5	como	como	ADP	IN	_	4	fixed	_	_
-6	vários	_	DET	PDT	Gender=Masc|Number=Plur	8	det:predet	_	_
+6	vários	_	DET	PDT	Gender=Masc|Number=Plur	8	det	_	_
 7	outros	_	DET	DT	Gender=Masc|Number=Plur	8	det	_	_
 8	socialistas	socialista	NOUN	NN	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
@@ -25294,7 +25294,7 @@
 15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	17	aux	_	_
 16	que	_	ADP	IN	_	15	fixed	_	_
 17	dar	_	VERB	VB	_	2	conj	_	_
-18	o	o	DET	PDT	Gender=Masc|Number=Sing	20	det:predet	_	_
+18	o	o	DET	PDT	Gender=Masc|Number=Sing	20	det	_	_
 19	seu	_	PRON	DTP$	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	20	det	_	_
 20	melhor	melhor	ADJ	JJS	Gender=Masc|Number=Sing	17	obj	_	_
 21	para	para	ADP	IN	_	22	case	_	_
@@ -25990,7 +25990,7 @@
 12	capaz	capaz	ADJ	JJ	Gender=Masc|Number=Sing	0	root	_	_
 13	de	de	ADP	IN	_	14	case	_	_
 14	vencer	_	VERB	VB	_	12	xcomp	_	_
-15	todos	_	DET	PDT	Gender=Masc|Number=Plur	18	det:predet	_	_
+15	todos	_	DET	PDT	Gender=Masc|Number=Plur	18	det	_	_
 16	os	o	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
 17	sete	_	NUM	CD	_	18	nummod	_	_
 18	distritos	distrito	NOUN	NN	Gender=Masc|Number=Plur	14	obj	_	_
@@ -26398,7 +26398,7 @@
 11	o	o	DET	_	Gender=Masc|Number=Sing	5	det	_	_
 12	que	_	ADP	IN	_	16	case	_	ToDo=ex-adp-child
 13	em	em	ADP	IN	_	16	case	_	_
-14	qualquer	_	DET	PDT	Gender=Masc|Number=Sing	16	det:predet	_	_
+14	qualquer	_	DET	PDT	Gender=Masc|Number=Sing	16	det	_	_
 15	outro	_	DET	DT	Gender=Masc|Number=Sing	16	det	_	_
 16	país	país	NOUN	NN	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	4	punct	_	_
@@ -26713,7 +26713,7 @@
 1	A	o	DET	DT	Gender=Fem|Number=Sing	2	det	_	_
 2	censura	censura	NOUN	NN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	descartou	descartar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-4	todas	_	DET	PDT	Gender=Fem|Number=Plur	6	det:predet	_	_
+4	todas	_	DET	PDT	Gender=Fem|Number=Plur	6	det	_	_
 5	as	o	DET	DT	Gender=Fem|Number=Plur	6	det	_	_
 6	opções	opção	NOUN	NN	Gender=Fem|Number=Plur	3	obj	_	_
 7	indesejadas	indesejado	ADJ	JJ	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
@@ -27249,7 +27249,7 @@
 18	territórios	território	NOUN	NN	Gender=Masc|Number=Plur	12	appos	_	_
 19	auto-governados	_	VERB	VBN	Gender=Masc|Number=Plur	18	acl	_	_
 20	com	_	ADP	IN	_	23	case	_	_
-21	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	23	det:predet	_	_
+21	seus	_	PRON	DTP$	Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|PronType=Prs	23	det	_	_
 22	próprios	_	DET	DT	Gender=Masc|Number=Plur	23	det	_	_
 23	sistemas	sistema	NOUN	NN	Gender=Masc|Number=Plur	19	obl	_	_
 24	políticos	político	ADJ	JJ	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
@@ -27846,7 +27846,7 @@
 22	a	_	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	23	obj	_	_
 23	revogou	revogar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	10	conj	_	_
 24	de	de	ADP	IN	_	27	case	_	_
-25	todas	_	DET	PDT	Gender=Fem|Number=Plur	27	det:predet	_	_
+25	todas	_	DET	PDT	Gender=Fem|Number=Plur	27	det	_	_
 26	as	o	DET	DT	Gender=Fem|Number=Plur	27	det	_	_
 27	infrações	infração	NOUN	NN	Gender=Fem|Number=Plur	23	obl	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	10	punct	_	_
@@ -28359,7 +28359,7 @@
 # text = Durante as várias colaborações deles, não é claro quem, entre os dois, concebeu algumas das soluções estilísticas nos arranjos que, mais tarde, caracterizariam o estilo de ambos artistas.
 # text_en = During their various collaborations, it is not clear who between the two conceived of some stylistic solutions in the arrangements that later on characterised both artists' style.
 1	Durante	_	ADP	IN	_	10	case	_	_
-2	as	o	DET	PDT	Gender=Fem|Number=Plur	6	det:predet	_	ToDo=ex-adp-child
+2	as	o	DET	PDT	Gender=Fem|Number=Plur	6	det	_	ToDo=ex-adp-child
 3	várias	_	DET	DT	Gender=Fem|Number=Plur	6	det	_	ToDo=ex-adp-child
 4	colaborações	colaboração	NOUN	NN	Gender=Fem|Number=Plur	6	case	_	_
 5-6	deles	_	_	_	_	_	_	_	SpaceAfter=No
@@ -28593,7 +28593,7 @@
 12	políticos	político	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	_
 13	legalizados	_	VERB	VBN	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	18	punct	_	_
-15	todos	_	DET	PDT	Gender=Masc|Number=Plur	17	det:predet	_	_
+15	todos	_	DET	PDT	Gender=Masc|Number=Plur	17	det	_	_
 16	os	o	DET	DT	Gender=Masc|Number=Plur	17	det	_	_
 17	exilados	exilado	NOUN	NN	Gender=Masc|Number=Plur	18	nsubj	_	_
 18	tiveram	ter	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	9	conj	_	_
