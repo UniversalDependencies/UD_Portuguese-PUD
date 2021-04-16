@@ -3381,34 +3381,36 @@
 # text = O total de remuneração por desempenho e bônus, naquele ano, foi de $1,5 milhões, quase no mesmo nível que o de 2015-2016.
 # text_en = The total for performance pay and bonus that year was $1.5 million, about the same level as for 2015-2016.
 1	O	o	DET	DT	Gender=Masc|Number=Sing	2	det	_	_
-2	total	total	NOUN	NN	Gender=Masc|Number=Sing	15	nsubj	_	_
+2	total	total	NOUN	NN	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	de	de	ADP	IN	_	4	case	_	_
 4	remuneração	remuneração	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 5	por	por	ADP	IN	_	6	case	_	_
 6	desempenho	desempenho	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	_
 7	e	e	CCONJ	CC	_	8	cc	_	_
 8	bônus	bônus	NOUN	NN	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	11	punct	_	_
-10	naquele	_	ADP	INDT	Gender=Masc|Number=Sing	11	case	_	_
-11	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	,	_	11	punct	_	_
-13	foi	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	15	cop	_	_
-14	de	de	ADP	IN	_	15	case	_	_
-15	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
-16	1,5	_	NUM	CD	Gender=Masc	17	nummod	_	_
-17	milhões	_	NUM	CD	Number=Plur	15	nummod	_	SpaceAfter=No
-18	,	,	PUNCT	,	_	23	punct	_	_
-19	quase	quase	ADV	RB	_	23	advmod	_	ToDo=ex-adp-child
-20-21	no	_	_	_	_	_	_	_	_
-20	em	em	ADP	INDT	_	23	case	_	_
-21	o	o	DET	_	Gender=Masc|Number=Sing	23	det	_	_
-22	mesmo	_	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
-23	nível	nível	NOUN	NN	Gender=Masc|Number=Sing	15	appos	_	_
-24	que	_	ADP	IN	_	25	case	_	_
-25	o	_	PRON	PDEM	Gender=Masc|Number=Sing	23	nmod	_	_
-26	de	de	ADP	IN	_	27	case	_	_
-27	2015-2016	_	NUM	CD	Gender=Masc	25	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	15	punct	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10-11	naquele	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	aquele	aquele	DET	INDT	Gender=Masc|Number=Sing	12	det	_	_
+12	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	foi	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	16	cop	_	_
+15	de	de	ADP	IN	_	16	case	_	_
+16	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
+17	1,5	_	NUM	CD	Gender=Masc	18	nummod	_	_
+18	milhões	_	NUM	CD	Number=Plur	16	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	24	punct	_	_
+20	quase	quase	ADV	RB	_	24	advmod	_	ToDo=ex-adp-child
+21-22	no	_	_	_	_	_	_	_	_
+21	em	em	ADP	INDT	_	24	case	_	_
+22	o	o	DET	_	Gender=Masc|Number=Sing	24	det	_	_
+23	mesmo	_	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	nível	nível	NOUN	NN	Gender=Masc|Number=Sing	16	appos	_	_
+25	que	_	ADP	IN	_	26	case	_	_
+26	o	_	PRON	PDEM	Gender=Masc|Number=Sing	24	nmod	_	_
+27	de	de	ADP	IN	_	28	case	_	_
+28	2015-2016	_	NUM	CD	Gender=Masc	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	16	punct	_	_
 
 # newdoc id = n01044
 # sent_id = n01044004
@@ -9700,10 +9702,12 @@
 14	vê	_	VERB	VB	_	13	csubj	_	SpaceAfter=No
 15	-	-	PUNCT	-	_	16	punct	_	SpaceAfter=No
 16	lo	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
-17	naquele	_	ADP	INDT	Gender=Masc|Number=Sing	18	case	_	_
-18	estado	estado	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	_
-19	emocional	emocional	ADJ	JJ	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	4	punct	_	_
+17-18	naquele	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	aquele	aquele	DET	INDT	Gender=Masc|Number=Sing	19	det	_	_
+19	estado	estado	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	_
+20	emocional	emocional	ADJ	JJ	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = n01138026
 # text = Novos episódios são seguidos pelo programa, "The Talking Dead."
@@ -14908,22 +14912,24 @@
 2	vez	vez	NOUN	NN	Gender=Fem|Number=Sing	1	fixed	_	_
 3	que	_	ADP	IN	_	1	fixed	_	_
 4	Herodes	Herodes	PROPN	NNP	Gender=Masc|Number=Sing	5	nsubj	_	_
-5	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	12	advcl	_	_
+5	estava	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	13	advcl	_	_
 6	em	em	ADP	IN	_	7	case	_	_
 7	Jerusalém	Jerusalém	PROPN	NNP	Gender=Fem|Number=Sing	5	obl	_	_
-8	naquela	_	ADP	INDT	Gender=Fem|Number=Sing	9	case	_	_
-9	época	época	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	5	punct	_	_
-11	Pilatos	_	NOUN	NN	Gender=Masc|Number=Sing	12	nsubj	_	Proper=True
-12	decidiu	decidir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-13	enviar	_	VERB	VB	_	12	xcomp	_	_
-14	Jesus	Jesus	PROPN	NNP	Gender=Masc|Number=Sing	13	obj	_	_
-15	a	_	ADP	IN	_	16	case	_	_
-16	Herodes	Herodes	PROPN	NNP	Gender=Masc|Number=Sing	13	obl	_	_
-17	para	para	ADP	IN	_	19	case	_	_
-18	ser	_	AUX	VB	_	19	aux:pass	_	_
-19	julgado	_	VERB	VBN	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
-20	.	.	PUNCT	.	_	12	punct	_	_
+8-9	naquela	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	aquela	aquele	DET	INDT	Gender=Fem|Number=Sing	10	det	_	_
+10	época	época	NOUN	NN	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	5	punct	_	_
+12	Pilatos	_	NOUN	NN	Gender=Masc|Number=Sing	13	nsubj	_	Proper=True
+13	decidiu	decidir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+14	enviar	_	VERB	VB	_	13	xcomp	_	_
+15	Jesus	Jesus	PROPN	NNP	Gender=Masc|Number=Sing	14	obj	_	_
+16	a	_	ADP	IN	_	17	case	_	_
+17	Herodes	Herodes	PROPN	NNP	Gender=Masc|Number=Sing	14	obl	_	_
+18	para	para	ADP	IN	_	20	case	_	_
+19	ser	_	AUX	VB	_	20	aux:pass	_	_
+20	julgado	_	VERB	VBN	Gender=Masc|Number=Sing	14	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = w01053045
 # text = De acordo com o Novo Testamento, Paulo passou dezoito meses em Corinto, aproximadamente dezessete anos depois da sua conversão.
@@ -14973,17 +14979,19 @@
 15	um	_	NUM	CD	Gender=Masc	16	nummod	_	_
 16	mês	mês	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 17	extra	extra	ADJ	JJ	Gender=Masc|Number=Sing	16	amod	_	_
-18	naquele	_	ADP	INDT	Gender=Masc|Number=Sing	19	case	_	_
-19	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
-20	,	,	PUNCT	,	_	21	punct	_	_
-21	mas	_	CCONJ	CC	_	24	cc	_	_
-22	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	24	nsubj	_	_
-23	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	cop	_	_
-24	o	_	PRON	PDEM	Gender=Masc|Number=Sing	7	conj	_	_
-25	que	_	PRON	WP	_	27	obj	_	_
-26	Newton	Newton	PROPN	NNP	Gender=Masc|Number=Sing	27	nsubj	_	_
-27	defendeu	defender	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	24	acl:relcl	_	SpaceAfter=No
-28	.	.	PUNCT	.	_	7	punct	_	_
+18-19	naquele	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	aquele	aquele	DET	INDT	Gender=Masc|Number=Sing	20	det	_	_
+20	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	,	,	PUNCT	,	_	22	punct	_	_
+22	mas	_	CCONJ	CC	_	25	cc	_	_
+23	isso	_	PRON	PDEM	Gender=Masc|Number=Sing	25	nsubj	_	_
+24	foi	_	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	25	cop	_	_
+25	o	_	PRON	PDEM	Gender=Masc|Number=Sing	7	conj	_	_
+26	que	_	PRON	WP	_	28	obj	_	_
+27	Newton	Newton	PROPN	NNP	Gender=Masc|Number=Sing	28	nsubj	_	_
+28	defendeu	defender	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w01053067
 # text = É possível determinar a fase da lua em um dia específico há dois mil anos, mas não se foi ocultada por nuvens ou neblina.
@@ -17631,15 +17639,17 @@
 12	locais	local	NOUN	NN	Gender=Masc|Number=Plur	9	obl	_	_
 13	de	de	ADP	IN	_	14	case	_	_
 14	enterro	enterro	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	_
-15	e	e	CCONJ	CC	_	18	cc	_	ToDo=ex-adp-child
+15	e	e	CCONJ	CC	_	20	cc	_	ToDo=ex-adp-child
 16-17	dos	_	_	_	_	_	_	_	ToDo=ex-adp-child
 16	de	de	ADP	INDT	_	18	case	_	_
 17	os	o	DET	_	Gender=Masc|Number=Plur	18	det	_	_
-18	bens	bem	NOUN	NN	Gender=Masc|Number=Plur	12	conj	_	_
+18	bens	bem	NOUN	NN	Gender=Masc|Number=Plur	20	nsubj	_	_
 19	funerários	funerário	ADJ	JJ	Gender=Masc|Number=Plur	18	amod	_	_
-20	contidos	_	VERB	VBN	Gender=Masc|Number=Plur	18	acl	_	_
-21	neles	_	ADP	INP	Gender=Masc|Number=Plur|Person=3	20	obj	_	SpaceAfter=No|ToDo=pobj
-22	.	.	PUNCT	.	_	9	punct	_	_
+20	contidos	_	VERB	VBN	Gender=Masc|Number=Plur	12	conj	_	_
+21-22	neles	_	_	_	_	_	_	_	SpaceAfter=No|ToDo=pobj
+21	em	em	ADP	_	_	22	case	_	_
+22	eles	ele	PRON	INP	Gender=Masc|Number=Plur|Person=3	20	iobj	_	_
+23	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = w01089040
 # text = Nesse momento, havia apenas cerca de quarenta famílias vivendo lá com abundância de boas terras agrícolas e pastagens para o gado.
@@ -20911,26 +20921,28 @@
 # sent_id = w01135036
 # text = Também naquele ano, ela apareceu brevemente em Os Muppets da Disney como recepcionista de Miss Piggy.
 # text_en = Also that year, she briefly appeared in Disney's The Muppets, as Miss Piggy's receptionist.
-1	Também	também	ADV	RB	_	3	advmod	_	ToDo=ex-adp-child
-2	naquele	_	ADP	INDT	Gender=Masc|Number=Sing	3	case	_	_
-3	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
-4	,	,	PUNCT	,	_	3	punct	_	_
-5	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj	_	_
-6	apareceu	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
-7	brevemente	brevemente	ADV	RB	_	6	advmod	_	_
-8	em	em	ADP	IN	_	10	case	_	_
-9	Os	o	DET	DT	Gender=Masc|Number=Plur	10	det	_	Proper=True
-10	Muppets	Muppets	PROPN	NNP	Gender=Masc|Number=Plur	6	obl	_	_
-11-12	da	_	_	_	_	_	_	_	_
-11	de	de	ADP	INDT	_	13	case	_	_
-12	a	o	DET	_	Gender=Fem|Number=Sing	13	det	_	_
-13	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	10	nmod	_	_
-14	como	como	ADP	IN	_	15	case	_	_
-15	recepcionista	recepcionista	NOUN	NN	Gender=Fem|Number=Sing	6	obl	_	_
-16	de	de	ADP	IN	_	17	case	_	_
-17	Miss	Miss	PROPN	NNP	Gender=Fem|Number=Sing	15	nmod	_	_
-18	Piggy	Piggy	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	17	flat	_	SpaceAfter=No
-19	.	.	PUNCT	.	_	6	punct	_	_
+1	Também	também	ADV	RB	_	4	advmod	_	ToDo=ex-adp-child
+2-3	naquele	_	_	_	_	_	_	_	_
+2	em	em	ADP	_	_	4	case	_	_
+3	aquele	aquele	DET	INDT	Gender=Masc|Number=Sing	4	det	_	_
+4	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	ela	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	apareceu	aparecer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
+8	brevemente	brevemente	ADV	RB	_	7	advmod	_	_
+9	em	em	ADP	IN	_	11	case	_	_
+10	Os	o	DET	DT	Gender=Masc|Number=Plur	11	det	_	Proper=True
+11	Muppets	Muppets	PROPN	NNP	Gender=Masc|Number=Plur	7	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	INDT	_	14	case	_	_
+13	a	o	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+14	Disney	Disney	PROPN	NNP	Gender=Fem|Number=Sing	11	nmod	_	_
+15	como	como	ADP	IN	_	16	case	_	_
+16	recepcionista	recepcionista	NOUN	NN	Gender=Fem|Number=Sing	7	obl	_	_
+17	de	de	ADP	IN	_	18	case	_	_
+18	Miss	Miss	PROPN	NNP	Gender=Fem|Number=Sing	16	nmod	_	_
+19	Piggy	Piggy	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = w01135037
 # text = Ela protagonizou o filme de 2012, Cinco Anos de Noivado (The Five-Year Engagement), realizado por Nicholas Stoller e coprotagonizado por Jason Segel.
@@ -26132,18 +26144,20 @@
 8	culturas	cultura	NOUN	NN	Gender=Fem|Number=Plur	5	obl	_	_
 9	mais	mais	ADV	RBS	_	10	advmod	_	_
 10	avançadas	avançado	ADJ	JJ	Gender=Fem|Number=Plur	8	amod	_	_
-11	daquele	_	ADP	INDT	Gender=Masc|Number=Sing	12	case	_	_
-12	tempo	tempo	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	20	punct	_	_
-14-15	nos	_	_	_	_	_	_	_	_
-14	em	em	ADP	INDT	_	16	case	_	_
-15	os	o	DET	_	Gender=Fem|Number=Plur	16	det	_	_
-16	quais	_	PRON	WP	Number=Plur	20	obl	_	_
-17	muitos	_	DET	DT	Gender=Masc|Number=Plur	18	det	_	_
-18	locais	local	NOUN	NN	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
-19	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	20	aux:pass	_	_
-20	conhecidos	_	VERB	VBN	Gender=Masc|Number=Plur	8	acl:relcl	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	5	punct	_	_
+11-12	daquele	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	aquele	aquele	DET	INDT	Gender=Masc|Number=Sing	13	det	_	_
+13	tempo	tempo	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	21	punct	_	_
+15-16	nos	_	_	_	_	_	_	_	_
+15	em	em	ADP	INDT	_	17	case	_	_
+16	os	o	DET	_	Gender=Fem|Number=Plur	17	det	_	_
+17	quais	_	PRON	WP	Number=Plur	21	obl	_	_
+18	muitos	_	DET	DT	Gender=Masc|Number=Plur	19	det	_	_
+19	locais	local	NOUN	NN	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+20	são	ser	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	21	aux:pass	_	_
+21	conhecidos	_	VERB	VBN	Gender=Masc|Number=Plur	8	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = w02008028
 # text = Assim como a maioria dos locais do sul europeu, as descobertas datam do início do século V a.C.
@@ -26914,12 +26928,14 @@
 5	está	estar	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	aux	_	_
 6	diretamente	diretamente	ADV	RB	_	7	advmod	_	_
 7	ligada	_	VERB	VBN	Gender=Fem|Number=Sing	0	root	_	_
-8	àquela	_	ADP	INPDEM	Gender=Fem|Number=Sing	7	obj	_	ToDo=pobj
-9	de	de	ADP	IN	_	11	case	_	_
-10	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	11	det	_	_
-11	cidade	cidade	NOUN	NN	Gender=Fem|Number=Sing	8	nmod	_	ToDo=nmod
-12	fortificada	fortificado	ADJ	JJ	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	.	_	7	punct	_	_
+8-9	àquela	_	_	_	_	_	_	_	ToDo=pobj
+8	a	a	ADP	_	_	9	case	_	_
+9	aquela	aquilo	PRON	INPDEM	Gender=Fem|Number=Sing	7	obj	_	_
+10	de	de	ADP	IN	_	12	case	_	_
+11	sua	_	PRON	DTP$	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|PronType=Prs	12	det	_	_
+12	cidade	cidade	NOUN	NN	Gender=Fem|Number=Sing	9	nmod	_	_
+13	fortificada	fortificado	ADJ	JJ	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	7	punct	_	_
 
 # newdoc id = w03002
 # sent_id = w03002048
