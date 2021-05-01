@@ -7,23 +7,24 @@ Universal Dependencies](http://universaldependencies.org/conll17/).
 
 # Introduction
 
-There are
-1000 sentences in each language, always in the same order. (The sentence
-alignment is 1-1 but occasionally a sentence-level segment actually consists
-of two real sentences.) The sentences are taken from the news domain (sentence
-id starts in ‘n’) and from Wikipedia (sentence id starts with ‘w’). There are
-usually only a few sentences from each document, selected randomly, not
-necessarily adjacent. The digits on the second and third position in the
-sentence ids encode the original language of the sentence. The first 750
-sentences are originally English (01). The remaining 250 sentences are
-originally German (02), French (03), Italian (04) or Spanish (05) and they
-were translated to other languages via English. Translation into German,
-French, Italian, Spanish, Arabic, Hindi, Chinese, Indonesian, Japanese,
-Korean, Portuguese, Russian, Thai and Turkish has been provided by DFKI and
-performed (except for German) by professional translators. Then the data has
-been annotated morphologically and syntactically by Google according to Google
-universal annotation guidelines; finally, it has been converted by members of
-the UD community to UD v2 guidelines.
+There are 1000 sentences in each language, always in the same
+order. (The sentence alignment is 1-1 but occasionally a
+sentence-level segment actually consists of two real sentences.) The
+sentences are taken from the news domain (sentence id starts in ‘n’)
+and from Wikipedia (sentence id starts with ‘w’). There are usually
+only a few sentences from each document, selected randomly, not
+necessarily adjacent. The digits on the second and third position in
+the sentence ids encode the original language of the sentence. The
+first 750 sentences are originally English (01). The remaining 250
+sentences are originally German (02), French (03), Italian (04) or
+Spanish (05) and they were translated to other languages via
+English. Translation into German, French, Italian, Spanish, Arabic,
+Hindi, Chinese, Indonesian, Japanese, Korean, Portuguese, Russian,
+Thai and Turkish has been provided by DFKI and performed (except for
+German) by professional translators. Then the data has been annotated
+morphologically and syntactically by Google according to Google
+universal annotation guidelines; finally, it has been converted by
+members of the UD community to UD v2 guidelines.
 
 Additional languages have been provided (both translation and native UD v2
 annotation) by other teams: Czech by Charles University, Finnish by University
@@ -37,7 +38,10 @@ employ ten-fold cross-validation.
 # Changelog
 
 * 2021-05-15 v2.8
+  
   * Removed det:predet, it is not used in Portuguese.
+  * Fixed some contractions not expanded to MWT. 
+
 * 2020-11-15 v2.7
   * Auxiliary verbs tagged AUX instead of VERB.
   * Subordinating conjunctions tagged SCONJ instead of ADP.
