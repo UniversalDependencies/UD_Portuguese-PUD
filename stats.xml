@@ -37,8 +37,8 @@
     <feat name="Case" value="Acc" upos="DET,PRON">43</feat><!-- o, lo, a, os, ele, la, lhe, me, te -->
     <feat name="Case" value="Dat" upos="DET,PRON">9</feat><!-- lhe, os, me -->
     <feat name="Case" value="Nom" upos="PRON,PROPN">204</feat><!-- ele, eles, ela, eu, nós, você, elas, vocês -->
-    <feat name="Definite" value="Def" upos="DET">3</feat><!-- a, o -->
-    <feat name="Definite" value="Ind" upos="DET">1</feat><!-- Um -->
+    <feat name="Definite" value="Def" upos="DET">7</feat><!-- a, o -->
+    <feat name="Definite" value="Ind" upos="DET">3</feat><!-- uma, Um -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN">170</feat><!-- Kong, ', and, of, -, Association, Bonds, Film, Hill, My -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">5353</feat><!-- a, as, uma, sua, ela, esta, suas, vez, pessoas, guerra -->
     <feat name="Gender" value="Masc" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">6928</feat><!-- o, os, um, ele, seu, anos, eles, isso, seus, este -->
@@ -55,7 +55,7 @@
     <feat name="Person" value="3" upos="ADP,AUX,PRON,PROPN,VERB">2266</feat><!-- é, foi, ele, se, sua, seu, foram, eles, está, são -->
     <feat name="Polarity" value="Neg" upos="ADV">106</feat><!-- não, nem, nunca -->
     <feat name="Poss" value="Yes" upos="DET">4</feat><!-- cujo, cuja, cujos -->
-    <feat name="PronType" value="Art" upos="DET">4</feat><!-- a, Um, o -->
+    <feat name="PronType" value="Art" upos="DET">2730</feat><!-- a, o, os, as, uma, Um -->
     <feat name="PronType" value="Int" upos="PRON">1</feat><!-- Quem -->
     <feat name="PronType" value="Prs" upos="DET,PRON">240</feat><!-- sua, seu, suas, seus, nosso, minha, nossa, meu, Ele, Nossos -->
     <feat name="PronType" value="Rel" upos="DET,PRON">5</feat><!-- cujo, cuja, cujos, que -->
