@@ -243,7 +243,7 @@
 # text = $5,000 por pessoa, o máximo permitido.
 # text_en = $5,000 per person, the maximum allowed.
 1	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
-2	5,000	_	NUM	CD	_	1	nummod	_	OrigForm=$5000
+2	5,000	_	NUM	CD	_	1	nummod	_	_
 3	por	por	ADP	IN	_	4	case	_	_
 4	pessoa	pessoa	NOUN	NN	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
@@ -2643,7 +2643,7 @@
 12	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	polícia	polícia	NOUN	NN	Gender=Fem|Number=Sing	16	nsubj	_	_
 14	em	em	ADP	IN	_	15	case	_	_
-15	B.C.	B.C.	PROPN	NNP	Gender=Fem|Number=Sing	13	nmod	_	OrigForm=BC
+15	B.C.	B.C.	PROPN	NNP	Gender=Fem|Number=Sing	13	nmod	_	_
 16	diz	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 17	que	que	SCONJ	IN	_	19	mark	_	_
 18	eles	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3	19	nsubj	_	_
@@ -2685,7 +2685,7 @@
 2	polícia	polícia	NOUN	NN	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	em	em	ADP	IN	_	5	case	_	_
-5	B.C.	B.C.	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	OrigForm=BC|SpaceAfter=No
+5	B.C.	B.C.	PROPN	NNP	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
 8	anteriormente	anteriormente	ADV	RB	_	7	advmod	_	_
@@ -2867,7 +2867,7 @@
 13	agente	agente	NOUN	NN	Gender=Masc|Number=Sing	10	obl	_	_
 14	é	ser	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	cop	_	_
 15	$	_	SYM	SYM	_	0	root	_	SpaceAfter=No
-16	25,000	_	NUM	CD	_	15	nummod	_	OrigForm=$25000|SpaceAfter=No
+16	25,000	_	NUM	CD	_	15	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	15	punct	_	_
 
 # newdoc id = n01037
@@ -4523,7 +4523,7 @@
 8-9	do	_	_	_	_	_	_	_	_
 8	de	de	ADP	INDT	_	10	case	_	_
 9	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	G.D.P	G.D.P	PROPN	NNP	Gender=Masc|Number=Sing	7	nmod	_	OrigForm=GDP|ToDo=nmod
+10	G.D.P	G.D.P	PROPN	NNP	Gender=Masc|Number=Sing	7	nmod	_	ToDo=nmod
 11	durante	_	ADP	IN	_	13	case	_	_
 12	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	administrações	administração	NOUN	NN	Gender=Fem|Number=Plur	7	nmod	_	ToDo=nmod
@@ -4562,7 +4562,7 @@
 8	,	,	PUNCT	,	_	9	punct	_	_
 9	Roma	Roma	PROPN	NNP	Gender=Fem|Number=Sing	5	conj	_	_
 10	e	e	CCONJ	CC	_	11	cc	_	_
-11	U.S	U.S	PROPN	NNP	Gender=Masc|Number=Plur	5	conj	_	OrigForm=US|SpaceAfter=No
+11	U.S	U.S	PROPN	NNP	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	_	_
 13-14	do	_	_	_	_	_	_	_	_
 13	de	de	ADP	INDT	_	16	case	_	_
@@ -6056,8 +6056,8 @@
 13	%	_	SYM	SYM	_	11	obj	_	_
 14	em	em	ADP	IN	_	15	case	_	_
 15	£	_	SYM	SYM	_	13	nmod	_	SpaceAfter=No|ToDo=nmod
-16	12,000	_	NUM	CD	_	15	nummod	_	OrigForm=12000
-17	–	–	PUNCT	-	_	18	punct	_	OrigForm=--
+16	12,000	_	NUM	CD	_	15	nummod	_	_
+17	–	–	PUNCT	-	_	18	punct	_	_
 18	£	_	SYM	SYM	_	13	appos	_	SpaceAfter=No
 19	360	_	NUM	CD	Gender=Fem	18	nummod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	6	punct	_	_
@@ -6084,10 +6084,10 @@
 15	balanços	balanço	NOUN	NN	Gender=Masc|Number=Plur	11	obl	_	_
 16	de	de	ADP	IN	_	17	case	_	_
 17	£	_	SYM	SYM	_	15	nmod	_	SpaceAfter=No
-18	3,000	_	NUM	CD	_	17	nummod	_	OrigForm=3000|SpaceAfter=No
+18	3,000	_	NUM	CD	_	17	nummod	_	SpaceAfter=No
 19	-	-	PUNCT	-	_	20	punct	_	SpaceAfter=No
 20	£	_	SYM	SYM	_	17	conj	_	SpaceAfter=No
-21	5,000	_	NUM	CD	_	20	nummod	_	OrigForm=5000
+21	5,000	_	NUM	CD	_	20	nummod	_	_
 22	quando	_	SCONJ	IN	_	23	mark	_	_
 23	adicionam	adicionar	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	11	advcl	_	_
 24	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -6144,10 +6144,10 @@
 17	pedir	_	AUX	VB	_	18	cop	_	_
 18	emprestado	emprestado	ADJ	JJ	Gender=Masc|Number=Sing	15	xcomp	_	_
 19	£	_	SYM	SYM	_	18	obj	_	SpaceAfter=No
-20	15,001	_	NUM	CD	Gender=Fem	19	nummod	_	OrigForm=15001|SpaceAfter=No
+20	15,001	_	NUM	CD	Gender=Fem	19	nummod	_	SpaceAfter=No
 21	-	-	PUNCT	-	_	22	punct	_	SpaceAfter=No
 22	£	_	SYM	SYM	_	19	conj	_	SpaceAfter=No
-23	19,999	_	NUM	CD	Gender=Fem	22	nummod	_	OrigForm=19999|SpaceAfter=No
+23	19,999	_	NUM	CD	Gender=Fem	22	nummod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	_	_
 25	durante	_	ADP	IN	_	27	case	_	_
 26	um	um	DET	DT	Gender=Masc|Number=Sing	27	det	_	_
@@ -7862,7 +7862,7 @@
 5	sorte	sorte	NOUN	NN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	e	e	CCONJ	CC	_	7	cc	_	_
 7	£	_	SYM	SYM	_	5	conj	_	SpaceAfter=No
-8	10,000	_	NUM	CD	_	7	nummod	_	OrigForm=10000
+8	10,000	_	NUM	CD	_	7	nummod	_	_
 9	em	em	ADP	IN	_	10	case	_	_
 10	títulos	título	NOUN	NN	Gender=Masc|Number=Plur	7	nmod	_	ToDo=nmod
 11	poderia	_	AUX	VBC	Mood=Cnd|Number=Sing|Person=3	12	aux	_	_
@@ -10866,7 +10866,7 @@
 8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	século	século	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 10	V	_	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	_
-11	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	OrigForm=aC|SpaceAfter=No
+11	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
 13	que	_	PRON	WP	_	14	nsubj	_	_
 14	dependia	_	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
@@ -10959,7 +10959,7 @@
 4	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	14	obl	_	_
 5	de	de	ADP	IN	_	6	case	_	_
 6	512-511	_	NUM	CD	Gender=Masc	4	nmod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	4	punct	_	_
 9	o	o	DET	DT	Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	rei	rei	NOUN	NN	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -11330,7 +11330,7 @@
 26	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	século	século	NOUN	NN	Gender=Masc|Number=Sing	24	obl	_	_
 28	VI	_	ADJ	JJ	Gender=Masc|Number=Sing	27	amod	_	_
-29	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	28	nmod	_	OrigForm=aC
+29	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	28	nmod	_	_
 
 # sent_id = w01010045
 # text = No final do século VIII o Principado da Morávia surgiu nas atuais Morávia do sudeste, Záhorie no sudoeste da Eslováquia e partes da Baixa Áustria.
@@ -11384,7 +11384,7 @@
 # text_en = In 833 AD, this became the state of Great Moravia with the conquest of the Principality of Nitra (present-day Slovakia).
 1	Em	_	ADP	IN	_	2	case	_	_
 2	833	_	NUM	CD	Gender=Masc	9	nmod	_	ToDo=nmod
-3	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	OrigForm=aC
+3	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	_
 4	este	_	PRON	PDEM	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	tornou	tornar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No
 6	-	-	PUNCT	-	_	5	punct	_	SpaceAfter=No
@@ -13147,7 +13147,7 @@
 6	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	5	fixed	_	_
 7	de	de	ADP	IN	_	5	fixed	_	_
 8	1000	_	NUM	CD	_	4	obl	_	_
-9	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	OrigForm=aC|Proper=True|SpaceAfter=No
+9	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	8	nmod	_	Proper=True|SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	quando	quando	ADV	WRB	_	15	advmod	_	_
 12	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -15625,7 +15625,7 @@
 30	cerca	cerca	ADV	RB	_	32	advmod	_	_
 31	de	de	ADP	IN	_	30	fixed	_	_
 32	1600	_	NUM	CD	Gender=Masc	15	obl:tmod	_	_
-33	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	OrigForm=aC
+33	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	32	nmod	_	_
 
 # sent_id = w01065020
 # text = A cidade cananeia foi destruída em um incêndio, presumivelmente na sequência de uma campanha do faraó egípcio Tutmés III.
@@ -15703,7 +15703,7 @@
 10	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	século	século	NOUN	NN	Gender=Masc|Number=Sing	8	obl	_	_
 12	XIV	_	NUM	CD	_	11	appos	_	_
-13	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	OrigForm=aC|SpaceAfter=No
+13	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	8	punct	_	_
 15	incluem	incluir	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 16	dez	_	NUM	CD	_	17	nummod	_	_
@@ -16180,7 +16180,7 @@
 13	volta	volta	NOUN	NN	Gender=Fem|Number=Sing	12	fixed	_	_
 14	de	de	ADP	IN	_	12	fixed	_	_
 15	1900	_	NUM	CD	Gender=Masc	11	obl	_	_
-16	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	OrigForm=aC
+16	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	15	nmod	_	_
 17	e	e	CCONJ	CC	_	18	cc	_	_
 18	serviu	servir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	11	conj	_	_
 19	continuamente	continuamente	ADV	RB	_	18	advmod	_	_
@@ -16194,7 +16194,7 @@
 27	cerca	cerca	ADV	RB	_	29	advmod	_	_
 28	de	de	ADP	IN	_	27	fixed	_	_
 29	700	_	NUM	CD	Gender=Masc	25	obl	_	_
-30	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	29	nmod	_	OrigForm=aC
+30	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	29	nmod	_	_
 
 # sent_id = w01070032
 # text = O espaço central foi usado para observar o nascer do sol e da lua cheia.
@@ -26188,7 +26188,7 @@
 20	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	século	século	NOUN	NN	Gender=Masc|Number=Sing	18	nmod	_	_
 22	V	_	ADJ	JJ	Gender=Masc|Number=Sing	21	amod	_	_
-23	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	OrigForm=aC
+23	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	_
 
 # sent_id = w02008038
 # text = Provavelmente, a pessoa mais famosa do período da Idade do Cobre é Ötzi, a múmia congelada que viveu durante os anos 3300 a.C.
@@ -26223,7 +26223,7 @@
 25	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	anos	ano	NOUN	NN	Gender=Masc|Number=Plur	23	obl	_	_
 27	3300	_	NUM	CD	Gender=Masc	26	appos	_	_
-28	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	27	nmod	_	OrigForm=aC
+28	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	27	nmod	_	_
 
 # sent_id = w02008055
 # text = Eles estavam principalmente em montanhas.
@@ -27121,7 +27121,7 @@
 2	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	século	século	NOUN	NN	Gender=Masc|Number=Sing	11	obl	_	_
 4	VIII	_	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	_
-5	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	OrigForm=aC|SpaceAfter=No
+5	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
 7	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Grécia	Grécia	PROPN	NNP	Gender=Fem|Number=Sing	11	nsubj	_	_
@@ -27189,7 +27189,7 @@
 4	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	século	século	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
 6	IX	_	ADJ	JJ	Gender=Masc|Number=Sing	5	amod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	_	_
 9	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 10	primeiros	primeiro	ADJ	JJ	Gender=Masc|Number=Plur	11	amod	_	_
@@ -27262,7 +27262,7 @@
 7	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	século	século	NOUN	NN	Gender=Masc|Number=Sing	15	obl	_	_
 9	VIII	_	ADJ	JJ	Gender=Masc|Number=Sing	8	amod	_	_
-10	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	OrigForm=aC|SpaceAfter=No
+10	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
 12	cidades-estado	cidade-estado	NOUN	NN	Gender=Fem|Number=Plur	15	nsubj	_	_
 13	começaram	começar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	15	aux	_	_
@@ -29265,7 +29265,7 @@
 4	janeiro	janeiro	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|ToDo=nmod
 5	,	,	PUNCT	,	_	6	punct	_	_
 6	49	_	NUM	CD	_	4	obl:tmod	_	_
-7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	OrigForm=aC|SpaceAfter=No
+7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
 9	Marco	Marco	PROPN	NNP	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
 10	Antônio	Antônio	PROPN	NNP	Gender=Masc|Number=Sing	9	flat:name	_	_
