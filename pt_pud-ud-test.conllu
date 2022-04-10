@@ -21565,7 +21565,7 @@
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	mas	_	CCONJ	CC	_	17	cc	_	_
 17	continuava	continuar	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	8	conj	_	_
-18	apaixonado	_	VERB	VBN	Gender=Masc|Number=Sing	18	xcomp	_	_
+18	apaixonado	_	VERB	VBN	Gender=Masc|Number=Sing	17	xcomp	_	_
 19	por	por	ADP	IN	_	20	case	_	_
 20	ela	_	PRON	PRP	Gender=Fem|Number=Sing|Person=3	18	obl	_	_
 21	após	_	ADP	IN	_	23	case	_	_
