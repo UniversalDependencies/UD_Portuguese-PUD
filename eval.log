@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Portuguese-PUD:
-commit bd961a2de6d5752c92b0ec33e399d61ed148c661
-Merge: 8c578d3 3de4d55
+commit 4df716012ba9a55f53140ce35eb107f38874929b
+Merge: 44cbd01 25cafd1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 23407 of 23407 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.30607024585554.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       4091
-Udapi: found 4091 bugs.
+               TOTAL       4114
+Udapi: found 4114 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23407 words.
 Genres: found 2 out of 17 known.
 validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
