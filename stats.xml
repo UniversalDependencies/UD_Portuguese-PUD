@@ -97,10 +97,10 @@
     <dep name="iobj">12</dep>
     <dep name="mark">267</dep>
     <dep name="nmod">1834</dep>
-    <dep name="nsubj">1286</dep>
+    <dep name="nsubj">1285</dep>
     <dep name="nsubj:pass">205</dep>
     <dep name="nummod">201</dep>
-    <dep name="obj">881</dep>
+    <dep name="obj">882</dep>
     <dep name="obl">1388</dep>
     <dep name="obl:tmod">36</dep>
     <dep name="orphan">4</dep>
