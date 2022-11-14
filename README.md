@@ -37,11 +37,11 @@ employ ten-fold cross-validation.
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed a clause with two subjects.
 * 2021-05-15 v2.8
-  
   * Removed det:predet, it is not used in Portuguese.
-  * Fixed some contractions not expanded to MWT. 
-
+  * Fixed some contractions not expanded to MWT.
 * 2020-11-15 v2.7
   * Auxiliary verbs tagged AUX instead of VERB.
   * Subordinating conjunctions tagged SCONJ instead of ADP.

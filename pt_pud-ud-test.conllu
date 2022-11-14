@@ -1545,7 +1545,7 @@
 15	as	o	DET	DT	Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	alterações	alteração	NOUN	NN	Gender=Fem|Number=Plur	14	obj	_	_
 17	climáticas	climático	ADJ	JJ	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	,	_	19	punct	_	_
+18	,	,	PUNCT	,	_	27	punct	_	_
 19	bem	bem	ADV	RB	_	27	cc	_	_
 20	como	como	ADP	IN	_	19	fixed	_	_
 21	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -1556,7 +1556,7 @@
 26	vai	ir	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	27	aux	_	_
 27	reduzir	_	VERB	VB	_	14	conj	_	_
 28	os	o	DET	DT	Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	HFCs	_	NOUN	NN	Gender=Masc|Number=Plur	27	nsubj	_	SpaceAfter=No
+29	HFCs	_	NOUN	NN	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
 30	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 31	,	,	PUNCT	,	_	32	punct	_	_
 32	disse	dizer	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	3	parataxis	_	_
