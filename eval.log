@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Portuguese-PUD:
-commit ae4c483e4d7efc76e3df64708e7750509ae54355
-Merge: ef592b8 241495c
+commit 4c53bb83f42fdff63ca847d0b68410a3d51299ef
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 14 12:13:32 2022 +0100
 Size: counted 23407 of 23407 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.30607024585554.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,7 +24,7 @@ Udapi:
 Udapi: found 4113 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23407 words.
 Genres: found 2 out of 17 known.
-validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
