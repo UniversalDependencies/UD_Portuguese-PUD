@@ -1980,7 +1980,7 @@
 4	?	?	PUNCT	.	_	1	punct	_	_
 
 # sent_id = n01027030
-# text = Grande parte do debate, do lado Democrático deste ano, tem sido sobre a identidade de homens brancos.
+# text = Grande parte do debate, do lado Democrático neste ano, tem sido sobre a identidade de homens brancos.
 # text_en = Much of the debate, from the Democratic side this year, has been about white male identity.
 1	Grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	2	amod	_	_
 2	parte	parte	NOUN	NN	Gender=Fem|Number=Sing	19	nsubj	_	_
@@ -1994,13 +1994,13 @@
 8	o	o	DET	_	Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	lado	lado	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	_
 10	Democrático	democrático	ADJ	JJ	Gender=Masc|Number=Sing	9	amod	_	Proper=True
-11-12	deste	_	_	_	_	_	_	_	_
-11	de	de	ADP	INDT	_	13	case	_	_
+11-12	neste	_	_	_	_	_	_	_	_
+11	em	em	ADP	INDT	_	13	case	_	_
 12	este	este	DET	_	Gender=Masc|Number=Sing	13	det	_	_
 13	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	9	punct	_	_
-15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres	19	aux	_	_
-16	sido	ser	AUX	VBN	_	19	cop	_	_
+15	tem	ter	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+16	sido	ser	AUX	VBN	VerbForm=Part	19	cop	_	_
 17	sobre	sobre	ADP	IN	_	19	case	_	_
 18	a	o	DET	DT	Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	identidade	identidade	NOUN	NN	Gender=Fem|Number=Sing	0	root	_	_
