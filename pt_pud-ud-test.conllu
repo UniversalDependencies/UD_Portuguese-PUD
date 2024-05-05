@@ -5068,7 +5068,7 @@
 15	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = n01067023
-# text = Também estão sendo exibidos, pela primeira vez, os mapas do Ministério da Defesa britânico, que representam batalhas da guerra fria e que foram usados ​​em exames militares da faculdade.
+# text = Também estão sendo exibidos, pela primeira vez, os mapas do Ministério da Defesa britânico, que representam batalhas da guerra fria e que foram usados em exames militares da faculdade.
 # text_en = Also being exhibited for the first time are British Ministry of Defence maps which imagine cold war battles and which were used in military college exams.
 1	Também	também	ADV	RB	_	4	advmod	_	_
 2	estão	estar	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres	4	aux	_	_
@@ -5105,7 +5105,7 @@
 29	que	_	PRON	WP	_	31	nsubj:pass	_	_
 30	foram	_	AUX	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Past	31	aux:pass	_	_
 31	usados	_	VERB	VBN	Gender=Masc|Number=Plur	22	conj	_	_
-32	​​em	_	ADP	IN	_	33	case	_	_
+32	em	_	ADP	IN	_	33	case	_	_
 33	exames	exame	NOUN	NN	Gender=Masc|Number=Plur	31	obl	_	_
 34	militares	militar	ADJ	JJ	Gender=Masc|Number=Plur	33	amod	_	_
 35-36	da	_	_	_	_	_	_	_	_

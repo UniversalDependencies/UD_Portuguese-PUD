@@ -11,7 +11,7 @@
     <test><sentences>1000</sentences><tokens>21917</tokens><words>23407</words><fused>1490</fused></test>
   </size>
   <lemmas unique="3796" /><!-- o, de, ,, ., em, e, um, ser, para, por, a, que, ", como, não -->
-  <forms unique="5928" /><!-- de, a, ,, o, ., em, e, os, que, um, as, para, uma, por, com -->
+  <forms unique="5927" /><!-- de, a, ,, o, ., em, e, os, que, um, as, para, uma, por, com -->
   <fusions unique="43" /><!-- da, do, no, na, dos, ao, das, à, nos, pelo, pela, nas, pelos, às, aos -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
