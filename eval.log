@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Portuguese-PUD:
-commit 511dbb0b9281c5ce6c3febaf64307dcc4aa234bd
+commit 151b6fa3de3da1a8074f9a0b6e707eb5c2cf17d5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:17:22 2024 +0200
+Date:   Mon Nov 11 16:26:44 2024 +0100
 Size: counted 23407 of 23407 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.30607024585554.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,21 +20,46 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       3570
-Udapi: found 3570 bugs.
+               TOTAL       3567
+Udapi: found 3567 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23407 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 100 Sent n01002017 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
+[Line 357 Sent n01004009 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Por exemplo' does not have the 'ExtPos' feature
+[Line 360 Sent n01004009 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'em vez de' does not have the 'ExtPos' feature
+[Line 551 Sent n01008017 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'a o longo de' does not have the 'ExtPos' feature
+[Line 580 Sent n01008017 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'de acordo com' does not have the 'ExtPos' feature
+[Line 595 Sent n01008017 Node 46]: [L3 Warning fixed-without-extpos] Fixed expression 'de novo' does not have the 'ExtPos' feature
+[Line 595 Sent n01008017 Node 46]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 757 Sent n01011017 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'de qualquer maneira' does not have the 'ExtPos' feature
+[Line 757 Sent n01011017 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 1189 Sent n01018024 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'a as vezes' does not have the 'ExtPos' feature
+[Line 1201 Sent n01018040 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'através de' does not have the 'ExtPos' feature
+[Line 1241 Sent n01019005 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 1890 Sent n01025040 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+[Line 5463 Sent n01073023 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 6255 Sent n01086013 Node 12]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+[Line 7405 Sent n01104011 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'em'
+[Line 7726 Sent n01108005 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 7762 Sent n01108015 Node 13]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'uma'
+[Line 7796 Sent n01109008 Node 17]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'tal'
+[Line 8905 Sent n01127089 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'por'
+...suppressing further errors regarding Syntax
+Syntax errors: 23
+Warnings: 209
+*** FAILED *** with 23 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
 (weight=0.256410256410256) * (score{size}=0.45644858504489) = 0.117038098729459
 (weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.321712592227482) * (availability=1) * (validity=1) = 0.321712592227482
-STARS = 1.5
-UD_Portuguese-PUD	0.321712592227482	1.5
+(TOTAL score=0.321209827018834) * (availability=1) * (validity=0.01) = 0.00321209827018834
+STARS = 0
+UD_Portuguese-PUD	0.00321209827018834	0
