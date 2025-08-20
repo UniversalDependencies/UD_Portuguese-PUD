@@ -110,7 +110,7 @@ Data available since: UD v2.1
 License: CC BY-SA 3.0
 Includes text: yes
 Genre: news wiki
-Lemmas: not available
+Lemmas: automatic with corrections
 UPOS: converted from manual
 XPOS: not available
 Features: converted from manual
