@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Portuguese-PUD:
-commit 245ed035af7ca16c7288c8a29d356530bb87caaf
-Merge: be08a75 7b8897d
+commit f35f01c8511f8240e3fe60c96bb4855f5acb0b93
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:32:39 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'pt_pud'
 Language code (from CoNLL-U file name) = 'pt'
@@ -25,31 +25,42 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-PUD/pt_pud-ud-test.conllu
-[Line 31 Sent n01001011]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 64 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'aqueles' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 65 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 80 Sent n01001013]: [L3 Warning pron-det-without-prontype] The word 'esta' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 103 Sent n01002017]: [L3 Warning fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
-[Line 125 Sent n01002017]: [L3 Warning pron-det-without-prontype] The word 'ele' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 154 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'eu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 162 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'vocês' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 180 Sent n01002032]: [L3 Warning pron-det-without-prontype] The word 'ele' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 226 Sent n01002058]: [L3 Warning pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 613 Sent n01008017]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 781 Sent n01011017]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 1950 Sent n01025040]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
-[Line 5641 Sent n01073023]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
-[Line 6463 Sent n01086013]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
-[Line 7658 Sent n01104011]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('em')
-[Line 7991 Sent n01108005]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
-[Line 8028 Sent n01108015]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' ('uma')
-[Line 8063 Sent n01109008]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('tal')
-[Line 9216 Sent n01127089]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
-...suppressing further errors regarding Syntax
-Syntax errors: 23
-Warnings: 1168
-*** FAILED *** with 23 errors
+[Line 31 Sent n01001011]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 64 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'aqueles' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 65 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 80 Sent n01001013]: [L3 WARNING pron-det-without-prontype] The word 'esta' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 103 Sent n01002017]: [L3 WARNING fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
+[Line 125 Sent n01002017]: [L3 WARNING pron-det-without-prontype] The word 'ele' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 154 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'eu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 162 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'vocês' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 180 Sent n01002032]: [L3 WARNING pron-det-without-prontype] The word 'ele' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 226 Sent n01002058]: [L3 WARNING pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 227 Sent n01002058]: [L3 WARNING pron-det-without-prontype] The word 'que' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 368 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'Por exemplo' does not have the 'ExtPos' feature
+[Line 371 Sent n01004009]: [L3 WARNING fixed-without-extpos] Fixed expression 'em vez de' does not have the 'ExtPos' feature
+[Line 569 Sent n01008017]: [L3 WARNING fixed-without-extpos] Fixed expression 'a o longo de' does not have the 'ExtPos' feature
+[Line 598 Sent n01008017]: [L3 WARNING fixed-without-extpos] Fixed expression 'de acordo com' does not have the 'ExtPos' feature
+[Line 613 Sent n01008017]: [L3 WARNING fixed-without-extpos] Fixed expression 'de novo' does not have the 'ExtPos' feature
+[Line 613 Sent n01008017]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 781 Sent n01011017]: [L3 WARNING fixed-without-extpos] Fixed expression 'de qualquer maneira' does not have the 'ExtPos' feature
+[Line 781 Sent n01011017]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 981 Sent n01015036]: [L3 SYNTAX obl-should-be-nmod] The parent (node [33] 'bebês') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1227 Sent n01018024]: [L3 WARNING fixed-without-extpos] Fixed expression 'a as vezes' does not have the 'ExtPos' feature
+[Line 1240 Sent n01018040]: [L3 WARNING fixed-without-extpos] Fixed expression 'através de' does not have the 'ExtPos' feature
+[Line 1282 Sent n01019005]: [L3 WARNING fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1950 Sent n01025040]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
+[Line 5641 Sent n01073023]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 6463 Sent n01086013]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
+[Line 7658 Sent n01104011]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('em')
+[Line 7991 Sent n01108005]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 8028 Sent n01108015]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('uma')
+[Line 8063 Sent n01109008]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('tal')
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 1157
+SYNTAX errors: 34
+*** FAILED *** with 34 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
