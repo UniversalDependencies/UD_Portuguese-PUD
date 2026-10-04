@@ -978,7 +978,7 @@
 28	,	,	PUNCT	,	_	33	punct	_	_
 29	com	_	ADP	IN	_	33	case	_	_
 30	três	_	NUM	CD	_	31	nummod	_	_
-31	vezes	vez	NOUN	NN	Gender=Fem|Number=Plur	33	obl	_	_
+31	vezes	vez	NOUN	NN	Gender=Fem|Number=Plur	33	nmod	_	_
 32	mais	_	ADJ	JJR	Gender=Masc|Number=Plur	33	amod	_	_
 33	bebês	bebê	NOUN	NN	Gender=Masc|Number=Plur	25	nmod	_	ToDo=nmod
 34	chamados	_	VERB	VBN	Gender=Masc|Number=Plur	33	acl	_	_
@@ -11912,7 +11912,7 @@
 16	mais	mais	ADV	RBR	_	17	advmod	_	_
 17	avançada	avançado	ADJ	JJ	Gender=Fem|Number=Sing	14	amod	_	_
 18	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
-19	1918	_	NUM	CD	Gender=Masc	14	obl:tmod	_	SpaceAfter=No
+19	1918	_	NUM	CD	Gender=Masc	14	nmod:tmod	_	SpaceAfter=No
 20	)	)	PUNCT	)	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	5	punct	_	_
 22	muito	muito	ADV	RB	_	23	advmod	_	_
@@ -20178,7 +20178,7 @@
 9	em	em	ADP	IN	_	10	case	_	_
 10	21	_	NUM	CD	Gender=Masc	2	obl	_	_
 11	abril	abril	NOUN	NN	Gender=Masc|Number=Sing	10	obl:tmod	_	_
-12	1882	_	NUM	CD	Gender=Masc	11	obl:tmod	_	SpaceAfter=No
+12	1882	_	NUM	CD	Gender=Masc	11	nmod:tmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = w01115025
@@ -21105,7 +21105,7 @@
 6	a	a	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	2	flat	_	_
 7	Prayer	Prayer	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	2	flat	_	_
 8	(	(	PUNCT	(	_	9	punct	_	SpaceAfter=No
-9	1992	_	NUM	CD	Gender=Masc	2	obl:tmod	_	SpaceAfter=No
+9	1992	_	NUM	CD	Gender=Masc	2	nmod:tmod	_	SpaceAfter=No
 10	)	)	PUNCT	)	_	9	punct	_	_
 11	se	_	PRON	SE	Person=3	12	expl:pv	_	_
 12	reuniu	reunir	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -21199,7 +21199,7 @@
 27	My	My	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	26	flat	_	_
 28	Head	Head	PROPN	NNP	Foreign=Yes|Gender=Masc|Number=Sing	26	flat	_	_
 29	(	(	PUNCT	(	_	30	punct	_	SpaceAfter=No
-30	1994	_	NUM	CD	Gender=Masc	25	obl:tmod	_	SpaceAfter=No
+30	1994	_	NUM	CD	Gender=Masc	25	nmod:tmod	_	SpaceAfter=No
 31	)	)	PUNCT	)	_	30	punct	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -22325,7 +22325,7 @@
 15	em	em	ADP	IN	_	16	case	_	_
 16	Sabrina	Sabrina	PROPN	NNP	Gender=Fem|Number=Sing	2	obl	_	_
 17	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
-18	1954	_	NUM	CD	Gender=Masc	16	obl:tmod	_	SpaceAfter=No
+18	1954	_	NUM	CD	Gender=Masc	16	nmod:tmod	_	SpaceAfter=No
 19	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
 20	,	,	PUNCT	,	_	21	punct	_	_
 21	interpretada	_	VERB	VBN	Gender=Fem|Number=Sing	16	acl	_	_
@@ -24623,7 +24623,7 @@
 2	a	o	DET	_	Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	quinta-feira	quinta-feira	NOUN	NN	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
-5	3	_	NUM	CD	_	3	obl:tmod	_	_
+5	3	_	NUM	CD	_	3	nmod:tmod	_	_
 6	de	de	ADP	IN	_	7	case	_	_
 7	novembro	novembro	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	5	punct	_	_
@@ -25113,7 +25113,7 @@
 6	de	de	ADP	IN	_	7	case	_	_
 7	março	março	NOUN	NN	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	9	punct	_	_
-9	1927	_	NUM	CD	Gender=Masc	7	obl:tmod	_	_
+9	1927	_	NUM	CD	Gender=Masc	7	nmod:tmod	_	_
 10	em	em	ADP	IN	_	11	case	_	_
 11	Castelfranco	Castelfranco	PROPN	NNP	Gender=Fem|Number=Sing	3	obl	_	_
 12	Veneto	Veneto	PROPN	NNP	Foreign=Yes|Gender=Fem|Number=Sing	11	flat	_	SpaceAfter=No
@@ -25273,7 +25273,7 @@
 14	31	_	NUM	CD	Gender=Masc	12	obl	_	_
 15	de	de	ADP	IN	_	16	case	_	_
 16	dezembro	dezembro	NOUN	NN	Gender=Masc|Number=Sing	14	nmod	_	_
-17	2017	_	NUM	CD	Gender=Masc	16	obl:tmod	_	SpaceAfter=No
+17	2017	_	NUM	CD	Gender=Masc	16	nmod:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = n04005016
@@ -27775,7 +27775,7 @@
 3	ano	ano	NOUN	NN	Gender=Masc|Number=Sing	9	obl	_	_
 4	seguinte	seguinte	ADJ	JJ	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	1977	_	NUM	CD	Gender=Masc	3	obl:tmod	_	SpaceAfter=No
+6	1977	_	NUM	CD	Gender=Masc	3	nmod:tmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	3	punct	_	_
 8	ele	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	recebeu	receber	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -30264,7 +30264,7 @@
 3	de	de	ADP	IN	_	4	case	_	_
 4	janeiro	janeiro	NOUN	NN	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|ToDo=nmod
 5	,	,	PUNCT	,	_	6	punct	_	_
-6	49	_	NUM	CD	_	4	obl:tmod	_	_
+6	49	_	NUM	CD	_	4	nmod:tmod	_	_
 7	a.C.	_	NOUN	NN	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	6	punct	_	_
 9	Marco	Marco	PROPN	NNP	Gender=Masc|Number=Sing	11	nsubj	_	Proper=True
