@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Portuguese-PUD:
-commit f35f01c8511f8240e3fe60c96bb4855f5acb0b93
+commit 4bd21f0dba8b7f4773b6cc87ff2554d5395ca0b1
+Merge: 0fdcc05 6c8245f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:32:39 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'pt_pud'
 Language code (from CoNLL-U file name) = 'pt'
@@ -45,7 +45,6 @@ Genres: found 2 out of 18 known.
 [Line 613 Sent n01008017]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
 [Line 781 Sent n01011017]: [L3 WARNING fixed-without-extpos] Fixed expression 'de qualquer maneira' does not have the 'ExtPos' feature
 [Line 781 Sent n01011017]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
-[Line 981 Sent n01015036]: [L3 SYNTAX obl-should-be-nmod] The parent (node [33] 'bebês') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 [Line 1227 Sent n01018024]: [L3 WARNING fixed-without-extpos] Fixed expression 'a as vezes' does not have the 'ExtPos' feature
 [Line 1240 Sent n01018040]: [L3 WARNING fixed-without-extpos] Fixed expression 'através de' does not have the 'ExtPos' feature
 [Line 1282 Sent n01019005]: [L3 WARNING fixed-without-extpos] Fixed expression 'acerca de' does not have the 'ExtPos' feature
@@ -57,10 +56,11 @@ Genres: found 2 out of 18 known.
 [Line 7991 Sent n01108005]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('uma')
 [Line 8028 Sent n01108015]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'DET' ('uma')
 [Line 8063 Sent n01109008]: [L3 SYNTAX rel-upos-mark] 'mark' should not be 'NOUN' ('tal')
+[Line 9216 Sent n01127089]: [L3 SYNTAX rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('por')
 ...suppressing further messages regarding ERROR/SYNTAX
 Warnings: 1157
-SYNTAX errors: 34
-*** FAILED *** with 34 errors
+SYNTAX errors: 23
+*** FAILED *** with 23 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
