@@ -71,7 +71,7 @@
     <feat name="VerbForm" value="Part" upos="AUX">1</feat><!-- sido -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="40">
+  <deps unique="41">
     <dep name="acl">180</dep>
     <dep name="acl:relcl">233</dep>
     <dep name="advcl">119</dep>
@@ -99,13 +99,14 @@
     <dep name="flat:name">153</dep>
     <dep name="iobj">12</dep>
     <dep name="mark">269</dep>
-    <dep name="nmod">1834</dep>
+    <dep name="nmod">1835</dep>
+    <dep name="nmod:tmod">10</dep>
     <dep name="nsubj">1285</dep>
     <dep name="nsubj:pass">205</dep>
     <dep name="nummod">201</dep>
     <dep name="obj">882</dep>
-    <dep name="obl">1388</dep>
-    <dep name="obl:tmod">36</dep>
+    <dep name="obl">1387</dep>
+    <dep name="obl:tmod">26</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">102</dep>
     <dep name="punct">2565</dep>
